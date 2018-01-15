@@ -7,14 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17A86149DF2365FCF9BB5BF2 /* Pods_TraumaManualUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F0590E28A6FC6F7C459DFA /* Pods_TraumaManualUITests.framework */; };
+		4F3D9347B9208F5C81AFF4EE /* Pods_TraumaManualTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892EE1A36B5F62A56693C818 /* Pods_TraumaManualTests.framework */; };
+		D5989EED4DDC12D62544B470 /* Pods_TraumaManual.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7E5EBF849041AF6B95DC40 /* Pods_TraumaManual.framework */; };
 		E53B88D51FEB21E100DDE1C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53B88D41FEB21E100DDE1C1 /* AppDelegate.swift */; };
-		E53B88D71FEB21E100DDE1C1 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53B88D61FEB21E100DDE1C1 /* MasterViewController.swift */; };
-		E53B88D91FEB21E100DDE1C1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53B88D81FEB21E100DDE1C1 /* DetailViewController.swift */; };
 		E53B88DC1FEB21E100DDE1C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53B88DA1FEB21E100DDE1C1 /* Main.storyboard */; };
 		E53B88DE1FEB21E100DDE1C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53B88DD1FEB21E100DDE1C1 /* Assets.xcassets */; };
 		E53B88E11FEB21E100DDE1C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53B88DF1FEB21E100DDE1C1 /* LaunchScreen.storyboard */; };
 		E53B88EC1FEB21E100DDE1C1 /* TraumaManualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53B88EB1FEB21E100DDE1C1 /* TraumaManualTests.swift */; };
 		E53B88F71FEB21E100DDE1C1 /* TraumaManualUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53B88F61FEB21E100DDE1C1 /* TraumaManualUITests.swift */; };
+		E53B89111FF2AA2F00DDE1C1 /* AlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53B89101FF2AA2F00DDE1C1 /* AlgorithmViewController.swift */; };
+		E53B89141FF2AA6600DDE1C1 /* AlgorithmQuestionnaireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53B89121FF2AA6600DDE1C1 /* AlgorithmQuestionnaireViewController.swift */; };
+		E53B89151FF2AA6600DDE1C1 /* AlgorithmQuestionnaireViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E53B89131FF2AA6600DDE1C1 /* AlgorithmQuestionnaireViewController.xib */; };
+		E53B89181FF2AA7900DDE1C1 /* AlgorithmOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53B89161FF2AA7900DDE1C1 /* AlgorithmOverviewViewController.swift */; };
+		E53B89191FF2AA7900DDE1C1 /* AlgorithmOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E53B89171FF2AA7900DDE1C1 /* AlgorithmOverviewViewController.xib */; };
+		E53B89201FF2B7AE00DDE1C1 /* TraumaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53B891F1FF2B7AE00DDE1C1 /* TraumaModel.swift */; };
+		E53B89221FF2B86500DDE1C1 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53B89211FF2B86500DDE1C1 /* Algorithm.swift */; };
+		E5A96EE02006F34200ABF765 /* AlgorithmNodeSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A96EDF2006F34200ABF765 /* AlgorithmNodeSectionController.swift */; };
+		E5A96EE32006F3D500ABF765 /* AlgorithmNodeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A96EE12006F3D500ABF765 /* AlgorithmNodeCollectionViewCell.swift */; };
+		E5A96EE42006F3D500ABF765 /* AlgorithmNodeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A96EE22006F3D500ABF765 /* AlgorithmNodeCollectionViewCell.xib */; };
+		E5A96EE92006F4DF00ABF765 /* Faculty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A96EE82006F4DF00ABF765 /* Faculty.swift */; };
+		E5A96EEC2006F62500ABF765 /* FacultyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A96EEA2006F62500ABF765 /* FacultyCollectionViewCell.swift */; };
+		E5A96EED2006F62500ABF765 /* FacultyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A96EEB2006F62500ABF765 /* FacultyCollectionViewCell.xib */; };
+		E5A96EEF2006F63A00ABF765 /* FacultySectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A96EEE2006F63A00ABF765 /* FacultySectionController.swift */; };
+		E5A96EF22006F77000ABF765 /* FacultyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A96EF02006F77000ABF765 /* FacultyViewController.swift */; };
+		E5A96EF32006F77000ABF765 /* FacultyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A96EF12006F77000ABF765 /* FacultyViewController.xib */; };
+		E5A96EF92006F95300ABF765 /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A96EF82006F95300ABF765 /* Rules.swift */; };
+		E5A96EFF2006FD2D00ABF765 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A96EFE2006FD2D00ABF765 /* Schedule.swift */; };
+		E5A96F022007004F00ABF765 /* ScheduleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A96F002007004F00ABF765 /* ScheduleCollectionViewCell.swift */; };
+		E5A96F032007004F00ABF765 /* ScheduleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A96F012007004F00ABF765 /* ScheduleCollectionViewCell.xib */; };
+		E5A96F062007006C00ABF765 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A96F042007006C00ABF765 /* ScheduleViewController.swift */; };
+		E5A96F072007006C00ABF765 /* ScheduleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A96F052007006C00ABF765 /* ScheduleViewController.xib */; };
+		E5A96F0A2007009800ABF765 /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A96F082007009800ABF765 /* RulesViewController.swift */; };
+		E5A96F0B2007009800ABF765 /* RulesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A96F092007009800ABF765 /* RulesViewController.xib */; };
+		E5A96F0E200700EF00ABF765 /* RulesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A96F0C200700EF00ABF765 /* RulesCollectionViewCell.swift */; };
+		E5A96F0F200700EF00ABF765 /* RulesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A96F0D200700EF00ABF765 /* RulesCollectionViewCell.xib */; };
+		E5A96F112007010A00ABF765 /* RulesSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A96F102007010A00ABF765 /* RulesSectionController.swift */; };
+		E5A96F132007011700ABF765 /* ScheduleSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A96F122007011700ABF765 /* ScheduleSectionController.swift */; };
+		E5A96F15200C4C2B00ABF765 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A96F14200C4C2B00ABF765 /* Extensions.swift */; };
+		E5A96F18200C4CB600ABF765 /* DayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A96F16200C4CB600ABF765 /* DayCollectionViewCell.swift */; };
+		E5A96F19200C4CB600ABF765 /* DayCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A96F17200C4CB600ABF765 /* DayCollectionViewCell.xib */; };
+		E5A96F1C200C539800ABF765 /* AnswerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A96F1A200C539800ABF765 /* AnswerCollectionViewCell.swift */; };
+		E5A96F1D200C539800ABF765 /* AnswerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A96F1B200C539800ABF765 /* AnswerCollectionViewCell.xib */; };
+		E5A96F23200C572F00ABF765 /* MarkdownText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A96F22200C572F00ABF765 /* MarkdownText.swift */; };
+		E5A96F26200C578F00ABF765 /* MarkdownTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A96F24200C578F00ABF765 /* MarkdownTextViewController.swift */; };
+		E5A96F27200C578F00ABF765 /* MarkdownTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A96F25200C578F00ABF765 /* MarkdownTextViewController.xib */; };
+		E5A96F2B200C5B3900ABF765 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A96F29200C5B3900ABF765 /* ListTableViewController.swift */; };
+		E5A96F2C200C5B3900ABF765 /* ListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A96F2A200C5B3900ABF765 /* ListTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +74,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3613EC0AF1555137CC4450BF /* Pods-TraumaManual.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraumaManual.release.xcconfig"; path = "Pods/Target Support Files/Pods-TraumaManual/Pods-TraumaManual.release.xcconfig"; sourceTree = "<group>"; };
+		8687FD57A1EE9C4BBAAF5ECA /* Pods-TraumaManualUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraumaManualUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TraumaManualUITests/Pods-TraumaManualUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		892EE1A36B5F62A56693C818 /* Pods_TraumaManualTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TraumaManualTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F0590E28A6FC6F7C459DFA /* Pods_TraumaManualUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TraumaManualUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD91312847021AF44F7C3CFB /* Pods-TraumaManual.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraumaManual.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TraumaManual/Pods-TraumaManual.debug.xcconfig"; sourceTree = "<group>"; };
+		BA3D9863474A3496A0EECA28 /* Pods-TraumaManualTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraumaManualTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TraumaManualTests/Pods-TraumaManualTests.release.xcconfig"; sourceTree = "<group>"; };
 		E53B88D11FEB21E100DDE1C1 /* TraumaManual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraumaManual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53B88D41FEB21E100DDE1C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E53B88D61FEB21E100DDE1C1 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		E53B88D81FEB21E100DDE1C1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		E53B88DB1FEB21E100DDE1C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E53B88DD1FEB21E100DDE1C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E53B88E01FEB21E100DDE1C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +92,47 @@
 		E53B88F21FEB21E100DDE1C1 /* TraumaManualUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TraumaManualUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53B88F61FEB21E100DDE1C1 /* TraumaManualUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraumaManualUITests.swift; sourceTree = "<group>"; };
 		E53B88F81FEB21E100DDE1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E53B89101FF2AA2F00DDE1C1 /* AlgorithmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmViewController.swift; sourceTree = "<group>"; };
+		E53B89121FF2AA6600DDE1C1 /* AlgorithmQuestionnaireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmQuestionnaireViewController.swift; sourceTree = "<group>"; };
+		E53B89131FF2AA6600DDE1C1 /* AlgorithmQuestionnaireViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlgorithmQuestionnaireViewController.xib; sourceTree = "<group>"; };
+		E53B89161FF2AA7900DDE1C1 /* AlgorithmOverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmOverviewViewController.swift; sourceTree = "<group>"; };
+		E53B89171FF2AA7900DDE1C1 /* AlgorithmOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlgorithmOverviewViewController.xib; sourceTree = "<group>"; };
+		E53B891F1FF2B7AE00DDE1C1 /* TraumaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraumaModel.swift; sourceTree = "<group>"; };
+		E53B89211FF2B86500DDE1C1 /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
+		E5A96EDF2006F34200ABF765 /* AlgorithmNodeSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmNodeSectionController.swift; sourceTree = "<group>"; };
+		E5A96EE12006F3D500ABF765 /* AlgorithmNodeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmNodeCollectionViewCell.swift; sourceTree = "<group>"; };
+		E5A96EE22006F3D500ABF765 /* AlgorithmNodeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlgorithmNodeCollectionViewCell.xib; sourceTree = "<group>"; };
+		E5A96EE82006F4DF00ABF765 /* Faculty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faculty.swift; sourceTree = "<group>"; };
+		E5A96EEA2006F62500ABF765 /* FacultyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacultyCollectionViewCell.swift; sourceTree = "<group>"; };
+		E5A96EEB2006F62500ABF765 /* FacultyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FacultyCollectionViewCell.xib; sourceTree = "<group>"; };
+		E5A96EEE2006F63A00ABF765 /* FacultySectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacultySectionController.swift; sourceTree = "<group>"; };
+		E5A96EF02006F77000ABF765 /* FacultyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacultyViewController.swift; sourceTree = "<group>"; };
+		E5A96EF12006F77000ABF765 /* FacultyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FacultyViewController.xib; sourceTree = "<group>"; };
+		E5A96EF82006F95300ABF765 /* Rules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rules.swift; sourceTree = "<group>"; };
+		E5A96EFE2006FD2D00ABF765 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		E5A96F002007004F00ABF765 /* ScheduleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCollectionViewCell.swift; sourceTree = "<group>"; };
+		E5A96F012007004F00ABF765 /* ScheduleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleCollectionViewCell.xib; sourceTree = "<group>"; };
+		E5A96F042007006C00ABF765 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		E5A96F052007006C00ABF765 /* ScheduleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleViewController.xib; sourceTree = "<group>"; };
+		E5A96F082007009800ABF765 /* RulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
+		E5A96F092007009800ABF765 /* RulesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RulesViewController.xib; sourceTree = "<group>"; };
+		E5A96F0C200700EF00ABF765 /* RulesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesCollectionViewCell.swift; sourceTree = "<group>"; };
+		E5A96F0D200700EF00ABF765 /* RulesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RulesCollectionViewCell.xib; sourceTree = "<group>"; };
+		E5A96F102007010A00ABF765 /* RulesSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesSectionController.swift; sourceTree = "<group>"; };
+		E5A96F122007011700ABF765 /* ScheduleSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleSectionController.swift; sourceTree = "<group>"; };
+		E5A96F14200C4C2B00ABF765 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E5A96F16200C4CB600ABF765 /* DayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCollectionViewCell.swift; sourceTree = "<group>"; };
+		E5A96F17200C4CB600ABF765 /* DayCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayCollectionViewCell.xib; sourceTree = "<group>"; };
+		E5A96F1A200C539800ABF765 /* AnswerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerCollectionViewCell.swift; sourceTree = "<group>"; };
+		E5A96F1B200C539800ABF765 /* AnswerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnswerCollectionViewCell.xib; sourceTree = "<group>"; };
+		E5A96F22200C572F00ABF765 /* MarkdownText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownText.swift; sourceTree = "<group>"; };
+		E5A96F24200C578F00ABF765 /* MarkdownTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownTextViewController.swift; sourceTree = "<group>"; };
+		E5A96F25200C578F00ABF765 /* MarkdownTextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarkdownTextViewController.xib; sourceTree = "<group>"; };
+		E5A96F29200C5B3900ABF765 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		E5A96F2A200C5B3900ABF765 /* ListTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewController.xib; sourceTree = "<group>"; };
+		E90A39B40887DC0A229C0874 /* Pods-TraumaManualTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraumaManualTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TraumaManualTests/Pods-TraumaManualTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA7E5EBF849041AF6B95DC40 /* Pods_TraumaManual.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TraumaManual.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDDDA5AE20C2B75506769936 /* Pods-TraumaManualUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraumaManualUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TraumaManualUITests/Pods-TraumaManualUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5989EED4DDC12D62544B470 /* Pods_TraumaManual.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F3D9347B9208F5C81AFF4EE /* Pods_TraumaManualTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +156,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17A86149DF2365FCF9BB5BF2 /* Pods_TraumaManualUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AF8B681D8C808BC05CE87D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD91312847021AF44F7C3CFB /* Pods-TraumaManual.debug.xcconfig */,
+				3613EC0AF1555137CC4450BF /* Pods-TraumaManual.release.xcconfig */,
+				E90A39B40887DC0A229C0874 /* Pods-TraumaManualTests.debug.xcconfig */,
+				BA3D9863474A3496A0EECA28 /* Pods-TraumaManualTests.release.xcconfig */,
+				8687FD57A1EE9C4BBAAF5ECA /* Pods-TraumaManualUITests.debug.xcconfig */,
+				EDDDA5AE20C2B75506769936 /* Pods-TraumaManualUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		80AEDA5C1B69F8195AAADDFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA7E5EBF849041AF6B95DC40 /* Pods_TraumaManual.framework */,
+				892EE1A36B5F62A56693C818 /* Pods_TraumaManualTests.framework */,
+				92F0590E28A6FC6F7C459DFA /* Pods_TraumaManualUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E53B88C81FEB21E100DDE1C1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +193,8 @@
 				E53B88EA1FEB21E100DDE1C1 /* TraumaManualTests */,
 				E53B88F51FEB21E100DDE1C1 /* TraumaManualUITests */,
 				E53B88D21FEB21E100DDE1C1 /* Products */,
+				1AF8B681D8C808BC05CE87D9 /* Pods */,
+				80AEDA5C1B69F8195AAADDFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +211,19 @@
 		E53B88D31FEB21E100DDE1C1 /* TraumaManual */ = {
 			isa = PBXGroup;
 			children = (
+				E53B891F1FF2B7AE00DDE1C1 /* TraumaModel.swift */,
+				E5A96F28200C5B2000ABF765 /* List */,
+				E5A96F1E200C571000ABF765 /* MarkdownText */,
+				E5A96EFA2006FCF800ABF765 /* Schedule */,
+				E5A96EF42006F92E00ABF765 /* Rules */,
+				E53B891E1FF2AACA00DDE1C1 /* Faculty */,
+				E53B891A1FF2AA9B00DDE1C1 /* Algorithm */,
 				E53B88D41FEB21E100DDE1C1 /* AppDelegate.swift */,
-				E53B88D61FEB21E100DDE1C1 /* MasterViewController.swift */,
-				E53B88D81FEB21E100DDE1C1 /* DetailViewController.swift */,
 				E53B88DA1FEB21E100DDE1C1 /* Main.storyboard */,
 				E53B88DD1FEB21E100DDE1C1 /* Assets.xcassets */,
 				E53B88DF1FEB21E100DDE1C1 /* LaunchScreen.storyboard */,
 				E53B88E21FEB21E100DDE1C1 /* Info.plist */,
+				E5A96F14200C4C2B00ABF765 /* Extensions.swift */,
 			);
 			path = TraumaManual;
 			sourceTree = "<group>";
@@ -128,6 +246,180 @@
 			path = TraumaManualUITests;
 			sourceTree = "<group>";
 		};
+		E53B891A1FF2AA9B00DDE1C1 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				E53B891B1FF2AAA700DDE1C1 /* Model */,
+				E53B891C1FF2AAAC00DDE1C1 /* View */,
+				E53B891D1FF2AAB600DDE1C1 /* Controller */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		E53B891B1FF2AAA700DDE1C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E53B89211FF2B86500DDE1C1 /* Algorithm.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E53B891C1FF2AAAC00DDE1C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5A96EE12006F3D500ABF765 /* AlgorithmNodeCollectionViewCell.swift */,
+				E5A96EE22006F3D500ABF765 /* AlgorithmNodeCollectionViewCell.xib */,
+				E5A96F1A200C539800ABF765 /* AnswerCollectionViewCell.swift */,
+				E5A96F1B200C539800ABF765 /* AnswerCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E53B891D1FF2AAB600DDE1C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E53B89101FF2AA2F00DDE1C1 /* AlgorithmViewController.swift */,
+				E53B89121FF2AA6600DDE1C1 /* AlgorithmQuestionnaireViewController.swift */,
+				E53B89131FF2AA6600DDE1C1 /* AlgorithmQuestionnaireViewController.xib */,
+				E53B89161FF2AA7900DDE1C1 /* AlgorithmOverviewViewController.swift */,
+				E53B89171FF2AA7900DDE1C1 /* AlgorithmOverviewViewController.xib */,
+				E5A96EDF2006F34200ABF765 /* AlgorithmNodeSectionController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E53B891E1FF2AACA00DDE1C1 /* Faculty */ = {
+			isa = PBXGroup;
+			children = (
+				E5A96EE52006F4AB00ABF765 /* Model */,
+				E5A96EE62006F4B000ABF765 /* View */,
+				E5A96EE72006F4B600ABF765 /* Controller */,
+			);
+			path = Faculty;
+			sourceTree = "<group>";
+		};
+		E5A96EE52006F4AB00ABF765 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E5A96EE82006F4DF00ABF765 /* Faculty.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5A96EE62006F4B000ABF765 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5A96EEA2006F62500ABF765 /* FacultyCollectionViewCell.swift */,
+				E5A96EEB2006F62500ABF765 /* FacultyCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5A96EE72006F4B600ABF765 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E5A96EF02006F77000ABF765 /* FacultyViewController.swift */,
+				E5A96EF12006F77000ABF765 /* FacultyViewController.xib */,
+				E5A96EEE2006F63A00ABF765 /* FacultySectionController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E5A96EF42006F92E00ABF765 /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				E5A96EF72006F94400ABF765 /* Model */,
+				E5A96EF62006F93E00ABF765 /* View */,
+				E5A96EF52006F93800ABF765 /* Controller */,
+			);
+			path = Rules;
+			sourceTree = "<group>";
+		};
+		E5A96EF52006F93800ABF765 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E5A96F082007009800ABF765 /* RulesViewController.swift */,
+				E5A96F092007009800ABF765 /* RulesViewController.xib */,
+				E5A96F102007010A00ABF765 /* RulesSectionController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E5A96EF62006F93E00ABF765 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5A96F0C200700EF00ABF765 /* RulesCollectionViewCell.swift */,
+				E5A96F0D200700EF00ABF765 /* RulesCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5A96EF72006F94400ABF765 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E5A96EF82006F95300ABF765 /* Rules.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5A96EFA2006FCF800ABF765 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				E5A96EFD2006FD0B00ABF765 /* Model */,
+				E5A96EFC2006FD0600ABF765 /* View */,
+				E5A96EFB2006FD0100ABF765 /* Controller */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		E5A96EFB2006FD0100ABF765 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E5A96F042007006C00ABF765 /* ScheduleViewController.swift */,
+				E5A96F052007006C00ABF765 /* ScheduleViewController.xib */,
+				E5A96F122007011700ABF765 /* ScheduleSectionController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E5A96EFC2006FD0600ABF765 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5A96F002007004F00ABF765 /* ScheduleCollectionViewCell.swift */,
+				E5A96F012007004F00ABF765 /* ScheduleCollectionViewCell.xib */,
+				E5A96F16200C4CB600ABF765 /* DayCollectionViewCell.swift */,
+				E5A96F17200C4CB600ABF765 /* DayCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5A96EFD2006FD0B00ABF765 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E5A96EFE2006FD2D00ABF765 /* Schedule.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5A96F1E200C571000ABF765 /* MarkdownText */ = {
+			isa = PBXGroup;
+			children = (
+				E5A96F22200C572F00ABF765 /* MarkdownText.swift */,
+				E5A96F24200C578F00ABF765 /* MarkdownTextViewController.swift */,
+				E5A96F25200C578F00ABF765 /* MarkdownTextViewController.xib */,
+			);
+			path = MarkdownText;
+			sourceTree = "<group>";
+		};
+		E5A96F28200C5B2000ABF765 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				E5A96F29200C5B3900ABF765 /* ListTableViewController.swift */,
+				E5A96F2A200C5B3900ABF765 /* ListTableViewController.xib */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +427,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E53B88FB1FEB21E100DDE1C1 /* Build configuration list for PBXNativeTarget "TraumaManual" */;
 			buildPhases = (
+				6AD517FE888313F282853154 /* [CP] Check Pods Manifest.lock */,
 				E53B88CD1FEB21E100DDE1C1 /* Sources */,
 				E53B88CE1FEB21E100DDE1C1 /* Frameworks */,
 				E53B88CF1FEB21E100DDE1C1 /* Resources */,
+				1615E85D22BC25DA78E9CE38 /* [CP] Embed Pods Frameworks */,
+				A4F814141D1B2CA87A8F8894 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +447,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E53B88FE1FEB21E100DDE1C1 /* Build configuration list for PBXNativeTarget "TraumaManualTests" */;
 			buildPhases = (
+				7E715502924C73B5427DA19F /* [CP] Check Pods Manifest.lock */,
 				E53B88E31FEB21E100DDE1C1 /* Sources */,
 				E53B88E41FEB21E100DDE1C1 /* Frameworks */,
 				E53B88E51FEB21E100DDE1C1 /* Resources */,
+				EA95D245139EB5B222C4970C /* [CP] Embed Pods Frameworks */,
+				427F6CCCE5E72FF5F3020658 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +468,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E53B89011FEB21E100DDE1C1 /* Build configuration list for PBXNativeTarget "TraumaManualUITests" */;
 			buildPhases = (
+				FF9DCA3E47436E5B76CF4D46 /* [CP] Check Pods Manifest.lock */,
 				E53B88EE1FEB21E100DDE1C1 /* Sources */,
 				E53B88EF1FEB21E100DDE1C1 /* Frameworks */,
 				E53B88F01FEB21E100DDE1C1 /* Resources */,
+				517FA073B9A78183A989AF4A /* [CP] Embed Pods Frameworks */,
+				BE5E3EA9B8A40704C406FE02 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +536,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E53B89151FF2AA6600DDE1C1 /* AlgorithmQuestionnaireViewController.xib in Resources */,
+				E5A96F0F200700EF00ABF765 /* RulesCollectionViewCell.xib in Resources */,
+				E5A96F1D200C539800ABF765 /* AnswerCollectionViewCell.xib in Resources */,
+				E5A96F0B2007009800ABF765 /* RulesViewController.xib in Resources */,
+				E5A96F2C200C5B3900ABF765 /* ListTableViewController.xib in Resources */,
+				E5A96EF32006F77000ABF765 /* FacultyViewController.xib in Resources */,
+				E5A96F27200C578F00ABF765 /* MarkdownTextViewController.xib in Resources */,
+				E5A96F19200C4CB600ABF765 /* DayCollectionViewCell.xib in Resources */,
 				E53B88E11FEB21E100DDE1C1 /* LaunchScreen.storyboard in Resources */,
 				E53B88DE1FEB21E100DDE1C1 /* Assets.xcassets in Resources */,
+				E5A96F032007004F00ABF765 /* ScheduleCollectionViewCell.xib in Resources */,
 				E53B88DC1FEB21E100DDE1C1 /* Main.storyboard in Resources */,
+				E5A96EED2006F62500ABF765 /* FacultyCollectionViewCell.xib in Resources */,
+				E5A96F072007006C00ABF765 /* ScheduleViewController.xib in Resources */,
+				E5A96EE42006F3D500ABF765 /* AlgorithmNodeCollectionViewCell.xib in Resources */,
+				E53B89191FF2AA7900DDE1C1 /* AlgorithmOverviewViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +571,203 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1615E85D22BC25DA78E9CE38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TraumaManual/Pods-TraumaManual-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Down/Down.framework",
+				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+				"${BUILT_PRODUCTS_DIR}/PagingMenuController/PagingMenuController.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Down.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PagingMenuController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TraumaManual/Pods-TraumaManual-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		427F6CCCE5E72FF5F3020658 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TraumaManualTests/Pods-TraumaManualTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		517FA073B9A78183A989AF4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TraumaManualUITests/Pods-TraumaManualUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TraumaManualUITests/Pods-TraumaManualUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AD517FE888313F282853154 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TraumaManual-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E715502924C73B5427DA19F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TraumaManualTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4F814141D1B2CA87A8F8894 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TraumaManual/Pods-TraumaManual-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE5E3EA9B8A40704C406FE02 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TraumaManualUITests/Pods-TraumaManualUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA95D245139EB5B222C4970C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TraumaManualTests/Pods-TraumaManualTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TraumaManualTests/Pods-TraumaManualTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF9DCA3E47436E5B76CF4D46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TraumaManualUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E53B88CD1FEB21E100DDE1C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E53B88D91FEB21E100DDE1C1 /* DetailViewController.swift in Sources */,
-				E53B88D71FEB21E100DDE1C1 /* MasterViewController.swift in Sources */,
+				E53B89111FF2AA2F00DDE1C1 /* AlgorithmViewController.swift in Sources */,
+				E5A96EF92006F95300ABF765 /* Rules.swift in Sources */,
+				E5A96EFF2006FD2D00ABF765 /* Schedule.swift in Sources */,
+				E53B89221FF2B86500DDE1C1 /* Algorithm.swift in Sources */,
+				E5A96F26200C578F00ABF765 /* MarkdownTextViewController.swift in Sources */,
+				E5A96F022007004F00ABF765 /* ScheduleCollectionViewCell.swift in Sources */,
+				E5A96F1C200C539800ABF765 /* AnswerCollectionViewCell.swift in Sources */,
+				E5A96EEF2006F63A00ABF765 /* FacultySectionController.swift in Sources */,
+				E5A96F18200C4CB600ABF765 /* DayCollectionViewCell.swift in Sources */,
+				E5A96F2B200C5B3900ABF765 /* ListTableViewController.swift in Sources */,
+				E5A96EEC2006F62500ABF765 /* FacultyCollectionViewCell.swift in Sources */,
+				E53B89181FF2AA7900DDE1C1 /* AlgorithmOverviewViewController.swift in Sources */,
+				E5A96F23200C572F00ABF765 /* MarkdownText.swift in Sources */,
+				E5A96F0A2007009800ABF765 /* RulesViewController.swift in Sources */,
+				E5A96F062007006C00ABF765 /* ScheduleViewController.swift in Sources */,
+				E53B89141FF2AA6600DDE1C1 /* AlgorithmQuestionnaireViewController.swift in Sources */,
 				E53B88D51FEB21E100DDE1C1 /* AppDelegate.swift in Sources */,
+				E5A96EF22006F77000ABF765 /* FacultyViewController.swift in Sources */,
+				E5A96F0E200700EF00ABF765 /* RulesCollectionViewCell.swift in Sources */,
+				E5A96EE92006F4DF00ABF765 /* Faculty.swift in Sources */,
+				E5A96F132007011700ABF765 /* ScheduleSectionController.swift in Sources */,
+				E5A96F15200C4C2B00ABF765 /* Extensions.swift in Sources */,
+				E53B89201FF2B7AE00DDE1C1 /* TraumaModel.swift in Sources */,
+				E5A96F112007010A00ABF765 /* RulesSectionController.swift in Sources */,
+				E5A96EE32006F3D500ABF765 /* AlgorithmNodeCollectionViewCell.swift in Sources */,
+				E5A96EE02006F34200ABF765 /* AlgorithmNodeSectionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +931,7 @@
 		};
 		E53B88FC1FEB21E100DDE1C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD91312847021AF44F7C3CFB /* Pods-TraumaManual.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +947,7 @@
 		};
 		E53B88FD1FEB21E100DDE1C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3613EC0AF1555137CC4450BF /* Pods-TraumaManual.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +963,7 @@
 		};
 		E53B88FF1FEB21E100DDE1C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E90A39B40887DC0A229C0874 /* Pods-TraumaManualTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +981,7 @@
 		};
 		E53B89001FEB21E100DDE1C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA3D9863474A3496A0EECA28 /* Pods-TraumaManualTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +999,7 @@
 		};
 		E53B89021FEB21E100DDE1C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8687FD57A1EE9C4BBAAF5ECA /* Pods-TraumaManualUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +1016,7 @@
 		};
 		E53B89031FEB21E100DDE1C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDDDA5AE20C2B75506769936 /* Pods-TraumaManualUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
