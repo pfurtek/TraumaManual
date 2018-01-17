@@ -27,6 +27,7 @@ class TraumaModel {
         // NullObject
     
     var bookmarks: [String: Any] = [:]
+    var recentlyViewed: [(key: String, value: Any)] = []
     
     
     func createModel() {
@@ -123,6 +124,16 @@ class TraumaModel {
     
     func isBookmark(title: String) -> Bool {
         return bookmarks[title] != nil
+    }
+    
+    func addRecentlyViewed(title: String, object: Any) {
+        if let index = self.recentlyViewed.index(where: {$0.0 == title}) {
+            self.recentlyViewed.remove(at: index)
+        }
+        self.recentlyViewed.insert((title, object), at: 0)
+        if self.recentlyViewed.count > 20 {
+            _ = self.recentlyViewed.dropLast()
+        }
     }
 }
 

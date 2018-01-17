@@ -35,6 +35,12 @@ class AlgorithmViewController: UIViewController {
         self.navigationItem.rightBarButtonItem = self.bookmarkItem
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        TraumaModel.shared.addRecentlyViewed(title: self.numberedTitle, object: algorithm)
+    }
+    
     func setupPagingMenu() {
         let options = AlgorithmPagingMenuOptions(with: algorithm)
         self.pagingMenuController = PagingMenuController(options: options)

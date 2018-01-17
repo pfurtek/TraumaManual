@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow(frame: UIScreen.main.bounds)
         let rootVC = ListTableViewController(nibName: "ListTableViewController", bundle: Bundle.main)
         rootVC.root = true
-        rootVC.list = TraumaModel.shared.root
+        rootVC.list = TraumaModel.shared.root.sorted(by: {$0.key < $1.key})
         rootVC.title = "IU Trauma Manual"
         let navigationController = UINavigationController(rootViewController: rootVC)
         self.window?.rootViewController = navigationController

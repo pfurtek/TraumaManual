@@ -11,10 +11,11 @@ import SideMenu
 
 class ListTableViewController: UITableViewController {
     
-    var list: [String: Any] = [:]
-    var keys: [String] = []
+    var list: [(key: String, value: Any)] = []
     
     var root = false
+    var bookmarks = false
+    var recently = false
         
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,8 +26,6 @@ class ListTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
         
-        self.keys = [String](self.list.keys)
-        self.keys.sort()
         
         self.tableView.register(UINib(nibName: "ListTableViewCell", bundle: Bundle.main), forCellReuseIdentifier: "menuCell")
         
@@ -42,6 +41,18 @@ class ListTableViewController: UITableViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        if bookmarks {
+            self.list = TraumaModel.shared.bookmarks.sorted(by: { $0.key < $1.key})
+            self.tableView.reloadData()
+        } else if recently {
+            self.list = TraumaModel.shared.recentlyViewed
+            self.tableView.reloadData()
+        }
     }
     
     func setupSideMenu() {
@@ -67,7 +78,7 @@ class ListTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return self.keys.count
+        return self.list.count
     }
 
     
@@ -75,14 +86,14 @@ class ListTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "menuCell", for: indexPath) as! ListTableViewCell
 
         // Configure the cell...
-        cell.titleLabel.text = self.keys[indexPath.row].chopPrefix(4)
+        cell.titleLabel.text = self.list[indexPath.row].key.chopPrefix(4)
 
         return cell
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let key = self.keys[indexPath.row]
-        let object = list[key]
+        let key = self.list[indexPath.row].key
+        let object = self.list[indexPath.row].value
         let choppedKey = key.chopPrefix(4)
         switch object {
         case is MarkdownText:
@@ -117,7 +128,8 @@ class ListTableViewController: UITableViewController {
             self.navigationController?.pushViewController(algorithmVC, animated: true)
         case is [String: Any]:
             let listTVC = ListTableViewController(nibName: "ListTableViewController", bundle: Bundle.main)
-            listTVC.list = object as! [String: Any]
+            let map = object as! [String: Any]
+            listTVC.list = map.sorted(by: {$0.key < $1.key})
             listTVC.title = choppedKey
             self.navigationController?.pushViewController(listTVC, animated: true)
         case is NullObject:
@@ -130,7 +142,7 @@ class ListTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 20 + self.keys[indexPath.row].chopPrefix(4).height(withConstrainedWidth: self.view.frame.width-32, font: UIFont.systemFont(ofSize: 18))
+        return 20 + self.list[indexPath.row].key.chopPrefix(4).height(withConstrainedWidth: self.view.frame.width-32, font: UIFont.systemFont(ofSize: 18))
     }
     
 

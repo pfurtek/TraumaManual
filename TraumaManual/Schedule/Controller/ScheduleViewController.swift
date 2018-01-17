@@ -50,6 +50,12 @@ class ScheduleViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        TraumaModel.shared.addRecentlyViewed(title: self.numberedTitle, object: schedule)
+    }
+    
     @objc func bookmarkAction(_: Any) {
         if let title = self.numberedTitle {
             if TraumaModel.shared.isBookmark(title: title) {
