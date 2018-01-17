@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import SideMenu
 
 class ListTableViewController: UITableViewController {
     
     var list: [String: Any] = [:]
     var keys: [String] = []
+    
+    var root = false
         
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,13 +26,36 @@ class ListTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
         
         self.keys = [String](self.list.keys)
+        self.keys.sort()
         
-        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "menuCell")
+        self.tableView.register(UINib(nibName: "ListTableViewCell", bundle: Bundle.main), forCellReuseIdentifier: "menuCell")
+        
+        let backItem = UIBarButtonItem()
+        backItem.title = ""
+        self.navigationController?.navigationBar.topItem?.backBarButtonItem = backItem
+        
+        if root {
+            setupSideMenu()
+        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func setupSideMenu() {
+        let sidemenuVC = SideMenuViewController(nibName: "SideMenuViewController", bundle: Bundle.main)
+        let menuLeftNavigationController = UISideMenuNavigationController(rootViewController: sidemenuVC)
+        SideMenuManager.default.menuLeftNavigationController = menuLeftNavigationController
+        SideMenuManager.default.menuPresentMode = .menuSlideIn
+        
+        let menuItem = UIBarButtonItem(title: "Menu", style: .plain, target: self, action: #selector(menuAction(_:)))
+        self.navigationItem.leftBarButtonItem = menuItem
+    }
+    
+    @objc func menuAction(_ sender: Any) {
+        present(SideMenuManager.default.menuLeftNavigationController!, animated: true, completion: nil)
     }
 
     // MARK: - Table view data source
@@ -46,10 +72,10 @@ class ListTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "menuCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "menuCell", for: indexPath) as! ListTableViewCell
 
         // Configure the cell...
-        cell.textLabel?.text = self.keys[indexPath.row]
+        cell.titleLabel.text = self.keys[indexPath.row].chopPrefix(4)
 
         return cell
     }
@@ -57,33 +83,54 @@ class ListTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let key = self.keys[indexPath.row]
         let object = list[key]
+        let choppedKey = key.chopPrefix(4)
         switch object {
         case is MarkdownText:
             let markdownTVC = MarkdownTextViewController(nibName: "MarkdownTextViewController", bundle: Bundle.main)
             markdownTVC.mditem = object as! MarkdownText
+            markdownTVC.title = choppedKey
+            markdownTVC.numberedTitle = key
             self.navigationController?.pushViewController(markdownTVC, animated: true)
         case is Schedule:
             let scheduleVC = ScheduleViewController(nibName: "ScheduleViewController", bundle: Bundle.main)
             scheduleVC.schedule = object as! Schedule
+            scheduleVC.title = choppedKey
+            scheduleVC.numberedTitle = key
             self.navigationController?.pushViewController(scheduleVC, animated: true)
         case is Rules:
             let rulesVC = RulesViewController(nibName: "RulesViewController", bundle: Bundle.main)
             rulesVC.rules = object as! Rules
+            rulesVC.title = choppedKey
+            rulesVC.numberedTitle = key
             self.navigationController?.pushViewController(rulesVC, animated: true)
         case is Faculty:
             let facultyVC = FacultyViewController(nibName: "FacultyViewController", bundle: Bundle.main)
             facultyVC.faculty = object as! Faculty
+            facultyVC.title = choppedKey
+            facultyVC.numberedTitle = key
             self.navigationController?.pushViewController(facultyVC, animated: true)
         case is Algorithm:
             let algorithmVC = AlgorithmViewController()
             algorithmVC.algorithm = object as! Algorithm
+            algorithmVC.title = choppedKey
+            algorithmVC.numberedTitle = key
             self.navigationController?.pushViewController(algorithmVC, animated: true)
         case is [String: Any]:
             let listTVC = ListTableViewController(nibName: "ListTableViewController", bundle: Bundle.main)
             listTVC.list = object as! [String: Any]
+            listTVC.title = choppedKey
             self.navigationController?.pushViewController(listTVC, animated: true)
+        case is NullObject:
+            let alert = UIAlertController(title: nil, message: "Not Yet Implemented!", preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "Ok!", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
         default: break
         }
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 20 + self.keys[indexPath.row].chopPrefix(4).height(withConstrainedWidth: self.view.frame.width-32, font: UIFont.systemFont(ofSize: 18))
     }
     
 
@@ -129,7 +176,7 @@ class ListTableViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        
     }
     */
-    
 }

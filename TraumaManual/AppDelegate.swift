@@ -18,10 +18,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         TraumaModel.shared.createModel()
         
+        let navigationBarAppearance = UINavigationBar.appearance()
+        navigationBarAppearance.tintColor = .white
+        navigationBarAppearance.barTintColor = UIColor(hex: "#7D110C")
+        navigationBarAppearance.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
         let rootVC = ListTableViewController(nibName: "ListTableViewController", bundle: Bundle.main)
+        rootVC.root = true
         rootVC.list = TraumaModel.shared.root
+        rootVC.title = "IU Trauma Manual"
         let navigationController = UINavigationController(rootViewController: rootVC)
         self.window?.rootViewController = navigationController
+        self.window?.makeKeyAndVisible()
         
         
         return true

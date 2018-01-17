@@ -18,12 +18,17 @@ class ScheduleSectionController : ListSectionController {
     }
     
     override func sizeForItem(at index: Int) -> CGSize {
-        if index == 0 {
+        if let theItem = item {
+            if index == 0 {
+                return CGSize(width: collectionContext!.containerSize.width,
+                              height: 40)
+            }
+            let event = theItem.events[index-1]
             return CGSize(width: collectionContext!.containerSize.width,
-                          height: (item == nil) ? 0 : 70)
+                          height: 45 + event.name.height(withConstrainedWidth: collectionContext!.containerSize.width-150, font: UIFont.systemFont(ofSize: 18, weight: .semibold)) + event.place.height(withConstrainedWidth: collectionContext!.containerSize.width-150, font: UIFont.systemFont(ofSize: 18)))
         }
         return CGSize(width: collectionContext!.containerSize.width,
-                      height: (item == nil) ? 0 : 120)
+                      height: 0)
     }
     
     override func cellForItem(at index: Int) -> UICollectionViewCell {
@@ -41,7 +46,7 @@ class ScheduleSectionController : ListSectionController {
         if let theItem = item {
             let first = (index == 1)
             let last = (index == (theItem.events.count))
-            cell.setupCell(with: theItem.events[index], first: first, last: last)
+            cell.setupCell(with: theItem.events[index-1], first: first, last: last)
         }
         
         return cell

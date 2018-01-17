@@ -12,7 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AlgorithmOverviewViewController" customModule="TraumaManual" customModuleProvider="target">
             <connections>
-                <outlet property="imageView" destination="jmz-Ae-5ng" id="ta1-rh-jcg"/>
+                <outlet property="imageScrollView" destination="6a7-J7-beu" id="wKa-Us-qDy"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -21,16 +21,16 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jmz-Ae-5ng">
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6a7-J7-beu" customClass="ImageScrollView" customModule="ImageScrollView">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                </imageView>
+                </scrollView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="jmz-Ae-5ng" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="3Qn-gU-vyc"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="jmz-Ae-5ng" secondAttribute="trailing" id="EWW-eI-r4o"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="jmz-Ae-5ng" secondAttribute="bottom" id="feD-dB-rqW"/>
-                <constraint firstItem="jmz-Ae-5ng" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="zEy-sb-0Mk"/>
+                <constraint firstItem="6a7-J7-beu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="NAe-S6-oDD"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="6a7-J7-beu" secondAttribute="bottom" id="UfE-Mz-bNw"/>
+                <constraint firstItem="6a7-J7-beu" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="xhg-zX-UcP"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="6a7-J7-beu" secondAttribute="trailing" id="z7Q-Pa-OBW"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="43.5" y="53.5"/>

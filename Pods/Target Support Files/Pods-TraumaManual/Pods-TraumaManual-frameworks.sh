@@ -104,12 +104,14 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Down/Down.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ImageScrollView/ImageScrollView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PagingMenuController/PagingMenuController.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Down/Down.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ImageScrollView/ImageScrollView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PagingMenuController/PagingMenuController.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework"
 fi

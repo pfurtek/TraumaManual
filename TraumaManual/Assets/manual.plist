@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>01. General</key>
+	<dict>
+		<key>type</key>
+		<string>list</string>
+		<key>01. Trauma Surgery Faculty &amp; Staff</key>
+		<dict>
+			<key>filename</key>
+			<string>surgeons.json</string>
+			<key>type</key>
+			<string>faculty</string>
+		</dict>
+		<key>02. Nurse Practitioners and Other Contact Info</key>
+		<dict>
+			<key>type</key>
+			<string>markdown</string>
+			<key>filename</key>
+			<string>nurses-and-contact.md</string>
+		</dict>
+		<key>03. Roles and Responsibilities</key>
+		<dict>
+			<key>filename</key>
+			<string>roles.plist</string>
+			<key>type</key>
+			<string>rules</string>
+		</dict>
+		<key>04. Conferences &amp; Clinic Schedules</key>
+		<dict>
+			<key>type</key>
+			<string>schedule</string>
+			<key>filename</key>
+			<string>schedule.json</string>
+		</dict>
+		<key>05. Morning Report</key>
+		<dict>
+			<key>type</key>
+			<string>markdown</string>
+			<key>filename</key>
+			<string>morning-report.md</string>
+		</dict>
+		<key>06. Hybrid Suite Guidelines (Algorithm)</key>
+		<dict>
+			<key>type</key>
+			<string>algorithm</string>
+			<key>filename</key>
+			<string>hybrid-suite.json</string>
+			<key>image</key>
+			<string>hybrid-suite</string>
+		</dict>
+	</dict>
+	<key>02. Head/Neck</key>
+	<dict/>
+	<key>03. Chest</key>
+	<dict/>
+	<key>04. Abdomen</key>
+	<dict/>
+	<key>05. Extremities</key>
+	<dict/>
+	<key>06. Special Populations</key>
+	<dict/>
+	<key>07. References</key>
+	<dict/>
+	<key>08. Other</key>
+	<dict/>
+</dict>
+</plist>

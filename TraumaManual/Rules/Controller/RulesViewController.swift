@@ -19,6 +19,10 @@ class RulesViewController: UIViewController {
         return ListAdapter(updater: ListAdapterUpdater(), viewController: self, workingRangeSize: 0)
     }()
     
+    var bookmarkItem: UIBarButtonItem!
+    
+    var numberedTitle: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -27,11 +31,35 @@ class RulesViewController: UIViewController {
         adapter.dataSource = self
         
         adapter.performUpdates(animated: false, completion: nil)
+        
+        let backItem = UIBarButtonItem()
+        backItem.title = ""
+        self.navigationController?.navigationBar.topItem?.backBarButtonItem = backItem
+        
+        if TraumaModel.shared.isBookmark(title: self.numberedTitle) {
+            self.bookmarkItem = UIBarButtonItem(title: "BM", style: .plain, target: self, action: #selector(bookmarkAction(_:)))
+        } else {
+            self.bookmarkItem = UIBarButtonItem(title: "bm", style: .plain, target: self, action: #selector(bookmarkAction(_:)))
+        }
+        self.navigationItem.rightBarButtonItem = self.bookmarkItem
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @objc func bookmarkAction(_: Any) {
+        if let title = self.numberedTitle {
+            if TraumaModel.shared.isBookmark(title: title) {
+                TraumaModel.shared.removeBookmark(title: title)
+                self.bookmarkItem = UIBarButtonItem(title: "bm", style: .plain, target: self, action: #selector(bookmarkAction(_:)))
+            } else {
+                TraumaModel.shared.addBookmark(title: title, object: self.rules)
+                self.bookmarkItem = UIBarButtonItem(title: "BM", style: .plain, target: self, action: #selector(bookmarkAction(_:)))
+            }
+            self.navigationItem.rightBarButtonItem = self.bookmarkItem
+        }
     }
     
 

@@ -12,6 +12,7 @@ import IGListKit
 class AlgorithmQuestionnaireViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     
+    var algorithm: Algorithm!
     var current: AlgorithmNode?
     
     lazy var adapter: ListAdapter = {
@@ -22,6 +23,8 @@ class AlgorithmQuestionnaireViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.current = algorithm.root
+        
         adapter.collectionView = collectionView
         adapter.dataSource = self
         
@@ -49,19 +52,8 @@ class AlgorithmQuestionnaireViewController: UIViewController {
 extension AlgorithmQuestionnaireViewController : ListAdapterDataSource {
     func objects(for listAdapter: ListAdapter) -> [ListDiffable] {
         guard let cur = self.current else {return []}
-        switch cur {
-        case is QuestionAlgorithmNode:
-            let wrapper = AlgorithmNodeWrapper(text: cur.text, color: cur.color, answers: (cur as! QuestionAlgorithmNode).answers)
-            return [wrapper]
-        case is InfoAlgorithmNode:
-            let wrapper = AlgorithmNodeWrapper(text: cur.text, color: cur.color, answers: ["Next": (cur as! InfoAlgorithmNode).next])
-            return [wrapper]
-        case is AnswerAlgorithmNode:
-            let wrapper = AlgorithmNodeWrapper(text: cur.text, color: cur.color, answers: ["Next": (cur as! AnswerAlgorithmNode).next])
-            return [wrapper]
-        default:
-            return []
-        }
+        let wrapper = AlgorithmNodeWrapper(text: cur.text, color: cur.color, answers: cur.answers)
+        return [wrapper]
     }
     
     func listAdapter(_ listAdapter: ListAdapter, sectionControllerFor object: Any) -> ListSectionController {
@@ -81,8 +73,8 @@ extension AlgorithmQuestionnaireViewController : ListAdapterDataSource {
 }
 
 extension AlgorithmQuestionnaireViewController {
-    func changeCurrentNode(next: AlgorithmNode?) {
-        self.current = next
+    func changeCurrentNode(next: String) {
+        self.current = self.algorithm.getNode(id: next)
         self.adapter.performUpdates(animated: true, completion: nil)
     }
 }

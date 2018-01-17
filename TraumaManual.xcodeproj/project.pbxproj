@@ -54,6 +54,17 @@
 		E5A96F27200C578F00ABF765 /* MarkdownTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A96F25200C578F00ABF765 /* MarkdownTextViewController.xib */; };
 		E5A96F2B200C5B3900ABF765 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A96F29200C5B3900ABF765 /* ListTableViewController.swift */; };
 		E5A96F2C200C5B3900ABF765 /* ListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A96F2A200C5B3900ABF765 /* ListTableViewController.xib */; };
+		E5A96F2E200D9DFF00ABF765 /* manual.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5A96F2D200D9DFF00ABF765 /* manual.plist */; };
+		E5A96F30200DA0E000ABF765 /* surgeons.json in Resources */ = {isa = PBXBuildFile; fileRef = E5A96F2F200DA0E000ABF765 /* surgeons.json */; };
+		E5A96F33200DA16000ABF765 /* morning-report.md in Resources */ = {isa = PBXBuildFile; fileRef = E5A96F31200DA15F00ABF765 /* morning-report.md */; };
+		E5A96F34200DA16000ABF765 /* nurses-and-contact.md in Resources */ = {isa = PBXBuildFile; fileRef = E5A96F32200DA15F00ABF765 /* nurses-and-contact.md */; };
+		E5A96F36200DA34400ABF765 /* schedule.json in Resources */ = {isa = PBXBuildFile; fileRef = E5A96F35200DA34300ABF765 /* schedule.json */; };
+		E5A96F38200DA44700ABF765 /* hybrid-suite.json in Resources */ = {isa = PBXBuildFile; fileRef = E5A96F37200DA44600ABF765 /* hybrid-suite.json */; };
+		E5A96F3B200E7C9900ABF765 /* roles.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5A96F3A200E7C9900ABF765 /* roles.plist */; };
+		E5A96F3F200E877300ABF765 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A96F3D200E877300ABF765 /* SideMenuViewController.swift */; };
+		E5A96F40200E877300ABF765 /* SideMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A96F3E200E877300ABF765 /* SideMenuViewController.xib */; };
+		E5A96F43200EE32A00ABF765 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A96F41200EE32A00ABF765 /* ListTableViewCell.swift */; };
+		E5A96F44200EE32A00ABF765 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A96F42200EE32A00ABF765 /* ListTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +141,17 @@
 		E5A96F25200C578F00ABF765 /* MarkdownTextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarkdownTextViewController.xib; sourceTree = "<group>"; };
 		E5A96F29200C5B3900ABF765 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		E5A96F2A200C5B3900ABF765 /* ListTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewController.xib; sourceTree = "<group>"; };
+		E5A96F2D200D9DFF00ABF765 /* manual.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = manual.plist; sourceTree = "<group>"; };
+		E5A96F2F200DA0E000ABF765 /* surgeons.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = surgeons.json; sourceTree = "<group>"; };
+		E5A96F31200DA15F00ABF765 /* morning-report.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "morning-report.md"; sourceTree = "<group>"; };
+		E5A96F32200DA15F00ABF765 /* nurses-and-contact.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "nurses-and-contact.md"; sourceTree = "<group>"; };
+		E5A96F35200DA34300ABF765 /* schedule.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schedule.json; sourceTree = "<group>"; };
+		E5A96F37200DA44600ABF765 /* hybrid-suite.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "hybrid-suite.json"; sourceTree = "<group>"; };
+		E5A96F3A200E7C9900ABF765 /* roles.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = roles.plist; sourceTree = "<group>"; };
+		E5A96F3D200E877300ABF765 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		E5A96F3E200E877300ABF765 /* SideMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenuViewController.xib; sourceTree = "<group>"; };
+		E5A96F41200EE32A00ABF765 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		E5A96F42200EE32A00ABF765 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
 		E90A39B40887DC0A229C0874 /* Pods-TraumaManualTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraumaManualTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TraumaManualTests/Pods-TraumaManualTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA7E5EBF849041AF6B95DC40 /* Pods_TraumaManual.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TraumaManual.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDDA5AE20C2B75506769936 /* Pods-TraumaManualUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraumaManualUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TraumaManualUITests/Pods-TraumaManualUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -212,18 +234,19 @@
 			isa = PBXGroup;
 			children = (
 				E53B891F1FF2B7AE00DDE1C1 /* TraumaModel.swift */,
+				E5A96F3C200E875F00ABF765 /* SideMenu */,
 				E5A96F28200C5B2000ABF765 /* List */,
 				E5A96F1E200C571000ABF765 /* MarkdownText */,
 				E5A96EFA2006FCF800ABF765 /* Schedule */,
 				E5A96EF42006F92E00ABF765 /* Rules */,
 				E53B891E1FF2AACA00DDE1C1 /* Faculty */,
 				E53B891A1FF2AA9B00DDE1C1 /* Algorithm */,
+				E5A96F39200DA4EA00ABF765 /* Assets */,
 				E53B88D41FEB21E100DDE1C1 /* AppDelegate.swift */,
+				E5A96F14200C4C2B00ABF765 /* Extensions.swift */,
 				E53B88DA1FEB21E100DDE1C1 /* Main.storyboard */,
-				E53B88DD1FEB21E100DDE1C1 /* Assets.xcassets */,
 				E53B88DF1FEB21E100DDE1C1 /* LaunchScreen.storyboard */,
 				E53B88E21FEB21E100DDE1C1 /* Info.plist */,
-				E5A96F14200C4C2B00ABF765 /* Extensions.swift */,
 			);
 			path = TraumaManual;
 			sourceTree = "<group>";
@@ -404,9 +427,8 @@
 		E5A96F1E200C571000ABF765 /* MarkdownText */ = {
 			isa = PBXGroup;
 			children = (
-				E5A96F22200C572F00ABF765 /* MarkdownText.swift */,
-				E5A96F24200C578F00ABF765 /* MarkdownTextViewController.swift */,
-				E5A96F25200C578F00ABF765 /* MarkdownTextViewController.xib */,
+				E5A96F46200EE56600ABF765 /* Model */,
+				E5A96F45200EE55F00ABF765 /* Controller */,
 			);
 			path = MarkdownText;
 			sourceTree = "<group>";
@@ -414,10 +436,77 @@
 		E5A96F28200C5B2000ABF765 /* List */ = {
 			isa = PBXGroup;
 			children = (
+				E5A96F48200EE57C00ABF765 /* View */,
+				E5A96F47200EE57600ABF765 /* Controller */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		E5A96F39200DA4EA00ABF765 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E5A96F2D200D9DFF00ABF765 /* manual.plist */,
+				E5A96F37200DA44600ABF765 /* hybrid-suite.json */,
+				E5A96F35200DA34300ABF765 /* schedule.json */,
+				E5A96F31200DA15F00ABF765 /* morning-report.md */,
+				E5A96F32200DA15F00ABF765 /* nurses-and-contact.md */,
+				E5A96F2F200DA0E000ABF765 /* surgeons.json */,
+				E53B88DD1FEB21E100DDE1C1 /* Assets.xcassets */,
+				E5A96F3A200E7C9900ABF765 /* roles.plist */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E5A96F3C200E875F00ABF765 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E5A96F49200EE59200ABF765 /* Controller */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		E5A96F45200EE55F00ABF765 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E5A96F24200C578F00ABF765 /* MarkdownTextViewController.swift */,
+				E5A96F25200C578F00ABF765 /* MarkdownTextViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E5A96F46200EE56600ABF765 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E5A96F22200C572F00ABF765 /* MarkdownText.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5A96F47200EE57600ABF765 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				E5A96F29200C5B3900ABF765 /* ListTableViewController.swift */,
 				E5A96F2A200C5B3900ABF765 /* ListTableViewController.xib */,
 			);
-			path = List;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E5A96F48200EE57C00ABF765 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5A96F41200EE32A00ABF765 /* ListTableViewCell.swift */,
+				E5A96F42200EE32A00ABF765 /* ListTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5A96F49200EE59200ABF765 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E5A96F3D200E877300ABF765 /* SideMenuViewController.swift */,
+				E5A96F3E200E877300ABF765 /* SideMenuViewController.xib */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -540,17 +629,26 @@
 				E5A96F0F200700EF00ABF765 /* RulesCollectionViewCell.xib in Resources */,
 				E5A96F1D200C539800ABF765 /* AnswerCollectionViewCell.xib in Resources */,
 				E5A96F0B2007009800ABF765 /* RulesViewController.xib in Resources */,
+				E5A96F44200EE32A00ABF765 /* ListTableViewCell.xib in Resources */,
 				E5A96F2C200C5B3900ABF765 /* ListTableViewController.xib in Resources */,
+				E5A96F34200DA16000ABF765 /* nurses-and-contact.md in Resources */,
+				E5A96F38200DA44700ABF765 /* hybrid-suite.json in Resources */,
 				E5A96EF32006F77000ABF765 /* FacultyViewController.xib in Resources */,
 				E5A96F27200C578F00ABF765 /* MarkdownTextViewController.xib in Resources */,
+				E5A96F30200DA0E000ABF765 /* surgeons.json in Resources */,
 				E5A96F19200C4CB600ABF765 /* DayCollectionViewCell.xib in Resources */,
 				E53B88E11FEB21E100DDE1C1 /* LaunchScreen.storyboard in Resources */,
+				E5A96F36200DA34400ABF765 /* schedule.json in Resources */,
 				E53B88DE1FEB21E100DDE1C1 /* Assets.xcassets in Resources */,
 				E5A96F032007004F00ABF765 /* ScheduleCollectionViewCell.xib in Resources */,
 				E53B88DC1FEB21E100DDE1C1 /* Main.storyboard in Resources */,
 				E5A96EED2006F62500ABF765 /* FacultyCollectionViewCell.xib in Resources */,
 				E5A96F072007006C00ABF765 /* ScheduleViewController.xib in Resources */,
+				E5A96F2E200D9DFF00ABF765 /* manual.plist in Resources */,
+				E5A96F33200DA16000ABF765 /* morning-report.md in Resources */,
+				E5A96F40200E877300ABF765 /* SideMenuViewController.xib in Resources */,
 				E5A96EE42006F3D500ABF765 /* AlgorithmNodeCollectionViewCell.xib in Resources */,
+				E5A96F3B200E7C9900ABF765 /* roles.plist in Resources */,
 				E53B89191FF2AA7900DDE1C1 /* AlgorithmOverviewViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -581,6 +679,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-TraumaManual/Pods-TraumaManual-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Down/Down.framework",
 				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageScrollView/ImageScrollView.framework",
 				"${BUILT_PRODUCTS_DIR}/PagingMenuController/PagingMenuController.framework",
 				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
 			);
@@ -588,6 +687,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Down.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageScrollView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PagingMenuController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 			);
@@ -749,6 +849,7 @@
 				E5A96F26200C578F00ABF765 /* MarkdownTextViewController.swift in Sources */,
 				E5A96F022007004F00ABF765 /* ScheduleCollectionViewCell.swift in Sources */,
 				E5A96F1C200C539800ABF765 /* AnswerCollectionViewCell.swift in Sources */,
+				E5A96F3F200E877300ABF765 /* SideMenuViewController.swift in Sources */,
 				E5A96EEF2006F63A00ABF765 /* FacultySectionController.swift in Sources */,
 				E5A96F18200C4CB600ABF765 /* DayCollectionViewCell.swift in Sources */,
 				E5A96F2B200C5B3900ABF765 /* ListTableViewController.swift in Sources */,
@@ -762,6 +863,7 @@
 				E5A96EF22006F77000ABF765 /* FacultyViewController.swift in Sources */,
 				E5A96F0E200700EF00ABF765 /* RulesCollectionViewCell.swift in Sources */,
 				E5A96EE92006F4DF00ABF765 /* Faculty.swift in Sources */,
+				E5A96F43200EE32A00ABF765 /* ListTableViewCell.swift in Sources */,
 				E5A96F132007011700ABF765 /* ScheduleSectionController.swift in Sources */,
 				E5A96F15200C4C2B00ABF765 /* Extensions.swift in Sources */,
 				E53B89201FF2B7AE00DDE1C1 /* TraumaModel.swift in Sources */,

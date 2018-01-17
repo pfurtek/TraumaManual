@@ -7,16 +7,20 @@
 //
 
 import UIKit
+import ImageScrollView
 
 class AlgorithmOverviewViewController: UIViewController {
-    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var imageScrollView: ImageScrollView!
+    
     var imageName: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.imageView.image = UIImage(named: self.imageName)
+        if let image = UIImage(named: imageName) {
+            self.imageScrollView.display(image: image)
+        }
     }
 
     override func didReceiveMemoryWarning() {

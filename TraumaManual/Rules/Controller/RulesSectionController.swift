@@ -20,7 +20,7 @@ class RulesSectionController : ListSectionController {
     override func sizeForItem(at index: Int) -> CGSize {
         if let theItem = item {
             return CGSize(width: collectionContext!.containerSize.width,
-                          height: 65 + theItem.description.height(withConstrainedWidth: collectionContext!.containerSize.width-40, font: UIFont.systemFont(ofSize: 16)))
+                          height: 35 + theItem.title.height(withConstrainedWidth: collectionContext!.containerSize.width-40, font: UIFont.systemFont(ofSize: 18, weight: .semibold)) + theItem.description.height(withConstrainedWidth: collectionContext!.containerSize.width-50, font: UIFont.systemFont(ofSize: 16)) + 15)
         }
         return CGSize(width: collectionContext!.containerSize.width,
                       height: 0)
@@ -29,8 +29,9 @@ class RulesSectionController : ListSectionController {
     override func cellForItem(at index: Int) -> UICollectionViewCell {
         let cell = collectionContext!.dequeueReusableCell(withNibName: "RulesCollectionViewCell", bundle: nil, for: self, at: index) as! RulesCollectionViewCell
         
-        
-        
+        if let theItem = item {
+            cell.setupCell(with: theItem)
+        }
         
         return cell
     }

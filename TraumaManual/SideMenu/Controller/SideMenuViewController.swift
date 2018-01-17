@@ -1,24 +1,19 @@
 //
-//  MarkdownTextViewController.swift
+//  SideMenuViewController.swift
 //  TraumaManual
 //
-//  Created by Pawel Furtek on 1/14/18.
+//  Created by Pawel Furtek on 1/16/18.
 //  Copyright © 2018 Pawel Furtek. All rights reserved.
 //
 
 import UIKit
-import Down
 
-class MarkdownTextViewController: UIViewController {
-    
-    var mditem: MarkdownText!
+class SideMenuViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        guard let downView = try? DownView(frame: self.view.bounds, markdownString: mditem.mdText, didLoadSuccessfully: {print("mkdown loaded")}) else { return }
-        view.addSubview(downView)
     }
 
     override func didReceiveMemoryWarning() {

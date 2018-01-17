@@ -12,12 +12,27 @@ import PagingMenuController
 class AlgorithmViewController: UIViewController {
     var algorithm: Algorithm!
     var pagingMenuController: PagingMenuController!
+    
+    var bookmarkItem: UIBarButtonItem!
+    
+    var numberedTitle: String!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         setupPagingMenu()
+        
+        let backItem = UIBarButtonItem()
+        backItem.title = ""
+        self.navigationController?.navigationBar.topItem?.backBarButtonItem = backItem
+        
+        if TraumaModel.shared.isBookmark(title: self.numberedTitle) {
+            self.bookmarkItem = UIBarButtonItem(title: "BM", style: .plain, target: self, action: #selector(bookmarkAction(_:)))
+        } else {
+            self.bookmarkItem = UIBarButtonItem(title: "bm", style: .plain, target: self, action: #selector(bookmarkAction(_:)))
+        }
+        self.navigationItem.rightBarButtonItem = self.bookmarkItem
     }
     
     func setupPagingMenu() {
@@ -41,6 +56,19 @@ class AlgorithmViewController: UIViewController {
         pagingMenuController.didMove(toParentViewController: self)
         
         pagingMenuController.menuView?.addBorder(edges: .bottom, color: .lightGray, thickness: 0.5)
+    }
+    
+    @objc func bookmarkAction(_: Any) {
+        if let title = self.numberedTitle {
+            if TraumaModel.shared.isBookmark(title: title) {
+                TraumaModel.shared.removeBookmark(title: title)
+                self.bookmarkItem = UIBarButtonItem(title: "bm", style: .plain, target: self, action: #selector(bookmarkAction(_:)))
+            } else {
+                TraumaModel.shared.addBookmark(title: title, object: self.algorithm)
+                self.bookmarkItem = UIBarButtonItem(title: "BM", style: .plain, target: self, action: #selector(bookmarkAction(_:)))
+            }
+            self.navigationItem.rightBarButtonItem = self.bookmarkItem
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -69,7 +97,7 @@ extension AlgorithmViewController {
         init(with algorithm: Algorithm) {
             questionnaire = AlgorithmQuestionnaireViewController(nibName: "AlgorithmQuestionnaireViewController", bundle: Bundle.main)
             questionnaire.title = "Questionnaire"
-            questionnaire.current = algorithm.root
+            questionnaire.algorithm = algorithm
             overview = AlgorithmOverviewViewController(nibName: "AlgorithmOverviewViewController", bundle: Bundle.main)
             overview.title = "Overview"
             overview.imageName = algorithm.overview

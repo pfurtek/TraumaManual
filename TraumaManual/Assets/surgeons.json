@@ -1,0 +1,98 @@
+[
+  {
+    "name":"BEARDEN, Chris",
+    "title":"Acute Care Surgeon",
+    "rotation":"EGS",
+    "pager":"(317) 310-7003"
+  },
+  {
+    "name":"BREWER, Brian",
+    "title":"Assistant Professor of Surgery,\nMedical Director Trauma ICU",
+    "rotation":"ACS",
+    "pager":"(317) 312-8447"
+  },
+  {
+    "name":"COLEMAN, Jamie",
+    "title":"Assistant Professor of Surgery",
+    "rotation":"ACS",
+    "pager":"(317) 312-9606"
+  },
+  {
+    "name":"ELLENDER, Tim",
+    "title":"Assistant Professor of Clinical Emergency Medicine,\nCo-director, Critical Care Medicine Fellowship",
+    "rotation":"ED/CC",
+    "pager":"(317) 368-9476"
+  },
+  {
+    "name":"FALIMIRSKI, Mark",
+    "title":"Associate Professor of Surgery",
+    "rotation":"ACS",
+    "pager":"(317) 310-5631"
+  },
+  {
+    "name":"FELICIANO, David",
+    "title":"Professor of Surgery",
+    "rotation":"ACS",
+    "pager":"(317) 367-8661"
+  },
+  {
+    "name":"GRAFFIS, Richard",
+    "title":"Acute Care Surgeon",
+    "rotation":"EGS",
+    "pager":"(317) 310-7008"
+  },
+  {
+    "name":"HAMMER, Peter",
+    "title":"Assistant Professor of Surgery,\nAssociate Trauma Medical Director",
+    "rotation":"ACS",
+    "pager":"(317) 367-8731"
+  },
+  {
+    "name":"HARTWELL, Jennifer",
+    "title":"Assistant Professor of Surgery",
+    "rotation":"ACS",
+    "pager":"(317) 312-8833"
+  },
+  {
+    "name":"JENKINS, Peter",
+    "title":"Assistant Professor of Surgery",
+    "rotation":"ACS",
+    "pager":"(317) 367-8746"
+  },
+  {
+    "name":"POHLMAN, Tim",
+    "title":"Professor of Surgery,\nDirector, Trauma Outreach Program IUH – Methodist Hospital",
+    "rotation":"ACS",
+    "pager":"(317) 312-9407"
+  },
+  {
+    "name":"REED, Larry",
+    "title":"Professor of Surgery",
+    "rotation":"ACS",
+    "pager":"(317) 312-8194"
+  },
+  {
+    "name":"ROUCH, Dale",
+    "title":"Acute Care Surgeon",
+    "rotation":"EGS",
+    "pager":"(317) 310-8242"
+  },
+  {
+    "name":"ROZYCKI, Grace",
+    "title":"Director, Indiana Injury Institute,\nProfessor of Surgery,\nAssociate Chair, Department of Surgery,\nChief of Surgery, IUH Methodist Hospital",
+    "rotation":"ACS",
+    "pager":"(317) 312-1128"
+  },
+  {
+    "name":"SAVAGE, Stephanie",
+    "title":"Trauma Medical Director, IUH Methodist Trauma\nAssociate Professor of Surgery",
+    "rotation":"ACS",
+    "pager":"(317) 367-0135"
+  },
+  {
+    "name":"ZARZAUR, Ben",
+    "title":"Director, Center for Outcomes Research in Surgery,\nAssociate Professor of Surgery",
+    "rotation":"ACS",
+    "pager":"(317) 312-7387"
+  }
+]

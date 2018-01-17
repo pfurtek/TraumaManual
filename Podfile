@@ -10,6 +10,7 @@ target 'TraumaManual' do
   pod 'SideMenu'
   pod 'Down'
   pod 'PagingMenuController'
+  pod 'ImageScrollView'
 
   target 'TraumaManualTests' do
     inherit! :search_paths

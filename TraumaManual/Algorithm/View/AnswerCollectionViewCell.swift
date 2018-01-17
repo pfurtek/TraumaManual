@@ -9,9 +9,10 @@
 import UIKit
 
 class AnswerCollectionViewCell: UICollectionViewCell {
+    @IBOutlet weak var answerLabel: UILabel!
     
     func setupCell(with answer: String) {
-        
+        self.answerLabel.text = answer
     }
 
     override func awakeFromNib() {

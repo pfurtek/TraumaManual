@@ -1,0 +1,96 @@
+{
+  "Monday": [
+    {
+      "title": "Morning Report",
+      "time": "0630",
+      "location" : "B206"
+    },
+    {
+      "title": "Journal Club (2nd Monday of each month)",
+      "time": "0700",
+      "location" : "B206"
+    }
+  ],
+  "Tuesday": [
+    {
+      "title": "Morning Report",
+      "time": "0630",
+      "location" : "B206"
+    },
+    {
+      "title": "Trauma Clinic",
+      "time": "1300",
+      "location" : "6th Floor, Medical Professional Center 1"
+    }
+  ],
+  "Wednesday" : [
+    {
+      "title": "Night float sign out to Nurse Practitioner",
+      "time": "0600",
+      "location" : ""
+    },
+    {
+      "title": "Morning Report (IUSM Residents excused)",
+      "time": "0630",
+      "location" : "B206"
+    },
+    {
+      "title": "Department of Surgery M&M",
+      "time": "0700",
+      "location" : "Emerson Hall Auditorium"
+    },
+    {
+      "title": "Department of Surgery Grand Rounds",
+      "time": "0800",
+      "location" : "Emerson Hall Auditorium"
+    }
+  ],
+  "Thursday" : [
+    {
+      "title": "Morning Report",
+      "time": "0630",
+      "location" : "B206"
+    },
+    {
+      "title": "Research Meeting every other week",
+      "time": "0700",
+      "location" : "B206"
+    }
+  ],
+  "Friday" : [
+    {
+      "title": "Morning Report",
+      "time": "0630",
+      "location" : "Radiology Conf. Room 1st Floor"
+    },
+    {
+      "title": "IUH Methodist M&M",
+      "time": "0645",
+      "location" : "Radiology Conf. Room 1st Floor"
+    },
+    {
+      "title": "Trauma Lecture Series",
+      "time": "1200",
+      "location" : "B206"
+    },
+    {
+      "title": "Trauma Clinic",
+      "time": "1300",
+      "location" : "6th Floor, Medical Professional Center 1"
+    }
+  ],
+  "Saturday" : [
+    {
+      "title": "Morning Report",
+      "time": "0630",
+      "location" : "B206"
+    }
+  ],
+  "Sunday" : [
+    {
+      "title": "Morning Report",
+      "time": "0630",
+      "location" : "B206"
+    }
+  ]
+}

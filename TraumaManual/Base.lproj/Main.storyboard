@@ -17,13 +17,15 @@
                     <view key="view" contentMode="scaleToFill" id="76C-n4-z5n">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.84987173549999995" blue="0.48681672069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="5Cu-hf-OKa"/>
                     </view>
+                    <navigationItem key="navigationItem" id="cEF-g4-gAO">
+                        <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="ZZT-cR-b8E"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DBj-2n-amY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-248" y="21"/>
+            <point key="canvasLocation" x="673" y="20"/>
         </scene>
     </scenes>
 </document>

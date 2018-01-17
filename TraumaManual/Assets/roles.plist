@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>position</key>
+		<string>Prehospital Provider</string>
+		<key>description</key>
+		<string>• Provides a brief patient report (includes MIVT and AMPLE)
+• Provides a completed EMS run sheet to emergency department</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>Emergency Medicine Physician and EM Resident Team</string>
+		<key>description</key>
+		<string>• Assists with primary survey and continues with secondary survey if the trauma attending or chief has not yet arrived for Trauma 1 Team Activations.  Performs primary and secondary survey on Trauma 2 Team Activations (TTA), timely consults on Trauma 3.
+• Assesses airway and breathing
+• Performs the AMPLE history and assists with secondary survey above the neck</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>Attending Trauma Surgeon</string>
+		<key>description</key>
+		<string>• Must arrive within 15 minutes for a Trauma 1 Team Activation (TTA)
+• Supervises/Assists Trauma Chief Resident  in performance of primary and secondary survey andin management and resuscitation of patient
+• Supervises all procedures
+• Communicates with affiliated services for patient care :  Anesthesia and OR charge nurse  regarding priority for the OR if applicable, Inteventional Radiology for angioembolization, etc
+• Communicate with IR for angio/embolization if applicable
+• Discusses plan of care with team and ensures proper documentation of history and physical exam
+• Overall assumes primary responsibility for management of patient and dictates level of care for admission</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>Back Up Trauma Surgeon</string>
+		<key>description</key>
+		<string>• Weekdays: Trauma Rounder Surgeon
+• Weekends: Emergency General Surgery surgeon</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>Trauma Chief Resident</string>
+		<key>description</key>
+		<string>• Team leader role in resuscitation process and available for emergent interventions and coordinates the roles/responsibilities of trauma team members including Crowd Control
+• Determines and ensures appropriate diagnostic tests are ordered and completed
+• Monitors trauma patient and communicates urgent findings to trauma attending immediately
+• Determines patient’s dispositions and facilitates timely clearance from trauma bay
+• Discuss Trauma 2 activations with mid-level resident and communicates plan of care to attending immediately</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>Midlevel Trauma Resident</string>
+		<key>description</key>
+		<string>• Performs primary and secondary surveys and FAST, assists with procedures and management of patient
+• Follows up on test results and documents in patient record
+• Assists in obtaining consults AFTER CLEARING WITH ATTENDING, manages consult and assist with plan of care
+• Communicates patient assessment and plan for Trauma 2 activations to Trauma Team Leader
+• Assumes primary responsibility for hemodynamically stable trauma patients until patient is transferred to another phase of care
+• Responds to Trauma 3 consults within 30 minutes of notification</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>Trauma Intern/NP</string>
+		<key>description</key>
+		<string>• Responsible for ordering trauma labs and radiological studies via Cerner Trauma Resuscitation order set
+• Completes Trauma H&amp;amp;P
+• Ensures TEG is taken to Blood Bank
+• Requests bed for patient admission and completes Methodist Trauma Admission Order Set</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>Trauma APP</string>
+		<key>description</key>
+		<string>• Assists interns or assumes responsibilities if no intern present
+• Assist with procedures as appropriate and directed by the Team leader</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>Medical Student</string>
+		<key>description</key>
+		<string>• Enters the active provider area only under the instruction of the team captain
+• Roles may include assistant to active provider, exposure of patient, assisting with the exam, transport of TEG sample and  procedures as dictated by the Trauma Team Leader</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>Primary Nurse/Scribe RN</string>
+		<key>description</key>
+		<string>• Nursing Team Lead for trauma resuscitations
+• Prepares trauma room before patient arrives ensuring airway equipment is available
+• Confirms all trauma team members have arrived and signed the trauma flowsheet
+• Records data on Trauma Flowsheet including vital signs, I&amp;amp;O’s and tetanus booster
+• Provides guidance and Crowd Control
+• Discusses with Trauma Team priority for tests, procedures and disposition
+• Place patient clothing and belongings into a labeled bag that accompanies patient.
+• Coordinates care with X-ray, CT, and the Forensic Nurse Examiner
+• Assists in transport and gives detailed report to receiving unit</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>Secondary Nurse</string>
+		<key>description</key>
+		<string>• Assists with patient movement and initial assessment of airway and breathing, as well as primary and secondary survey
+• Assists with patient clothing removal and initiation of warming measures
+• Ensures second peripheral IV access, inserts NG/OG and foley upon direction from the trauma team.  Ensures appropriate equipment is available for procedures
+• Maintain/obtain and monitor all intravenous lines
+• Obtain fluid resuscitation orders and IV rate from Trauma Team Leader
+• Ensure a minimum of 2 large bore IVs (14G, 16G)</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>Emergency Nurse (right)</string>
+		<key>description</key>
+		<string>• Assists with patient movement and attaches monitors to the patient and obtains manual BP
+• Obtain patient’s temperature and labs when directed by trauma team
+• Administers ordered medications, including tetanus booster.  Draws and labels all RSI medications
+• Ensures appropriate equipment is available for procedures
+• Operates Rapid Infuser (Level 1) and prepares blood tubing or rapid infuser for blood products
+• Attaches patient ID bracelet</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>Respiratory Therapy</string>
+		<key>description</key>
+		<string>• Assists with intubation and ventilation as indicated, including ventilator management
+• Monitor end-tidal CO2 and SpO2 and record data on RT record
+• Monitor serial ABG’s and inform Trauma Team Leader of results
+• Provides report to critical care respiratory therapist prior to care transition</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>Emergency Department Radiology</string>
+		<key>description</key>
+		<string>• Responds immediately upon notification of Trauma Activation
+• Confirms STAT CXR order is entered and prepares for chest X-ray
+• Obtain radiographic priorities from Trauma Team Leader or designee
+• Notifies emergency department CT tech ETA to CT</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>Emergency Medicine Orthopedic/Hand Tech</string>
+		<key>description</key>
+		<string>• Assists with application of splint/traction in trauma bay as directed by the Trauma Team Leader
+• Provides appropriately sized tourniquets upon request</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>Emergency Department Constant Care Secretary</string>
+		<key>description</key>
+		<string>• Once notified by ambulance triage about activation status, notifies constant care physician and charge nurse about activation status, ETA, mechanism, vital signs
+• Notifies respiratory therapist of need for ventilator and room number
+• Overhead pages the trauma team, Trauma 1 or 2 , adult or pediatric, ETA and room number
+• Pages all consults for the surgery PGY1 or designated trauma team member and documents time of call back
+• Assembles and copies all documentation for transfer to destination and makes additional copy for Trauma Services</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>Chaplain/Emergency Department Social Worker</string>
+		<key>description</key>
+		<string>• Meets family; escorts them to consultation/quiet room and provides support
+• Assists/collaborates with social worker in the identification of patient
+• Accompanies physician when making a death notification and provide bereavement care</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>Emergency Medicine Pharmacist</string>
+		<key>description</key>
+		<string>• Responds to all Trauma Activations and provides guidance regarding medications, open fracture prophylaxis and tetanus booster
+• Provides management of airway packs and medication refills</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>Blood Bank</string>
+		<key>description</key>
+		<string>• Immediately runs TEG test when delivered to Blood Bank
+• Prepares Massive Blood Transfusion Chest</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>Forensic Nurse</string>
+		<key>description</key>
+		<string>• Respond to all Trauma 1 Team Activations
+• Examines patient and documents findings after primary and secondary survey are completed</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>Operating Room Charge Nurse</string>
+		<key>description</key>
+		<string>• Carries Trauma Activation pager and communicates with anesthesiologist in-charge
+• Discusses the requirements/set up for operative cases
+• Collaborates with Trauma Team to prepare room and activate on call team
+• Accepts report from the primary/scribe RN in the emergency department</string>
+	</dict>
+</array>
+</plist>

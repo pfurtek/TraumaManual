@@ -43,7 +43,7 @@ class AlgorithmNodeSectionController : ListSectionController {
         }
         let cell = collectionContext!.dequeueReusableCell(withNibName: "AnswerCollectionViewCell", bundle: nil, for: self, at: index) as! AnswerCollectionViewCell
         
-        cell.setupCell(with: self.keys[index+1])
+        cell.setupCell(with: self.keys[index-1])
         
         return cell
     }
@@ -57,7 +57,7 @@ class AlgorithmNodeSectionController : ListSectionController {
     
     override func didSelectItem(at index: Int) {
         if index != 0, let theItem = item {
-            (self.viewController as? AlgorithmQuestionnaireViewController)?.changeCurrentNode(next: theItem.answers[self.keys[index+1]] ?? nil)
+            (self.viewController as? AlgorithmQuestionnaireViewController)?.changeCurrentNode(next: theItem.answers[self.keys[index-1]] ?? "")
         }
     }
 }
