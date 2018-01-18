@@ -1,0 +1,319 @@
+{
+	"edges": {
+		"4da8ba66027f3c8e-4": {
+			"id": "4da8ba66027f3c8e-4",
+			"source": "4da8ba66027f3c8e-2",
+			"target": "4da8ba66027f3c8e-3"
+		},
+		"4da8ba66027f3c8e-27": {
+			"id": "4da8ba66027f3c8e-27",
+			"source": "4da8ba66027f3c8e-3",
+			"target": "4da8ba66027f3c8e-26"
+		},
+		"4da8ba66027f3c8e-30": {
+			"id": "4da8ba66027f3c8e-30",
+			"source": "4da8ba66027f3c8e-26",
+			"target": "4da8ba66027f3c8e-29"
+		},
+		"4da8ba66027f3c8e-31": {
+			"id": "4da8ba66027f3c8e-31",
+			"source": "4da8ba66027f3c8e-26",
+			"target": "4da8ba66027f3c8e-28"
+		},
+		"4da8ba66027f3c8e-33": {
+			"id": "4da8ba66027f3c8e-33",
+			"source": "4da8ba66027f3c8e-29",
+			"target": "4da8ba66027f3c8e-32"
+		},
+		"4da8ba66027f3c8e-37": {
+			"id": "4da8ba66027f3c8e-37",
+			"source": "4da8ba66027f3c8e-28",
+			"target": "4da8ba66027f3c8e-5"
+		},
+		"4da8ba66027f3c8e-38": {
+			"id": "4da8ba66027f3c8e-38",
+			"source": "4da8ba66027f3c8e-5",
+			"target": "4da8ba66027f3c8e-8"
+		},
+		"4da8ba66027f3c8e-39": {
+			"id": "4da8ba66027f3c8e-39",
+			"source": "4da8ba66027f3c8e-5",
+			"target": "4da8ba66027f3c8e-7"
+		},
+		"4da8ba66027f3c8e-40": {
+			"id": "4da8ba66027f3c8e-40",
+			"source": "4da8ba66027f3c8e-7",
+			"target": "4da8ba66027f3c8e-9"
+		},
+		"4da8ba66027f3c8e-41": {
+			"id": "4da8ba66027f3c8e-41",
+			"source": "4da8ba66027f3c8e-8",
+			"target": "4da8ba66027f3c8e-13"
+		}
+	},
+	"nodes": {
+		"0": {
+			"id": "0",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"1": {
+			"id": "1",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"4da8ba66027f3c8e-1": {
+			"id": "4da8ba66027f3c8e-1",
+			"value": "Adult Trauma DVT Prophylaxis Algorithm: Flow Sheet 1",
+			"valueAsHtml": "Adult Trauma DVT Prophylaxis Algorithm: Flow Sheet 1",
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"4da8ba66027f3c8e-3": {
+			"id": "4da8ba66027f3c8e-3",
+			"value": "Evaluate for Pharmacologic Prophylaxis",
+			"valueAsHtml": "Evaluate for Pharmacologic Prophylaxis",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"4da8ba66027f3c8e-4"
+				],
+				"out": [
+					"4da8ba66027f3c8e-27"
+				]
+			}
+		},
+		"4da8ba66027f3c8e-7": {
+			"id": "4da8ba66027f3c8e-7",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"4da8ba66027f3c8e-39"
+				],
+				"out": [
+					"4da8ba66027f3c8e-40"
+				]
+			}
+		},
+		"4da8ba66027f3c8e-8": {
+			"id": "4da8ba66027f3c8e-8",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"4da8ba66027f3c8e-38"
+				],
+				"out": [
+					"4da8ba66027f3c8e-41"
+				]
+			}
+		},
+		"4da8ba66027f3c8e-9": {
+			"id": "4da8ba66027f3c8e-9",
+			"value": "See \"Special Populations\"",
+			"valueAsHtml": "See \"Special Populations\"",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"4da8ba66027f3c8e-40"
+				],
+				"out": []
+			}
+		},
+		"4da8ba66027f3c8e-13": {
+			"id": "4da8ba66027f3c8e-13",
+			"value": "See Standard Inpatient DVT Prophylaxis",
+			"valueAsHtml": "See Standard Inpatient DVT Prophylaxis",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"4da8ba66027f3c8e-41"
+				],
+				"out": []
+			}
+		},
+		"4da8ba66027f3c8e-26": {
+			"id": "4da8ba66027f3c8e-26",
+			"value": "Does patient have an orthopedic injury?",
+			"valueAsHtml": "Does patient have an orthopedic injury?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"4da8ba66027f3c8e-27"
+				],
+				"out": [
+					"4da8ba66027f3c8e-30",
+					"4da8ba66027f3c8e-31"
+				]
+			}
+		},
+		"4da8ba66027f3c8e-28": {
+			"id": "4da8ba66027f3c8e-28",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"4da8ba66027f3c8e-31"
+				],
+				"out": [
+					"4da8ba66027f3c8e-37"
+				]
+			}
+		},
+		"4da8ba66027f3c8e-29": {
+			"id": "4da8ba66027f3c8e-29",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"4da8ba66027f3c8e-30"
+				],
+				"out": [
+					"4da8ba66027f3c8e-33"
+				]
+			}
+		},
+		"4da8ba66027f3c8e-32": {
+			"id": "4da8ba66027f3c8e-32",
+			"value": "See Flow Sheet 4 for discharge instructions",
+			"valueAsHtml": "See Flow Sheet 4 for <u>discharge instructions</u>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"4da8ba66027f3c8e-33"
+				],
+				"out": []
+			}
+		},
+		"4da8ba66027f3c8e-43": {
+			"id": "4da8ba66027f3c8e-43",
+			"value": "*Evaluate for Pharmacologic ProphylaxisContraindications to initial\npharmacologic DVT prophylaxis   * Uncontrolled hemorrhage\n * Uncorrected coagulopathy (NR > 2 or platelets\n   < 50,000)\n * Therapeutic anticoagulation\n * Intracranial hemorrhage/spinal hematoma\n * Neurosurgery in past 3 days\n * Removal or placement of epidural catheter\n   within 2hrs",
+			"valueAsHtml": "<font style=\"font-size: 25px\">*</font><u>Evaluate for Pharmacologic Prophylaxis</u><div>Contraindications to initial pharmacologic DVT prophylaxis&nbsp;</div><div><ul><li style=\"text-align: left\">Uncontrolled hemorrhage</li><li style=\"text-align: left\">Uncorrected coagulopathy (NR &gt; 2 or platelets &lt; 50,000)</li><li style=\"text-align: left\">Therapeutic anticoagulation</li><li style=\"text-align: left\">Intracranial hemorrhage/spinal hematoma</li><li style=\"text-align: left\">Neurosurgery in past 3 days</li><li style=\"text-align: left\">Removal or placement of epidural catheter within 2hrs</li></ul></div>",
+			"shape": "note",
+			"fillColor": "#fff2cc",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"4da8ba66027f3c8e-44": {
+			"id": "4da8ba66027f3c8e-44",
+			"value": "Standard Inpatient DVT ProphylaxisIPCS and either: rivaroxaban 10mg PO Q24H or\nenoxaparin 30mg SubQ Q12H * Rivaroxaban preferred except for patients with:\n * Traumatic brain injury (TBI)Spinal cord injury (SCI)Grade 3-5 liver, kidney,\n   and/or spleen injuries (without splenectomy)\n * If patient will be discharged on VTE prophylaxis\n   (see flow sheet 4), write order for care management to begin discharge\n   planning ASAP. Place written prescription in charge (include duration of VTE\n   prophylaxis)\n * Chronic renal insufficiency  (CrCl Hemodialysis (HD) or acute renal failure\n   (ARF): heparin 5000 units SubQ Q8HObesity  (wt > 120kg): enoxaparin 40mg SubQ\n   Q12H (if patient also has ARF or requires HD then heparin 7500 units SubQ\n   Q8hrs)Heparin allergy/history of heparin-induced thrombocytopenia:\n   fondaparinux 2.5mg SubQ Q24H (contraindicated if CrCl Strict NPO or small\n   bowel access only: do not use rivaroxaban",
+			"valueAsHtml": "<div><u><br></u></div><u>Standard Inpatient DVT Prophylaxis</u><div>IPCS and either: rivaroxaban 10mg PO Q24H or enoxaparin 30mg SubQ Q12H</div><div style=\"text-align: left\"><ul><li>Rivaroxaban preferred except for patients with:</li><ul><li>Traumatic brain injury (TBI)</li><li>Spinal cord injury (SCI)</li><li>Grade 3-5 liver, kidney, and/or spleen injuries (without splenectomy)&nbsp;</li></ul><li>If patient will be discharged on VTE prophylaxis (see flow sheet 4), write order for care management to begin discharge planning ASAP. Place written prescription in charge (include duration of VTE prophylaxis)</li><li><i>Chronic renal insufficiency</i> (CrCl &lt;30mL/min): enoxaparin 30mg SubQ Q24H</li><li><i>Hemodialysis (HD) or acute renal failure (ARF)</i>: heparin 5000 units SubQ Q8H</li><li><i>Obesity</i> (wt &gt; 120kg): enoxaparin 40mg SubQ Q12H (if patient also has ARF or requires HD then heparin 7500 units SubQ Q8hrs)</li><li><i>Heparin allergy/history of heparin-induced thrombocytopenia</i>: fondaparinux 2.5mg SubQ Q24H (contraindicated if CrCl &lt;30mL/min) or rivaroxaban 10mg PO Q24H (contraindicated if CrCl&lt; 30mL/min)</li><li><i>Strict NPO or small bowel access only</i>: do not use rivaroxaban</li></ul></div><div><br></div>",
+			"shape": "note",
+			"fillColor": "#fff2cc",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"4da8ba66027f3c8e-47": {
+			"id": "4da8ba66027f3c8e-47",
+			"value": "May 2016 Version. Pending update",
+			"valueAsHtml": "May 2016 Version. Pending update",
+			"shape": "note",
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"4c2e2ca4ec3d0b90-1": {
+			"id": "4c2e2ca4ec3d0b90-1",
+			"value": null,
+			"valueAsHtml": "",
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"4da8ba66027f3c8e-5": {
+			"id": "4da8ba66027f3c8e-5",
+			"value": "Is there any contraindications to initial pharmacologic DVT prophylaxis?",
+			"valueAsHtml": "Is there any contraindications to initial pharmacologic DVT prophylaxis?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"4da8ba66027f3c8e-37"
+				],
+				"out": [
+					"4da8ba66027f3c8e-38",
+					"4da8ba66027f3c8e-39"
+				]
+			}
+		},
+		"2d5cb37aa63f5ea-2": {
+			"id": "2d5cb37aa63f5ea-2",
+			"value": "*",
+			"valueAsHtml": "<font style=\"font-size: 25px\"><sub>*</sub></font>",
+			"shape": null,
+			"fillColor": "none",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"4da8ba66027f3c8e-2": {
+			"id": "4da8ba66027f3c8e-2",
+			"value": null,
+			"shape": "startState",
+			"fillColor": "#424242",
+			"type": "decisionPoint",
+			"edges": {
+				"in": [],
+				"out": [
+					"4da8ba66027f3c8e-4"
+				]
+			}
+		}
+	}
+}

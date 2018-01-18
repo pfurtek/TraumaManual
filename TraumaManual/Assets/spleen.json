@@ -1,0 +1,1183 @@
+{
+	"edges": {
+		"5bdacf33d313713d-4": {
+			"id": "5bdacf33d313713d-4",
+			"source": "5bdacf33d313713d-2",
+			"target": "5bdacf33d313713d-3"
+		},
+		"5bdacf33d313713d-7": {
+			"id": "5bdacf33d313713d-7",
+			"source": "5bdacf33d313713d-3",
+			"target": "5bdacf33d313713d-6"
+		},
+		"5bdacf33d313713d-8": {
+			"id": "5bdacf33d313713d-8",
+			"source": "5bdacf33d313713d-6",
+			"target": "5bdacf33d313713d-5"
+		},
+		"5bdacf33d313713d-14": {
+			"id": "5bdacf33d313713d-14",
+			"source": "5bdacf33d313713d-5",
+			"target": "5bdacf33d313713d-13"
+		},
+		"5bdacf33d313713d-15": {
+			"id": "5bdacf33d313713d-15",
+			"source": "5bdacf33d313713d-5",
+			"target": "5bdacf33d313713d-10"
+		},
+		"5bdacf33d313713d-22": {
+			"id": "5bdacf33d313713d-22",
+			"source": "5bdacf33d313713d-10",
+			"target": "5bdacf33d313713d-17"
+		},
+		"5bdacf33d313713d-29": {
+			"id": "5bdacf33d313713d-29",
+			"source": "5bdacf33d313713d-24",
+			"target": "5bdacf33d313713d-27"
+		},
+		"5bdacf33d313713d-41": {
+			"id": "5bdacf33d313713d-41",
+			"source": "5bdacf33d313713d-38",
+			"target": "5bdacf33d313713d-39"
+		},
+		"5bdacf33d313713d-64": {
+			"id": "5bdacf33d313713d-64",
+			"source": "5bdacf33d313713d-45",
+			"target": "5bdacf33d313713d-63"
+		},
+		"5bdacf33d313713d-72": {
+			"id": "5bdacf33d313713d-72",
+			"source": "5bdacf33d313713d-67",
+			"target": "5bdacf33d313713d-71"
+		},
+		"5bdacf33d313713d-74": {
+			"id": "5bdacf33d313713d-74",
+			"source": "5bdacf33d313713d-69",
+			"target": "5bdacf33d313713d-73"
+		},
+		"5bdacf33d313713d-80": {
+			"id": "5bdacf33d313713d-80",
+			"source": "5bdacf33d313713d-52",
+			"target": "5bdacf33d313713d-65"
+		},
+		"5bdacf33d313713d-81": {
+			"id": "5bdacf33d313713d-81",
+			"source": "5bdacf33d313713d-34",
+			"target": "5bdacf33d313713d-38"
+		},
+		"5bdacf33d313713d-87": {
+			"id": "5bdacf33d313713d-87",
+			"source": "5bdacf33d313713d-53",
+			"target": "5bdacf33d313713d-67"
+		},
+		"5bdacf33d313713d-89": {
+			"id": "5bdacf33d313713d-89",
+			"source": "5bdacf33d313713d-53",
+			"target": "5bdacf33d313713d-69"
+		},
+		"5bdacf33d313713d-97": {
+			"id": "5bdacf33d313713d-97",
+			"source": "5bdacf33d313713d-91",
+			"target": "5bdacf33d313713d-92"
+		},
+		"5bdacf33d313713d-98": {
+			"id": "5bdacf33d313713d-98",
+			"source": "5bdacf33d313713d-91",
+			"target": "5bdacf33d313713d-93"
+		},
+		"5bdacf33d313713d-101": {
+			"id": "5bdacf33d313713d-101",
+			"source": "5bdacf33d313713d-92",
+			"target": "5bdacf33d313713d-94"
+		},
+		"5bdacf33d313713d-120": {
+			"id": "5bdacf33d313713d-120",
+			"source": "5bdacf33d313713d-17",
+			"target": "5bdacf33d313713d-23"
+		},
+		"5bdacf33d313713d-121": {
+			"id": "5bdacf33d313713d-121",
+			"source": "5bdacf33d313713d-17",
+			"target": "5bdacf33d313713d-24"
+		},
+		"5bdacf33d313713d-156": {
+			"id": "5bdacf33d313713d-156",
+			"source": "5bdacf33d313713d-27",
+			"target": "5bdacf33d313713d-91"
+		},
+		"5bdacf33d313713d-157": {
+			"id": "5bdacf33d313713d-157",
+			"source": "5bdacf33d313713d-27",
+			"target": "5bdacf33d313713d-53"
+		},
+		"5bdacf33d313713d-158": {
+			"id": "5bdacf33d313713d-158",
+			"source": "5bdacf33d313713d-27",
+			"target": "5bdacf33d313713d-52"
+		},
+		"5bdacf33d313713d-159": {
+			"id": "5bdacf33d313713d-159",
+			"source": "5bdacf33d313713d-27",
+			"target": "5bdacf33d313713d-45"
+		},
+		"5bdacf33d313713d-160": {
+			"id": "5bdacf33d313713d-160",
+			"source": "5bdacf33d313713d-38",
+			"target": "5bdacf33d313713d-40"
+		},
+		"5bdacf33d313713d-161": {
+			"id": "5bdacf33d313713d-161",
+			"source": "5bdacf33d313713d-40",
+			"target": "5bdacf33d313713d-47"
+		},
+		"5bdacf33d313713d-162": {
+			"id": "5bdacf33d313713d-162",
+			"source": "5bdacf33d313713d-47",
+			"target": "5bdacf33d313713d-45"
+		},
+		"5bdacf33d313713d-163": {
+			"id": "5bdacf33d313713d-163",
+			"source": "5bdacf33d313713d-63",
+			"target": "5bdacf33d313713d-82"
+		},
+		"5bdacf33d313713d-164": {
+			"id": "5bdacf33d313713d-164",
+			"source": "5bdacf33d313713d-65",
+			"target": "5bdacf33d313713d-82"
+		},
+		"5bdacf33d313713d-168": {
+			"id": "5bdacf33d313713d-168",
+			"source": "5bdacf33d313713d-82",
+			"target": "5bdacf33d313713d-107"
+		},
+		"5bdacf33d313713d-173": {
+			"id": "5bdacf33d313713d-173",
+			"source": "5bdacf33d313713d-82",
+			"target": "5bdacf33d313713d-169"
+		},
+		"5bdacf33d313713d-176": {
+			"id": "5bdacf33d313713d-176",
+			"source": "5bdacf33d313713d-170",
+			"target": "5bdacf33d313713d-174"
+		},
+		"5bdacf33d313713d-183": {
+			"id": "5bdacf33d313713d-183",
+			"source": "5bdacf33d313713d-175",
+			"target": "5bdacf33d313713d-180"
+		},
+		"5bdacf33d313713d-187": {
+			"id": "5bdacf33d313713d-187",
+			"source": "5bdacf33d313713d-180",
+			"target": "5bdacf33d313713d-185"
+		},
+		"5bdacf33d313713d-192": {
+			"id": "5bdacf33d313713d-192",
+			"source": "5bdacf33d313713d-185",
+			"target": "5bdacf33d313713d-189"
+		},
+		"5bdacf33d313713d-198": {
+			"id": "5bdacf33d313713d-198",
+			"source": "5bdacf33d313713d-170",
+			"target": "5bdacf33d313713d-175"
+		},
+		"5bdacf33d313713d-200": {
+			"id": "5bdacf33d313713d-200",
+			"source": "5bdacf33d313713d-190",
+			"target": "5bdacf33d313713d-196"
+		},
+		"5bdacf33d313713d-223": {
+			"id": "5bdacf33d313713d-223",
+			"source": "5bdacf33d313713d-71",
+			"target": "5bdacf33d313713d-82"
+		},
+		"5bdacf33d313713d-224": {
+			"id": "5bdacf33d313713d-224",
+			"source": "5bdacf33d313713d-73",
+			"target": "5bdacf33d313713d-82"
+		},
+		"5bdacf33d313713d-225": {
+			"id": "5bdacf33d313713d-225",
+			"source": "5bdacf33d313713d-94",
+			"target": "5bdacf33d313713d-82"
+		},
+		"5bdacf33d313713d-228": {
+			"id": "5bdacf33d313713d-228",
+			"source": "5bdacf33d313713d-169",
+			"target": "5bdacf33d313713d-170"
+		},
+		"5bdacf33d313713d-231": {
+			"id": "5bdacf33d313713d-231",
+			"source": "5bdacf33d313713d-196",
+			"target": "5bdacf33d313713d-201"
+		},
+		"5bdacf33d313713d-232": {
+			"id": "5bdacf33d313713d-232",
+			"source": "5bdacf33d313713d-196",
+			"target": "5bdacf33d313713d-202"
+		},
+		"5eadd377aca0eb96-2": {
+			"id": "5eadd377aca0eb96-2",
+			"source": "5bdacf33d313713d-13",
+			"target": "5eadd377aca0eb96-1"
+		},
+		"5eadd377aca0eb96-4": {
+			"id": "5eadd377aca0eb96-4",
+			"source": "5bdacf33d313713d-32",
+			"target": "5eadd377aca0eb96-3"
+		},
+		"5eadd377aca0eb96-6": {
+			"id": "5eadd377aca0eb96-6",
+			"source": "5bdacf33d313713d-39",
+			"target": "5eadd377aca0eb96-5"
+		},
+		"5eadd377aca0eb96-9": {
+			"id": "5eadd377aca0eb96-9",
+			"source": "5bdacf33d313713d-174",
+			"target": "5eadd377aca0eb96-8"
+		},
+		"5eadd377aca0eb96-10": {
+			"id": "5eadd377aca0eb96-10",
+			"source": "5bdacf33d313713d-202",
+			"target": "5eadd377aca0eb96-8"
+		},
+		"5eadd377aca0eb96-12": {
+			"id": "5eadd377aca0eb96-12",
+			"source": "5bdacf33d313713d-107",
+			"target": "5eadd377aca0eb96-11"
+		},
+		"5eadd377aca0eb96-14": {
+			"id": "5eadd377aca0eb96-14",
+			"source": "5bdacf33d313713d-189",
+			"target": "5eadd377aca0eb96-13"
+		},
+		"5eadd377aca0eb96-15": {
+			"id": "5eadd377aca0eb96-15",
+			"source": "5bdacf33d313713d-201",
+			"target": "5eadd377aca0eb96-13"
+		},
+		"5eadd377aca0eb96-17": {
+			"id": "5eadd377aca0eb96-17",
+			"source": "5bdacf33d313713d-93",
+			"target": "5eadd377aca0eb96-16"
+		},
+		"3a2fcac15b616cb5-2": {
+			"id": "3a2fcac15b616cb5-2",
+			"source": "3a2fcac15b616cb5-1",
+			"target": "5bdacf33d313713d-34"
+		},
+		"3a2fcac15b616cb5-3": {
+			"id": "3a2fcac15b616cb5-3",
+			"source": "3a2fcac15b616cb5-1",
+			"target": "5bdacf33d313713d-32"
+		},
+		"3a2fcac15b616cb5-4": {
+			"id": "3a2fcac15b616cb5-4",
+			"source": "5bdacf33d313713d-23",
+			"target": "3a2fcac15b616cb5-1"
+		},
+		"d6bb242c54a8f3e-1": {
+			"id": "d6bb242c54a8f3e-1",
+			"source": "5bdacf33d313713d-185",
+			"target": "5bdacf33d313713d-190"
+		}
+	},
+	"nodes": {
+		"0": {
+			"id": "0",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"1": {
+			"id": "1",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"5bdacf33d313713d-1": {
+			"id": "5bdacf33d313713d-1",
+			"value": "Non-Operative Management of Blunt Splenic Injury",
+			"valueAsHtml": "Non-Operative Management of Blunt Splenic Injury",
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"5bdacf33d313713d-3": {
+			"id": "5bdacf33d313713d-3",
+			"value": "Hemodynamic Stability Mandatory for Non-operative Management",
+			"valueAsHtml": "Hemodynamic Stability Mandatory for Non-operative Management",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-4"
+				],
+				"out": [
+					"5bdacf33d313713d-7"
+				]
+			}
+		},
+		"5bdacf33d313713d-5": {
+			"id": "5bdacf33d313713d-5",
+			"value": "Is patient stable?",
+			"valueAsHtml": "Is patient stable?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-8"
+				],
+				"out": [
+					"5bdacf33d313713d-14",
+					"5bdacf33d313713d-15"
+				]
+			}
+		},
+		"5bdacf33d313713d-6": {
+			"id": "5bdacf33d313713d-6",
+			"value": "Abdominal CT Scan",
+			"valueAsHtml": "Abdominal CT Scan",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-7"
+				],
+				"out": [
+					"5bdacf33d313713d-8"
+				]
+			}
+		},
+		"5bdacf33d313713d-10": {
+			"id": "5bdacf33d313713d-10",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-15"
+				],
+				"out": [
+					"5bdacf33d313713d-22"
+				]
+			}
+		},
+		"5bdacf33d313713d-13": {
+			"id": "5bdacf33d313713d-13",
+			"value": "No, becomes unstable/actively requiring blood products for spleen/develops\nperitonitis",
+			"valueAsHtml": "No, becomes unstable/actively requiring blood products for spleen/develops peritonitis",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-14"
+				],
+				"out": [
+					"5eadd377aca0eb96-2"
+				]
+			}
+		},
+		"5bdacf33d313713d-17": {
+			"id": "5bdacf33d313713d-17",
+			"value": "Pseudoaneruysm or blush or active bleeding? /span>",
+			"valueAsHtml": "<span>Pseudoaneruysm or blush or active bleeding? /span></div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-22"
+				],
+				"out": [
+					"5bdacf33d313713d-120",
+					"5bdacf33d313713d-121"
+				]
+			}
+		},
+		"5bdacf33d313713d-23": {
+			"id": "5bdacf33d313713d-23",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-120"
+				],
+				"out": [
+					"3a2fcac15b616cb5-4"
+				]
+			}
+		},
+		"5bdacf33d313713d-24": {
+			"id": "5bdacf33d313713d-24",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-121"
+				],
+				"out": [
+					"5bdacf33d313713d-29"
+				]
+			}
+		},
+		"5bdacf33d313713d-27": {
+			"id": "5bdacf33d313713d-27",
+			"value": "What grade is injury?",
+			"valueAsHtml": "What grade is injury?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-29"
+				],
+				"out": [
+					"5bdacf33d313713d-156",
+					"5bdacf33d313713d-157",
+					"5bdacf33d313713d-158",
+					"5bdacf33d313713d-159"
+				]
+			}
+		},
+		"5bdacf33d313713d-32": {
+			"id": "5bdacf33d313713d-32",
+			"value": "Negative (no active bleeding or bleeding stopped from prior CT)",
+			"valueAsHtml": "Negative (no active bleeding or bleeding stopped from prior CT)",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3a2fcac15b616cb5-3"
+				],
+				"out": [
+					"5eadd377aca0eb96-4"
+				]
+			}
+		},
+		"5bdacf33d313713d-34": {
+			"id": "5bdacf33d313713d-34",
+			"value": "Positive (active bleeding or pseduoanerysum)",
+			"valueAsHtml": "Positive (active bleeding or pseduoanerysum)",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3a2fcac15b616cb5-2"
+				],
+				"out": [
+					"5bdacf33d313713d-81"
+				]
+			}
+		},
+		"5bdacf33d313713d-38": {
+			"id": "5bdacf33d313713d-38",
+			"value": "Selective Embolization",
+			"valueAsHtml": "Selective Embolization",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-81"
+				],
+				"out": [
+					"5bdacf33d313713d-41",
+					"5bdacf33d313713d-160"
+				]
+			}
+		},
+		"5bdacf33d313713d-39": {
+			"id": "5bdacf33d313713d-39",
+			"value": "Unsuccessful",
+			"valueAsHtml": "Unsuccessful",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-41"
+				],
+				"out": [
+					"5eadd377aca0eb96-6"
+				]
+			}
+		},
+		"5bdacf33d313713d-40": {
+			"id": "5bdacf33d313713d-40",
+			"value": "Successful",
+			"valueAsHtml": "Successful",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-160"
+				],
+				"out": [
+					"5bdacf33d313713d-161"
+				]
+			}
+		},
+		"5bdacf33d313713d-45": {
+			"id": "5bdacf33d313713d-45",
+			"value": "Grade 1 (small-no hemoperitoneum)",
+			"valueAsHtml": "Grade 1 (small-no hemoperitoneum)",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-159",
+					"5bdacf33d313713d-162"
+				],
+				"out": [
+					"5bdacf33d313713d-64"
+				]
+			}
+		},
+		"5bdacf33d313713d-52": {
+			"id": "5bdacf33d313713d-52",
+			"value": "Grade 2 (small to moderate hemoperitneum)",
+			"valueAsHtml": "Grade 2 (small to moderate hemoperitneum)",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-158"
+				],
+				"out": [
+					"5bdacf33d313713d-80"
+				]
+			}
+		},
+		"5bdacf33d313713d-53": {
+			"id": "5bdacf33d313713d-53",
+			"value": "Grade 3",
+			"valueAsHtml": "Grade 3",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-157"
+				],
+				"out": [
+					"5bdacf33d313713d-87",
+					"5bdacf33d313713d-89"
+				]
+			}
+		},
+		"5bdacf33d313713d-63": {
+			"id": "5bdacf33d313713d-63",
+			"value": "23 observation/Home",
+			"valueAsHtml": "23 observation/Home",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-64"
+				],
+				"out": [
+					"5bdacf33d313713d-163"
+				]
+			}
+		},
+		"5bdacf33d313713d-65": {
+			"id": "5bdacf33d313713d-65",
+			"value": "Admit to appropriate unit (likely floor status)",
+			"valueAsHtml": "Admit to appropriate unit (likely floor status)",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-80"
+				],
+				"out": [
+					"5bdacf33d313713d-164"
+				]
+			}
+		},
+		"5bdacf33d313713d-67": {
+			"id": "5bdacf33d313713d-67",
+			"value": "Small/moderate hemoperitoneum",
+			"valueAsHtml": "Small/moderate hemoperitoneum",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-87"
+				],
+				"out": [
+					"5bdacf33d313713d-72"
+				]
+			}
+		},
+		"5bdacf33d313713d-47": {
+			"id": "5bdacf33d313713d-47",
+			"value": "Continue current management (upgrade injury grade +1)",
+			"valueAsHtml": "Continue current management (upgrade injury grade +1)",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-161"
+				],
+				"out": [
+					"5bdacf33d313713d-162"
+				]
+			}
+		},
+		"5bdacf33d313713d-69": {
+			"id": "5bdacf33d313713d-69",
+			"value": "Large hemoperitoneum",
+			"valueAsHtml": "Large hemoperitoneum",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-89"
+				],
+				"out": [
+					"5bdacf33d313713d-74"
+				]
+			}
+		},
+		"5bdacf33d313713d-71": {
+			"id": "5bdacf33d313713d-71",
+			"value": "Floor/PCU Status",
+			"valueAsHtml": "Floor/PCU Status",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-72"
+				],
+				"out": [
+					"5bdacf33d313713d-223"
+				]
+			}
+		},
+		"5bdacf33d313713d-73": {
+			"id": "5bdacf33d313713d-73",
+			"value": "ICU Admission for at least 24 hours",
+			"valueAsHtml": "ICU Admission for at least 24 hours",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-74"
+				],
+				"out": [
+					"5bdacf33d313713d-224"
+				]
+			}
+		},
+		"5bdacf33d313713d-82": {
+			"id": "5bdacf33d313713d-82",
+			"value": "Worsening symptoms div>or serious Hgb drop?",
+			"valueAsHtml": "Worsening symptoms div>or serious Hgb drop?</div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-163",
+					"5bdacf33d313713d-164",
+					"5bdacf33d313713d-223",
+					"5bdacf33d313713d-224",
+					"5bdacf33d313713d-225"
+				],
+				"out": [
+					"5bdacf33d313713d-168",
+					"5bdacf33d313713d-173"
+				]
+			}
+		},
+		"5bdacf33d313713d-91": {
+			"id": "5bdacf33d313713d-91",
+			"value": "Grade 4-5",
+			"valueAsHtml": "Grade 4-5",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-156"
+				],
+				"out": [
+					"5bdacf33d313713d-97",
+					"5bdacf33d313713d-98"
+				]
+			}
+		},
+		"5bdacf33d313713d-92": {
+			"id": "5bdacf33d313713d-92",
+			"value": "Small/moderate hemoperitoneum",
+			"valueAsHtml": "Small/moderate hemoperitoneum",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-97"
+				],
+				"out": [
+					"5bdacf33d313713d-101"
+				]
+			}
+		},
+		"5bdacf33d313713d-93": {
+			"id": "5bdacf33d313713d-93",
+			"value": "Large hemoperitoneum",
+			"valueAsHtml": "Large hemoperitoneum",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-98"
+				],
+				"out": [
+					"5eadd377aca0eb96-17"
+				]
+			}
+		},
+		"5bdacf33d313713d-94": {
+			"id": "5bdacf33d313713d-94",
+			"value": "ICU Admission for at least 24 hours",
+			"valueAsHtml": "ICU Admission for at least 24 hours",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-101"
+				],
+				"out": [
+					"5bdacf33d313713d-225"
+				]
+			}
+		},
+		"5bdacf33d313713d-107": {
+			"id": "5bdacf33d313713d-107",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-168"
+				],
+				"out": [
+					"5eadd377aca0eb96-12"
+				]
+			}
+		},
+		"5bdacf33d313713d-169": {
+			"id": "5bdacf33d313713d-169",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-173"
+				],
+				"out": [
+					"5bdacf33d313713d-228"
+				]
+			}
+		},
+		"5bdacf33d313713d-170": {
+			"id": "5bdacf33d313713d-170",
+			"value": "Has patient div>become hemodynamically unstable?",
+			"valueAsHtml": "Has patient div>become hemodynamically unstable?<br></div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-228"
+				],
+				"out": [
+					"5bdacf33d313713d-176",
+					"5bdacf33d313713d-198"
+				]
+			}
+		},
+		"5bdacf33d313713d-174": {
+			"id": "5bdacf33d313713d-174",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-176"
+				],
+				"out": [
+					"5eadd377aca0eb96-9"
+				]
+			}
+		},
+		"5bdacf33d313713d-175": {
+			"id": "5bdacf33d313713d-175",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-198"
+				],
+				"out": [
+					"5bdacf33d313713d-183"
+				]
+			}
+		},
+		"5bdacf33d313713d-180": {
+			"id": "5bdacf33d313713d-180",
+			"value": "Repeat abdominal CT scan",
+			"valueAsHtml": "Repeat abdominal CT scan",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-183"
+				],
+				"out": [
+					"5bdacf33d313713d-187"
+				]
+			}
+		},
+		"5bdacf33d313713d-185": {
+			"id": "5bdacf33d313713d-185",
+			"value": "CT Appearance?",
+			"valueAsHtml": "<div>CT Appearance?</div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-187"
+				],
+				"out": [
+					"5bdacf33d313713d-192",
+					"d6bb242c54a8f3e-1"
+				]
+			}
+		},
+		"5bdacf33d313713d-189": {
+			"id": "5bdacf33d313713d-189",
+			"value": "Stable",
+			"valueAsHtml": "Stable",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-192"
+				],
+				"out": [
+					"5eadd377aca0eb96-14"
+				]
+			}
+		},
+		"5bdacf33d313713d-190": {
+			"id": "5bdacf33d313713d-190",
+			"value": "Worse",
+			"valueAsHtml": "Worse",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"d6bb242c54a8f3e-1"
+				],
+				"out": [
+					"5bdacf33d313713d-200"
+				]
+			}
+		},
+		"5bdacf33d313713d-196": {
+			"id": "5bdacf33d313713d-196",
+			"value": "Interventional /div>radiology successful?",
+			"valueAsHtml": "<div>Interventional /div><div>radiology successful?</div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-200"
+				],
+				"out": [
+					"5bdacf33d313713d-231",
+					"5bdacf33d313713d-232"
+				]
+			}
+		},
+		"5bdacf33d313713d-201": {
+			"id": "5bdacf33d313713d-201",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-231"
+				],
+				"out": [
+					"5eadd377aca0eb96-15"
+				]
+			}
+		},
+		"5bdacf33d313713d-202": {
+			"id": "5bdacf33d313713d-202",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5bdacf33d313713d-232"
+				],
+				"out": [
+					"5eadd377aca0eb96-10"
+				]
+			}
+		},
+		"5eadd377aca0eb96-1": {
+			"id": "5eadd377aca0eb96-1",
+			"value": "Emergently taken to OR for splenectomy/ splenorrpaphy",
+			"valueAsHtml": "Emergently taken to OR for splenectomy/ splenorrpaphy<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5eadd377aca0eb96-2"
+				],
+				"out": []
+			}
+		},
+		"5eadd377aca0eb96-3": {
+			"id": "5eadd377aca0eb96-3",
+			"value": "Observe (no prophylactic embolization)",
+			"valueAsHtml": "Observe (no prophylactic embolization)<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5eadd377aca0eb96-4"
+				],
+				"out": []
+			}
+		},
+		"5eadd377aca0eb96-5": {
+			"id": "5eadd377aca0eb96-5",
+			"value": "Proceed to OR splenectomy/ splenorrpaphy",
+			"valueAsHtml": "Proceed to OR splenectomy/ splenorrpaphy<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5eadd377aca0eb96-6"
+				],
+				"out": []
+			}
+		},
+		"5eadd377aca0eb96-8": {
+			"id": "5eadd377aca0eb96-8",
+			"value": "Proceed to OR splenectomy/ splenorrpaphy",
+			"valueAsHtml": "Proceed to OR splenectomy/ splenorrpaphy<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5eadd377aca0eb96-9",
+					"5eadd377aca0eb96-10"
+				],
+				"out": []
+			}
+		},
+		"5eadd377aca0eb96-11": {
+			"id": "5eadd377aca0eb96-11",
+			"value": "Continue current non-operative management",
+			"valueAsHtml": "Continue current non-operative management<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5eadd377aca0eb96-12"
+				],
+				"out": []
+			}
+		},
+		"5eadd377aca0eb96-13": {
+			"id": "5eadd377aca0eb96-13",
+			"value": "Continue current non-operative management",
+			"valueAsHtml": "Continue current non-operative management<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5eadd377aca0eb96-14",
+					"5eadd377aca0eb96-15"
+				],
+				"out": []
+			}
+		},
+		"5eadd377aca0eb96-16": {
+			"id": "5eadd377aca0eb96-16",
+			"value": "Consider for early splenectomy/ splenorrpaphy",
+			"valueAsHtml": "Consider for early splenectomy/ splenorrpaphy<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5eadd377aca0eb96-17"
+				],
+				"out": []
+			}
+		},
+		"c5766826f6439d0-1": {
+			"id": "c5766826f6439d0-1",
+			"value": "*",
+			"valueAsHtml": "<font style=\"font-size: 25px\"><sub>*</sub></font>",
+			"shape": null,
+			"fillColor": "none",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"c5766826f6439d0-2": {
+			"id": "c5766826f6439d0-2",
+			"value": "*",
+			"valueAsHtml": "<font style=\"font-size: 25px\"><sub>*</sub></font>",
+			"shape": null,
+			"fillColor": "none",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"c5766826f6439d0-4": {
+			"id": "c5766826f6439d0-4",
+			"value": "*Grade 1 or 2 spleen injuries with moderate-large hemoperitoneum admit to PCU or\nFloor depending on clinical status",
+			"valueAsHtml": "<font style=\"font-size: 25px\">*</font><u>Grade 1 or 2 spleen</u>&nbsp;injuries with moderate-large hemoperitoneum admit to PCU or Floor depending on clinical status",
+			"shape": "note",
+			"fillColor": "#fff2cc",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"c5766826f6439d0-5": {
+			"id": "c5766826f6439d0-5",
+			"value": "Clinical Triggers to Consider failure of NOM: * Clinical signs of ongoing\n   bleeding not attributed to another injury\n * > 2 units PRBC in 24 hours after\n   endpoints of initial resuscitation completed\n\nSpecial Consideration for Early Splenectomy:   * Traumatic Brain Injury GCS <\n   13, spinal cord injury\n * Ongoing coagulopathy\n * Large subcapsular hematoma\n\nInpatient Management: * Ambulation after 24 hours\n * Enteral nutrition after 24 hours\n * DVT prophylaxis after 24 hours if no other\n   contraindication",
+			"valueAsHtml": "<u>Clinical Triggers to Consider failure of NOM:</u><div><ul><li style=\"text-align: left\">Clinical signs of ongoing bleeding not attributed to another injury</li><li style=\"text-align: left\">&gt; 2 units PRBC in 24 hours after endpoints of initial resuscitation completed</li></ul><div><u>Special Consideration for Early Splenectomy:</u></div></div><div><ul><li style=\"text-align: left\">Traumatic Brain Injury GCS &lt; 13, spinal cord injury</li><li style=\"text-align: left\">Ongoing coagulopathy</li><li style=\"text-align: left\">Large subcapsular hematoma</li></ul></div><div><u>Inpatient Management:</u></div><div><ul><li style=\"text-align: left\">Ambulation after 24 hours</li><li style=\"text-align: left\">Enteral nutrition after 24 hours</li><li style=\"text-align: left\">DVT prophylaxis after 24 hours if no other contraindication</li></ul></div>",
+			"shape": "note",
+			"fillColor": "#fff2cc",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"c5766826f6439d0-7": {
+			"id": "c5766826f6439d0-7",
+			"value": "Quantitation of hemoperitoneum: * Small: Peripepatic/spleen\n * Moderate: Small + paracolic gutter\n * Large: Moderate + pelvis",
+			"valueAsHtml": "<u>Quantitation of hemoperitoneum:</u><div><ul><li style=\"text-align: left\">Small: Peripepatic/spleen</li><li style=\"text-align: left\">Moderate: Small + paracolic gutter</li><li style=\"text-align: left\">Large: Moderate + pelvis</li></ul></div>",
+			"shape": "note",
+			"fillColor": "#fff2cc",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"3a2fcac15b616cb5-1": {
+			"id": "3a2fcac15b616cb5-1",
+			"value": "Angio",
+			"valueAsHtml": "Angio",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3a2fcac15b616cb5-4"
+				],
+				"out": [
+					"3a2fcac15b616cb5-2",
+					"3a2fcac15b616cb5-3"
+				]
+			}
+		},
+		"5bdacf33d313713d-2": {
+			"id": "5bdacf33d313713d-2",
+			"value": null,
+			"shape": "startState",
+			"fillColor": "#424242",
+			"type": "decisionPoint",
+			"edges": {
+				"in": [],
+				"out": [
+					"5bdacf33d313713d-4"
+				]
+			}
+		}
+	}
+}

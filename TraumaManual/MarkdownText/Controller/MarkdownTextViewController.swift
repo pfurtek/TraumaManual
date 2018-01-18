@@ -21,7 +21,7 @@ class MarkdownTextViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        guard let downView = try? DownView(frame: self.view.frame, markdownString: mditem.mdText, didLoadSuccessfully: {print("mkdown loaded")}) else { return }
+        guard let downView = try? DownView(frame: self.view.frame, markdownString: mditem.mdText, didLoadSuccessfully: nil) else { return }
         view.addSubview(downView)
         
         let backItem = UIBarButtonItem()

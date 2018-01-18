@@ -1,0 +1,737 @@
+{
+	"edges": {
+		"5f790e6c6817f54e-4": {
+			"id": "5f790e6c6817f54e-4",
+			"source": "5f790e6c6817f54e-2",
+			"target": "5f790e6c6817f54e-3"
+		},
+		"5f790e6c6817f54e-9": {
+			"id": "5f790e6c6817f54e-9",
+			"source": "5f790e6c6817f54e-3",
+			"target": "5f790e6c6817f54e-5"
+		},
+		"3b2cedda13fce28-4": {
+			"id": "3b2cedda13fce28-4",
+			"source": "5f790e6c6817f54e-5",
+			"target": "3b2cedda13fce28-3"
+		},
+		"3b2cedda13fce28-9": {
+			"id": "3b2cedda13fce28-9",
+			"source": "3b2cedda13fce28-3",
+			"target": "3b2cedda13fce28-2"
+		},
+		"3b2cedda13fce28-10": {
+			"id": "3b2cedda13fce28-10",
+			"source": "3b2cedda13fce28-3",
+			"target": "3b2cedda13fce28-5"
+		},
+		"3b2cedda13fce28-11": {
+			"id": "3b2cedda13fce28-11",
+			"source": "3b2cedda13fce28-2",
+			"target": "5f790e6c6817f54e-8"
+		},
+		"3b2cedda13fce28-12": {
+			"id": "3b2cedda13fce28-12",
+			"source": "3b2cedda13fce28-5",
+			"target": "3b2cedda13fce28-8"
+		},
+		"3b2cedda13fce28-15": {
+			"id": "3b2cedda13fce28-15",
+			"source": "5f790e6c6817f54e-3",
+			"target": "5f790e6c6817f54e-6"
+		},
+		"3b2cedda13fce28-24": {
+			"id": "3b2cedda13fce28-24",
+			"source": "5f790e6c6817f54e-6",
+			"target": "3b2cedda13fce28-23"
+		},
+		"3b2cedda13fce28-29": {
+			"id": "3b2cedda13fce28-29",
+			"source": "3b2cedda13fce28-23",
+			"target": "3b2cedda13fce28-27"
+		},
+		"3b2cedda13fce28-30": {
+			"id": "3b2cedda13fce28-30",
+			"source": "3b2cedda13fce28-23",
+			"target": "3b2cedda13fce28-25"
+		},
+		"3b2cedda13fce28-32": {
+			"id": "3b2cedda13fce28-32",
+			"source": "3b2cedda13fce28-25",
+			"target": "3b2cedda13fce28-13"
+		},
+		"3b2cedda13fce28-40": {
+			"id": "3b2cedda13fce28-40",
+			"source": "3b2cedda13fce28-27",
+			"target": "3b2cedda13fce28-33"
+		},
+		"3b2cedda13fce28-41": {
+			"id": "3b2cedda13fce28-41",
+			"source": "3b2cedda13fce28-33",
+			"target": "3b2cedda13fce28-35"
+		},
+		"3b2cedda13fce28-42": {
+			"id": "3b2cedda13fce28-42",
+			"source": "3b2cedda13fce28-33",
+			"target": "3b2cedda13fce28-37"
+		},
+		"3b2cedda13fce28-43": {
+			"id": "3b2cedda13fce28-43",
+			"source": "3b2cedda13fce28-35",
+			"target": "3b2cedda13fce28-39"
+		},
+		"3b2cedda13fce28-44": {
+			"id": "3b2cedda13fce28-44",
+			"source": "3b2cedda13fce28-37",
+			"target": "3b2cedda13fce28-22"
+		},
+		"3b2cedda13fce28-48": {
+			"id": "3b2cedda13fce28-48",
+			"source": "3b2cedda13fce28-22",
+			"target": "3b2cedda13fce28-45"
+		},
+		"3b2cedda13fce28-49": {
+			"id": "3b2cedda13fce28-49",
+			"source": "3b2cedda13fce28-22",
+			"target": "3b2cedda13fce28-47"
+		},
+		"3b2cedda13fce28-51": {
+			"id": "3b2cedda13fce28-51",
+			"source": "3b2cedda13fce28-45",
+			"target": "3b2cedda13fce28-50"
+		},
+		"3b2cedda13fce28-53": {
+			"id": "3b2cedda13fce28-53",
+			"source": "3b2cedda13fce28-47",
+			"target": "3b2cedda13fce28-52"
+		},
+		"3b2cedda13fce28-54": {
+			"id": "3b2cedda13fce28-54",
+			"source": "3b2cedda13fce28-13",
+			"target": "3b2cedda13fce28-16"
+		},
+		"3b2cedda13fce28-55": {
+			"id": "3b2cedda13fce28-55",
+			"source": "3b2cedda13fce28-13",
+			"target": "3b2cedda13fce28-18"
+		},
+		"3b2cedda13fce28-56": {
+			"id": "3b2cedda13fce28-56",
+			"source": "3b2cedda13fce28-16",
+			"target": "3b2cedda13fce28-20"
+		},
+		"3b2cedda13fce28-59": {
+			"id": "3b2cedda13fce28-59",
+			"source": "3b2cedda13fce28-18",
+			"target": "3b2cedda13fce28-58"
+		},
+		"3b2cedda13fce28-62": {
+			"id": "3b2cedda13fce28-62",
+			"source": "3b2cedda13fce28-58",
+			"target": "3b2cedda13fce28-61"
+		},
+		"3b2cedda13fce28-64": {
+			"id": "3b2cedda13fce28-64",
+			"source": "3b2cedda13fce28-61",
+			"target": "3b2cedda13fce28-63"
+		},
+		"3b2cedda13fce28-65": {
+			"id": "3b2cedda13fce28-65",
+			"source": "3b2cedda13fce28-58",
+			"target": "3b2cedda13fce28-60"
+		},
+		"3b2cedda13fce28-67": {
+			"id": "3b2cedda13fce28-67",
+			"source": "3b2cedda13fce28-60",
+			"target": "3b2cedda13fce28-66"
+		},
+		"3b2cedda13fce28-69": {
+			"id": "3b2cedda13fce28-69",
+			"source": "3b2cedda13fce28-66",
+			"target": "3b2cedda13fce28-68"
+		},
+		"3b2cedda13fce28-71": {
+			"id": "3b2cedda13fce28-71",
+			"source": "3b2cedda13fce28-66",
+			"target": "3b2cedda13fce28-70"
+		},
+		"3b2cedda13fce28-74": {
+			"id": "3b2cedda13fce28-74",
+			"source": "3b2cedda13fce28-68",
+			"target": "3b2cedda13fce28-72"
+		},
+		"3b2cedda13fce28-76": {
+			"id": "3b2cedda13fce28-76",
+			"source": "3b2cedda13fce28-70",
+			"target": "3b2cedda13fce28-75"
+		}
+	},
+	"nodes": {
+		"0": {
+			"id": "0",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"1": {
+			"id": "1",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"5f790e6c6817f54e-1": {
+			"id": "5f790e6c6817f54e-1",
+			"value": "TEG Analysis Tree for Kaolin Samples",
+			"valueAsHtml": "TEG Analysis Tree for Kaolin Samples",
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"5f790e6c6817f54e-2": {
+			"id": "5f790e6c6817f54e-2",
+			"value": null,
+			"valueAsHtml": "",
+			"shape": "startState",
+			"fillColor": "#424242",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": [
+					"5f790e6c6817f54e-4"
+				]
+			}
+		},
+		"5f790e6c6817f54e-3": {
+			"id": "5f790e6c6817f54e-3",
+			"value": "EPL > 15%or  LV30 > 7.5%?",
+			"valueAsHtml": "EPL &gt; 15%&nbsp;<div>or&nbsp;</div><div>LV30 &gt; 7.5%?</div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5f790e6c6817f54e-4"
+				],
+				"out": [
+					"5f790e6c6817f54e-9",
+					"3b2cedda13fce28-15"
+				]
+			}
+		},
+		"5f790e6c6817f54e-5": {
+			"id": "5f790e6c6817f54e-5",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5f790e6c6817f54e-9"
+				],
+				"out": [
+					"3b2cedda13fce28-4"
+				]
+			}
+		},
+		"5f790e6c6817f54e-6": {
+			"id": "5f790e6c6817f54e-6",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-15"
+				],
+				"out": [
+					"3b2cedda13fce28-24"
+				]
+			}
+		},
+		"5f790e6c6817f54e-8": {
+			"id": "5f790e6c6817f54e-8",
+			"value": "Primary fibrinolysis",
+			"valueAsHtml": "Primary fibrinolysis<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-11"
+				],
+				"out": []
+			}
+		},
+		"3b2cedda13fce28-2": {
+			"id": "3b2cedda13fce28-2",
+			"value": "≤ 1.0",
+			"valueAsHtml": "<span>≤ 1.0</span>",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-9"
+				],
+				"out": [
+					"3b2cedda13fce28-11"
+				]
+			}
+		},
+		"3b2cedda13fce28-3": {
+			"id": "3b2cedda13fce28-3",
+			"value": "CI level?",
+			"valueAsHtml": "CI level?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-4"
+				],
+				"out": [
+					"3b2cedda13fce28-9",
+					"3b2cedda13fce28-10"
+				]
+			}
+		},
+		"3b2cedda13fce28-5": {
+			"id": "3b2cedda13fce28-5",
+			"value": "≥ 3.0",
+			"valueAsHtml": "<span>≥ 3.0</span>",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-10"
+				],
+				"out": [
+					"3b2cedda13fce28-12"
+				]
+			}
+		},
+		"3b2cedda13fce28-8": {
+			"id": "3b2cedda13fce28-8",
+			"value": "Secondary fibrinolysis",
+			"valueAsHtml": "Secondary fibrinolysis<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-12"
+				],
+				"out": []
+			}
+		},
+		"3b2cedda13fce28-13": {
+			"id": "3b2cedda13fce28-13",
+			"value": "R > 10min?",
+			"valueAsHtml": "R &gt; 10min?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-32"
+				],
+				"out": [
+					"3b2cedda13fce28-54",
+					"3b2cedda13fce28-55"
+				]
+			}
+		},
+		"3b2cedda13fce28-16": {
+			"id": "3b2cedda13fce28-16",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-54"
+				],
+				"out": [
+					"3b2cedda13fce28-56"
+				]
+			}
+		},
+		"3b2cedda13fce28-18": {
+			"id": "3b2cedda13fce28-18",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-55"
+				],
+				"out": [
+					"3b2cedda13fce28-59"
+				]
+			}
+		},
+		"3b2cedda13fce28-20": {
+			"id": "3b2cedda13fce28-20",
+			"value": "Low clotting factor function",
+			"valueAsHtml": "Low clotting factor function<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-56"
+				],
+				"out": []
+			}
+		},
+		"3b2cedda13fce28-22": {
+			"id": "3b2cedda13fce28-22",
+			"value": "MA > 72mm?",
+			"valueAsHtml": "MA &gt; 72mm?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-44"
+				],
+				"out": [
+					"3b2cedda13fce28-48",
+					"3b2cedda13fce28-49"
+				]
+			}
+		},
+		"3b2cedda13fce28-23": {
+			"id": "3b2cedda13fce28-23",
+			"value": "CI ≥ 3.0?",
+			"valueAsHtml": "CI ≥ 3.0?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-24"
+				],
+				"out": [
+					"3b2cedda13fce28-29",
+					"3b2cedda13fce28-30"
+				]
+			}
+		},
+		"3b2cedda13fce28-25": {
+			"id": "3b2cedda13fce28-25",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-30"
+				],
+				"out": [
+					"3b2cedda13fce28-32"
+				]
+			}
+		},
+		"3b2cedda13fce28-27": {
+			"id": "3b2cedda13fce28-27",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-29"
+				],
+				"out": [
+					"3b2cedda13fce28-40"
+				]
+			}
+		},
+		"3b2cedda13fce28-33": {
+			"id": "3b2cedda13fce28-33",
+			"value": "R ≤ 4min?",
+			"valueAsHtml": "R ≤ 4min?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-40"
+				],
+				"out": [
+					"3b2cedda13fce28-41",
+					"3b2cedda13fce28-42"
+				]
+			}
+		},
+		"3b2cedda13fce28-35": {
+			"id": "3b2cedda13fce28-35",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-41"
+				],
+				"out": [
+					"3b2cedda13fce28-43"
+				]
+			}
+		},
+		"3b2cedda13fce28-37": {
+			"id": "3b2cedda13fce28-37",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-42"
+				],
+				"out": [
+					"3b2cedda13fce28-44"
+				]
+			}
+		},
+		"3b2cedda13fce28-39": {
+			"id": "3b2cedda13fce28-39",
+			"value": "Platelet hypercoagulability",
+			"valueAsHtml": "Platelet hypercoagulability<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-43"
+				],
+				"out": []
+			}
+		},
+		"3b2cedda13fce28-45": {
+			"id": "3b2cedda13fce28-45",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-48"
+				],
+				"out": [
+					"3b2cedda13fce28-51"
+				]
+			}
+		},
+		"3b2cedda13fce28-47": {
+			"id": "3b2cedda13fce28-47",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-49"
+				],
+				"out": [
+					"3b2cedda13fce28-53"
+				]
+			}
+		},
+		"3b2cedda13fce28-50": {
+			"id": "3b2cedda13fce28-50",
+			"value": "Enzymatic hypercoagulability",
+			"valueAsHtml": "Enzymatic hypercoagulability<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-51"
+				],
+				"out": []
+			}
+		},
+		"3b2cedda13fce28-52": {
+			"id": "3b2cedda13fce28-52",
+			"value": "Platelet & enzymatic hypercoagulability",
+			"valueAsHtml": "Platelet &amp; enzymatic hypercoagulability<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-53"
+				],
+				"out": []
+			}
+		},
+		"3b2cedda13fce28-58": {
+			"id": "3b2cedda13fce28-58",
+			"value": "MA < 54mm?",
+			"valueAsHtml": "MA &lt; 54mm?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-59"
+				],
+				"out": [
+					"3b2cedda13fce28-62",
+					"3b2cedda13fce28-65"
+				]
+			}
+		},
+		"3b2cedda13fce28-60": {
+			"id": "3b2cedda13fce28-60",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-65"
+				],
+				"out": [
+					"3b2cedda13fce28-67"
+				]
+			}
+		},
+		"3b2cedda13fce28-61": {
+			"id": "3b2cedda13fce28-61",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-62"
+				],
+				"out": [
+					"3b2cedda13fce28-64"
+				]
+			}
+		},
+		"3b2cedda13fce28-63": {
+			"id": "3b2cedda13fce28-63",
+			"value": "Low platelet function",
+			"valueAsHtml": "Low platelet function<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-64"
+				],
+				"out": []
+			}
+		},
+		"3b2cedda13fce28-66": {
+			"id": "3b2cedda13fce28-66",
+			"value": "Angle < 47°?",
+			"valueAsHtml": "Angle &lt; 47<span>°?</span>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-67"
+				],
+				"out": [
+					"3b2cedda13fce28-69",
+					"3b2cedda13fce28-71"
+				]
+			}
+		},
+		"3b2cedda13fce28-68": {
+			"id": "3b2cedda13fce28-68",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-69"
+				],
+				"out": [
+					"3b2cedda13fce28-74"
+				]
+			}
+		},
+		"3b2cedda13fce28-70": {
+			"id": "3b2cedda13fce28-70",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-71"
+				],
+				"out": [
+					"3b2cedda13fce28-76"
+				]
+			}
+		},
+		"3b2cedda13fce28-72": {
+			"id": "3b2cedda13fce28-72",
+			"value": "Normal",
+			"valueAsHtml": "Normal<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-74"
+				],
+				"out": []
+			}
+		},
+		"3b2cedda13fce28-75": {
+			"id": "3b2cedda13fce28-75",
+			"value": "Low fibrinogen level",
+			"valueAsHtml": "Low fibrinogen level<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3b2cedda13fce28-76"
+				],
+				"out": []
+			}
+		}
+	}
+}

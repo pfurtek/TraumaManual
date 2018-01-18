@@ -1,0 +1,1141 @@
+{
+	"edges": {
+		"2bfd9f907c3ea72e-18": {
+			"id": "2bfd9f907c3ea72e-18",
+			"source": "2bfd9f907c3ea72e-6",
+			"target": "2bfd9f907c3ea72e-4"
+		},
+		"2bfd9f907c3ea72e-20": {
+			"id": "2bfd9f907c3ea72e-20",
+			"source": "2bfd9f907c3ea72e-4",
+			"target": "2bfd9f907c3ea72e-19"
+		},
+		"2bfd9f907c3ea72e-31": {
+			"id": "2bfd9f907c3ea72e-31",
+			"source": "2bfd9f907c3ea72e-25",
+			"target": "2bfd9f907c3ea72e-30"
+		},
+		"2bfd9f907c3ea72e-39": {
+			"id": "2bfd9f907c3ea72e-39",
+			"source": "2bfd9f907c3ea72e-32",
+			"target": "2bfd9f907c3ea72e-36"
+		},
+		"2bfd9f907c3ea72e-40": {
+			"id": "2bfd9f907c3ea72e-40",
+			"source": "2bfd9f907c3ea72e-33",
+			"target": "2bfd9f907c3ea72e-37"
+		},
+		"2bfd9f907c3ea72e-34": {
+			"id": "2bfd9f907c3ea72e-34",
+			"source": "2bfd9f907c3ea72e-30",
+			"target": "2bfd9f907c3ea72e-32"
+		},
+		"2bfd9f907c3ea72e-35": {
+			"id": "2bfd9f907c3ea72e-35",
+			"source": "2bfd9f907c3ea72e-30",
+			"target": "2bfd9f907c3ea72e-33"
+		},
+		"c68414d43e0b56f-2": {
+			"id": "c68414d43e0b56f-2",
+			"source": "2bfd9f907c3ea72e-9",
+			"target": "c68414d43e0b56f-1"
+		},
+		"c68414d43e0b56f-10": {
+			"id": "c68414d43e0b56f-10",
+			"source": "c68414d43e0b56f-3",
+			"target": "c68414d43e0b56f-7"
+		},
+		"c68414d43e0b56f-12": {
+			"id": "c68414d43e0b56f-12",
+			"source": "c68414d43e0b56f-7",
+			"target": "c68414d43e0b56f-11"
+		},
+		"c68414d43e0b56f-36": {
+			"id": "c68414d43e0b56f-36",
+			"source": "c68414d43e0b56f-4",
+			"target": "c68414d43e0b56f-35"
+		},
+		"c68414d43e0b56f-47": {
+			"id": "c68414d43e0b56f-47",
+			"source": "c68414d43e0b56f-41",
+			"target": "c68414d43e0b56f-46"
+		},
+		"c68414d43e0b56f-49": {
+			"id": "c68414d43e0b56f-49",
+			"source": "c68414d43e0b56f-46",
+			"target": "c68414d43e0b56f-48"
+		},
+		"c68414d43e0b56f-51": {
+			"id": "c68414d43e0b56f-51",
+			"source": "c68414d43e0b56f-43",
+			"target": "c68414d43e0b56f-50"
+		},
+		"c68414d43e0b56f-53": {
+			"id": "c68414d43e0b56f-53",
+			"source": "c68414d43e0b56f-50",
+			"target": "c68414d43e0b56f-52"
+		},
+		"c68414d43e0b56f-56": {
+			"id": "c68414d43e0b56f-56",
+			"source": "c68414d43e0b56f-52",
+			"target": "c68414d43e0b56f-54"
+		},
+		"c68414d43e0b56f-57": {
+			"id": "c68414d43e0b56f-57",
+			"source": "c68414d43e0b56f-52",
+			"target": "c68414d43e0b56f-55"
+		},
+		"c68414d43e0b56f-60": {
+			"id": "c68414d43e0b56f-60",
+			"source": "c68414d43e0b56f-55",
+			"target": "c68414d43e0b56f-48"
+		},
+		"c68414d43e0b56f-61": {
+			"id": "c68414d43e0b56f-61",
+			"source": "c68414d43e0b56f-54",
+			"target": "c68414d43e0b56f-25"
+		},
+		"5c7bc9c562f5cc8a-7": {
+			"id": "5c7bc9c562f5cc8a-7",
+			"source": "2bfd9f907c3ea72e-19",
+			"target": "2bfd9f907c3ea72e-22"
+		},
+		"5c7bc9c562f5cc8a-9": {
+			"id": "5c7bc9c562f5cc8a-9",
+			"source": "2bfd9f907c3ea72e-21",
+			"target": "2bfd9f907c3ea72e-25"
+		},
+		"5c7bc9c562f5cc8a-11": {
+			"id": "5c7bc9c562f5cc8a-11",
+			"source": "2bfd9f907c3ea72e-22",
+			"target": "2bfd9f907c3ea72e-5"
+		},
+		"5c7bc9c562f5cc8a-16": {
+			"id": "5c7bc9c562f5cc8a-16",
+			"source": "5c7bc9c562f5cc8a-2",
+			"target": "5c7bc9c562f5cc8a-15"
+		},
+		"5c7bc9c562f5cc8a-19": {
+			"id": "5c7bc9c562f5cc8a-19",
+			"source": "5c7bc9c562f5cc8a-4",
+			"target": "5c7bc9c562f5cc8a-17"
+		},
+		"5c7bc9c562f5cc8a-21": {
+			"id": "5c7bc9c562f5cc8a-21",
+			"source": "5c7bc9c562f5cc8a-17",
+			"target": "5c7bc9c562f5cc8a-20"
+		},
+		"5c7bc9c562f5cc8a-35": {
+			"id": "5c7bc9c562f5cc8a-35",
+			"source": "5c7bc9c562f5cc8a-22",
+			"target": "2bfd9f907c3ea72e-5"
+		},
+		"5c7bc9c562f5cc8a-37": {
+			"id": "5c7bc9c562f5cc8a-37",
+			"source": "5c7bc9c562f5cc8a-3",
+			"target": "5c7bc9c562f5cc8a-36"
+		},
+		"5c7bc9c562f5cc8a-39": {
+			"id": "5c7bc9c562f5cc8a-39",
+			"source": "5c7bc9c562f5cc8a-36",
+			"target": "5c7bc9c562f5cc8a-38"
+		},
+		"5c7bc9c562f5cc8a-41": {
+			"id": "5c7bc9c562f5cc8a-41",
+			"source": "5c7bc9c562f5cc8a-38",
+			"target": "5c7bc9c562f5cc8a-40"
+		},
+		"5c7bc9c562f5cc8a-45": {
+			"id": "5c7bc9c562f5cc8a-45",
+			"source": "5c7bc9c562f5cc8a-23",
+			"target": "5c7bc9c562f5cc8a-33"
+		},
+		"5c7bc9c562f5cc8a-47": {
+			"id": "5c7bc9c562f5cc8a-47",
+			"source": "5c7bc9c562f5cc8a-40",
+			"target": "5c7bc9c562f5cc8a-46"
+		},
+		"5c7bc9c562f5cc8a-48": {
+			"id": "5c7bc9c562f5cc8a-48",
+			"source": "2bfd9f907c3ea72e-2",
+			"target": "2bfd9f907c3ea72e-3"
+		},
+		"5c7bc9c562f5cc8a-49": {
+			"id": "5c7bc9c562f5cc8a-49",
+			"source": "2bfd9f907c3ea72e-3",
+			"target": "2bfd9f907c3ea72e-6"
+		},
+		"5c7bc9c562f5cc8a-50": {
+			"id": "5c7bc9c562f5cc8a-50",
+			"source": "2bfd9f907c3ea72e-3",
+			"target": "2bfd9f907c3ea72e-9"
+		},
+		"5c7bc9c562f5cc8a-51": {
+			"id": "5c7bc9c562f5cc8a-51",
+			"source": "2bfd9f907c3ea72e-3",
+			"target": "2bfd9f907c3ea72e-10"
+		},
+		"5c7bc9c562f5cc8a-54": {
+			"id": "5c7bc9c562f5cc8a-54",
+			"source": "c68414d43e0b56f-14",
+			"target": "c68414d43e0b56f-18"
+		},
+		"5c7bc9c562f5cc8a-60": {
+			"id": "5c7bc9c562f5cc8a-60",
+			"source": "c68414d43e0b56f-35",
+			"target": "c68414d43e0b56f-43"
+		},
+		"5c7bc9c562f5cc8a-61": {
+			"id": "5c7bc9c562f5cc8a-61",
+			"source": "c68414d43e0b56f-35",
+			"target": "c68414d43e0b56f-41"
+		},
+		"5c7bc9c562f5cc8a-70": {
+			"id": "5c7bc9c562f5cc8a-70",
+			"source": "5c7bc9c562f5cc8a-20",
+			"target": "5c7bc9c562f5cc8a-23"
+		},
+		"5c7bc9c562f5cc8a-71": {
+			"id": "5c7bc9c562f5cc8a-71",
+			"source": "5c7bc9c562f5cc8a-20",
+			"target": "5c7bc9c562f5cc8a-22"
+		},
+		"5c7bc9c562f5cc8a-73": {
+			"id": "5c7bc9c562f5cc8a-73",
+			"source": "5c7bc9c562f5cc8a-33",
+			"target": "5c7bc9c562f5cc8a-31"
+		},
+		"5c7bc9c562f5cc8a-74": {
+			"id": "5c7bc9c562f5cc8a-74",
+			"source": "5c7bc9c562f5cc8a-46",
+			"target": "5c7bc9c562f5cc8a-31"
+		},
+		"5c7bc9c562f5cc8a-80": {
+			"id": "5c7bc9c562f5cc8a-80",
+			"source": "5c7bc9c562f5cc8a-38",
+			"target": "5c7bc9c562f5cc8a-76"
+		},
+		"5c7bc9c562f5cc8a-81": {
+			"id": "5c7bc9c562f5cc8a-81",
+			"source": "5c7bc9c562f5cc8a-76",
+			"target": "5c7bc9c562f5cc8a-79"
+		},
+		"5c7bc9c562f5cc8a-82": {
+			"id": "5c7bc9c562f5cc8a-82",
+			"source": "c68414d43e0b56f-1",
+			"target": "c68414d43e0b56f-3"
+		},
+		"5c7bc9c562f5cc8a-83": {
+			"id": "5c7bc9c562f5cc8a-83",
+			"source": "c68414d43e0b56f-1",
+			"target": "c68414d43e0b56f-4"
+		},
+		"5c7bc9c562f5cc8a-84": {
+			"id": "5c7bc9c562f5cc8a-84",
+			"source": "c68414d43e0b56f-13",
+			"target": "c68414d43e0b56f-25"
+		},
+		"5c7bc9c562f5cc8a-85": {
+			"id": "5c7bc9c562f5cc8a-85",
+			"source": "c68414d43e0b56f-11",
+			"target": "c68414d43e0b56f-13"
+		},
+		"5c7bc9c562f5cc8a-86": {
+			"id": "5c7bc9c562f5cc8a-86",
+			"source": "c68414d43e0b56f-11",
+			"target": "c68414d43e0b56f-14"
+		},
+		"5c7bc9c562f5cc8a-87": {
+			"id": "5c7bc9c562f5cc8a-87",
+			"source": "c68414d43e0b56f-18",
+			"target": "c68414d43e0b56f-23"
+		},
+		"b85052b991bd8e4-2": {
+			"id": "b85052b991bd8e4-2",
+			"source": "b85052b991bd8e4-1",
+			"target": "5c7bc9c562f5cc8a-2"
+		},
+		"b85052b991bd8e4-3": {
+			"id": "b85052b991bd8e4-3",
+			"source": "b85052b991bd8e4-1",
+			"target": "5c7bc9c562f5cc8a-4"
+		},
+		"b85052b991bd8e4-4": {
+			"id": "b85052b991bd8e4-4",
+			"source": "b85052b991bd8e4-1",
+			"target": "5c7bc9c562f5cc8a-3"
+		},
+		"b85052b991bd8e4-5": {
+			"id": "b85052b991bd8e4-5",
+			"source": "2bfd9f907c3ea72e-10",
+			"target": "b85052b991bd8e4-1"
+		},
+		"20da357d63f4edb3-1": {
+			"id": "20da357d63f4edb3-1",
+			"source": "2bfd9f907c3ea72e-19",
+			"target": "2bfd9f907c3ea72e-21"
+		}
+	},
+	"nodes": {
+		"0": {
+			"id": "0",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"1": {
+			"id": "1",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"2bfd9f907c3ea72e-1": {
+			"id": "2bfd9f907c3ea72e-1",
+			"value": "Cervical Spine Clearance Guidelines",
+			"valueAsHtml": "Cervical Spine Clearance Guidelines",
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"2bfd9f907c3ea72e-3": {
+			"id": "2bfd9f907c3ea72e-3",
+			"value": "What condition is the patient in?",
+			"valueAsHtml": "What condition is the patient in?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-48"
+				],
+				"out": [
+					"5c7bc9c562f5cc8a-49",
+					"5c7bc9c562f5cc8a-50",
+					"5c7bc9c562f5cc8a-51"
+				]
+			}
+		},
+		"2bfd9f907c3ea72e-4": {
+			"id": "2bfd9f907c3ea72e-4",
+			"value": "CT C-Spine",
+			"valueAsHtml": "CT C-Spine",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"2bfd9f907c3ea72e-18"
+				],
+				"out": [
+					"2bfd9f907c3ea72e-20"
+				]
+			}
+		},
+		"2bfd9f907c3ea72e-5": {
+			"id": "2bfd9f907c3ea72e-5",
+			"value": "Neurosurgery Consult",
+			"valueAsHtml": "<div style=\"text-align: center\">Neurosurgery Consult</div>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-11",
+					"5c7bc9c562f5cc8a-35"
+				],
+				"out": []
+			}
+		},
+		"2bfd9f907c3ea72e-6": {
+			"id": "2bfd9f907c3ea72e-6",
+			"value": "Conscious Patient w/ Neurological Deficits",
+			"valueAsHtml": "Conscious Patient w/ Neurological Deficits",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-49"
+				],
+				"out": [
+					"2bfd9f907c3ea72e-18"
+				]
+			}
+		},
+		"2bfd9f907c3ea72e-9": {
+			"id": "2bfd9f907c3ea72e-9",
+			"value": "Conscious Patient w/o Neurological Dificit",
+			"valueAsHtml": "Conscious Patient w/o Neurological Dificit",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-50"
+				],
+				"out": [
+					"c68414d43e0b56f-2"
+				]
+			}
+		},
+		"2bfd9f907c3ea72e-10": {
+			"id": "2bfd9f907c3ea72e-10",
+			"value": "Unconscious Patient",
+			"valueAsHtml": "Unconscious Patient",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-51"
+				],
+				"out": [
+					"b85052b991bd8e4-5"
+				]
+			}
+		},
+		"2bfd9f907c3ea72e-19": {
+			"id": "2bfd9f907c3ea72e-19",
+			"value": "Were the results normal?",
+			"valueAsHtml": "Were the results normal?</div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"2bfd9f907c3ea72e-20"
+				],
+				"out": [
+					"5c7bc9c562f5cc8a-7",
+					"20da357d63f4edb3-1"
+				]
+			}
+		},
+		"2bfd9f907c3ea72e-21": {
+			"id": "2bfd9f907c3ea72e-21",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"20da357d63f4edb3-1"
+				],
+				"out": [
+					"5c7bc9c562f5cc8a-9"
+				]
+			}
+		},
+		"2bfd9f907c3ea72e-25": {
+			"id": "2bfd9f907c3ea72e-25",
+			"value": "STAT MRI C-Spine",
+			"valueAsHtml": "STAT MRI C-Spine",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-9"
+				],
+				"out": [
+					"2bfd9f907c3ea72e-31"
+				]
+			}
+		},
+		"2bfd9f907c3ea72e-30": {
+			"id": "2bfd9f907c3ea72e-30",
+			"value": "Were the results normal?",
+			"valueAsHtml": "Were the results normal?</div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"2bfd9f907c3ea72e-31"
+				],
+				"out": [
+					"2bfd9f907c3ea72e-34",
+					"2bfd9f907c3ea72e-35"
+				]
+			}
+		},
+		"2bfd9f907c3ea72e-32": {
+			"id": "2bfd9f907c3ea72e-32",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"2bfd9f907c3ea72e-34"
+				],
+				"out": [
+					"2bfd9f907c3ea72e-39"
+				]
+			}
+		},
+		"2bfd9f907c3ea72e-33": {
+			"id": "2bfd9f907c3ea72e-33",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"2bfd9f907c3ea72e-35"
+				],
+				"out": [
+					"2bfd9f907c3ea72e-40"
+				]
+			}
+		},
+		"2bfd9f907c3ea72e-36": {
+			"id": "2bfd9f907c3ea72e-36",
+			"value": "Neurology Consult",
+			"valueAsHtml": "<div style=\"text-align: center\">Neurology Consult</div>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"2bfd9f907c3ea72e-39"
+				],
+				"out": []
+			}
+		},
+		"2bfd9f907c3ea72e-37": {
+			"id": "2bfd9f907c3ea72e-37",
+			"value": "Neurosurgery Consult",
+			"valueAsHtml": "<div style=\"text-align: center\">Neurosurgery Consult</div>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"2bfd9f907c3ea72e-40"
+				],
+				"out": []
+			}
+		},
+		"c68414d43e0b56f-1": {
+			"id": "c68414d43e0b56f-1",
+			"value": "Is there neck pain?",
+			"valueAsHtml": "Is there neck pain?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"c68414d43e0b56f-2"
+				],
+				"out": [
+					"5c7bc9c562f5cc8a-82",
+					"5c7bc9c562f5cc8a-83"
+				]
+			}
+		},
+		"c68414d43e0b56f-3": {
+			"id": "c68414d43e0b56f-3",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-82"
+				],
+				"out": [
+					"c68414d43e0b56f-10"
+				]
+			}
+		},
+		"c68414d43e0b56f-4": {
+			"id": "c68414d43e0b56f-4",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-83"
+				],
+				"out": [
+					"c68414d43e0b56f-36"
+				]
+			}
+		},
+		"c68414d43e0b56f-7": {
+			"id": "c68414d43e0b56f-7",
+			"value": "CT C-Spine",
+			"valueAsHtml": "CT C-Spine",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"c68414d43e0b56f-10"
+				],
+				"out": [
+					"c68414d43e0b56f-12"
+				]
+			}
+		},
+		"c68414d43e0b56f-11": {
+			"id": "c68414d43e0b56f-11",
+			"value": "Were the results normal?",
+			"valueAsHtml": "Were the results normal?</div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"c68414d43e0b56f-12"
+				],
+				"out": [
+					"5c7bc9c562f5cc8a-85",
+					"5c7bc9c562f5cc8a-86"
+				]
+			}
+		},
+		"c68414d43e0b56f-13": {
+			"id": "c68414d43e0b56f-13",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-85"
+				],
+				"out": [
+					"5c7bc9c562f5cc8a-84"
+				]
+			}
+		},
+		"c68414d43e0b56f-14": {
+			"id": "c68414d43e0b56f-14",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-86"
+				],
+				"out": [
+					"5c7bc9c562f5cc8a-54"
+				]
+			}
+		},
+		"c68414d43e0b56f-18": {
+			"id": "c68414d43e0b56f-18",
+			"value": "CT C-Spine Clear",
+			"valueAsHtml": "CT C-Spine Clear",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-54"
+				],
+				"out": [
+					"5c7bc9c562f5cc8a-87"
+				]
+			}
+		},
+		"c68414d43e0b56f-23": {
+			"id": "c68414d43e0b56f-23",
+			"value": "Can have collar for comfort",
+			"valueAsHtml": "<div style=\"text-align: center\">Can have collar for comfort</div>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-87"
+				],
+				"out": []
+			}
+		},
+		"c68414d43e0b56f-25": {
+			"id": "c68414d43e0b56f-25",
+			"value": "Neurosurgery Consult",
+			"valueAsHtml": "<div style=\"text-align: center\">Neurosurgery Consult</div>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"c68414d43e0b56f-61",
+					"5c7bc9c562f5cc8a-84"
+				],
+				"out": []
+			}
+		},
+		"c68414d43e0b56f-35": {
+			"id": "c68414d43e0b56f-35",
+			"value": "Any distracting injuries?",
+			"valueAsHtml": "Any distracting injuries?</div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"c68414d43e0b56f-36"
+				],
+				"out": [
+					"5c7bc9c562f5cc8a-60",
+					"5c7bc9c562f5cc8a-61"
+				]
+			}
+		},
+		"c68414d43e0b56f-41": {
+			"id": "c68414d43e0b56f-41",
+			"value": "No distracting injuries or chemical alteration w/ full ROM",
+			"valueAsHtml": "&nbsp;No distracting injuries or chemical alteration w/ full ROM",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-61"
+				],
+				"out": [
+					"c68414d43e0b56f-47"
+				]
+			}
+		},
+		"c68414d43e0b56f-43": {
+			"id": "c68414d43e0b56f-43",
+			"value": "Distracting injuries, chemical alteration, or inability  to provide ROM",
+			"valueAsHtml": "Distracting i<span>njuries, chemical alteration, or inability&nbsp;</span></div><div><span>to provide ROM</span></div>",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-60"
+				],
+				"out": [
+					"c68414d43e0b56f-51"
+				]
+			}
+		},
+		"c68414d43e0b56f-46": {
+			"id": "c68414d43e0b56f-46",
+			"value": "No need for radiographic analysis",
+			"valueAsHtml": "No need for radiographic analysis</div>",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"c68414d43e0b56f-47"
+				],
+				"out": [
+					"c68414d43e0b56f-49"
+				]
+			}
+		},
+		"c68414d43e0b56f-48": {
+			"id": "c68414d43e0b56f-48",
+			"value": "C-Spine Clear",
+			"valueAsHtml": "<div style=\"text-align: center\">C-Spine Clear</div>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"c68414d43e0b56f-49",
+					"c68414d43e0b56f-60"
+				],
+				"out": []
+			}
+		},
+		"c68414d43e0b56f-50": {
+			"id": "c68414d43e0b56f-50",
+			"value": "Obtain CT C-Spine",
+			"valueAsHtml": "Obtain CT C-Spine",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"c68414d43e0b56f-51"
+				],
+				"out": [
+					"c68414d43e0b56f-53"
+				]
+			}
+		},
+		"c68414d43e0b56f-52": {
+			"id": "c68414d43e0b56f-52",
+			"value": "Were the results normal?",
+			"valueAsHtml": "Were the results normal?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"c68414d43e0b56f-53"
+				],
+				"out": [
+					"c68414d43e0b56f-56",
+					"c68414d43e0b56f-57"
+				]
+			}
+		},
+		"c68414d43e0b56f-54": {
+			"id": "c68414d43e0b56f-54",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"c68414d43e0b56f-56"
+				],
+				"out": [
+					"c68414d43e0b56f-61"
+				]
+			}
+		},
+		"c68414d43e0b56f-55": {
+			"id": "c68414d43e0b56f-55",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"c68414d43e0b56f-57"
+				],
+				"out": [
+					"c68414d43e0b56f-60"
+				]
+			}
+		},
+		"5c7bc9c562f5cc8a-2": {
+			"id": "5c7bc9c562f5cc8a-2",
+			"value": "Clinical Signs of Cervical Spinal Cord or Root Abnormalities",
+			"valueAsHtml": "Clinical Signs of Cervical Spinal Cord or Root Abnormalities",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"b85052b991bd8e4-2"
+				],
+				"out": [
+					"5c7bc9c562f5cc8a-16"
+				]
+			}
+		},
+		"5c7bc9c562f5cc8a-3": {
+			"id": "5c7bc9c562f5cc8a-3",
+			"value": "Abnormal CT Brain (Neurosurgery already consulted) and No Clinical Signs of\nCervical Spinal Cord or RootAbnormalities",
+			"valueAsHtml": "<font style=\"font-size: 10px\">Abnormal CT Brain (Neurosurgery already consulted) and No Clinical Signs of Cervical Spinal Cord or Root&nbsp;</font><div><font style=\"font-size: 10px\">Abnormalities</font></div>",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"b85052b991bd8e4-4"
+				],
+				"out": [
+					"5c7bc9c562f5cc8a-37"
+				]
+			}
+		},
+		"5c7bc9c562f5cc8a-4": {
+			"id": "5c7bc9c562f5cc8a-4",
+			"value": "Normal CT and No Detectable  Neurological Deficits",
+			"valueAsHtml": "Normal CT and No Detectable&nbsp;</div><div>Neurological Deficits</div></div>",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"b85052b991bd8e4-3"
+				],
+				"out": [
+					"5c7bc9c562f5cc8a-19"
+				]
+			}
+		},
+		"2bfd9f907c3ea72e-22": {
+			"id": "2bfd9f907c3ea72e-22",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-7"
+				],
+				"out": [
+					"5c7bc9c562f5cc8a-11"
+				]
+			}
+		},
+		"5c7bc9c562f5cc8a-15": {
+			"id": "5c7bc9c562f5cc8a-15",
+			"value": "CT/MRI C-Spine & Neurosurgery Consult",
+			"valueAsHtml": "<div style=\"text-align: center\">CT/MRI C-Spine &amp; Neurosurgery Consult</div>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-16"
+				],
+				"out": []
+			}
+		},
+		"5c7bc9c562f5cc8a-17": {
+			"id": "5c7bc9c562f5cc8a-17",
+			"value": "CT C-Spine",
+			"valueAsHtml": "CT C-Spine",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-19"
+				],
+				"out": [
+					"5c7bc9c562f5cc8a-21"
+				]
+			}
+		},
+		"5c7bc9c562f5cc8a-20": {
+			"id": "5c7bc9c562f5cc8a-20",
+			"value": "Were the results normal?",
+			"valueAsHtml": "Were the results normal?</div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-21"
+				],
+				"out": [
+					"5c7bc9c562f5cc8a-70",
+					"5c7bc9c562f5cc8a-71"
+				]
+			}
+		},
+		"5c7bc9c562f5cc8a-22": {
+			"id": "5c7bc9c562f5cc8a-22",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-71"
+				],
+				"out": [
+					"5c7bc9c562f5cc8a-35"
+				]
+			}
+		},
+		"5c7bc9c562f5cc8a-31": {
+			"id": "5c7bc9c562f5cc8a-31",
+			"value": "Clear C-Spine if unable to clear clinically after 48 hours and official report\nstates no acute abnormality on CT",
+			"valueAsHtml": "<div style=\"text-align: center\">Clear C-Spine if unable to clear clinically after 48 hours and official report states no acute abnormality on CT</div>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-73",
+					"5c7bc9c562f5cc8a-74"
+				],
+				"out": []
+			}
+		},
+		"5c7bc9c562f5cc8a-33": {
+			"id": "5c7bc9c562f5cc8a-33",
+			"value": "Remain in C-Spine Collar until can clear clinically",
+			"valueAsHtml": "Remain in C-Spine Collar until can clear clinically",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-45"
+				],
+				"out": [
+					"5c7bc9c562f5cc8a-73"
+				]
+			}
+		},
+		"5c7bc9c562f5cc8a-36": {
+			"id": "5c7bc9c562f5cc8a-36",
+			"value": "CT C-Spine",
+			"valueAsHtml": "CT C-Spine",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-37"
+				],
+				"out": [
+					"5c7bc9c562f5cc8a-39"
+				]
+			}
+		},
+		"5c7bc9c562f5cc8a-38": {
+			"id": "5c7bc9c562f5cc8a-38",
+			"value": "Were the results normal?",
+			"valueAsHtml": "Were the results normal?</div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-39"
+				],
+				"out": [
+					"5c7bc9c562f5cc8a-41",
+					"5c7bc9c562f5cc8a-80"
+				]
+			}
+		},
+		"5c7bc9c562f5cc8a-40": {
+			"id": "5c7bc9c562f5cc8a-40",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-41"
+				],
+				"out": [
+					"5c7bc9c562f5cc8a-47"
+				]
+			}
+		},
+		"5c7bc9c562f5cc8a-46": {
+			"id": "5c7bc9c562f5cc8a-46",
+			"value": "Remain in C-Spine Collar until can clear clinically",
+			"valueAsHtml": "Remain in C-Spine Collar until can clear clinically",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-47"
+				],
+				"out": [
+					"5c7bc9c562f5cc8a-74"
+				]
+			}
+		},
+		"5c7bc9c562f5cc8a-23": {
+			"id": "5c7bc9c562f5cc8a-23",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-70"
+				],
+				"out": [
+					"5c7bc9c562f5cc8a-45"
+				]
+			}
+		},
+		"5c7bc9c562f5cc8a-76": {
+			"id": "5c7bc9c562f5cc8a-76",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-80"
+				],
+				"out": [
+					"5c7bc9c562f5cc8a-81"
+				]
+			}
+		},
+		"5c7bc9c562f5cc8a-79": {
+			"id": "5c7bc9c562f5cc8a-79",
+			"value": "Remain in C-Spine Collar and Consult with Neurosurgery Spine Specialist\n(Responsibility of Neurosurgery On-Call Physician)",
+			"valueAsHtml": "<div style=\"text-align: center\">Remain in C-Spine Collar and Consult with Neurosurgery Spine Specialist (Responsibility of Neurosurgery On-Call Physician)</div>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5c7bc9c562f5cc8a-81"
+				],
+				"out": []
+			}
+		},
+		"2bfd9f907c3ea72e-2": {
+			"id": "2bfd9f907c3ea72e-2",
+			"value": null,
+			"shape": "startState",
+			"fillColor": "#424242",
+			"type": "decisionPoint",
+			"edges": {
+				"in": [],
+				"out": [
+					"5c7bc9c562f5cc8a-48"
+				]
+			}
+		},
+		"b85052b991bd8e4-1": {
+			"id": "b85052b991bd8e4-1",
+			"value": null,
+			"shape": "startState",
+			"fillColor": "#424242",
+			"type": "decisionPoint",
+			"edges": {
+				"in": [
+					"b85052b991bd8e4-5"
+				],
+				"out": [
+					"b85052b991bd8e4-2",
+					"b85052b991bd8e4-3",
+					"b85052b991bd8e4-4"
+				]
+			}
+		}
+	}
+}

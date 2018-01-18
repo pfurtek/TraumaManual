@@ -1,0 +1,249 @@
+{
+	"edges": {
+		"2eaca81e5ce4f1b4-13": {
+			"id": "2eaca81e5ce4f1b4-13",
+			"source": "6a2d73582348b48b-3",
+			"target": "2eaca81e5ce4f1b4-12"
+		},
+		"2eaca81e5ce4f1b4-17": {
+			"id": "2eaca81e5ce4f1b4-17",
+			"source": "2eaca81e5ce4f1b4-10",
+			"target": "2eaca81e5ce4f1b4-1"
+		},
+		"5ef251387c96ec6e-7": {
+			"id": "5ef251387c96ec6e-7",
+			"source": "2eaca81e5ce4f1b4-12",
+			"target": "5ef251387c96ec6e-1"
+		},
+		"5ef251387c96ec6e-8": {
+			"id": "5ef251387c96ec6e-8",
+			"source": "5ef251387c96ec6e-1",
+			"target": "2eaca81e5ce4f1b4-2"
+		},
+		"5ef251387c96ec6e-11": {
+			"id": "5ef251387c96ec6e-11",
+			"source": "5ef251387c96ec6e-3",
+			"target": "2eaca81e5ce4f1b4-7"
+		},
+		"195befa8a57583e7-1": {
+			"id": "195befa8a57583e7-1",
+			"source": "2eaca81e5ce4f1b4-12",
+			"target": "2eaca81e5ce4f1b4-10"
+		},
+		"dcc3793391964c4-1": {
+			"id": "dcc3793391964c4-1",
+			"source": "2eaca81e5ce4f1b4-1",
+			"target": "5ef251387c96ec6e-2"
+		},
+		"dcc3793391964c4-2": {
+			"id": "dcc3793391964c4-2",
+			"source": "2eaca81e5ce4f1b4-1",
+			"target": "5ef251387c96ec6e-3"
+		},
+		"dcc3793391964c4-3": {
+			"id": "dcc3793391964c4-3",
+			"source": "5ef251387c96ec6e-2",
+			"target": "2eaca81e5ce4f1b4-8"
+		}
+	},
+	"nodes": {
+		"0": {
+			"id": "0",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"1": {
+			"id": "1",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"6a2d73582348b48b-1": {
+			"id": "6a2d73582348b48b-1",
+			"value": "Zone II Penetrating Neck Injuries",
+			"valueAsHtml": "Zone II Penetrating Neck Injuries",
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"2eaca81e5ce4f1b4-1": {
+			"id": "2eaca81e5ce4f1b4-1",
+			"value": "CT-Angio EGD Bronchoscopy Barium Swallow?",
+			"valueAsHtml": "CT-Angio EGD Bronchoscopy Barium Swallow?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"2eaca81e5ce4f1b4-17"
+				],
+				"out": [
+					"dcc3793391964c4-1",
+					"dcc3793391964c4-2"
+				]
+			}
+		},
+		"2eaca81e5ce4f1b4-2": {
+			"id": "2eaca81e5ce4f1b4-2",
+			"value": "Operating Room",
+			"valueAsHtml": "Operating Room",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5ef251387c96ec6e-8"
+				],
+				"out": []
+			}
+		},
+		"2eaca81e5ce4f1b4-7": {
+			"id": "2eaca81e5ce4f1b4-7",
+			"value": "Washout and close wound if indicated",
+			"valueAsHtml": "Washout and close wound if indicated",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5ef251387c96ec6e-11"
+				],
+				"out": []
+			}
+		},
+		"2eaca81e5ce4f1b4-8": {
+			"id": "2eaca81e5ce4f1b4-8",
+			"value": "Operating Room",
+			"valueAsHtml": "Operating Room",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"dcc3793391964c4-3"
+				],
+				"out": []
+			}
+		},
+		"2eaca81e5ce4f1b4-9": {
+			"id": "2eaca81e5ce4f1b4-9",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"2eaca81e5ce4f1b4-10": {
+			"id": "2eaca81e5ce4f1b4-10",
+			"value": "Stable",
+			"valueAsHtml": "Stable",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"195befa8a57583e7-1"
+				],
+				"out": [
+					"2eaca81e5ce4f1b4-17"
+				]
+			}
+		},
+		"2eaca81e5ce4f1b4-12": {
+			"id": "2eaca81e5ce4f1b4-12",
+			"value": "Zone II injury",
+			"valueAsHtml": "Zone II&nbsp;<span>injury</span>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"2eaca81e5ce4f1b4-13"
+				],
+				"out": [
+					"5ef251387c96ec6e-7",
+					"195befa8a57583e7-1"
+				]
+			}
+		},
+		"5ef251387c96ec6e-1": {
+			"id": "5ef251387c96ec6e-1",
+			"value": "Hard Signs",
+			"valueAsHtml": "Hard Signs",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5ef251387c96ec6e-7"
+				],
+				"out": [
+					"5ef251387c96ec6e-8"
+				]
+			}
+		},
+		"5ef251387c96ec6e-2": {
+			"id": "5ef251387c96ec6e-2",
+			"value": "Positive",
+			"valueAsHtml": "Positive",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"dcc3793391964c4-1"
+				],
+				"out": [
+					"dcc3793391964c4-3"
+				]
+			}
+		},
+		"5ef251387c96ec6e-3": {
+			"id": "5ef251387c96ec6e-3",
+			"value": "Negative",
+			"valueAsHtml": "Negative",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"dcc3793391964c4-2"
+				],
+				"out": [
+					"5ef251387c96ec6e-11"
+				]
+			}
+		},
+		"6a2d73582348b48b-3": {
+			"id": "6a2d73582348b48b-3",
+			"value": null,
+			"shape": "startState",
+			"fillColor": "#424242",
+			"type": "decisionPoint",
+			"edges": {
+				"in": [],
+				"out": [
+					"2eaca81e5ce4f1b4-13"
+				]
+			}
+		}
+	}
+}

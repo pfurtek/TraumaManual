@@ -1,0 +1,318 @@
+{
+	"edges": {
+		"630da0de437ed86-4": {
+			"id": "630da0de437ed86-4",
+			"source": "630da0de437ed86-2",
+			"target": "630da0de437ed86-3"
+		},
+		"630da0de437ed86-8": {
+			"id": "630da0de437ed86-8",
+			"source": "630da0de437ed86-3",
+			"target": "630da0de437ed86-5"
+		},
+		"630da0de437ed86-9": {
+			"id": "630da0de437ed86-9",
+			"source": "630da0de437ed86-5",
+			"target": "630da0de437ed86-7"
+		},
+		"630da0de437ed86-11": {
+			"id": "630da0de437ed86-11",
+			"source": "630da0de437ed86-7",
+			"target": "630da0de437ed86-6"
+		},
+		"630da0de437ed86-12": {
+			"id": "630da0de437ed86-12",
+			"source": "630da0de437ed86-5",
+			"target": "630da0de437ed86-10"
+		},
+		"630da0de437ed86-14": {
+			"id": "630da0de437ed86-14",
+			"source": "630da0de437ed86-10",
+			"target": "630da0de437ed86-13"
+		},
+		"630da0de437ed86-17": {
+			"id": "630da0de437ed86-17",
+			"source": "630da0de437ed86-13",
+			"target": "630da0de437ed86-16"
+		},
+		"630da0de437ed86-18": {
+			"id": "630da0de437ed86-18",
+			"source": "630da0de437ed86-13",
+			"target": "630da0de437ed86-15"
+		},
+		"630da0de437ed86-21": {
+			"id": "630da0de437ed86-21",
+			"source": "630da0de437ed86-16",
+			"target": "630da0de437ed86-19"
+		},
+		"630da0de437ed86-25": {
+			"id": "630da0de437ed86-25",
+			"source": "630da0de437ed86-15",
+			"target": "630da0de437ed86-22"
+		}
+	},
+	"nodes": {
+		"0": {
+			"id": "0",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"1": {
+			"id": "1",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"630da0de437ed86-1": {
+			"id": "630da0de437ed86-1",
+			"value": "Adult Trauma DVT Prophylaxis Algorithm: Flow sheet 4",
+			"valueAsHtml": "Adult Trauma DVT Prophylaxis Algorithm: Flow sheet 4",
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"630da0de437ed86-3": {
+			"id": "630da0de437ed86-3",
+			"value": "Orthopedic injuries present",
+			"valueAsHtml": "Orthopedic injuries present",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"630da0de437ed86-4"
+				],
+				"out": [
+					"630da0de437ed86-8"
+				]
+			}
+		},
+		"630da0de437ed86-5": {
+			"id": "630da0de437ed86-5",
+			"value": "Mobility limitation?",
+			"valueAsHtml": "Mobility limitation?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"630da0de437ed86-8"
+				],
+				"out": [
+					"630da0de437ed86-9",
+					"630da0de437ed86-12"
+				]
+			}
+		},
+		"630da0de437ed86-6": {
+			"id": "630da0de437ed86-6",
+			"value": "No VTE prophylaxis required upon discharge",
+			"valueAsHtml": "No VTE prophylaxis required upon discharge",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"630da0de437ed86-11"
+				],
+				"out": []
+			}
+		},
+		"630da0de437ed86-7": {
+			"id": "630da0de437ed86-7",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"630da0de437ed86-9"
+				],
+				"out": [
+					"630da0de437ed86-11"
+				]
+			}
+		},
+		"630da0de437ed86-10": {
+			"id": "630da0de437ed86-10",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"630da0de437ed86-12"
+				],
+				"out": [
+					"630da0de437ed86-14"
+				]
+			}
+		},
+		"630da0de437ed86-13": {
+			"id": "630da0de437ed86-13",
+			"value": "TBI/SCI or Grade 3-5 liver, kidney, or spleen injury (without splenectomy)?",
+			"valueAsHtml": "TBI/SCI or Grade 3-5 liver, kidney, or spleen injury (without splenectomy)?</div></div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"630da0de437ed86-14"
+				],
+				"out": [
+					"630da0de437ed86-17",
+					"630da0de437ed86-18"
+				]
+			}
+		},
+		"630da0de437ed86-15": {
+			"id": "630da0de437ed86-15",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"630da0de437ed86-18"
+				],
+				"out": [
+					"630da0de437ed86-25"
+				]
+			}
+		},
+		"630da0de437ed86-16": {
+			"id": "630da0de437ed86-16",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"630da0de437ed86-17"
+				],
+				"out": [
+					"630da0de437ed86-21"
+				]
+			}
+		},
+		"630da0de437ed86-19": {
+			"id": "630da0de437ed86-19",
+			"value": "Rivaroxaban 10mg PO Qday",
+			"valueAsHtml": "Rivaroxaban 10mg PO Qday",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"630da0de437ed86-21"
+				],
+				"out": []
+			}
+		},
+		"630da0de437ed86-26": {
+			"id": "630da0de437ed86-26",
+			"value": "*Duration of VTE Prophylaxis * Weight bearing limitation with one lower\n   extremity (incl. splints, walkers, canes, and crutches): 3 weeks\n * Bilateral weight bearing limitation (incl.\n   toe-touch, flat foot only, etc.): until restrictions lifted (i.e. out of\n   wheelchair) up to maximum of 12 weeks (usually 6 to 12 weeks)\n\n***Write order for care management to begin discharge planning ASAP (need at\nleast 24 hrs prior to discharge). Place written prescription in chart with\nduration of therapy***  See chart on page 1 for recommendations in patients with\nrenal dysfunction, obesity, or heparin allergy",
+			"valueAsHtml": "<font style=\"font-size: 25px\">*</font><u>Duration of VTE Prophylaxis</u><div><ul><li style=\"text-align: left\">Weight bearing limitation with one lower extremity (incl. splints, walkers, canes, and crutches): <i>3 weeks</i></li><li style=\"text-align: left\">Bilateral weight bearing limitation (incl. toe-touch, flat foot only, etc.): <i>until restrictions lifted (i.e. out of wheelchair) up to maximum of 12 weeks (usually 6 to 12 weeks)</i></li></ul><u>***Write order for care management to begin discharge planning ASAP (need at least 24 hrs prior to discharge). Place written prescription in chart with duration of therapy***</u></div><div>See chart on page 1 for recommendations in patients with renal dysfunction, obesity, or heparin allergy</div>",
+			"shape": "note",
+			"fillColor": "#fff2cc",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"630da0de437ed86-32": {
+			"id": "630da0de437ed86-32",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"458a90a5cb23aa87-2": {
+			"id": "458a90a5cb23aa87-2",
+			"value": "*",
+			"valueAsHtml": "<font style=\"font-size: 25px\"><sub>*</sub></font>",
+			"shape": null,
+			"fillColor": "none",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"5491d242a1b74857-1": {
+			"id": "5491d242a1b74857-1",
+			"value": null,
+			"valueAsHtml": "",
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"630da0de437ed86-22": {
+			"id": "630da0de437ed86-22",
+			"value": "Enoxaparin 40mg SubQ Q24H or fondaparinux 2.5mg SubQ Qday (depending on\ninsurance/patient assistance qualification)",
+			"valueAsHtml": "<div><font style=\"font-size: 3px\">&nbsp;&nbsp;</font></div>Enoxaparin 40mg SubQ Q24H or fondaparinux 2.5mg SubQ Qday (depending on insurance/patient assistance qualification)",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"630da0de437ed86-25"
+				],
+				"out": []
+			}
+		},
+		"458a90a5cb23aa87-1": {
+			"id": "458a90a5cb23aa87-1",
+			"value": "*",
+			"valueAsHtml": "<font style=\"font-size: 25px\"><sub>*</sub></font>",
+			"shape": null,
+			"fillColor": "none",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"630da0de437ed86-2": {
+			"id": "630da0de437ed86-2",
+			"value": null,
+			"shape": "startState",
+			"fillColor": "#424242",
+			"type": "decisionPoint",
+			"edges": {
+				"in": [],
+				"out": [
+					"630da0de437ed86-4"
+				]
+			}
+		}
+	}
+}

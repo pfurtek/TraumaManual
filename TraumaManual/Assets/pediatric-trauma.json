@@ -1,0 +1,1018 @@
+{
+	"edges": {
+		"5b33515e61bfe363-8": {
+			"id": "5b33515e61bfe363-8",
+			"source": "5b33515e61bfe363-2",
+			"target": "5b33515e61bfe363-3"
+		},
+		"5b33515e61bfe363-11": {
+			"id": "5b33515e61bfe363-11",
+			"source": "5b33515e61bfe363-3",
+			"target": "5b33515e61bfe363-9"
+		},
+		"5b33515e61bfe363-12": {
+			"id": "5b33515e61bfe363-12",
+			"source": "5b33515e61bfe363-3",
+			"target": "5b33515e61bfe363-5"
+		},
+		"5b33515e61bfe363-31": {
+			"id": "5b33515e61bfe363-31",
+			"source": "5b33515e61bfe363-25",
+			"target": "5b33515e61bfe363-30"
+		},
+		"5b33515e61bfe363-34": {
+			"id": "5b33515e61bfe363-34",
+			"source": "5b33515e61bfe363-26",
+			"target": "5b33515e61bfe363-32"
+		},
+		"5b33515e61bfe363-40": {
+			"id": "5b33515e61bfe363-40",
+			"source": "5b33515e61bfe363-30",
+			"target": "5b33515e61bfe363-39"
+		},
+		"5b33515e61bfe363-45": {
+			"id": "5b33515e61bfe363-45",
+			"source": "5b33515e61bfe363-9",
+			"target": "5b33515e61bfe363-6"
+		},
+		"5b33515e61bfe363-46": {
+			"id": "5b33515e61bfe363-46",
+			"source": "5b33515e61bfe363-6",
+			"target": "5b33515e61bfe363-16"
+		},
+		"5b33515e61bfe363-47": {
+			"id": "5b33515e61bfe363-47",
+			"source": "5b33515e61bfe363-16",
+			"target": "5b33515e61bfe363-23"
+		},
+		"5b33515e61bfe363-55": {
+			"id": "5b33515e61bfe363-55",
+			"source": "5b33515e61bfe363-23",
+			"target": "5b33515e61bfe363-49"
+		},
+		"5b33515e61bfe363-59": {
+			"id": "5b33515e61bfe363-59",
+			"source": "5b33515e61bfe363-5",
+			"target": "5b33515e61bfe363-18"
+		},
+		"5b33515e61bfe363-60": {
+			"id": "5b33515e61bfe363-60",
+			"source": "5b33515e61bfe363-18",
+			"target": "5b33515e61bfe363-21"
+		},
+		"5b33515e61bfe363-61": {
+			"id": "5b33515e61bfe363-61",
+			"source": "5b33515e61bfe363-21",
+			"target": "5b33515e61bfe363-25"
+		},
+		"5b33515e61bfe363-63": {
+			"id": "5b33515e61bfe363-63",
+			"source": "5b33515e61bfe363-21",
+			"target": "5b33515e61bfe363-26"
+		},
+		"5b33515e61bfe363-66": {
+			"id": "5b33515e61bfe363-66",
+			"source": "5b33515e61bfe363-51",
+			"target": "5b33515e61bfe363-64"
+		},
+		"5b33515e61bfe363-68": {
+			"id": "5b33515e61bfe363-68",
+			"source": "5b33515e61bfe363-64",
+			"target": "5b33515e61bfe363-67"
+		},
+		"5b33515e61bfe363-69": {
+			"id": "5b33515e61bfe363-69",
+			"source": "5b33515e61bfe363-32",
+			"target": "5b33515e61bfe363-35"
+		},
+		"5b33515e61bfe363-70": {
+			"id": "5b33515e61bfe363-70",
+			"source": "5b33515e61bfe363-35",
+			"target": "5b33515e61bfe363-37"
+		},
+		"5b33515e61bfe363-72": {
+			"id": "5b33515e61bfe363-72",
+			"source": "5b33515e61bfe363-41",
+			"target": "5b33515e61bfe363-71"
+		},
+		"5b33515e61bfe363-74": {
+			"id": "5b33515e61bfe363-74",
+			"source": "5b33515e61bfe363-71",
+			"target": "5b33515e61bfe363-73"
+		},
+		"5b33515e61bfe363-76": {
+			"id": "5b33515e61bfe363-76",
+			"source": "5b33515e61bfe363-73",
+			"target": "5b33515e61bfe363-75"
+		},
+		"5b33515e61bfe363-78": {
+			"id": "5b33515e61bfe363-78",
+			"source": "5b33515e61bfe363-75",
+			"target": "5b33515e61bfe363-77"
+		},
+		"5b33515e61bfe363-80": {
+			"id": "5b33515e61bfe363-80",
+			"source": "5b33515e61bfe363-77",
+			"target": "5b33515e61bfe363-79"
+		},
+		"5b33515e61bfe363-98": {
+			"id": "5b33515e61bfe363-98",
+			"source": "5b33515e61bfe363-92",
+			"target": "5b33515e61bfe363-96"
+		},
+		"5b33515e61bfe363-99": {
+			"id": "5b33515e61bfe363-99",
+			"source": "5b33515e61bfe363-96",
+			"target": "5b33515e61bfe363-97"
+		},
+		"5b33515e61bfe363-101": {
+			"id": "5b33515e61bfe363-101",
+			"source": "5b33515e61bfe363-90",
+			"target": "5b33515e61bfe363-100"
+		},
+		"5b33515e61bfe363-103": {
+			"id": "5b33515e61bfe363-103",
+			"source": "5b33515e61bfe363-100",
+			"target": "5b33515e61bfe363-102"
+		},
+		"76708aecdf8e9090-1": {
+			"id": "76708aecdf8e9090-1",
+			"source": "5b33515e61bfe363-111",
+			"target": "5b33515e61bfe363-117"
+		},
+		"5b33515e61bfe363-115": {
+			"id": "5b33515e61bfe363-115",
+			"source": "5b33515e61bfe363-105",
+			"target": "5b33515e61bfe363-109"
+		},
+		"5b33515e61bfe363-116": {
+			"id": "5b33515e61bfe363-116",
+			"source": "5b33515e61bfe363-109",
+			"target": "5b33515e61bfe363-111"
+		},
+		"5b33515e61bfe363-121": {
+			"id": "5b33515e61bfe363-121",
+			"source": "5b33515e61bfe363-104",
+			"target": "5b33515e61bfe363-118"
+		},
+		"5b33515e61bfe363-124": {
+			"id": "5b33515e61bfe363-124",
+			"source": "5b33515e61bfe363-117",
+			"target": "5b33515e61bfe363-118"
+		},
+		"5b33515e61bfe363-127": {
+			"id": "5b33515e61bfe363-127",
+			"source": "5b33515e61bfe363-118",
+			"target": "5b33515e61bfe363-126"
+		},
+		"5b33515e61bfe363-134": {
+			"id": "5b33515e61bfe363-134",
+			"source": "5b33515e61bfe363-128",
+			"target": "5b33515e61bfe363-133"
+		},
+		"5b33515e61bfe363-135": {
+			"id": "5b33515e61bfe363-135",
+			"source": "5b33515e61bfe363-79",
+			"target": "5b33515e61bfe363-81"
+		},
+		"5b33515e61bfe363-136": {
+			"id": "5b33515e61bfe363-136",
+			"source": "5b33515e61bfe363-81",
+			"target": "5b33515e61bfe363-83"
+		},
+		"5b33515e61bfe363-137": {
+			"id": "5b33515e61bfe363-137",
+			"source": "5b33515e61bfe363-83",
+			"target": "5b33515e61bfe363-85"
+		},
+		"5b33515e61bfe363-140": {
+			"id": "5b33515e61bfe363-140",
+			"source": "5b33515e61bfe363-37",
+			"target": "5b33515e61bfe363-139"
+		},
+		"5b33515e61bfe363-141": {
+			"id": "5b33515e61bfe363-141",
+			"source": "5b33515e61bfe363-139",
+			"target": "5b33515e61bfe363-92"
+		},
+		"5b33515e61bfe363-142": {
+			"id": "5b33515e61bfe363-142",
+			"source": "5b33515e61bfe363-139",
+			"target": "5b33515e61bfe363-90"
+		},
+		"5b33515e61bfe363-143": {
+			"id": "5b33515e61bfe363-143",
+			"source": "5b33515e61bfe363-139",
+			"target": "5b33515e61bfe363-87"
+		},
+		"734adddd4a519825-4": {
+			"id": "734adddd4a519825-4",
+			"source": "5b33515e61bfe363-49",
+			"target": "5b33515e61bfe363-51"
+		},
+		"734adddd4a519825-5": {
+			"id": "734adddd4a519825-5",
+			"source": "5b33515e61bfe363-49",
+			"target": "5b33515e61bfe363-41"
+		},
+		"734adddd4a519825-6": {
+			"id": "734adddd4a519825-6",
+			"source": "5b33515e61bfe363-49",
+			"target": "5b33515e61bfe363-7"
+		},
+		"734adddd4a519825-7": {
+			"id": "734adddd4a519825-7",
+			"source": "5b33515e61bfe363-39",
+			"target": "5b33515e61bfe363-105"
+		},
+		"734adddd4a519825-8": {
+			"id": "734adddd4a519825-8",
+			"source": "5b33515e61bfe363-39",
+			"target": "5b33515e61bfe363-104"
+		},
+		"734adddd4a519825-10": {
+			"id": "734adddd4a519825-10",
+			"source": "5b33515e61bfe363-111",
+			"target": "5b33515e61bfe363-128"
+		}
+	},
+	"nodes": {
+		"0": {
+			"id": "0",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"1": {
+			"id": "1",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"5b33515e61bfe363-1": {
+			"id": "5b33515e61bfe363-1",
+			"value": "Pediatric and Adolescent Trauma",
+			"valueAsHtml": "Pediatric and Adolescent Trauma",
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"5b33515e61bfe363-2": {
+			"id": "5b33515e61bfe363-2",
+			"value": null,
+			"valueAsHtml": "",
+			"shape": "startState",
+			"fillColor": "#424242",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": [
+					"5b33515e61bfe363-8"
+				]
+			}
+		},
+		"5b33515e61bfe363-3": {
+			"id": "5b33515e61bfe363-3",
+			"value": "Age of patient?",
+			"valueAsHtml": "Age of patient?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-8"
+				],
+				"out": [
+					"5b33515e61bfe363-11",
+					"5b33515e61bfe363-12"
+				]
+			}
+		},
+		"5b33515e61bfe363-5": {
+			"id": "5b33515e61bfe363-5",
+			"value": "Injured child less than 15 years old",
+			"valueAsHtml": "Injured child less than 15 years old",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-12"
+				],
+				"out": [
+					"5b33515e61bfe363-59"
+				]
+			}
+		},
+		"5b33515e61bfe363-6": {
+			"id": "5b33515e61bfe363-6",
+			"value": "ATLS Protocol",
+			"valueAsHtml": "ATLS Protocol",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-45"
+				],
+				"out": [
+					"5b33515e61bfe363-46"
+				]
+			}
+		},
+		"5b33515e61bfe363-7": {
+			"id": "5b33515e61bfe363-7",
+			"value": "Discharge from EMTC (home)",
+			"valueAsHtml": "Discharge from EMTC (home)<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"734adddd4a519825-6"
+				],
+				"out": []
+			}
+		},
+		"5b33515e61bfe363-9": {
+			"id": "5b33515e61bfe363-9",
+			"value": "Injured adolescence 15-18 y/o",
+			"valueAsHtml": "Injured adolescence 15-18 y/o",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-11"
+				],
+				"out": [
+					"5b33515e61bfe363-45"
+				]
+			}
+		},
+		"5b33515e61bfe363-16": {
+			"id": "5b33515e61bfe363-16",
+			"value": "Assessment and Plan",
+			"valueAsHtml": "Assessment and Plan",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-46"
+				],
+				"out": [
+					"5b33515e61bfe363-47"
+				]
+			}
+		},
+		"5b33515e61bfe363-18": {
+			"id": "5b33515e61bfe363-18",
+			"value": "ATLS Protocol",
+			"valueAsHtml": "ATLS Protocol",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-59"
+				],
+				"out": [
+					"5b33515e61bfe363-60"
+				]
+			}
+		},
+		"5b33515e61bfe363-21": {
+			"id": "5b33515e61bfe363-21",
+			"value": "HD Stable?",
+			"valueAsHtml": "HD Stable?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-60"
+				],
+				"out": [
+					"5b33515e61bfe363-61",
+					"5b33515e61bfe363-63"
+				]
+			}
+		},
+		"5b33515e61bfe363-23": {
+			"id": "5b33515e61bfe363-23",
+			"value": "Disposition?",
+			"valueAsHtml": "Disposition?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-47"
+				],
+				"out": [
+					"5b33515e61bfe363-55"
+				]
+			}
+		},
+		"5b33515e61bfe363-25": {
+			"id": "5b33515e61bfe363-25",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-61"
+				],
+				"out": [
+					"5b33515e61bfe363-31"
+				]
+			}
+		},
+		"5b33515e61bfe363-26": {
+			"id": "5b33515e61bfe363-26",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-63"
+				],
+				"out": [
+					"5b33515e61bfe363-34"
+				]
+			}
+		},
+		"5b33515e61bfe363-30": {
+			"id": "5b33515e61bfe363-30",
+			"value": "Emergency Life-saving procedures",
+			"valueAsHtml": "Emergency Life-saving procedures",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-31"
+				],
+				"out": [
+					"5b33515e61bfe363-40"
+				]
+			}
+		},
+		"5b33515e61bfe363-32": {
+			"id": "5b33515e61bfe363-32",
+			"value": "Secondary Survey",
+			"valueAsHtml": "Secondary Survey",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-34"
+				],
+				"out": [
+					"5b33515e61bfe363-69"
+				]
+			}
+		},
+		"5b33515e61bfe363-35": {
+			"id": "5b33515e61bfe363-35",
+			"value": "+/- imaging",
+			"valueAsHtml": "+/- imaging",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-69"
+				],
+				"out": [
+					"5b33515e61bfe363-70"
+				]
+			}
+		},
+		"5b33515e61bfe363-37": {
+			"id": "5b33515e61bfe363-37",
+			"value": "Disposition?",
+			"valueAsHtml": "Disposition?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-70"
+				],
+				"out": [
+					"5b33515e61bfe363-140"
+				]
+			}
+		},
+		"5b33515e61bfe363-39": {
+			"id": "5b33515e61bfe363-39",
+			"value": "HD Stable?",
+			"valueAsHtml": "HD Stable?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-40"
+				],
+				"out": [
+					"734adddd4a519825-7",
+					"734adddd4a519825-8"
+				]
+			}
+		},
+		"5b33515e61bfe363-41": {
+			"id": "5b33515e61bfe363-41",
+			"value": "Inpatient Status (ICU, PCU, Floor)",
+			"valueAsHtml": "Inpatient Status (ICU, PCU, Floor)",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"734adddd4a519825-5"
+				],
+				"out": [
+					"5b33515e61bfe363-72"
+				]
+			}
+		},
+		"5b33515e61bfe363-49": {
+			"id": "5b33515e61bfe363-49",
+			"value": null,
+			"valueAsHtml": "",
+			"shape": "startState",
+			"fillColor": "#424242",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-55"
+				],
+				"out": [
+					"734adddd4a519825-4",
+					"734adddd4a519825-5",
+					"734adddd4a519825-6"
+				]
+			}
+		},
+		"5b33515e61bfe363-51": {
+			"id": "5b33515e61bfe363-51",
+			"value": "Observation Status",
+			"valueAsHtml": "Observation Status",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"734adddd4a519825-4"
+				],
+				"out": [
+					"5b33515e61bfe363-66"
+				]
+			}
+		},
+		"5b33515e61bfe363-64": {
+			"id": "5b33515e61bfe363-64",
+			"value": "Discuss with IDTU APP",
+			"valueAsHtml": "Discuss with IDTU APP",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-66"
+				],
+				"out": [
+					"5b33515e61bfe363-68"
+				]
+			}
+		},
+		"5b33515e61bfe363-67": {
+			"id": "5b33515e61bfe363-67",
+			"value": "Admit to IDTU",
+			"valueAsHtml": "Admit to IDTU<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-68"
+				],
+				"out": []
+			}
+		},
+		"5b33515e61bfe363-71": {
+			"id": "5b33515e61bfe363-71",
+			"value": "Request private room",
+			"valueAsHtml": "Request private room",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-72"
+				],
+				"out": [
+					"5b33515e61bfe363-74"
+				]
+			}
+		},
+		"5b33515e61bfe363-73": {
+			"id": "5b33515e61bfe363-73",
+			"value": "Notify unit manager and CNS",
+			"valueAsHtml": "Notify unit manager and CNS",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-74"
+				],
+				"out": [
+					"5b33515e61bfe363-76"
+				]
+			}
+		},
+		"5b33515e61bfe363-75": {
+			"id": "5b33515e61bfe363-75",
+			"value": "Consult Social Worker",
+			"valueAsHtml": "Consult Social Worker",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-76"
+				],
+				"out": [
+					"5b33515e61bfe363-78"
+				]
+			}
+		},
+		"5b33515e61bfe363-77": {
+			"id": "5b33515e61bfe363-77",
+			"value": "CRAFFT tool for + drugs or +ETOH",
+			"valueAsHtml": "CRAFFT tool for + drugs or +ETOH",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-78"
+				],
+				"out": [
+					"5b33515e61bfe363-80"
+				]
+			}
+		},
+		"5b33515e61bfe363-79": {
+			"id": "5b33515e61bfe363-79",
+			"value": "Consult pediatric PMR team if needed",
+			"valueAsHtml": "Consult pediatric PMR team if needed",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-80"
+				],
+				"out": [
+					"5b33515e61bfe363-135"
+				]
+			}
+		},
+		"5b33515e61bfe363-81": {
+			"id": "5b33515e61bfe363-81",
+			"value": "Consult Pediatric subspecialty services at Riley if not available at MH. For\nexample, GI",
+			"valueAsHtml": "Consult Pediatric subspecialty services at Riley if not available at MH. For example, GI",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-135"
+				],
+				"out": [
+					"5b33515e61bfe363-136"
+				]
+			}
+		},
+		"5b33515e61bfe363-83": {
+			"id": "5b33515e61bfe363-83",
+			"value": "School re-integration prior to d/c",
+			"valueAsHtml": "School re-integration prior to d/c",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-136"
+				],
+				"out": [
+					"5b33515e61bfe363-137"
+				]
+			}
+		},
+		"5b33515e61bfe363-85": {
+			"id": "5b33515e61bfe363-85",
+			"value": "Discharge from inpatient status",
+			"valueAsHtml": "Discharge from inpatient status<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-137"
+				],
+				"out": []
+			}
+		},
+		"5b33515e61bfe363-87": {
+			"id": "5b33515e61bfe363-87",
+			"value": "Discharge from EMTC (home)",
+			"valueAsHtml": "Discharge from EMTC (home)<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-143"
+				],
+				"out": []
+			}
+		},
+		"5b33515e61bfe363-90": {
+			"id": "5b33515e61bfe363-90",
+			"value": "Observation status",
+			"valueAsHtml": "Observation status",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-142"
+				],
+				"out": [
+					"5b33515e61bfe363-101"
+				]
+			}
+		},
+		"5b33515e61bfe363-92": {
+			"id": "5b33515e61bfe363-92",
+			"value": "Inpatient Status",
+			"valueAsHtml": "Inpatient Status",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-141"
+				],
+				"out": [
+					"5b33515e61bfe363-98"
+				]
+			}
+		},
+		"5b33515e61bfe363-96": {
+			"id": "5b33515e61bfe363-96",
+			"value": "Call Pediatric Trauma Surgeon for Riley to accept transfer",
+			"valueAsHtml": "Call Pediatric Trauma Surgeon for Riley to accept transfer",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-98"
+				],
+				"out": [
+					"5b33515e61bfe363-99"
+				]
+			}
+		},
+		"5b33515e61bfe363-97": {
+			"id": "5b33515e61bfe363-97",
+			"value": "Arrange transfer to Pediatric Level 1 trauma center",
+			"valueAsHtml": "Arrange transfer to Pediatric Level 1 trauma center<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-99"
+				],
+				"out": []
+			}
+		},
+		"5b33515e61bfe363-100": {
+			"id": "5b33515e61bfe363-100",
+			"value": "Discuss with IDTU APP",
+			"valueAsHtml": "Discuss with IDTU APP",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-101"
+				],
+				"out": [
+					"5b33515e61bfe363-103"
+				]
+			}
+		},
+		"5b33515e61bfe363-102": {
+			"id": "5b33515e61bfe363-102",
+			"value": "Admit to IDTU",
+			"valueAsHtml": "Admit to IDTU<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-103"
+				],
+				"out": []
+			}
+		},
+		"5b33515e61bfe363-104": {
+			"id": "5b33515e61bfe363-104",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"734adddd4a519825-8"
+				],
+				"out": [
+					"5b33515e61bfe363-121"
+				]
+			}
+		},
+		"5b33515e61bfe363-105": {
+			"id": "5b33515e61bfe363-105",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"734adddd4a519825-7"
+				],
+				"out": [
+					"5b33515e61bfe363-115"
+				]
+			}
+		},
+		"5b33515e61bfe363-109": {
+			"id": "5b33515e61bfe363-109",
+			"value": "Ongoing Resuscitation and Stabilization",
+			"valueAsHtml": "Ongoing Resuscitation and Stabilization",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-115"
+				],
+				"out": [
+					"5b33515e61bfe363-116"
+				]
+			}
+		},
+		"5b33515e61bfe363-111": {
+			"id": "5b33515e61bfe363-111",
+			"value": "HD Stable?",
+			"valueAsHtml": "HD Stable?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-116"
+				],
+				"out": [
+					"76708aecdf8e9090-1",
+					"734adddd4a519825-10"
+				]
+			}
+		},
+		"5b33515e61bfe363-118": {
+			"id": "5b33515e61bfe363-118",
+			"value": "Call Pediatric Trauma Surgeon for Riley to accept transfer",
+			"valueAsHtml": "Call Pediatric Trauma Surgeon for Riley to accept transfer",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-121",
+					"5b33515e61bfe363-124"
+				],
+				"out": [
+					"5b33515e61bfe363-127"
+				]
+			}
+		},
+		"5b33515e61bfe363-126": {
+			"id": "5b33515e61bfe363-126",
+			"value": "Arrange Transfer to Pediatric Level 1 trauma center",
+			"valueAsHtml": "Arrange Transfer to Pediatric Level 1 trauma center<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-127"
+				],
+				"out": []
+			}
+		},
+		"5b33515e61bfe363-128": {
+			"id": "5b33515e61bfe363-128",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"734adddd4a519825-10"
+				],
+				"out": [
+					"5b33515e61bfe363-134"
+				]
+			}
+		},
+		"5b33515e61bfe363-133": {
+			"id": "5b33515e61bfe363-133",
+			"value": "Deploy pediatric specialty service from Riley (nursing, surgeon, etc.)",
+			"valueAsHtml": "Deploy pediatric specialty service from Riley (nursing, surgeon, etc.)<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-134"
+				],
+				"out": []
+			}
+		},
+		"5b33515e61bfe363-139": {
+			"id": "5b33515e61bfe363-139",
+			"value": null,
+			"valueAsHtml": "",
+			"shape": "startState",
+			"fillColor": "#424242",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b33515e61bfe363-140"
+				],
+				"out": [
+					"5b33515e61bfe363-141",
+					"5b33515e61bfe363-142",
+					"5b33515e61bfe363-143"
+				]
+			}
+		},
+		"5b33515e61bfe363-117": {
+			"id": "5b33515e61bfe363-117",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"76708aecdf8e9090-1"
+				],
+				"out": [
+					"5b33515e61bfe363-124"
+				]
+			}
+		}
+	}
+}

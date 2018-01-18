@@ -1,0 +1,415 @@
+{
+	"edges": {
+		"e49092c54a2fac5-4": {
+			"id": "e49092c54a2fac5-4",
+			"source": "e49092c54a2fac5-2",
+			"target": "e49092c54a2fac5-3"
+		},
+		"e49092c54a2fac5-8": {
+			"id": "e49092c54a2fac5-8",
+			"source": "e49092c54a2fac5-3",
+			"target": "e49092c54a2fac5-7"
+		},
+		"e49092c54a2fac5-11": {
+			"id": "e49092c54a2fac5-11",
+			"source": "e49092c54a2fac5-7",
+			"target": "e49092c54a2fac5-12"
+		},
+		"4e2f10b1c02f628-2": {
+			"id": "4e2f10b1c02f628-2",
+			"source": "153893e8322a719-35",
+			"target": "4e2f10b1c02f628-1"
+		},
+		"276d94c1082fa83f-4": {
+			"id": "276d94c1082fa83f-4",
+			"source": "153893e8322a719-23",
+			"target": "276d94c1082fa83f-3"
+		},
+		"1db41f7cbcdbba47-5": {
+			"id": "1db41f7cbcdbba47-5",
+			"source": "153893e8322a719-10",
+			"target": "153893e8322a719-12"
+		},
+		"1db41f7cbcdbba47-6": {
+			"id": "1db41f7cbcdbba47-6",
+			"source": "153893e8322a719-12",
+			"target": "153893e8322a719-16"
+		},
+		"1358c5d543a01fa4-1": {
+			"id": "1358c5d543a01fa4-1",
+			"source": "e49092c54a2fac5-12",
+			"target": "153893e8322a719-2"
+		},
+		"1358c5d543a01fa4-2": {
+			"id": "1358c5d543a01fa4-2",
+			"source": "e49092c54a2fac5-12",
+			"target": "153893e8322a719-4"
+		},
+		"1358c5d543a01fa4-3": {
+			"id": "1358c5d543a01fa4-3",
+			"source": "153893e8322a719-2",
+			"target": "276d94c1082fa83f-1"
+		},
+		"1358c5d543a01fa4-4": {
+			"id": "1358c5d543a01fa4-4",
+			"source": "153893e8322a719-4",
+			"target": "153893e8322a719-35"
+		},
+		"1358c5d543a01fa4-9": {
+			"id": "1358c5d543a01fa4-9",
+			"source": "153893e8322a719-19",
+			"target": "276d94c1082fa83f-3"
+		},
+		"1358c5d543a01fa4-10": {
+			"id": "1358c5d543a01fa4-10",
+			"source": "153893e8322a719-16",
+			"target": "153893e8322a719-19"
+		},
+		"1358c5d543a01fa4-11": {
+			"id": "1358c5d543a01fa4-11",
+			"source": "153893e8322a719-17",
+			"target": "276d94c1082fa83f-6"
+		},
+		"1358c5d543a01fa4-13": {
+			"id": "1358c5d543a01fa4-13",
+			"source": "153893e8322a719-16",
+			"target": "153893e8322a719-17"
+		},
+		"4e2f10b1c02f628-3": {
+			"id": "4e2f10b1c02f628-3",
+			"source": "4e2f10b1c02f628-1",
+			"target": "153893e8322a719-23"
+		},
+		"4e2f10b1c02f628-4": {
+			"id": "4e2f10b1c02f628-4",
+			"source": "4e2f10b1c02f628-1",
+			"target": "153893e8322a719-10"
+		}
+	},
+	"nodes": {
+		"0": {
+			"id": "0",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"1": {
+			"id": "1",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"e49092c54a2fac5-1": {
+			"id": "e49092c54a2fac5-1",
+			"value": "Hemothorax Management",
+			"valueAsHtml": "Hemothorax Management",
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"e49092c54a2fac5-2": {
+			"id": "e49092c54a2fac5-2",
+			"value": null,
+			"valueAsHtml": "",
+			"shape": "startState",
+			"fillColor": "#424242",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": [
+					"e49092c54a2fac5-4"
+				]
+			}
+		},
+		"e49092c54a2fac5-3": {
+			"id": "e49092c54a2fac5-3",
+			"value": "Hemothorax confirmed on CXR *Blunting of costophrenic angle",
+			"valueAsHtml": "Hemothorax confirmed on CXR <b>*Blunting of costophrenic angle</b></div>",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"e49092c54a2fac5-4"
+				],
+				"out": [
+					"e49092c54a2fac5-8"
+				]
+			}
+		},
+		"e49092c54a2fac5-7": {
+			"id": "e49092c54a2fac5-7",
+			"value": "Insert 32-36F chest tube",
+			"valueAsHtml": "Insert 32-36F chest tube</div>",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"e49092c54a2fac5-8"
+				],
+				"out": [
+					"e49092c54a2fac5-11"
+				]
+			}
+		},
+		"e49092c54a2fac5-10": {
+			"id": "e49092c54a2fac5-10",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"e49092c54a2fac5-12": {
+			"id": "e49092c54a2fac5-12",
+			"value": "Volume > 1500 or 200-400/hour x4 hours?",
+			"valueAsHtml": "Volume &gt; 1500  or 200-400/hour  x4 hours?</div></div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"e49092c54a2fac5-11"
+				],
+				"out": [
+					"1358c5d543a01fa4-1",
+					"1358c5d543a01fa4-2"
+				]
+			}
+		},
+		"153893e8322a719-2": {
+			"id": "153893e8322a719-2",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"1358c5d543a01fa4-1"
+				],
+				"out": [
+					"1358c5d543a01fa4-3"
+				]
+			}
+		},
+		"153893e8322a719-4": {
+			"id": "153893e8322a719-4",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"1358c5d543a01fa4-2"
+				],
+				"out": [
+					"1358c5d543a01fa4-4"
+				]
+			}
+		},
+		"153893e8322a719-10": {
+			"id": "153893e8322a719-10",
+			"value": "Less than 1500 ml",
+			"valueAsHtml": "Less than 1500 ml",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"4e2f10b1c02f628-4"
+				],
+				"out": [
+					"1db41f7cbcdbba47-5"
+				]
+			}
+		},
+		"153893e8322a719-12": {
+			"id": "153893e8322a719-12",
+			"value": "Abnormal CXR (effusion, contusion, etc.)",
+			"valueAsHtml": "Abnormal CXR (effusion, contusion, etc.)",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"1db41f7cbcdbba47-5"
+				],
+				"out": [
+					"1db41f7cbcdbba47-6"
+				]
+			}
+		},
+		"153893e8322a719-16": {
+			"id": "153893e8322a719-16",
+			"value": "Repeat CT shows retained hemothorax?",
+			"valueAsHtml": "Repeat CT  shows retained  hemothorax?</div></div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"1db41f7cbcdbba47-6"
+				],
+				"out": [
+					"1358c5d543a01fa4-10",
+					"1358c5d543a01fa4-13"
+				]
+			}
+		},
+		"153893e8322a719-17": {
+			"id": "153893e8322a719-17",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"1358c5d543a01fa4-13"
+				],
+				"out": [
+					"1358c5d543a01fa4-11"
+				]
+			}
+		},
+		"153893e8322a719-19": {
+			"id": "153893e8322a719-19",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"1358c5d543a01fa4-10"
+				],
+				"out": [
+					"1358c5d543a01fa4-9"
+				]
+			}
+		},
+		"153893e8322a719-23": {
+			"id": "153893e8322a719-23",
+			"value": "More than 1500 ml",
+			"valueAsHtml": "More than 1500 ml",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"4e2f10b1c02f628-3"
+				],
+				"out": [
+					"276d94c1082fa83f-4"
+				]
+			}
+		},
+		"153893e8322a719-35": {
+			"id": "153893e8322a719-35",
+			"value": "Post-placement CXR 24",
+			"valueAsHtml": "Post-placement CXR 24</div>",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"1358c5d543a01fa4-4"
+				],
+				"out": [
+					"4e2f10b1c02f628-2"
+				]
+			}
+		},
+		"40283a4638058890-1": {
+			"id": "40283a4638058890-1",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"276d94c1082fa83f-1": {
+			"id": "276d94c1082fa83f-1",
+			"value": "Proceed emergently to operating room",
+			"valueAsHtml": "Proceed emergently to operating room<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"1358c5d543a01fa4-3"
+				],
+				"out": []
+			}
+		},
+		"276d94c1082fa83f-3": {
+			"id": "276d94c1082fa83f-3",
+			"value": "Early VATS (< 3 Days)",
+			"valueAsHtml": "Early VATS (&lt; 3 Days)<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"276d94c1082fa83f-4",
+					"1358c5d543a01fa4-9"
+				],
+				"out": []
+			}
+		},
+		"276d94c1082fa83f-6": {
+			"id": "276d94c1082fa83f-6",
+			"value": "Continue Current Management",
+			"valueAsHtml": "Continue Current Management<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"1358c5d543a01fa4-11"
+				],
+				"out": []
+			}
+		},
+		"4e2f10b1c02f628-1": {
+			"id": "4e2f10b1c02f628-1",
+			"value": "Chest tube output @ 24 hours",
+			"valueAsHtml": "<span>Chest tube output </span> @ 24 hours</div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"4e2f10b1c02f628-2"
+				],
+				"out": [
+					"4e2f10b1c02f628-3",
+					"4e2f10b1c02f628-4"
+				]
+			}
+		}
+	}
+}

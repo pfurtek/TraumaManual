@@ -20,6 +20,7 @@ class RulesViewController: UIViewController {
     }()
     
     var bookmarkItem: UIBarButtonItem!
+    var infoItem: UIBarButtonItem!
     
     var numberedTitle: String!
     
@@ -41,7 +42,9 @@ class RulesViewController: UIViewController {
         } else {
             self.bookmarkItem = UIBarButtonItem(title: "bm", style: .plain, target: self, action: #selector(bookmarkAction(_:)))
         }
-        self.navigationItem.rightBarButtonItem = self.bookmarkItem
+        self.infoItem = UIBarButtonItem(title: "info", style: .plain, target: self, action: #selector(infoAction(_:)))
+        
+        self.navigationItem.rightBarButtonItems = [self.bookmarkItem, self.infoItem]
     }
 
     override func didReceiveMemoryWarning() {
@@ -64,8 +67,14 @@ class RulesViewController: UIViewController {
                 TraumaModel.shared.addBookmark(title: title, object: self.rules)
                 self.bookmarkItem = UIBarButtonItem(title: "BM", style: .plain, target: self, action: #selector(bookmarkAction(_:)))
             }
-            self.navigationItem.rightBarButtonItem = self.bookmarkItem
+            self.navigationItem.rightBarButtonItems = [self.bookmarkItem, self.infoItem]
         }
+    }
+    
+    @objc func infoAction(_: Any) {
+        let alert = UIAlertController(title: "Roles Information", message: "The individual roles of the team members are fluid and based on needs of the patients and resources available. The lead physician may modify the duties of any team member in the best interest of the patient. All trauma team members must wear personal protective equipment when providing care in the resuscitation room. Trauma surgery team members should arrive in the trauma room within 15 minutes of notification and preferably prior to patient arrival.", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
     }
     
 

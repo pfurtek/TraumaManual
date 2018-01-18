@@ -1,0 +1,510 @@
+{
+	"edges": {
+		"5b7f3ecba3f18cd7-2": {
+			"id": "5b7f3ecba3f18cd7-2",
+			"source": "7800bbd239982929-3",
+			"target": "5b7f3ecba3f18cd7-1"
+		},
+		"7800bbd239982929-4": {
+			"id": "7800bbd239982929-4",
+			"source": "7800bbd239982929-2",
+			"target": "7800bbd239982929-3"
+		},
+		"7800bbd239982929-15": {
+			"id": "7800bbd239982929-15",
+			"source": "7800bbd239982929-12",
+			"target": "7800bbd239982929-14"
+		},
+		"7800bbd239982929-32": {
+			"id": "7800bbd239982929-32",
+			"source": "7800bbd239982929-29",
+			"target": "7800bbd239982929-31"
+		},
+		"7800bbd239982929-34": {
+			"id": "7800bbd239982929-34",
+			"source": "7800bbd239982929-31",
+			"target": "7800bbd239982929-33"
+		},
+		"7800bbd239982929-36": {
+			"id": "7800bbd239982929-36",
+			"source": "7800bbd239982929-33",
+			"target": "7800bbd239982929-35"
+		},
+		"1d3f74f28d980d8b-4": {
+			"id": "1d3f74f28d980d8b-4",
+			"source": "1d3f74f28d980d8b-1",
+			"target": "1d3f74f28d980d8b-8"
+		},
+		"d2a6d44611eedbd-2": {
+			"id": "d2a6d44611eedbd-2",
+			"source": "7800bbd239982929-17",
+			"target": "d2a6d44611eedbd-1"
+		},
+		"d2a6d44611eedbd-7": {
+			"id": "d2a6d44611eedbd-7",
+			"source": "7800bbd239982929-19",
+			"target": "d2a6d44611eedbd-3"
+		},
+		"51793c1d3b9f20f-4": {
+			"id": "51793c1d3b9f20f-4",
+			"source": "51793c1d3b9f20f-2",
+			"target": "7800bbd239982929-12"
+		},
+		"51793c1d3b9f20f-5": {
+			"id": "51793c1d3b9f20f-5",
+			"source": "7800bbd239982929-14",
+			"target": "7800bbd239982929-19"
+		},
+		"51793c1d3b9f20f-6": {
+			"id": "51793c1d3b9f20f-6",
+			"source": "7800bbd239982929-14",
+			"target": "7800bbd239982929-17"
+		},
+		"51793c1d3b9f20f-8": {
+			"id": "51793c1d3b9f20f-8",
+			"source": "51793c1d3b9f20f-3",
+			"target": "1d3f74f28d980d8b-11"
+		},
+		"51793c1d3b9f20f-9": {
+			"id": "51793c1d3b9f20f-9",
+			"source": "7800bbd239982929-25",
+			"target": "d2a6d44611eedbd-5"
+		},
+		"51793c1d3b9f20f-10": {
+			"id": "51793c1d3b9f20f-10",
+			"source": "1d3f74f28d980d8b-11",
+			"target": "7800bbd239982929-25"
+		},
+		"51793c1d3b9f20f-11": {
+			"id": "51793c1d3b9f20f-11",
+			"source": "1d3f74f28d980d8b-11",
+			"target": "7800bbd239982929-29"
+		},
+		"51793c1d3b9f20f-12": {
+			"id": "51793c1d3b9f20f-12",
+			"source": "1d3f74f28d980d8b-2",
+			"target": "d2a6d44611eedbd-10"
+		},
+		"51793c1d3b9f20f-13": {
+			"id": "51793c1d3b9f20f-13",
+			"source": "7800bbd239982929-35",
+			"target": "1d3f74f28d980d8b-2"
+		},
+		"51793c1d3b9f20f-14": {
+			"id": "51793c1d3b9f20f-14",
+			"source": "7800bbd239982929-35",
+			"target": "1d3f74f28d980d8b-1"
+		},
+		"51793c1d3b9f20f-15": {
+			"id": "51793c1d3b9f20f-15",
+			"source": "1d3f74f28d980d8b-8",
+			"target": "d2a6d44611eedbd-8"
+		},
+		"5b7f3ecba3f18cd7-4": {
+			"id": "5b7f3ecba3f18cd7-4",
+			"source": "5b7f3ecba3f18cd7-1",
+			"target": "51793c1d3b9f20f-2"
+		},
+		"5b7f3ecba3f18cd7-5": {
+			"id": "5b7f3ecba3f18cd7-5",
+			"source": "5b7f3ecba3f18cd7-1",
+			"target": "51793c1d3b9f20f-3"
+		}
+	},
+	"nodes": {
+		"0": {
+			"id": "0",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"1": {
+			"id": "1",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"7800bbd239982929-1": {
+			"id": "7800bbd239982929-1",
+			"value": "Pneumothorax Management",
+			"valueAsHtml": "Pneumothorax Management",
+			"shape": null,
+			"fillColor": "none",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"7800bbd239982929-2": {
+			"id": "7800bbd239982929-2",
+			"value": null,
+			"valueAsHtml": "",
+			"shape": "startState",
+			"fillColor": "#424242",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": [
+					"7800bbd239982929-4"
+				]
+			}
+		},
+		"7800bbd239982929-3": {
+			"id": "7800bbd239982929-3",
+			"value": "Pneumothorax",
+			"valueAsHtml": "Pneumothorax",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"7800bbd239982929-4"
+				],
+				"out": [
+					"5b7f3ecba3f18cd7-2"
+				]
+			}
+		},
+		"7800bbd239982929-12": {
+			"id": "7800bbd239982929-12",
+			"value": "Repeat imaging in 6 hours:-PA & Lat CXR  -Upright PCXR-Chest CT-Ultrasound",
+			"valueAsHtml": "Repeat imaging in 6 hours:<div><b>-PA &amp; Lat CXR</b></div><div><b>-Upright PCXR</b></div><div><b>-Chest CT</b></div><div><b>-Ultrasound</b></div>",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"51793c1d3b9f20f-4"
+				],
+				"out": [
+					"7800bbd239982929-15"
+				]
+			}
+		},
+		"7800bbd239982929-14": {
+			"id": "7800bbd239982929-14",
+			"value": "Expansion of pneumothorax?",
+			"valueAsHtml": "Expansion of pneumothorax?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"7800bbd239982929-15"
+				],
+				"out": [
+					"51793c1d3b9f20f-5",
+					"51793c1d3b9f20f-6"
+				]
+			}
+		},
+		"7800bbd239982929-17": {
+			"id": "7800bbd239982929-17",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"51793c1d3b9f20f-6"
+				],
+				"out": [
+					"d2a6d44611eedbd-2"
+				]
+			}
+		},
+		"7800bbd239982929-19": {
+			"id": "7800bbd239982929-19",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"51793c1d3b9f20f-5"
+				],
+				"out": [
+					"d2a6d44611eedbd-7"
+				]
+			}
+		},
+		"7800bbd239982929-25": {
+			"id": "7800bbd239982929-25",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"51793c1d3b9f20f-10"
+				],
+				"out": [
+					"51793c1d3b9f20f-9"
+				]
+			}
+		},
+		"7800bbd239982929-29": {
+			"id": "7800bbd239982929-29",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"51793c1d3b9f20f-11"
+				],
+				"out": [
+					"7800bbd239982929-32"
+				]
+			}
+		},
+		"7800bbd239982929-31": {
+			"id": "7800bbd239982929-31",
+			"value": "Insert Chest Tube",
+			"valueAsHtml": "Insert Chest Tube",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"7800bbd239982929-32"
+				],
+				"out": [
+					"7800bbd239982929-34"
+				]
+			}
+		},
+		"7800bbd239982929-33": {
+			"id": "7800bbd239982929-33",
+			"value": "Repeat CXR after placement to assess positioning",
+			"valueAsHtml": "Repeat CXR after placement to assess positioning",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"7800bbd239982929-34"
+				],
+				"out": [
+					"7800bbd239982929-36"
+				]
+			}
+		},
+		"7800bbd239982929-35": {
+			"id": "7800bbd239982929-35",
+			"value": "Persistent pneumothorax+/- airleak",
+			"valueAsHtml": "Persistent pneumothorax&nbsp;<div>+/- airleak</div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"7800bbd239982929-36"
+				],
+				"out": [
+					"51793c1d3b9f20f-13",
+					"51793c1d3b9f20f-14"
+				]
+			}
+		},
+		"1d3f74f28d980d8b-1": {
+			"id": "1d3f74f28d980d8b-1",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"51793c1d3b9f20f-14"
+				],
+				"out": [
+					"1d3f74f28d980d8b-4"
+				]
+			}
+		},
+		"1d3f74f28d980d8b-2": {
+			"id": "1d3f74f28d980d8b-2",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"51793c1d3b9f20f-13"
+				],
+				"out": [
+					"51793c1d3b9f20f-12"
+				]
+			}
+		},
+		"1d3f74f28d980d8b-8": {
+			"id": "1d3f74f28d980d8b-8",
+			"value": "Check tubing, system and patient",
+			"valueAsHtml": "Check tubing, system and patient",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"1d3f74f28d980d8b-4"
+				],
+				"out": [
+					"51793c1d3b9f20f-15"
+				]
+			}
+		},
+		"1d3f74f28d980d8b-11": {
+			"id": "1d3f74f28d980d8b-11",
+			"value": "1 cm-10% or less?",
+			"valueAsHtml": "1 cm-10% or less?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"51793c1d3b9f20f-8"
+				],
+				"out": [
+					"51793c1d3b9f20f-10",
+					"51793c1d3b9f20f-11"
+				]
+			}
+		},
+		"d2a6d44611eedbd-1": {
+			"id": "d2a6d44611eedbd-1",
+			"value": "Chest Tube",
+			"valueAsHtml": "Chest Tube<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"d2a6d44611eedbd-2"
+				],
+				"out": []
+			}
+		},
+		"d2a6d44611eedbd-3": {
+			"id": "d2a6d44611eedbd-3",
+			"value": "No chest tube, no further imaging unless clinically indicated",
+			"valueAsHtml": "No chest tube, no further imaging unless clinically indicated<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"d2a6d44611eedbd-7"
+				],
+				"out": []
+			}
+		},
+		"d2a6d44611eedbd-5": {
+			"id": "d2a6d44611eedbd-5",
+			"value": "Treat as Occult",
+			"valueAsHtml": "Treat as Occult<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"51793c1d3b9f20f-9"
+				],
+				"out": []
+			}
+		},
+		"d2a6d44611eedbd-8": {
+			"id": "d2a6d44611eedbd-8",
+			"value": "Residualpneumothorax and/or persistent airleak (consider bronchial injury)",
+			"valueAsHtml": "Residual&nbsp;<div>pneumothorax and/or persistent airleak (consider bronchial injury)<br></div>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"51793c1d3b9f20f-15"
+				],
+				"out": []
+			}
+		},
+		"d2a6d44611eedbd-10": {
+			"id": "d2a6d44611eedbd-10",
+			"value": "Resolved, continue chest tube management",
+			"valueAsHtml": "Resolved, continue chest tube management<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"51793c1d3b9f20f-12"
+				],
+				"out": []
+			}
+		},
+		"51793c1d3b9f20f-2": {
+			"id": "51793c1d3b9f20f-2",
+			"value": "Occult",
+			"valueAsHtml": "Occult",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b7f3ecba3f18cd7-4"
+				],
+				"out": [
+					"51793c1d3b9f20f-4"
+				]
+			}
+		},
+		"51793c1d3b9f20f-3": {
+			"id": "51793c1d3b9f20f-3",
+			"value": "Visible on CXR",
+			"valueAsHtml": "Visible on CXR",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b7f3ecba3f18cd7-5"
+				],
+				"out": [
+					"51793c1d3b9f20f-8"
+				]
+			}
+		},
+		"5b7f3ecba3f18cd7-1": {
+			"id": "5b7f3ecba3f18cd7-1",
+			"value": null,
+			"valueAsHtml": "",
+			"shape": "startState",
+			"fillColor": "#424242",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5b7f3ecba3f18cd7-2"
+				],
+				"out": [
+					"5b7f3ecba3f18cd7-4",
+					"5b7f3ecba3f18cd7-5"
+				]
+			}
+		}
+	}
+}

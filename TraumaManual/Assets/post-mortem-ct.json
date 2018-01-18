@@ -1,0 +1,638 @@
+{
+	"edges": {
+		"b38444e0ffa2828-7": {
+			"id": "b38444e0ffa2828-7",
+			"source": "b38444e0ffa2828-5",
+			"target": "b38444e0ffa2828-6"
+		},
+		"b38444e0ffa2828-9": {
+			"id": "b38444e0ffa2828-9",
+			"source": "b38444e0ffa2828-6",
+			"target": "b38444e0ffa2828-8"
+		},
+		"b38444e0ffa2828-11": {
+			"id": "b38444e0ffa2828-11",
+			"source": "b38444e0ffa2828-8",
+			"target": "b38444e0ffa2828-10"
+		},
+		"b38444e0ffa2828-14": {
+			"id": "b38444e0ffa2828-14",
+			"source": "b38444e0ffa2828-4",
+			"target": "b38444e0ffa2828-5"
+		},
+		"b38444e0ffa2828-16": {
+			"id": "b38444e0ffa2828-16",
+			"source": "b38444e0ffa2828-10",
+			"target": "b38444e0ffa2828-15"
+		},
+		"42fe48a489bf99dd-24": {
+			"id": "42fe48a489bf99dd-24",
+			"source": "b38444e0ffa2828-19",
+			"target": "b38444e0ffa2828-26"
+		},
+		"42fe48a489bf99dd-34": {
+			"id": "42fe48a489bf99dd-34",
+			"source": "42fe48a489bf99dd-2",
+			"target": "42fe48a489bf99dd-9"
+		},
+		"42fe48a489bf99dd-56": {
+			"id": "42fe48a489bf99dd-56",
+			"source": "42fe48a489bf99dd-42",
+			"target": "42fe48a489bf99dd-53"
+		},
+		"42fe48a489bf99dd-57": {
+			"id": "42fe48a489bf99dd-57",
+			"source": "42fe48a489bf99dd-53",
+			"target": "42fe48a489bf99dd-54"
+		},
+		"42fe48a489bf99dd-58": {
+			"id": "42fe48a489bf99dd-58",
+			"source": "42fe48a489bf99dd-54",
+			"target": "42fe48a489bf99dd-55"
+		},
+		"42fe48a489bf99dd-60": {
+			"id": "42fe48a489bf99dd-60",
+			"source": "42fe48a489bf99dd-55",
+			"target": "42fe48a489bf99dd-59"
+		},
+		"42fe48a489bf99dd-65": {
+			"id": "42fe48a489bf99dd-65",
+			"source": "42fe48a489bf99dd-61",
+			"target": "42fe48a489bf99dd-63"
+		},
+		"42fe48a489bf99dd-66": {
+			"id": "42fe48a489bf99dd-66",
+			"source": "42fe48a489bf99dd-63",
+			"target": "42fe48a489bf99dd-64"
+		},
+		"323aa14f8212293d-4": {
+			"id": "323aa14f8212293d-4",
+			"source": "42fe48a489bf99dd-4",
+			"target": "323aa14f8212293d-3"
+		},
+		"323aa14f8212293d-5": {
+			"id": "323aa14f8212293d-5",
+			"source": "42fe48a489bf99dd-11",
+			"target": "323aa14f8212293d-3"
+		},
+		"323aa14f8212293d-7": {
+			"id": "323aa14f8212293d-7",
+			"source": "42fe48a489bf99dd-64",
+			"target": "323aa14f8212293d-6"
+		},
+		"3fbb3e6d5892177e-2": {
+			"id": "3fbb3e6d5892177e-2",
+			"source": "b38444e0ffa2828-15",
+			"target": "b38444e0ffa2828-18"
+		},
+		"3fbb3e6d5892177e-3": {
+			"id": "3fbb3e6d5892177e-3",
+			"source": "b38444e0ffa2828-15",
+			"target": "b38444e0ffa2828-19"
+		},
+		"3fbb3e6d5892177e-4": {
+			"id": "3fbb3e6d5892177e-4",
+			"source": "b38444e0ffa2828-18",
+			"target": "b38444e0ffa2828-22"
+		},
+		"3fbb3e6d5892177e-5": {
+			"id": "3fbb3e6d5892177e-5",
+			"source": "b38444e0ffa2828-22",
+			"target": "323aa14f8212293d-1"
+		},
+		"3fbb3e6d5892177e-6": {
+			"id": "3fbb3e6d5892177e-6",
+			"source": "b38444e0ffa2828-26",
+			"target": "42fe48a489bf99dd-2"
+		},
+		"3fbb3e6d5892177e-7": {
+			"id": "3fbb3e6d5892177e-7",
+			"source": "b38444e0ffa2828-26",
+			"target": "42fe48a489bf99dd-4"
+		},
+		"3fbb3e6d5892177e-12": {
+			"id": "3fbb3e6d5892177e-12",
+			"source": "42fe48a489bf99dd-9",
+			"target": "42fe48a489bf99dd-37"
+		},
+		"3fbb3e6d5892177e-13": {
+			"id": "3fbb3e6d5892177e-13",
+			"source": "42fe48a489bf99dd-9",
+			"target": "42fe48a489bf99dd-11"
+		},
+		"3fbb3e6d5892177e-14": {
+			"id": "3fbb3e6d5892177e-14",
+			"source": "42fe48a489bf99dd-37",
+			"target": "42fe48a489bf99dd-42"
+		},
+		"5561f71aef21e937-2": {
+			"id": "5561f71aef21e937-2",
+			"source": "323aa14f8212293d-8",
+			"target": "42fe48a489bf99dd-61"
+		},
+		"56b7efde7fc82216-1": {
+			"id": "56b7efde7fc82216-1",
+			"source": "42fe48a489bf99dd-59",
+			"target": "323aa14f8212293d-8"
+		}
+	},
+	"nodes": {
+		"0": {
+			"id": "0",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"1": {
+			"id": "1",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"b38444e0ffa2828-3": {
+			"id": "b38444e0ffa2828-3",
+			"value": "Trauma Surgery Post-Mortem CT Scan Protocol",
+			"valueAsHtml": "Trauma Surgery Post-Mortem CT Scan Protocol",
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"b38444e0ffa2828-5": {
+			"id": "b38444e0ffa2828-5",
+			"value": "Trauma Patient dies in ED",
+			"valueAsHtml": "Trauma Patient dies in ED",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"b38444e0ffa2828-14"
+				],
+				"out": [
+					"b38444e0ffa2828-7"
+				]
+			}
+		},
+		"b38444e0ffa2828-6": {
+			"id": "b38444e0ffa2828-6",
+			"value": "Trauma Attending cannot determine cause of death",
+			"valueAsHtml": "Trauma Attending cannot determine cause of death",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"b38444e0ffa2828-7"
+				],
+				"out": [
+					"b38444e0ffa2828-9"
+				]
+			}
+		},
+		"b38444e0ffa2828-8": {
+			"id": "b38444e0ffa2828-8",
+			"value": "Trauma Attending contacts deputy coroner to page Forensic Pathologist to request\nAutopsy",
+			"valueAsHtml": "Trauma Attending contacts deputy coroner to page Forensic Pathologist to request Autopsy",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"b38444e0ffa2828-9"
+				],
+				"out": [
+					"b38444e0ffa2828-11"
+				]
+			}
+		},
+		"b38444e0ffa2828-10": {
+			"id": "b38444e0ffa2828-10",
+			"value": "Trauma Attending requests that full autopsy be performed",
+			"valueAsHtml": "Trauma Attending requests that full autopsy be performed",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"b38444e0ffa2828-11"
+				],
+				"out": [
+					"b38444e0ffa2828-16"
+				]
+			}
+		},
+		"b38444e0ffa2828-15": {
+			"id": "b38444e0ffa2828-15",
+			"value": "Does the coroner agree to perform full autopsy?",
+			"valueAsHtml": "Does the coroner agree to perform full autopsy?</div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"b38444e0ffa2828-16"
+				],
+				"out": [
+					"3fbb3e6d5892177e-2",
+					"3fbb3e6d5892177e-3"
+				]
+			}
+		},
+		"b38444e0ffa2828-18": {
+			"id": "b38444e0ffa2828-18",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3fbb3e6d5892177e-2"
+				],
+				"out": [
+					"3fbb3e6d5892177e-4"
+				]
+			}
+		},
+		"b38444e0ffa2828-19": {
+			"id": "b38444e0ffa2828-19",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3fbb3e6d5892177e-3"
+				],
+				"out": [
+					"42fe48a489bf99dd-24"
+				]
+			}
+		},
+		"b38444e0ffa2828-22": {
+			"id": "b38444e0ffa2828-22",
+			"value": "Marion County Coroners office performs autopsy and send official report to TPIC",
+			"valueAsHtml": "Marion County Coroners office performs autopsy and send official report to TPIC",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3fbb3e6d5892177e-4"
+				],
+				"out": [
+					"3fbb3e6d5892177e-5"
+				]
+			}
+		},
+		"b38444e0ffa2828-26": {
+			"id": "b38444e0ffa2828-26",
+			"value": "Does the patient have a possibility of unidentified  injuries?",
+			"valueAsHtml": "&nbsp;Does the patient have a possibility of unidentified&nbsp;</div><div>injuries?</div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"42fe48a489bf99dd-24"
+				],
+				"out": [
+					"3fbb3e6d5892177e-6",
+					"3fbb3e6d5892177e-7"
+				]
+			}
+		},
+		"42fe48a489bf99dd-2": {
+			"id": "42fe48a489bf99dd-2",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3fbb3e6d5892177e-6"
+				],
+				"out": [
+					"42fe48a489bf99dd-34"
+				]
+			}
+		},
+		"42fe48a489bf99dd-4": {
+			"id": "42fe48a489bf99dd-4",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3fbb3e6d5892177e-7"
+				],
+				"out": [
+					"323aa14f8212293d-4"
+				]
+			}
+		},
+		"42fe48a489bf99dd-9": {
+			"id": "42fe48a489bf99dd-9",
+			"value": "Has the patient had a full CT imagining/ surgical exploration of the vital\norgans?",
+			"valueAsHtml": "Has the patient had a full CT imagining/ surgical exploration of the vital organs?&nbsp;</span></div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"42fe48a489bf99dd-34"
+				],
+				"out": [
+					"3fbb3e6d5892177e-12",
+					"3fbb3e6d5892177e-13"
+				]
+			}
+		},
+		"42fe48a489bf99dd-11": {
+			"id": "42fe48a489bf99dd-11",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3fbb3e6d5892177e-13"
+				],
+				"out": [
+					"323aa14f8212293d-5"
+				]
+			}
+		},
+		"42fe48a489bf99dd-37": {
+			"id": "42fe48a489bf99dd-37",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3fbb3e6d5892177e-12"
+				],
+				"out": [
+					"3fbb3e6d5892177e-14"
+				]
+			}
+		},
+		"42fe48a489bf99dd-42": {
+			"id": "42fe48a489bf99dd-42",
+			"value": "Trauma Attending Orders Whole Body Post Mortem CT Indication: Research in Cemer",
+			"valueAsHtml": "Trauma Attending Orders Whole Body Post Mortem CT Indication: Research in Cemer&nbsp;",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3fbb3e6d5892177e-14"
+				],
+				"out": [
+					"42fe48a489bf99dd-56"
+				]
+			}
+		},
+		"42fe48a489bf99dd-53": {
+			"id": "42fe48a489bf99dd-53",
+			"value": "Radiology will receive order and complete PMCT tracking form with approved\nindications",
+			"valueAsHtml": "Radiology will receive order and complete PMCT tracking form with approved indications",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"42fe48a489bf99dd-56"
+				],
+				"out": [
+					"42fe48a489bf99dd-57"
+				]
+			}
+		},
+		"42fe48a489bf99dd-54": {
+			"id": "42fe48a489bf99dd-54",
+			"value": "Radiology will call EMTC nursing staff when available for PMCT (non-urgent\npriority)",
+			"valueAsHtml": "Radiology will call EMTC nursing staff when available for PMCT (non-urgent priority)",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"42fe48a489bf99dd-57"
+				],
+				"out": [
+					"42fe48a489bf99dd-58"
+				]
+			}
+		},
+		"42fe48a489bf99dd-55": {
+			"id": "42fe48a489bf99dd-55",
+			"value": "EMTC staff will accompany patient to CT scan. Hand off will occur and then\nradiology will contact EMTC staff to return to transport patient back to ED",
+			"valueAsHtml": "EMTC staff will accompany patient to CT scan. Hand off will occur and then radiology will contact EMTC staff to return to transport patient back to ED",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"42fe48a489bf99dd-58"
+				],
+				"out": [
+					"42fe48a489bf99dd-60"
+				]
+			}
+		},
+		"42fe48a489bf99dd-59": {
+			"id": "42fe48a489bf99dd-59",
+			"value": "Perform post-mortem CT",
+			"valueAsHtml": "Perform post-mortem CT",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"42fe48a489bf99dd-60"
+				],
+				"out": [
+					"56b7efde7fc82216-1"
+				]
+			}
+		},
+		"42fe48a489bf99dd-61": {
+			"id": "42fe48a489bf99dd-61",
+			"value": "After images complete, trained radiologist will interpret the results. The\nreport will be copied and sent to Scott Steenburg with CD",
+			"valueAsHtml": "After images complete, trained radiologist will interpret the results. The report will be copied and sent to Scott Steenburg with CD",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5561f71aef21e937-2"
+				],
+				"out": [
+					"42fe48a489bf99dd-65"
+				]
+			}
+		},
+		"42fe48a489bf99dd-63": {
+			"id": "42fe48a489bf99dd-63",
+			"value": "Radiology staff will complete PI paperwork with MRN# and give a copy to Karl\nMockler",
+			"valueAsHtml": "Radiology staff will complete PI paperwork with MRN# and give a copy to Karl Mockler",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"42fe48a489bf99dd-65"
+				],
+				"out": [
+					"42fe48a489bf99dd-66"
+				]
+			}
+		},
+		"42fe48a489bf99dd-64": {
+			"id": "42fe48a489bf99dd-64",
+			"value": "Karl Mockler will send a copy of the form electronically to TPM and Camille in\nRevenue cycle to assure billing is processed appropriately",
+			"valueAsHtml": "Karl Mockler will send a copy of the form electronically to TPM and Camille in Revenue cycle to assure billing is processed appropriately",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"42fe48a489bf99dd-66"
+				],
+				"out": [
+					"323aa14f8212293d-7"
+				]
+			}
+		},
+		"323aa14f8212293d-1": {
+			"id": "323aa14f8212293d-1",
+			"value": "TPM will contact registry staff to enter PI filter for PMCT",
+			"valueAsHtml": "TPM will contact registry staff to enter PI filter for PMCT<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3fbb3e6d5892177e-5"
+				],
+				"out": []
+			}
+		},
+		"323aa14f8212293d-3": {
+			"id": "323aa14f8212293d-3",
+			"value": "Patient does not qualify for post-mortem CT",
+			"valueAsHtml": "Patient does not qualify for post-mortem CT<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"323aa14f8212293d-4",
+					"323aa14f8212293d-5"
+				],
+				"out": []
+			}
+		},
+		"323aa14f8212293d-6": {
+			"id": "323aa14f8212293d-6",
+			"value": "TPM will contact registry staff to enter PI filter for PMCT",
+			"valueAsHtml": "TPM will contact registry staff to enter PI filter for PMCT<br>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"323aa14f8212293d-7"
+				],
+				"out": []
+			}
+		},
+		"323aa14f8212293d-8": {
+			"id": "323aa14f8212293d-8",
+			"value": "EMTC staff will complete paperwork and call security to transport patient to\nmorgue",
+			"valueAsHtml": "EMTC staff will complete paperwork and call security to transport patient to morgue<br>",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"56b7efde7fc82216-1"
+				],
+				"out": [
+					"5561f71aef21e937-2"
+				]
+			}
+		},
+		"5561f71aef21e937-4": {
+			"id": "5561f71aef21e937-4",
+			"value": "*",
+			"valueAsHtml": "<font style=\"font-size: 25px\"><sub>*</sub></font>",
+			"shape": null,
+			"fillColor": "none",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"5561f71aef21e937-5": {
+			"id": "5561f71aef21e937-5",
+			"value": "*",
+			"valueAsHtml": "<font style=\"font-size: 25px\"><sub>*</sub></font>",
+			"shape": null,
+			"fillColor": "none",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"5561f71aef21e937-6": {
+			"id": "5561f71aef21e937-6",
+			"value": "*Happens simultaneously",
+			"valueAsHtml": "<font style=\"font-size: 25px\">*</font>Happens simultaneously",
+			"shape": "note",
+			"fillColor": "#fff2cc",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"b38444e0ffa2828-4": {
+			"id": "b38444e0ffa2828-4",
+			"value": null,
+			"shape": "startState",
+			"fillColor": "#424242",
+			"type": "decisionPoint",
+			"edges": {
+				"in": [],
+				"out": [
+					"b38444e0ffa2828-14"
+				]
+			}
+		}
+	}
+}

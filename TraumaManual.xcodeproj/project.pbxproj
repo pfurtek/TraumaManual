@@ -9,6 +9,60 @@
 /* Begin PBXBuildFile section */
 		17A86149DF2365FCF9BB5BF2 /* Pods_TraumaManualUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F0590E28A6FC6F7C459DFA /* Pods_TraumaManualUITests.framework */; };
 		4F3D9347B9208F5C81AFF4EE /* Pods_TraumaManualTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892EE1A36B5F62A56693C818 /* Pods_TraumaManualTests.framework */; };
+		9A96F30A20104DE200148796 /* tertiary-survey.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F30920104DE200148796 /* tertiary-survey.md */; };
+		9A96F30C20104E2800148796 /* post-mortem-ct.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F30B20104E2800148796 /* post-mortem-ct.json */; };
+		9A96F30E20104E7000148796 /* blood-transfusion.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F30D20104E7000148796 /* blood-transfusion.md */; };
+		9A96F31020104F6A00148796 /* acute-surgery.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F30F20104F6A00148796 /* acute-surgery.md */; };
+		9A96F312201050F300148796 /* seizure-prophylaxis-in-neurocritical-care.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F311201050F200148796 /* seizure-prophylaxis-in-neurocritical-care.md */; };
+		9A96F3142010520F00148796 /* acute-spinal-injury.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3132010520F00148796 /* acute-spinal-injury.md */; };
+		9A96F3162010522D00148796 /* brain-dead.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3152010522C00148796 /* brain-dead.md */; };
+		9A96F3182010524200148796 /* suspected-spinal-injury.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3172010524100148796 /* suspected-spinal-injury.md */; };
+		9A96F31A2010525D00148796 /* le-fort.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3192010525C00148796 /* le-fort.md */; };
+		9A96F31C2010527900148796 /* Blunt-Cerebrovascular-Injuries.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F31B2010527900148796 /* Blunt-Cerebrovascular-Injuries.md */; };
+		9A96F31E201052C400148796 /* c-spine.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F31D201052C300148796 /* c-spine.json */; };
+		9A96F3202010532400148796 /* injuries-to-neck.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F31F2010532400148796 /* injuries-to-neck.md */; };
+		9A96F3232010533300148796 /* zone2.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3212010533200148796 /* zone2.md */; };
+		9A96F3242010533300148796 /* zone3.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3222010533200148796 /* zone3.md */; };
+		9A96F338201053F400148796 /* apixaban.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F325201053ED00148796 /* apixaban.json */; };
+		9A96F339201053F400148796 /* dabigatran.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F326201053ED00148796 /* dabigatran.json */; };
+		9A96F33B201053F400148796 /* dvt-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F328201053EE00148796 /* dvt-2.json */; };
+		9A96F33D201053F400148796 /* heparin.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F32A201053EF00148796 /* heparin.json */; };
+		9A96F33E201053F400148796 /* pneumothorax.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F32B201053EF00148796 /* pneumothorax.json */; };
+		9A96F33F201053F400148796 /* teg.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F32C201053F000148796 /* teg.json */; };
+		9A96F340201053F400148796 /* enoxaparin.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F32D201053F000148796 /* enoxaparin.json */; };
+		9A96F341201053F400148796 /* rivaroxaban.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F32E201053F000148796 /* rivaroxaban.json */; };
+		9A96F342201053F400148796 /* hemothorax.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F32F201053F100148796 /* hemothorax.json */; };
+		9A96F343201053F400148796 /* dvt-3.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F330201053F100148796 /* dvt-3.json */; };
+		9A96F344201053F400148796 /* dvt-1.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F331201053F100148796 /* dvt-1.json */; };
+		9A96F345201053F400148796 /* pediatric-trauma.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F332201053F200148796 /* pediatric-trauma.json */; };
+		9A96F346201053F400148796 /* penetrating-neck.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F333201053F200148796 /* penetrating-neck.json */; };
+		9A96F347201053F400148796 /* dvt-4.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F334201053F200148796 /* dvt-4.json */; };
+		9A96F348201053F400148796 /* mangled-extremity.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F335201053F300148796 /* mangled-extremity.json */; };
+		9A96F34A201053F400148796 /* spleen.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F337201053F300148796 /* spleen.json */; };
+		9A96F34D201055BA00148796 /* rib-fractures.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F34B201055BA00148796 /* rib-fractures.md */; };
+		9A96F34E201055BA00148796 /* blunt-aortic.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F34C201055BA00148796 /* blunt-aortic.md */; };
+		9A96F3502010563E00148796 /* open-abdomen.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F34F2010563E00148796 /* open-abdomen.md */; };
+		9A96F35420105B5600148796 /* pregnant-trauma.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F35120105B5500148796 /* pregnant-trauma.md */; };
+		9A96F35520105B5600148796 /* urogenital.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F35220105B5500148796 /* urogenital.md */; };
+		9A96F35620105B5600148796 /* pediatric-patients.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F35320105B5600148796 /* pediatric-patients.md */; };
+		9A96F35F20105E6600148796 /* teg_guide.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F35720105E6300148796 /* teg_guide.md */; };
+		9A96F36020105E6600148796 /* teg.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F35820105E6300148796 /* teg.md */; };
+		9A96F36120105E6600148796 /* antibiotic.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F35920105E6400148796 /* antibiotic.md */; };
+		9A96F36220105E6600148796 /* nutrition.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F35A20105E6400148796 /* nutrition.md */; };
+		9A96F36320105E6600148796 /* damage-control.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F35B20105E6400148796 /* damage-control.md */; };
+		9A96F36420105E6600148796 /* pelvic.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F35C20105E6400148796 /* pelvic.md */; };
+		9A96F36520105E6600148796 /* phys-ther.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F35D20105E6500148796 /* phys-ther.md */; };
+		9A96F36620105E6600148796 /* organ-donation.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F35E20105E6500148796 /* organ-donation.md */; };
+		9A96F36A201061EB00148796 /* TraumaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F369201061EB00148796 /* TraumaViewController.swift */; };
+		9A96F36C2010626400148796 /* Trauma1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F36B2010626400148796 /* Trauma1ViewController.swift */; };
+		9A96F36E2010626C00148796 /* Trauma2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F36D2010626C00148796 /* Trauma2ViewController.swift */; };
+		9A96F3702010627300148796 /* Trauma3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F36F2010627300148796 /* Trauma3ViewController.swift */; };
+		9A96F3722010627E00148796 /* TraumaResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F3712010627E00148796 /* TraumaResponseViewController.swift */; };
+		9A96F375201062B300148796 /* Trauma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F374201062B300148796 /* Trauma.swift */; };
+		9A96F37A2010676D00148796 /* trauma-2.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3762010676B00148796 /* trauma-2.md */; };
+		9A96F37B2010676D00148796 /* trauma-3.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3772010676B00148796 /* trauma-3.md */; };
+		9A96F37C2010676D00148796 /* trauma-1.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3782010676C00148796 /* trauma-1.md */; };
+		9A96F37D2010676D00148796 /* trauma-4.html in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3792010676C00148796 /* trauma-4.html */; };
 		D5989EED4DDC12D62544B470 /* Pods_TraumaManual.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7E5EBF849041AF6B95DC40 /* Pods_TraumaManual.framework */; };
 		E53B88D51FEB21E100DDE1C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53B88D41FEB21E100DDE1C1 /* AppDelegate.swift */; };
 		E53B88DC1FEB21E100DDE1C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53B88DA1FEB21E100DDE1C1 /* Main.storyboard */; };
@@ -89,6 +143,60 @@
 		8687FD57A1EE9C4BBAAF5ECA /* Pods-TraumaManualUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraumaManualUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TraumaManualUITests/Pods-TraumaManualUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		892EE1A36B5F62A56693C818 /* Pods_TraumaManualTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TraumaManualTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F0590E28A6FC6F7C459DFA /* Pods_TraumaManualUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TraumaManualUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A96F30920104DE200148796 /* tertiary-survey.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "tertiary-survey.md"; sourceTree = "<group>"; };
+		9A96F30B20104E2800148796 /* post-mortem-ct.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "post-mortem-ct.json"; sourceTree = "<group>"; };
+		9A96F30D20104E7000148796 /* blood-transfusion.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "blood-transfusion.md"; sourceTree = "<group>"; };
+		9A96F30F20104F6A00148796 /* acute-surgery.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "acute-surgery.md"; sourceTree = "<group>"; };
+		9A96F311201050F200148796 /* seizure-prophylaxis-in-neurocritical-care.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "seizure-prophylaxis-in-neurocritical-care.md"; sourceTree = "<group>"; };
+		9A96F3132010520F00148796 /* acute-spinal-injury.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "acute-spinal-injury.md"; sourceTree = "<group>"; };
+		9A96F3152010522C00148796 /* brain-dead.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "brain-dead.md"; sourceTree = "<group>"; };
+		9A96F3172010524100148796 /* suspected-spinal-injury.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "suspected-spinal-injury.md"; sourceTree = "<group>"; };
+		9A96F3192010525C00148796 /* le-fort.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "le-fort.md"; sourceTree = "<group>"; };
+		9A96F31B2010527900148796 /* Blunt-Cerebrovascular-Injuries.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Blunt-Cerebrovascular-Injuries.md"; sourceTree = "<group>"; };
+		9A96F31D201052C300148796 /* c-spine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "c-spine.json"; sourceTree = "<group>"; };
+		9A96F31F2010532400148796 /* injuries-to-neck.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "injuries-to-neck.md"; sourceTree = "<group>"; };
+		9A96F3212010533200148796 /* zone2.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = zone2.md; sourceTree = "<group>"; };
+		9A96F3222010533200148796 /* zone3.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = zone3.md; sourceTree = "<group>"; };
+		9A96F325201053ED00148796 /* apixaban.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = apixaban.json; sourceTree = "<group>"; };
+		9A96F326201053ED00148796 /* dabigatran.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dabigatran.json; sourceTree = "<group>"; };
+		9A96F328201053EE00148796 /* dvt-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "dvt-2.json"; sourceTree = "<group>"; };
+		9A96F32A201053EF00148796 /* heparin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heparin.json; sourceTree = "<group>"; };
+		9A96F32B201053EF00148796 /* pneumothorax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pneumothorax.json; sourceTree = "<group>"; };
+		9A96F32C201053F000148796 /* teg.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = teg.json; sourceTree = "<group>"; };
+		9A96F32D201053F000148796 /* enoxaparin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = enoxaparin.json; sourceTree = "<group>"; };
+		9A96F32E201053F000148796 /* rivaroxaban.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rivaroxaban.json; sourceTree = "<group>"; };
+		9A96F32F201053F100148796 /* hemothorax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hemothorax.json; sourceTree = "<group>"; };
+		9A96F330201053F100148796 /* dvt-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "dvt-3.json"; sourceTree = "<group>"; };
+		9A96F331201053F100148796 /* dvt-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "dvt-1.json"; sourceTree = "<group>"; };
+		9A96F332201053F200148796 /* pediatric-trauma.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pediatric-trauma.json"; sourceTree = "<group>"; };
+		9A96F333201053F200148796 /* penetrating-neck.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "penetrating-neck.json"; sourceTree = "<group>"; };
+		9A96F334201053F200148796 /* dvt-4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "dvt-4.json"; sourceTree = "<group>"; };
+		9A96F335201053F300148796 /* mangled-extremity.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "mangled-extremity.json"; sourceTree = "<group>"; };
+		9A96F337201053F300148796 /* spleen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = spleen.json; sourceTree = "<group>"; };
+		9A96F34B201055BA00148796 /* rib-fractures.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "rib-fractures.md"; sourceTree = "<group>"; };
+		9A96F34C201055BA00148796 /* blunt-aortic.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "blunt-aortic.md"; sourceTree = "<group>"; };
+		9A96F34F2010563E00148796 /* open-abdomen.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "open-abdomen.md"; sourceTree = "<group>"; };
+		9A96F35120105B5500148796 /* pregnant-trauma.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "pregnant-trauma.md"; sourceTree = "<group>"; };
+		9A96F35220105B5500148796 /* urogenital.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = urogenital.md; sourceTree = "<group>"; };
+		9A96F35320105B5600148796 /* pediatric-patients.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "pediatric-patients.md"; sourceTree = "<group>"; };
+		9A96F35720105E6300148796 /* teg_guide.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = teg_guide.md; sourceTree = "<group>"; };
+		9A96F35820105E6300148796 /* teg.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = teg.md; sourceTree = "<group>"; };
+		9A96F35920105E6400148796 /* antibiotic.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = antibiotic.md; sourceTree = "<group>"; };
+		9A96F35A20105E6400148796 /* nutrition.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = nutrition.md; sourceTree = "<group>"; };
+		9A96F35B20105E6400148796 /* damage-control.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "damage-control.md"; sourceTree = "<group>"; };
+		9A96F35C20105E6400148796 /* pelvic.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = pelvic.md; sourceTree = "<group>"; };
+		9A96F35D20105E6500148796 /* phys-ther.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "phys-ther.md"; sourceTree = "<group>"; };
+		9A96F35E20105E6500148796 /* organ-donation.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "organ-donation.md"; sourceTree = "<group>"; };
+		9A96F369201061EB00148796 /* TraumaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraumaViewController.swift; sourceTree = "<group>"; };
+		9A96F36B2010626400148796 /* Trauma1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trauma1ViewController.swift; sourceTree = "<group>"; };
+		9A96F36D2010626C00148796 /* Trauma2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trauma2ViewController.swift; sourceTree = "<group>"; };
+		9A96F36F2010627300148796 /* Trauma3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trauma3ViewController.swift; sourceTree = "<group>"; };
+		9A96F3712010627E00148796 /* TraumaResponseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraumaResponseViewController.swift; sourceTree = "<group>"; };
+		9A96F374201062B300148796 /* Trauma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trauma.swift; sourceTree = "<group>"; };
+		9A96F3762010676B00148796 /* trauma-2.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "trauma-2.md"; sourceTree = "<group>"; };
+		9A96F3772010676B00148796 /* trauma-3.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "trauma-3.md"; sourceTree = "<group>"; };
+		9A96F3782010676C00148796 /* trauma-1.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "trauma-1.md"; sourceTree = "<group>"; };
+		9A96F3792010676C00148796 /* trauma-4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "trauma-4.html"; sourceTree = "<group>"; };
 		AD91312847021AF44F7C3CFB /* Pods-TraumaManual.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraumaManual.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TraumaManual/Pods-TraumaManual.debug.xcconfig"; sourceTree = "<group>"; };
 		BA3D9863474A3496A0EECA28 /* Pods-TraumaManualTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraumaManualTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TraumaManualTests/Pods-TraumaManualTests.release.xcconfig"; sourceTree = "<group>"; };
 		E53B88D11FEB21E100DDE1C1 /* TraumaManual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraumaManual.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -208,6 +316,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9A96F367201061CD00148796 /* Trauma */ = {
+			isa = PBXGroup;
+			children = (
+				9A96F373201062A900148796 /* Model */,
+				9A96F368201061D700148796 /* Controller */,
+			);
+			path = Trauma;
+			sourceTree = "<group>";
+		};
+		9A96F368201061D700148796 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A96F369201061EB00148796 /* TraumaViewController.swift */,
+				9A96F36B2010626400148796 /* Trauma1ViewController.swift */,
+				9A96F36D2010626C00148796 /* Trauma2ViewController.swift */,
+				9A96F36F2010627300148796 /* Trauma3ViewController.swift */,
+				9A96F3712010627E00148796 /* TraumaResponseViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A96F373201062A900148796 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A96F374201062B300148796 /* Trauma.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E53B88C81FEB21E100DDE1C1 = {
 			isa = PBXGroup;
 			children = (
@@ -234,6 +371,7 @@
 			isa = PBXGroup;
 			children = (
 				E53B891F1FF2B7AE00DDE1C1 /* TraumaModel.swift */,
+				9A96F367201061CD00148796 /* Trauma */,
 				E5A96F3C200E875F00ABF765 /* SideMenu */,
 				E5A96F28200C5B2000ABF765 /* List */,
 				E5A96F1E200C571000ABF765 /* MarkdownText */,
@@ -446,6 +584,54 @@
 			isa = PBXGroup;
 			children = (
 				E5A96F2D200D9DFF00ABF765 /* manual.plist */,
+				9A96F35920105E6400148796 /* antibiotic.md */,
+				9A96F35B20105E6400148796 /* damage-control.md */,
+				9A96F35A20105E6400148796 /* nutrition.md */,
+				9A96F35E20105E6500148796 /* organ-donation.md */,
+				9A96F35C20105E6400148796 /* pelvic.md */,
+				9A96F35D20105E6500148796 /* phys-ther.md */,
+				9A96F35720105E6300148796 /* teg_guide.md */,
+				9A96F35820105E6300148796 /* teg.md */,
+				9A96F35320105B5600148796 /* pediatric-patients.md */,
+				9A96F35120105B5500148796 /* pregnant-trauma.md */,
+				9A96F35220105B5500148796 /* urogenital.md */,
+				9A96F34F2010563E00148796 /* open-abdomen.md */,
+				9A96F34C201055BA00148796 /* blunt-aortic.md */,
+				9A96F34B201055BA00148796 /* rib-fractures.md */,
+				9A96F325201053ED00148796 /* apixaban.json */,
+				9A96F326201053ED00148796 /* dabigatran.json */,
+				9A96F331201053F100148796 /* dvt-1.json */,
+				9A96F328201053EE00148796 /* dvt-2.json */,
+				9A96F330201053F100148796 /* dvt-3.json */,
+				9A96F334201053F200148796 /* dvt-4.json */,
+				9A96F32D201053F000148796 /* enoxaparin.json */,
+				9A96F32F201053F100148796 /* hemothorax.json */,
+				9A96F32A201053EF00148796 /* heparin.json */,
+				9A96F335201053F300148796 /* mangled-extremity.json */,
+				9A96F332201053F200148796 /* pediatric-trauma.json */,
+				9A96F333201053F200148796 /* penetrating-neck.json */,
+				9A96F32B201053EF00148796 /* pneumothorax.json */,
+				9A96F32E201053F000148796 /* rivaroxaban.json */,
+				9A96F337201053F300148796 /* spleen.json */,
+				9A96F32C201053F000148796 /* teg.json */,
+				9A96F3212010533200148796 /* zone2.md */,
+				9A96F3222010533200148796 /* zone3.md */,
+				9A96F31F2010532400148796 /* injuries-to-neck.md */,
+				9A96F31D201052C300148796 /* c-spine.json */,
+				9A96F31B2010527900148796 /* Blunt-Cerebrovascular-Injuries.md */,
+				9A96F3192010525C00148796 /* le-fort.md */,
+				9A96F3172010524100148796 /* suspected-spinal-injury.md */,
+				9A96F3152010522C00148796 /* brain-dead.md */,
+				9A96F3132010520F00148796 /* acute-spinal-injury.md */,
+				9A96F311201050F200148796 /* seizure-prophylaxis-in-neurocritical-care.md */,
+				9A96F30F20104F6A00148796 /* acute-surgery.md */,
+				9A96F30D20104E7000148796 /* blood-transfusion.md */,
+				9A96F30B20104E2800148796 /* post-mortem-ct.json */,
+				9A96F3782010676C00148796 /* trauma-1.md */,
+				9A96F3762010676B00148796 /* trauma-2.md */,
+				9A96F3772010676B00148796 /* trauma-3.md */,
+				9A96F3792010676C00148796 /* trauma-4.html */,
+				9A96F30920104DE200148796 /* tertiary-survey.md */,
 				E5A96F37200DA44600ABF765 /* hybrid-suite.json */,
 				E5A96F35200DA34300ABF765 /* schedule.json */,
 				E5A96F31200DA15F00ABF765 /* morning-report.md */,
@@ -625,30 +811,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A96F31020104F6A00148796 /* acute-surgery.md in Resources */,
 				E53B89151FF2AA6600DDE1C1 /* AlgorithmQuestionnaireViewController.xib in Resources */,
+				9A96F31C2010527900148796 /* Blunt-Cerebrovascular-Injuries.md in Resources */,
+				9A96F37A2010676D00148796 /* trauma-2.md in Resources */,
 				E5A96F0F200700EF00ABF765 /* RulesCollectionViewCell.xib in Resources */,
+				9A96F35420105B5600148796 /* pregnant-trauma.md in Resources */,
 				E5A96F1D200C539800ABF765 /* AnswerCollectionViewCell.xib in Resources */,
+				9A96F31A2010525D00148796 /* le-fort.md in Resources */,
 				E5A96F0B2007009800ABF765 /* RulesViewController.xib in Resources */,
+				9A96F3232010533300148796 /* zone2.md in Resources */,
+				9A96F3182010524200148796 /* suspected-spinal-injury.md in Resources */,
+				9A96F3502010563E00148796 /* open-abdomen.md in Resources */,
+				9A96F36520105E6600148796 /* phys-ther.md in Resources */,
+				9A96F30E20104E7000148796 /* blood-transfusion.md in Resources */,
 				E5A96F44200EE32A00ABF765 /* ListTableViewCell.xib in Resources */,
 				E5A96F2C200C5B3900ABF765 /* ListTableViewController.xib in Resources */,
+				9A96F34A201053F400148796 /* spleen.json in Resources */,
+				9A96F3242010533300148796 /* zone3.md in Resources */,
 				E5A96F34200DA16000ABF765 /* nurses-and-contact.md in Resources */,
 				E5A96F38200DA44700ABF765 /* hybrid-suite.json in Resources */,
+				9A96F37D2010676D00148796 /* trauma-4.html in Resources */,
+				9A96F33B201053F400148796 /* dvt-2.json in Resources */,
+				9A96F339201053F400148796 /* dabigatran.json in Resources */,
 				E5A96EF32006F77000ABF765 /* FacultyViewController.xib in Resources */,
+				9A96F343201053F400148796 /* dvt-3.json in Resources */,
 				E5A96F27200C578F00ABF765 /* MarkdownTextViewController.xib in Resources */,
+				9A96F36220105E6600148796 /* nutrition.md in Resources */,
+				9A96F338201053F400148796 /* apixaban.json in Resources */,
 				E5A96F30200DA0E000ABF765 /* surgeons.json in Resources */,
 				E5A96F19200C4CB600ABF765 /* DayCollectionViewCell.xib in Resources */,
 				E53B88E11FEB21E100DDE1C1 /* LaunchScreen.storyboard in Resources */,
+				9A96F33E201053F400148796 /* pneumothorax.json in Resources */,
 				E5A96F36200DA34400ABF765 /* schedule.json in Resources */,
 				E53B88DE1FEB21E100DDE1C1 /* Assets.xcassets in Resources */,
+				9A96F35520105B5600148796 /* urogenital.md in Resources */,
+				9A96F340201053F400148796 /* enoxaparin.json in Resources */,
 				E5A96F032007004F00ABF765 /* ScheduleCollectionViewCell.xib in Resources */,
 				E53B88DC1FEB21E100DDE1C1 /* Main.storyboard in Resources */,
+				9A96F346201053F400148796 /* penetrating-neck.json in Resources */,
+				9A96F3162010522D00148796 /* brain-dead.md in Resources */,
+				9A96F37B2010676D00148796 /* trauma-3.md in Resources */,
 				E5A96EED2006F62500ABF765 /* FacultyCollectionViewCell.xib in Resources */,
+				9A96F344201053F400148796 /* dvt-1.json in Resources */,
+				9A96F37C2010676D00148796 /* trauma-1.md in Resources */,
 				E5A96F072007006C00ABF765 /* ScheduleViewController.xib in Resources */,
+				9A96F312201050F300148796 /* seizure-prophylaxis-in-neurocritical-care.md in Resources */,
 				E5A96F2E200D9DFF00ABF765 /* manual.plist in Resources */,
+				9A96F31E201052C400148796 /* c-spine.json in Resources */,
+				9A96F36320105E6600148796 /* damage-control.md in Resources */,
+				9A96F341201053F400148796 /* rivaroxaban.json in Resources */,
+				9A96F34D201055BA00148796 /* rib-fractures.md in Resources */,
+				9A96F345201053F400148796 /* pediatric-trauma.json in Resources */,
 				E5A96F33200DA16000ABF765 /* morning-report.md in Resources */,
+				9A96F33F201053F400148796 /* teg.json in Resources */,
 				E5A96F40200E877300ABF765 /* SideMenuViewController.xib in Resources */,
+				9A96F36020105E6600148796 /* teg.md in Resources */,
+				9A96F3202010532400148796 /* injuries-to-neck.md in Resources */,
+				9A96F36120105E6600148796 /* antibiotic.md in Resources */,
+				9A96F34E201055BA00148796 /* blunt-aortic.md in Resources */,
+				9A96F30C20104E2800148796 /* post-mortem-ct.json in Resources */,
 				E5A96EE42006F3D500ABF765 /* AlgorithmNodeCollectionViewCell.xib in Resources */,
+				9A96F35F20105E6600148796 /* teg_guide.md in Resources */,
+				9A96F35620105B5600148796 /* pediatric-patients.md in Resources */,
+				9A96F342201053F400148796 /* hemothorax.json in Resources */,
+				9A96F347201053F400148796 /* dvt-4.json in Resources */,
+				9A96F36620105E6600148796 /* organ-donation.md in Resources */,
 				E5A96F3B200E7C9900ABF765 /* roles.plist in Resources */,
+				9A96F33D201053F400148796 /* heparin.json in Resources */,
+				9A96F30A20104DE200148796 /* tertiary-survey.md in Resources */,
+				9A96F3142010520F00148796 /* acute-spinal-injury.md in Resources */,
+				9A96F36420105E6600148796 /* pelvic.md in Resources */,
+				9A96F348201053F400148796 /* mangled-extremity.json in Resources */,
 				E53B89191FF2AA7900DDE1C1 /* AlgorithmOverviewViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -844,7 +1078,9 @@
 			files = (
 				E53B89111FF2AA2F00DDE1C1 /* AlgorithmViewController.swift in Sources */,
 				E5A96EF92006F95300ABF765 /* Rules.swift in Sources */,
+				9A96F36C2010626400148796 /* Trauma1ViewController.swift in Sources */,
 				E5A96EFF2006FD2D00ABF765 /* Schedule.swift in Sources */,
+				9A96F3722010627E00148796 /* TraumaResponseViewController.swift in Sources */,
 				E53B89221FF2B86500DDE1C1 /* Algorithm.swift in Sources */,
 				E5A96F26200C578F00ABF765 /* MarkdownTextViewController.swift in Sources */,
 				E5A96F022007004F00ABF765 /* ScheduleCollectionViewCell.swift in Sources */,
@@ -853,11 +1089,13 @@
 				E5A96EEF2006F63A00ABF765 /* FacultySectionController.swift in Sources */,
 				E5A96F18200C4CB600ABF765 /* DayCollectionViewCell.swift in Sources */,
 				E5A96F2B200C5B3900ABF765 /* ListTableViewController.swift in Sources */,
+				9A96F36A201061EB00148796 /* TraumaViewController.swift in Sources */,
 				E5A96EEC2006F62500ABF765 /* FacultyCollectionViewCell.swift in Sources */,
 				E53B89181FF2AA7900DDE1C1 /* AlgorithmOverviewViewController.swift in Sources */,
 				E5A96F23200C572F00ABF765 /* MarkdownText.swift in Sources */,
 				E5A96F0A2007009800ABF765 /* RulesViewController.swift in Sources */,
 				E5A96F062007006C00ABF765 /* ScheduleViewController.swift in Sources */,
+				9A96F3702010627300148796 /* Trauma3ViewController.swift in Sources */,
 				E53B89141FF2AA6600DDE1C1 /* AlgorithmQuestionnaireViewController.swift in Sources */,
 				E53B88D51FEB21E100DDE1C1 /* AppDelegate.swift in Sources */,
 				E5A96EF22006F77000ABF765 /* FacultyViewController.swift in Sources */,
@@ -868,6 +1106,8 @@
 				E5A96F15200C4C2B00ABF765 /* Extensions.swift in Sources */,
 				E53B89201FF2B7AE00DDE1C1 /* TraumaModel.swift in Sources */,
 				E5A96F112007010A00ABF765 /* RulesSectionController.swift in Sources */,
+				9A96F36E2010626C00148796 /* Trauma2ViewController.swift in Sources */,
+				9A96F375201062B300148796 /* Trauma.swift in Sources */,
 				E5A96EE32006F3D500ABF765 /* AlgorithmNodeCollectionViewCell.swift in Sources */,
 				E5A96EE02006F34200ABF765 /* AlgorithmNodeSectionController.swift in Sources */,
 			);

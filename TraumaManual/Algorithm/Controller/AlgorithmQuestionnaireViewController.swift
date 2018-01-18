@@ -51,8 +51,13 @@ class AlgorithmQuestionnaireViewController: UIViewController {
 
 extension AlgorithmQuestionnaireViewController : ListAdapterDataSource {
     func objects(for listAdapter: ListAdapter) -> [ListDiffable] {
-        guard let cur = self.current else {return []}
-        let wrapper = AlgorithmNodeWrapper(text: cur.text, color: cur.color, answers: cur.answers)
+        var cur = self.current
+        while cur != nil && cur!.text == nil && cur!.next.count == 1 {
+            self.current = self.algorithm.getNode(id: cur!.next.first!)
+            cur = self.current
+        }
+        if cur == nil {return []}
+        let wrapper = AlgorithmNodeWrapper(text: cur!.text, color: cur!.color, answers: cur!.answers)
         return [wrapper]
     }
     

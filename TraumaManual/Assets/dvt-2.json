@@ -1,0 +1,599 @@
+{
+	"edges": {
+		"1644aa116b799a52-6": {
+			"id": "1644aa116b799a52-6",
+			"source": "1644aa116b799a52-2",
+			"target": "1644aa116b799a52-5"
+		},
+		"1644aa116b799a52-9": {
+			"id": "1644aa116b799a52-9",
+			"source": "1644aa116b799a52-5",
+			"target": "1644aa116b799a52-7"
+		},
+		"224dd09b1a90250b-18": {
+			"id": "224dd09b1a90250b-18",
+			"source": "224dd09b1a90250b-19",
+			"target": "224dd09b1a90250b-25"
+		},
+		"224dd09b1a90250b-29": {
+			"id": "224dd09b1a90250b-29",
+			"source": "1644aa116b799a52-7",
+			"target": "1644aa116b799a52-11"
+		},
+		"224dd09b1a90250b-30": {
+			"id": "224dd09b1a90250b-30",
+			"source": "1644aa116b799a52-7",
+			"target": "224dd09b1a90250b-13"
+		},
+		"224dd09b1a90250b-31": {
+			"id": "224dd09b1a90250b-31",
+			"source": "224dd09b1a90250b-25",
+			"target": "224dd09b1a90250b-27"
+		},
+		"224dd09b1a90250b-32": {
+			"id": "224dd09b1a90250b-32",
+			"source": "224dd09b1a90250b-25",
+			"target": "224dd09b1a90250b-28"
+		},
+		"224dd09b1a90250b-36": {
+			"id": "224dd09b1a90250b-36",
+			"source": "224dd09b1a90250b-13",
+			"target": "224dd09b1a90250b-15"
+		},
+		"224dd09b1a90250b-37": {
+			"id": "224dd09b1a90250b-37",
+			"source": "1644aa116b799a52-11",
+			"target": "224dd09b1a90250b-9"
+		},
+		"224dd09b1a90250b-41": {
+			"id": "224dd09b1a90250b-41",
+			"source": "224dd09b1a90250b-9",
+			"target": "224dd09b1a90250b-12"
+		},
+		"224dd09b1a90250b-44": {
+			"id": "224dd09b1a90250b-44",
+			"source": "224dd09b1a90250b-40",
+			"target": "224dd09b1a90250b-43"
+		},
+		"224dd09b1a90250b-48": {
+			"id": "224dd09b1a90250b-48",
+			"source": "224dd09b1a90250b-45",
+			"target": "224dd09b1a90250b-47"
+		},
+		"224dd09b1a90250b-64": {
+			"id": "224dd09b1a90250b-64",
+			"source": "224dd09b1a90250b-15",
+			"target": "224dd09b1a90250b-19"
+		},
+		"224dd09b1a90250b-72": {
+			"id": "224dd09b1a90250b-72",
+			"source": "224dd09b1a90250b-15",
+			"target": "224dd09b1a90250b-17"
+		},
+		"224dd09b1a90250b-80": {
+			"id": "224dd09b1a90250b-80",
+			"source": "224dd09b1a90250b-9",
+			"target": "224dd09b1a90250b-40"
+		},
+		"224dd09b1a90250b-81": {
+			"id": "224dd09b1a90250b-81",
+			"source": "224dd09b1a90250b-43",
+			"target": "224dd09b1a90250b-45"
+		},
+		"224dd09b1a90250b-82": {
+			"id": "224dd09b1a90250b-82",
+			"source": "224dd09b1a90250b-43",
+			"target": "224dd09b1a90250b-56"
+		},
+		"224dd09b1a90250b-83": {
+			"id": "224dd09b1a90250b-83",
+			"source": "224dd09b1a90250b-47",
+			"target": "224dd09b1a90250b-49"
+		},
+		"224dd09b1a90250b-84": {
+			"id": "224dd09b1a90250b-84",
+			"source": "224dd09b1a90250b-47",
+			"target": "224dd09b1a90250b-54"
+		},
+		"4e3efd5f8fb59c65-4": {
+			"id": "4e3efd5f8fb59c65-4",
+			"source": "224dd09b1a90250b-17",
+			"target": "4e3efd5f8fb59c65-1"
+		},
+		"4e3efd5f8fb59c65-5": {
+			"id": "4e3efd5f8fb59c65-5",
+			"source": "224dd09b1a90250b-27",
+			"target": "4e3efd5f8fb59c65-1"
+		},
+		"4e3efd5f8fb59c65-6": {
+			"id": "4e3efd5f8fb59c65-6",
+			"source": "224dd09b1a90250b-28",
+			"target": "4e3efd5f8fb59c65-2"
+		},
+		"4e3efd5f8fb59c65-7": {
+			"id": "4e3efd5f8fb59c65-7",
+			"source": "224dd09b1a90250b-12",
+			"target": "4e3efd5f8fb59c65-2"
+		},
+		"4e3efd5f8fb59c65-9": {
+			"id": "4e3efd5f8fb59c65-9",
+			"source": "224dd09b1a90250b-54",
+			"target": "4e3efd5f8fb59c65-2"
+		},
+		"4e3efd5f8fb59c65-11": {
+			"id": "4e3efd5f8fb59c65-11",
+			"source": "224dd09b1a90250b-49",
+			"target": "4e3efd5f8fb59c65-3"
+		},
+		"79178bd8d56f2065-1": {
+			"id": "79178bd8d56f2065-1",
+			"source": "224dd09b1a90250b-56",
+			"target": "4e3efd5f8fb59c65-2"
+		}
+	},
+	"nodes": {
+		"0": {
+			"id": "0",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"1": {
+			"id": "1",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"1644aa116b799a52-1": {
+			"id": "1644aa116b799a52-1",
+			"value": "Adult Trauma DVT Prophylaxis Algorithm: Flow Sheet 2",
+			"valueAsHtml": "Adult Trauma DVT Prophylaxis Algorithm: Flow Sheet 2",
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"1644aa116b799a52-5": {
+			"id": "1644aa116b799a52-5",
+			"value": "Traumatic brain injury",
+			"valueAsHtml": "Traumatic brain injury",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"1644aa116b799a52-6"
+				],
+				"out": [
+					"1644aa116b799a52-9"
+				]
+			}
+		},
+		"1644aa116b799a52-7": {
+			"id": "1644aa116b799a52-7",
+			"value": "GCS greater than 8?",
+			"valueAsHtml": "GCS greater than 8?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"1644aa116b799a52-9"
+				],
+				"out": [
+					"224dd09b1a90250b-29",
+					"224dd09b1a90250b-30"
+				]
+			}
+		},
+		"1644aa116b799a52-11": {
+			"id": "1644aa116b799a52-11",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"224dd09b1a90250b-29"
+				],
+				"out": [
+					"224dd09b1a90250b-37"
+				]
+			}
+		},
+		"224dd09b1a90250b-9": {
+			"id": "224dd09b1a90250b-9",
+			"value": "Was head CT stable per  neurosurgeryrepeated?",
+			"valueAsHtml": "Was head CT stable per&nbsp;</span></div><div><span>neurosurgery&nbsp;</span><div><div>repeated?</div></div></div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"224dd09b1a90250b-37"
+				],
+				"out": [
+					"224dd09b1a90250b-41",
+					"224dd09b1a90250b-80"
+				]
+			}
+		},
+		"224dd09b1a90250b-12": {
+			"id": "224dd09b1a90250b-12",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"224dd09b1a90250b-41"
+				],
+				"out": [
+					"4e3efd5f8fb59c65-7"
+				]
+			}
+		},
+		"224dd09b1a90250b-13": {
+			"id": "224dd09b1a90250b-13",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"224dd09b1a90250b-30"
+				],
+				"out": [
+					"224dd09b1a90250b-36"
+				]
+			}
+		},
+		"224dd09b1a90250b-15": {
+			"id": "224dd09b1a90250b-15",
+			"value": "Was head CT repeated?",
+			"valueAsHtml": "Was head CT repeated?</div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"224dd09b1a90250b-36"
+				],
+				"out": [
+					"224dd09b1a90250b-64",
+					"224dd09b1a90250b-72"
+				]
+			}
+		},
+		"224dd09b1a90250b-17": {
+			"id": "224dd09b1a90250b-17",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"224dd09b1a90250b-72"
+				],
+				"out": [
+					"4e3efd5f8fb59c65-4"
+				]
+			}
+		},
+		"224dd09b1a90250b-19": {
+			"id": "224dd09b1a90250b-19",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"224dd09b1a90250b-64"
+				],
+				"out": [
+					"224dd09b1a90250b-18"
+				]
+			}
+		},
+		"224dd09b1a90250b-25": {
+			"id": "224dd09b1a90250b-25",
+			"value": "Was the head CT stable per NUS  repeated?",
+			"valueAsHtml": "Was the head CT stable per NUS&nbsp;</div><div>repeated?</div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"224dd09b1a90250b-18"
+				],
+				"out": [
+					"224dd09b1a90250b-31",
+					"224dd09b1a90250b-32"
+				]
+			}
+		},
+		"224dd09b1a90250b-27": {
+			"id": "224dd09b1a90250b-27",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"224dd09b1a90250b-31"
+				],
+				"out": [
+					"4e3efd5f8fb59c65-5"
+				]
+			}
+		},
+		"224dd09b1a90250b-28": {
+			"id": "224dd09b1a90250b-28",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"224dd09b1a90250b-32"
+				],
+				"out": [
+					"4e3efd5f8fb59c65-6"
+				]
+			}
+		},
+		"224dd09b1a90250b-40": {
+			"id": "224dd09b1a90250b-40",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"224dd09b1a90250b-80"
+				],
+				"out": [
+					"224dd09b1a90250b-44"
+				]
+			}
+		},
+		"224dd09b1a90250b-43": {
+			"id": "224dd09b1a90250b-43",
+			"value": "Has it been at least 48 hrs since  Camino/EVDplacement?",
+			"valueAsHtml": "Has it been at least 48 hrs since&nbsp;</div><div>Camino/EVD&nbsp;</div><div>placement?</div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"224dd09b1a90250b-44"
+				],
+				"out": [
+					"224dd09b1a90250b-81",
+					"224dd09b1a90250b-82"
+				]
+			}
+		},
+		"224dd09b1a90250b-45": {
+			"id": "224dd09b1a90250b-45",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"224dd09b1a90250b-81"
+				],
+				"out": [
+					"224dd09b1a90250b-48"
+				]
+			}
+		},
+		"224dd09b1a90250b-47": {
+			"id": "224dd09b1a90250b-47",
+			"value": "Are the ICPs less than 20?",
+			"valueAsHtml": "Are the ICPs less than 20?</div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"224dd09b1a90250b-48"
+				],
+				"out": [
+					"224dd09b1a90250b-83",
+					"224dd09b1a90250b-84"
+				]
+			}
+		},
+		"224dd09b1a90250b-49": {
+			"id": "224dd09b1a90250b-49",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"224dd09b1a90250b-83"
+				],
+				"out": [
+					"4e3efd5f8fb59c65-11"
+				]
+			}
+		},
+		"224dd09b1a90250b-56": {
+			"id": "224dd09b1a90250b-56",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"224dd09b1a90250b-82"
+				],
+				"out": [
+					"79178bd8d56f2065-1"
+				]
+			}
+		},
+		"224dd09b1a90250b-54": {
+			"id": "224dd09b1a90250b-54",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"224dd09b1a90250b-84"
+				],
+				"out": [
+					"4e3efd5f8fb59c65-9"
+				]
+			}
+		},
+		"224dd09b1a90250b-89": {
+			"id": "224dd09b1a90250b-89",
+			"value": "*See chart on page 1 for recommendations in patients with renal dysfunction,\nobesity, or heparin allergy",
+			"valueAsHtml": "<font style=\"font-size: 25px\">*</font><font style=\"font-size: 11px\">See chart on page 1 for recommendations in patients with renal dysfunction, obesity, or heparin allergy</font>",
+			"shape": "note",
+			"fillColor": "#fff2cc",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"4e3efd5f8fb59c65-2": {
+			"id": "4e3efd5f8fb59c65-2",
+			"value": "Hold DVT prophylaxis and re-evaluate in 24 hours",
+			"valueAsHtml": "Hold DVT prophylaxis and re-evaluate in 24 hours</span>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"4e3efd5f8fb59c65-6",
+					"4e3efd5f8fb59c65-7",
+					"4e3efd5f8fb59c65-9",
+					"79178bd8d56f2065-1"
+				],
+				"out": []
+			}
+		},
+		"11383d39c017caf7-1": {
+			"id": "11383d39c017caf7-1",
+			"value": null,
+			"valueAsHtml": "",
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"4e3efd5f8fb59c65-1": {
+			"id": "4e3efd5f8fb59c65-1",
+			"value": "Enoxaparin 30mg SubQ Q12Hstarting  24hrs post-injury",
+			"valueAsHtml": "Enoxaparin 30mg SubQ Q12H<b>starting&nbsp;</b></div><div><b>24</b>hrs post-injury</div>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"4e3efd5f8fb59c65-4",
+					"4e3efd5f8fb59c65-5"
+				],
+				"out": []
+			}
+		},
+		"74a873844b28492-4": {
+			"id": "74a873844b28492-4",
+			"value": "*",
+			"valueAsHtml": "<font style=\"font-size: 25px\"><sub>*</sub></font>",
+			"shape": null,
+			"fillColor": "none",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"11383d39c017caf7-2": {
+			"id": "11383d39c017caf7-2",
+			"value": null,
+			"valueAsHtml": "",
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"4e3efd5f8fb59c65-3": {
+			"id": "4e3efd5f8fb59c65-3",
+			"value": "Enoxaparin 30mg SubQ Q12H starting 72 hrs post-injury",
+			"valueAsHtml": "Enoxaparin 30mg SubQ Q12H starting 72 hrs post-injury",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"4e3efd5f8fb59c65-11"
+				],
+				"out": []
+			}
+		},
+		"74a873844b28492-5": {
+			"id": "74a873844b28492-5",
+			"value": "*",
+			"valueAsHtml": "<font style=\"font-size: 25px\"><sub>*</sub></font>",
+			"shape": null,
+			"fillColor": "none",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"1644aa116b799a52-2": {
+			"id": "1644aa116b799a52-2",
+			"value": null,
+			"shape": "startState",
+			"fillColor": "#424242",
+			"type": "decisionPoint",
+			"edges": {
+				"in": [],
+				"out": [
+					"1644aa116b799a52-6"
+				]
+			}
+		}
+	}
+}

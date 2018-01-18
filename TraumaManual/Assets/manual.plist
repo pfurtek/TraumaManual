@@ -41,7 +41,34 @@
 			<key>filename</key>
 			<string>morning-report.md</string>
 		</dict>
-		<key>06. Hybrid Suite Guidelines (Algorithm)</key>
+		<key>06. Acute Care Surgery Documentation</key>
+		<dict>
+			<key>filename</key>
+			<string>acute-surgery.md</string>
+			<key>type</key>
+			<string>markdown</string>
+		</dict>
+		<key>07. Tiered Response and Activation Criteria</key>
+		<dict>
+			<key>traumaR</key>
+			<string>trauma-4.html</string>
+			<key>trauma3</key>
+			<string>trauma-3.md</string>
+			<key>trauma2</key>
+			<string>trauma-2.md</string>
+			<key>trauma1</key>
+			<string>trauma-1.md</string>
+			<key>type</key>
+			<string>trauma</string>
+		</dict>
+		<key>08. Tertiary Trauma Survey</key>
+		<dict>
+			<key>filename</key>
+			<string>tertiary-survey.md</string>
+			<key>type</key>
+			<string>markdown</string>
+		</dict>
+		<key>09. Hybrid Suite Guidelines (Algorithm)</key>
 		<dict>
 			<key>type</key>
 			<string>algorithm</string>
@@ -50,20 +77,416 @@
 			<key>image</key>
 			<string>hybrid-suite</string>
 		</dict>
+		<key>10. Post-Mortem CT Scan (Algorithm)</key>
+		<dict>
+			<key>image</key>
+			<string>post-mortem-ct</string>
+			<key>filename</key>
+			<string>post-mortem-ct.json</string>
+			<key>type</key>
+			<string>algorithm</string>
+		</dict>
+		<key>11. Massive Blood Transfusion</key>
+		<dict>
+			<key>filename</key>
+			<string>blood-transfusion.md</string>
+			<key>type</key>
+			<string>markdown</string>
+		</dict>
 	</dict>
 	<key>02. Head/Neck</key>
-	<dict/>
+	<dict>
+		<key>01. Seizure Prophylaxis in Neurocritical Care</key>
+		<dict>
+			<key>type</key>
+			<string>markdown</string>
+			<key>filename</key>
+			<string>seizure-prophylaxis-in-neurocritical-care.md</string>
+		</dict>
+		<key>02. Caring for Patients after Acute Spinal Cord Injury</key>
+		<dict>
+			<key>filename</key>
+			<string>acute-spinal-injury.md</string>
+			<key>type</key>
+			<string>markdown</string>
+		</dict>
+		<key>03. Determination of Brain Death</key>
+		<dict>
+			<key>filename</key>
+			<string>brain-dead.md</string>
+			<key>type</key>
+			<string>markdown</string>
+		</dict>
+		<key>04. Suspected Spinal Cord Injury</key>
+		<dict>
+			<key>filename</key>
+			<string>suspected-spinal-injury.md</string>
+			<key>type</key>
+			<string>markdown</string>
+		</dict>
+		<key>05. Le Fort Fractures</key>
+		<dict>
+			<key>filename</key>
+			<string>le-fort.md</string>
+			<key>type</key>
+			<string>markdown</string>
+		</dict>
+		<key>06. Management of Blunt Cerebrovascular Injuries (BCVI)</key>
+		<dict>
+			<key>filename</key>
+			<string>Blunt-Cerebrovascular-Injuries.md</string>
+			<key>type</key>
+			<string>markdown</string>
+		</dict>
+		<key>07. C-Spine Clearance Guidelines (Algorithm)</key>
+		<dict>
+			<key>image</key>
+			<string>c-spine</string>
+			<key>filename</key>
+			<string>c-spine.json</string>
+			<key>type</key>
+			<string>algorithm</string>
+		</dict>
+		<key>08. Injuries to the Neck</key>
+		<dict>
+			<key>01. General Injuries</key>
+			<dict>
+				<key>filename</key>
+				<string>injuries-to-neck.md</string>
+				<key>type</key>
+				<string>markdown</string>
+			</dict>
+			<key>02. Zone II Penetrating Neck Injuries</key>
+			<dict>
+				<key>type</key>
+				<string>markdown</string>
+				<key>filename</key>
+				<string>zone2.md</string>
+			</dict>
+			<key>03. Zone II Neck Injuries (Algorithm)</key>
+			<dict>
+				<key>image</key>
+				<string>penetrating-neck</string>
+				<key>filename</key>
+				<string>penetrating-neck.json</string>
+				<key>type</key>
+				<string>algorithm</string>
+			</dict>
+			<key>04. Zone III Neck Injuries</key>
+			<dict>
+				<key>filename</key>
+				<string>zone3.md</string>
+				<key>type</key>
+				<string>markdown</string>
+			</dict>
+			<key>type</key>
+			<string>list</string>
+		</dict>
+		<key>09. Management of Scalp Lacerations</key>
+		<dict/>
+		<key>type</key>
+		<string>list</string>
+	</dict>
 	<key>03. Chest</key>
-	<dict/>
+	<dict>
+		<key>01. Management of Pneumothorax</key>
+		<dict>
+			<key>image</key>
+			<string>pneunothorax</string>
+			<key>filename</key>
+			<string>pneunothorax.json</string>
+			<key>type</key>
+			<string>algorithm</string>
+		</dict>
+		<key>02. Management of Hemothorax</key>
+		<dict>
+			<key>image</key>
+			<string>hemothorax</string>
+			<key>filename</key>
+			<string>hemothorax.json</string>
+			<key>type</key>
+			<string>algorithm</string>
+		</dict>
+		<key>03. Chest Tube Insertion Guidelines</key>
+		<dict/>
+		<key>04. Chest Tube Removal Guidelines</key>
+		<dict/>
+		<key>05. Surgical Management of Rib Fractures</key>
+		<dict>
+			<key>filename</key>
+			<string>rib-fractures.md</string>
+			<key>type</key>
+			<string>markdown</string>
+		</dict>
+		<key>06. Management of Blunt Aortic Injuries</key>
+		<dict>
+			<key>filename</key>
+			<string>blunt-aortic.md</string>
+			<key>type</key>
+			<string>markdown</string>
+		</dict>
+		<key>type</key>
+		<string>list</string>
+	</dict>
 	<key>04. Abdomen</key>
-	<dict/>
+	<dict>
+		<key>01. Management of the Open Abdomen</key>
+		<dict>
+			<key>filename</key>
+			<string>open-abdomen.md</string>
+			<key>type</key>
+			<string>markdown</string>
+		</dict>
+		<key>02. Non-Operative Management of Blunt Splenic Injury</key>
+		<dict>
+			<key>image</key>
+			<string>spleen</string>
+			<key>filename</key>
+			<string>spleen.json</string>
+			<key>type</key>
+			<string>algorithm</string>
+		</dict>
+		<key>type</key>
+		<string>list</string>
+	</dict>
 	<key>05. Extremities</key>
-	<dict/>
+	<dict>
+		<key>01. Mangled Extremity (Algorithm)</key>
+		<dict>
+			<key>image</key>
+			<string>mangled-extremity</string>
+			<key>filename</key>
+			<string>mangled-extremity.json</string>
+			<key>type</key>
+			<string>algorithm</string>
+		</dict>
+		<key>02. Adult Trauma DVT Prophylaxis Algorithm</key>
+		<dict>
+			<key>01. DVT Flow Sheet 1</key>
+			<dict>
+				<key>image</key>
+				<string>dvt-1</string>
+				<key>filename</key>
+				<string>dvt-1.json</string>
+				<key>type</key>
+				<string>algorithm</string>
+			</dict>
+			<key>02. DVT Flow Sheet 2</key>
+			<dict>
+				<key>image</key>
+				<string>dvt-2</string>
+				<key>filename</key>
+				<string>dvt-2.json</string>
+				<key>type</key>
+				<string>algorithm</string>
+			</dict>
+			<key>03. DVT Flow Sheet 3</key>
+			<dict>
+				<key>image</key>
+				<string>dvt-3</string>
+				<key>filename</key>
+				<string>dvt-3.json</string>
+				<key>type</key>
+				<string>algorithm</string>
+			</dict>
+			<key>04. DVT Flow Sheet 4</key>
+			<dict>
+				<key>image</key>
+				<string>dvt-4</string>
+				<key>filename</key>
+				<string>dvt-4.json</string>
+				<key>type</key>
+				<string>algorithm</string>
+			</dict>
+			<key>type</key>
+			<string>list</string>
+		</dict>
+		<key>03. Reversal of Anticoagulant Effects</key>
+		<dict>
+			<key>01. Apixaban</key>
+			<dict>
+				<key>image</key>
+				<string>apixaban</string>
+				<key>filename</key>
+				<string>apixaban.json</string>
+				<key>type</key>
+				<string>algorithm</string>
+			</dict>
+			<key>02. Dabigatran</key>
+			<dict>
+				<key>image</key>
+				<string>dabigatran</string>
+				<key>filename</key>
+				<string>dabigatran.json</string>
+				<key>type</key>
+				<string>algorithm</string>
+			</dict>
+			<key>03. Enoxaparin</key>
+			<dict>
+				<key>image</key>
+				<string>enoxaparin</string>
+				<key>filename</key>
+				<string>enoxaparin.json</string>
+				<key>type</key>
+				<string>algorithm</string>
+			</dict>
+			<key>04. Heparin</key>
+			<dict>
+				<key>image</key>
+				<string>heparin</string>
+				<key>filename</key>
+				<string>heparin.json</string>
+				<key>type</key>
+				<string>algorithm</string>
+			</dict>
+			<key>05. Rivaroxaban</key>
+			<dict>
+				<key>image</key>
+				<string>rivaroxaban</string>
+				<key>filename</key>
+				<string>rivaroxaban.json</string>
+				<key>type</key>
+				<string>algorithm</string>
+			</dict>
+			<key>type</key>
+			<string>list</string>
+		</dict>
+		<key>04. Abx in Open Fractures</key>
+		<dict/>
+		<key>type</key>
+		<string>list</string>
+	</dict>
 	<key>06. Special Populations</key>
-	<dict/>
+	<dict>
+		<key>01. Management of the Pregnant Trauma Patient (Documentation)</key>
+		<dict>
+			<key>filename</key>
+			<string>pregnant-trauma.md</string>
+			<key>type</key>
+			<string>markdown</string>
+		</dict>
+		<key>02. Management of the Pregnant Trauma Patient (Algorithm)</key>
+		<dict/>
+		<key>03. Fetal Assessment</key>
+		<dict/>
+		<key>04. Pediatric &amp; Adolescence Trauma</key>
+		<dict>
+			<key>image</key>
+			<string>pediatric-trauma</string>
+			<key>filename</key>
+			<string>pediatric-trauma.json</string>
+			<key>type</key>
+			<string>algorithm</string>
+		</dict>
+		<key>05. Management of Pediatric Patients</key>
+		<dict>
+			<key>filename</key>
+			<string>pediatric-patients.md</string>
+			<key>type</key>
+			<string>markdown</string>
+		</dict>
+		<key>06. Injuries to the Urogenital System</key>
+		<dict>
+			<key>filename</key>
+			<string>urogenital.md</string>
+			<key>type</key>
+			<string>markdown</string>
+		</dict>
+		<key>type</key>
+		<string>list</string>
+	</dict>
 	<key>07. References</key>
-	<dict/>
+	<dict>
+		<key>01. Common Trauma Grading Scales</key>
+		<dict/>
+		<key>02. Determination of Brain Death</key>
+		<dict>
+			<key>filename</key>
+			<string>brain-dead.md</string>
+			<key>type</key>
+			<string>markdown</string>
+		</dict>
+		<key>type</key>
+		<string>list</string>
+	</dict>
 	<key>08. Other</key>
-	<dict/>
+	<dict>
+		<key>01. Pelvic Fractures and Hemorrhage</key>
+		<dict>
+			<key>filename</key>
+			<string>pelvic.md</string>
+			<key>type</key>
+			<string>markdown</string>
+		</dict>
+		<key>02. Damage Control Principles</key>
+		<dict>
+			<key>filename</key>
+			<string>damage-control.md</string>
+			<key>type</key>
+			<string>markdown</string>
+		</dict>
+		<key>03. Thromboelastrography (TEG)</key>
+		<dict>
+			<key>01. Documentation</key>
+			<dict>
+				<key>filename</key>
+				<string>teg.md</string>
+				<key>type</key>
+				<string>markdown</string>
+			</dict>
+			<key>02. Interpretation and Treatment Guide</key>
+			<dict>
+				<key>filename</key>
+				<string>teg_guide.md</string>
+				<key>type</key>
+				<string>markdown</string>
+			</dict>
+			<key>03. Algorithm</key>
+			<dict>
+				<key>image</key>
+				<string>teg</string>
+				<key>filename</key>
+				<string>teg.json</string>
+				<key>type</key>
+				<string>algorithm</string>
+			</dict>
+			<key>04. Interactive Diagnosis</key>
+			<dict/>
+			<key>05. Interactive Treatment</key>
+			<dict/>
+			<key>type</key>
+			<string>list</string>
+		</dict>
+		<key>04. Nutrition in the Trauma/EGS Patient: High Yield Pearls</key>
+		<dict>
+			<key>filename</key>
+			<string>nutrition.md</string>
+			<key>type</key>
+			<string>markdown</string>
+		</dict>
+		<key>05. Goals of Physical Therapy</key>
+		<dict>
+			<key>filename</key>
+			<string>phys-ther.md</string>
+			<key>type</key>
+			<string>markdown</string>
+		</dict>
+		<key>06. Guidelines For Antibiotic Prophylaxis</key>
+		<dict>
+			<key>filename</key>
+			<string>antibiotic.md</string>
+			<key>type</key>
+			<string>markdown</string>
+		</dict>
+		<key>07. Organ Donation</key>
+		<dict>
+			<key>filename</key>
+			<string>organ-donation.md</string>
+			<key>type</key>
+			<string>markdown</string>
+		</dict>
+		<key>type</key>
+		<string>list</string>
+	</dict>
 </dict>
 </plist>

@@ -24,14 +24,16 @@ class TraumaModel {
         // Rules
         // Schedule
         // MarkdownText
+        // Trauma
         // NullObject
     
     var bookmarks: [String: Any] = [:]
     var recentlyViewed: [(key: String, value: Any)] = []
     
+    var objects: [String: Any] = [:]
+    
     
     func createModel() {
-        // TODO: populate root
         guard let manual = Factory.readPlistDictionary(filename: "manual") else {return}
         
         for key in manual.allKeys {
@@ -39,6 +41,8 @@ class TraumaModel {
                 root[theKey] = recursiveCreateModel(dict: item)
             }
         }
+        
+        self.loadBookmarks()
     }
     
     func recursiveCreateModel(dict: [String: Any]) -> Any {
@@ -67,7 +71,9 @@ class TraumaModel {
             var newDict: [String: Any] = [:]
             for key in dict.keys {
                 if let item = dict[key] as? [String: Any] {
-                    newDict[key] = recursiveCreateModel(dict: item)
+                    let object = recursiveCreateModel(dict: item)
+                    self.objects[key] = object
+                    newDict[key] = object
                 }
             }
             return newDict
@@ -104,11 +110,20 @@ class TraumaModel {
             }
             for nodeID in nodes.keys {
                 guard let node = nodes[nodeID] as? [String: Any?] else {continue}
-                if let text = node["value"] as? String, let color = node["fillColor"] as? String, let nodeEdges = node["edges"] as? [String: [String]], let outEdges = nodeEdges["out"] {
+                if let nodeEdges = node["edges"] as? [String: [String]], let outEdges = nodeEdges["out"] {
+                    let text = node["value"] as? String
+                    let color = node["fillColor"] as? String 
                     algorithm.addNode(id: nodeID, text: text, color: color, edges: outEdges)
                 }
             }
             return algorithm
+        case "trauma":
+            guard let t1fn = dict["trauma1"] as? String, let t2fn = dict["trauma2"] as? String, let t3fn = dict["trauma3"] as? String, let tRfn = dict["traumaR"] as? String else {return NullObject()}
+            let t1 = Factory.readMD(filename: t1fn)
+            let t2 = Factory.readMD(filename: t2fn)
+            let t3 = Factory.readMD(filename: t3fn)
+            let tR = Factory.readHTML(filename: tRfn)
+            return Trauma(t1: t1, t2: t2, t3: t3, tR: tR)
         default: break
         }
         return NullObject()
@@ -116,10 +131,12 @@ class TraumaModel {
     
     func addBookmark(title: String, object: Any) {
         bookmarks[title] = object
+        saveBookmarks()
     }
     
     func removeBookmark(title: String) {
         bookmarks.removeValue(forKey: title)
+        saveBookmarks()
     }
     
     func isBookmark(title: String) -> Bool {
@@ -133,6 +150,29 @@ class TraumaModel {
         self.recentlyViewed.insert((title, object), at: 0)
         if self.recentlyViewed.count > 20 {
             _ = self.recentlyViewed.dropLast()
+        }
+    }
+    
+    func saveBookmarks() {
+        let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
+        let documentsDirectory = paths.first!
+        let filepath = URL(fileURLWithPath: documentsDirectory).appendingPathComponent("bookmarks.plist")
+        
+        let bookmarksArray = [String](self.bookmarks.keys)
+        let bNSArray = NSMutableArray(array: bookmarksArray)
+        bNSArray.write(to: filepath, atomically: true)
+    }
+    
+    func loadBookmarks() {
+        let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
+        let documentsDirectory = paths.first!
+        let filepath = URL(fileURLWithPath: documentsDirectory).appendingPathComponent("bookmarks.plist")
+        
+        guard let bookmarkKeys = NSArray(contentsOf: filepath) else {return}
+        for key in bookmarkKeys {
+            if let theKey = key as? String {
+                self.bookmarks[theKey] = self.objects[theKey]
+            }
         }
     }
 }
@@ -159,6 +199,18 @@ class Factory {
     static func readMD(filename: String) -> String {
         let fn = String(filename.split(separator: ".", maxSplits: 2, omittingEmptySubsequences: false).first ?? "")
         guard let path = Bundle.main.path(forResource: fn, ofType: "md") else {
+            return ""
+        }
+        do {
+            let text = try String(contentsOfFile: path)
+            return text
+        } catch {/* error handling */}
+        return ""
+    }
+    
+    static func readHTML(filename: String) -> String {
+        let fn = String(filename.split(separator: ".", maxSplits: 2, omittingEmptySubsequences: false).first ?? "")
+        guard let path = Bundle.main.path(forResource: fn, ofType: "html") else {
             return ""
         }
         do {

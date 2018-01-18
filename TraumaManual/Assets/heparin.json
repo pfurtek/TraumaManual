@@ -1,0 +1,314 @@
+{
+	"edges": {
+		"461092c41ccd973b-3": {
+			"id": "461092c41ccd973b-3",
+			"source": "461092c41ccd973b-5",
+			"target": "461092c41ccd973b-12"
+		},
+		"461092c41ccd973b-4": {
+			"id": "461092c41ccd973b-4",
+			"source": "461092c41ccd973b-5",
+			"target": "461092c41ccd973b-13"
+		},
+		"461092c41ccd973b-7": {
+			"id": "461092c41ccd973b-7",
+			"source": "461092c41ccd973b-2",
+			"target": "461092c41ccd973b-6"
+		},
+		"461092c41ccd973b-9": {
+			"id": "461092c41ccd973b-9",
+			"source": "461092c41ccd973b-6",
+			"target": "461092c41ccd973b-8"
+		},
+		"461092c41ccd973b-10": {
+			"id": "461092c41ccd973b-10",
+			"source": "461092c41ccd973b-8",
+			"target": "461092c41ccd973b-5"
+		},
+		"4216c4f3ccdcc19d-1": {
+			"id": "4216c4f3ccdcc19d-1",
+			"source": "461092c41ccd973b-13",
+			"target": "461092c41ccd973b-14"
+		},
+		"4216c4f3ccdcc19d-2": {
+			"id": "4216c4f3ccdcc19d-2",
+			"source": "461092c41ccd973b-14",
+			"target": "461092c41ccd973b-15"
+		},
+		"461092c41ccd973b-16": {
+			"id": "461092c41ccd973b-16",
+			"source": "461092c41ccd973b-12",
+			"target": "461092c41ccd973b-11"
+		}
+	},
+	"nodes": {
+		"0": {
+			"id": "0",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"1": {
+			"id": "1",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"461092c41ccd973b-1": {
+			"id": "461092c41ccd973b-1",
+			"value": "Stepwise Considerations for Unfractionated Heparin Reversal",
+			"valueAsHtml": "Stepwise Considerations for Unfractionated Heparin&nbsp;Reversal",
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"461092c41ccd973b-5": {
+			"id": "461092c41ccd973b-5",
+			"value": "What level?",
+			"valueAsHtml": "What level?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"461092c41ccd973b-10"
+				],
+				"out": [
+					"461092c41ccd973b-3",
+					"461092c41ccd973b-4"
+				]
+			}
+		},
+		"461092c41ccd973b-6": {
+			"id": "461092c41ccd973b-6",
+			"value": "Discontinue Heparin",
+			"valueAsHtml": "Discontinue Heparin",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"461092c41ccd973b-7"
+				],
+				"out": [
+					"461092c41ccd973b-9"
+				]
+			}
+		},
+		"461092c41ccd973b-8": {
+			"id": "461092c41ccd973b-8",
+			"value": "Type and Screen STAT Supportive Care",
+			"valueAsHtml": "Type and Screen STAT Supportive Care",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"461092c41ccd973b-9"
+				],
+				"out": [
+					"461092c41ccd973b-10"
+				]
+			}
+		},
+		"461092c41ccd973b-11": {
+			"id": "461092c41ccd973b-11",
+			"value": "Monitor",
+			"valueAsHtml": "<div>Monitor</div>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"461092c41ccd973b-16"
+				],
+				"out": []
+			}
+		},
+		"461092c41ccd973b-12": {
+			"id": "461092c41ccd973b-12",
+			"value": "Mild-Moderate Bleeding",
+			"valueAsHtml": "Mild-Moderate Bleeding</div>",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"461092c41ccd973b-3"
+				],
+				"out": [
+					"461092c41ccd973b-16"
+				]
+			}
+		},
+		"461092c41ccd973b-13": {
+			"id": "461092c41ccd973b-13",
+			"value": "Severe-Life Threatening Bleeding or Emergent Reversal",
+			"valueAsHtml": "Severe-Life Threatening Bleeding or Emergent Reversal</div>",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"461092c41ccd973b-4"
+				],
+				"out": [
+					"4216c4f3ccdcc19d-1"
+				]
+			}
+		},
+		"461092c41ccd973b-14": {
+			"id": "461092c41ccd973b-14",
+			"value": "Protamine sulfate* - 1mg of protamine neutralizes 100 units of heparin - Max\nsingle dose of protamine 50mg",
+			"valueAsHtml": "Protamine sulfate<b><font style=\"font-size: 10px;\">*</font></b><div style=\"text-align: left\">&nbsp;- 1mg of protamine neutralizes 100 units of heparin</div><div style=\"text-align: left\">&nbsp;- Max single dose of protamine 50mg</div>",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"4216c4f3ccdcc19d-1"
+				],
+				"out": [
+					"4216c4f3ccdcc19d-2"
+				]
+			}
+		},
+		"461092c41ccd973b-15": {
+			"id": "461092c41ccd973b-15",
+			"value": "Obtain the following labs for coagulopathy monitoring: - Baseline aPTTSTAT -\nRepeat aPTT after protamine",
+			"valueAsHtml": "<div>Obtain the following labs for coagulopathy monitoring:</div><div style=\"text-align: left\">&nbsp;- Baseline aPTTSTAT</div><div style=\"text-align: left\">&nbsp;- Repeat aPTT after protamine</div>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"4216c4f3ccdcc19d-2"
+				],
+				"out": []
+			}
+		},
+		"461092c41ccd973b-22": {
+			"id": "461092c41ccd973b-22",
+			"value": "*Protamine Sulfate * Heparin concentrations diminish quickly following\n   discontinuation, therefore protamine requirements decrease as time elapses\n * As low as 0.5mg for 100 units of neutralization if more\n   than 2 hrs has elapsed since heparin administration\n * If reversing a heparin drip, add up the amount of heparin\n   given in the previous 2-2.5 hrs\n * If reversing SubQ heparin, give part of protamine dose\n   (25-50mg) IV, then infuse the remainder over 8-12 hrs",
+			"valueAsHtml": "<div style=\"text-align: center\"><b><font style=\"font-size: 25px\">*</font>Protamine Sulfate</b></div><div style=\"text-align: center\"><ul><li>Heparin concentrations diminish quickly following discontinuation, therefore protamine requirements decrease as time elapses&nbsp;</li><li>As low as 0.5mg for 100 units of neutralization if more than 2 hrs has elapsed since heparin administration</li><li>If reversing a heparin drip, add up the amount of heparin given in the previous 2-2.5 hrs</li><li>If reversing SubQ heparin, give part of protamine dose (25-50mg) IV, then infuse the remainder over 8-12 hrs</li></ul></div>",
+			"shape": "note",
+			"fillColor": "#fff2cc",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"3f8ae23eb758e1a7-1": {
+			"id": "3f8ae23eb758e1a7-1",
+			"value": null,
+			"valueAsHtml": "",
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"461092c41ccd973b-19": {
+			"id": "461092c41ccd973b-19",
+			"value": "Unfractionated Heparin",
+			"valueAsHtml": "Unfractionated Heparin",
+			"shape": null,
+			"fillColor": "none",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"461092c41ccd973b-20": {
+			"id": "461092c41ccd973b-20",
+			"value": "Time to PeakImmediate (IV): 20-30min (SubQ)Half Life1-2 hrsMetabolismHepatic\nEliminationUrine: small amounts as unchanged drugEffect on aPTT/PT1.5-2 x normal\nfor patients on therapeutic doses",
+			"valueAsHtml": "<table border=\"1\" width=\"100%\" style=\"text-align: center ; width: 100% ; height: 100% ; border-collapse: collapse\"><tbody><tr><td align=\"center\"><b>Time to Peak</b></td><td align=\"center\">Immediate (IV): 20-30min (SubQ)&nbsp;</td></tr><tr><td align=\"center\"><b>Half Life</b></td><td align=\"center\">1-2 hrs</td></tr><tr><td style=\"text-align: center\"><b>Metabolism</b></td><td style=\"text-align: center\">Hepatic</td></tr><tr><td style=\"text-align: center\"><b>Elimination</b></td><td>Urine: small amounts as unchanged drug</td></tr><tr><td align=\"center\"><b>Effect on aPTT/PT</b></td><td align=\"center\">1.5-2 x normal for patients on therapeutic doses</td></tr></tbody></table>",
+			"shape": null,
+			"fillColor": "#fff2cc",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"4216c4f3ccdcc19d-3": {
+			"id": "4216c4f3ccdcc19d-3",
+			"value": "*",
+			"valueAsHtml": "<font style=\"font-size: 25px\"><sub>*</sub></font>",
+			"shape": null,
+			"fillColor": "none",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"4216c4f3ccdcc19d-4": {
+			"id": "4216c4f3ccdcc19d-4",
+			"value": "**",
+			"valueAsHtml": "<font style=\"font-size: 25px\"><sub>**</sub></font>",
+			"shape": null,
+			"fillColor": "none",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"4216c4f3ccdcc19d-5": {
+			"id": "4216c4f3ccdcc19d-5",
+			"value": "**Happens simulatneously",
+			"valueAsHtml": "<font style=\"font-size: 25px\">**</font>Happens simulatneously&nbsp;",
+			"shape": "note",
+			"fillColor": "#fff2cc",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"4216c4f3ccdcc19d-6": {
+			"id": "4216c4f3ccdcc19d-6",
+			"value": "**",
+			"valueAsHtml": "<font style=\"font-size: 25px\"><sub>**</sub></font>",
+			"shape": null,
+			"fillColor": "none",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"461092c41ccd973b-2": {
+			"id": "461092c41ccd973b-2",
+			"value": null,
+			"shape": "startState",
+			"fillColor": "#424242",
+			"type": "decisionPoint",
+			"edges": {
+				"in": [],
+				"out": [
+					"461092c41ccd973b-7"
+				]
+			}
+		}
+	}
+}

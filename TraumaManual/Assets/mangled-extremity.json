@@ -1,0 +1,937 @@
+{
+	"edges": {
+		"465ace65c78cca9d-8": {
+			"id": "465ace65c78cca9d-8",
+			"source": "465ace65c78cca9d-3",
+			"target": "465ace65c78cca9d-7"
+		},
+		"465ace65c78cca9d-10": {
+			"id": "465ace65c78cca9d-10",
+			"source": "465ace65c78cca9d-7",
+			"target": "465ace65c78cca9d-9"
+		},
+		"465ace65c78cca9d-21": {
+			"id": "465ace65c78cca9d-21",
+			"source": "164d7fc198d4ed13-7",
+			"target": "164d7fc198d4ed13-11"
+		},
+		"465ace65c78cca9d-22": {
+			"id": "465ace65c78cca9d-22",
+			"source": "164d7fc198d4ed13-3",
+			"target": "164d7fc198d4ed13-7"
+		},
+		"465ace65c78cca9d-23": {
+			"id": "465ace65c78cca9d-23",
+			"source": "164d7fc198d4ed13-11",
+			"target": "164d7fc198d4ed13-6"
+		},
+		"465ace65c78cca9d-36": {
+			"id": "465ace65c78cca9d-36",
+			"source": "465ace65c78cca9d-15",
+			"target": "465ace65c78cca9d-35"
+		},
+		"465ace65c78cca9d-52": {
+			"id": "465ace65c78cca9d-52",
+			"source": "164d7fc198d4ed13-6",
+			"target": "465ace65c78cca9d-24"
+		},
+		"465ace65c78cca9d-53": {
+			"id": "465ace65c78cca9d-53",
+			"source": "164d7fc198d4ed13-6",
+			"target": "465ace65c78cca9d-25"
+		},
+		"465ace65c78cca9d-54": {
+			"id": "465ace65c78cca9d-54",
+			"source": "465ace65c78cca9d-24",
+			"target": "164d7fc198d4ed13-19"
+		},
+		"465ace65c78cca9d-55": {
+			"id": "465ace65c78cca9d-55",
+			"source": "164d7fc198d4ed13-19",
+			"target": "465ace65c78cca9d-39"
+		},
+		"465ace65c78cca9d-56": {
+			"id": "465ace65c78cca9d-56",
+			"source": "465ace65c78cca9d-39",
+			"target": "465ace65c78cca9d-43"
+		},
+		"465ace65c78cca9d-57": {
+			"id": "465ace65c78cca9d-57",
+			"source": "465ace65c78cca9d-43",
+			"target": "465ace65c78cca9d-45"
+		},
+		"465ace65c78cca9d-58": {
+			"id": "465ace65c78cca9d-58",
+			"source": "164d7fc198d4ed13-19",
+			"target": "465ace65c78cca9d-40"
+		},
+		"465ace65c78cca9d-59": {
+			"id": "465ace65c78cca9d-59",
+			"source": "465ace65c78cca9d-40",
+			"target": "465ace65c78cca9d-47"
+		},
+		"465ace65c78cca9d-60": {
+			"id": "465ace65c78cca9d-60",
+			"source": "465ace65c78cca9d-47",
+			"target": "465ace65c78cca9d-49"
+		},
+		"465ace65c78cca9d-73": {
+			"id": "465ace65c78cca9d-73",
+			"source": "465ace65c78cca9d-45",
+			"target": "465ace65c78cca9d-67"
+		},
+		"465ace65c78cca9d-61": {
+			"id": "465ace65c78cca9d-61",
+			"source": "465ace65c78cca9d-25",
+			"target": "164d7fc198d4ed13-17"
+		},
+		"465ace65c78cca9d-66": {
+			"id": "465ace65c78cca9d-66",
+			"source": "465ace65c78cca9d-49",
+			"target": "465ace65c78cca9d-65"
+		},
+		"465ace65c78cca9d-72": {
+			"id": "465ace65c78cca9d-72",
+			"source": "465ace65c78cca9d-65",
+			"target": "465ace65c78cca9d-67"
+		},
+		"465ace65c78cca9d-83": {
+			"id": "465ace65c78cca9d-83",
+			"source": "164d7fc198d4ed13-17",
+			"target": "465ace65c78cca9d-1"
+		},
+		"465ace65c78cca9d-85": {
+			"id": "465ace65c78cca9d-85",
+			"source": "465ace65c78cca9d-1",
+			"target": "465ace65c78cca9d-3"
+		},
+		"465ace65c78cca9d-87": {
+			"id": "465ace65c78cca9d-87",
+			"source": "465ace65c78cca9d-13",
+			"target": "465ace65c78cca9d-15"
+		},
+		"465ace65c78cca9d-98": {
+			"id": "465ace65c78cca9d-98",
+			"source": "465ace65c78cca9d-9",
+			"target": "465ace65c78cca9d-67"
+		},
+		"465ace65c78cca9d-99": {
+			"id": "465ace65c78cca9d-99",
+			"source": "164d7fc198d4ed13-17",
+			"target": "465ace65c78cca9d-13"
+		},
+		"465ace65c78cca9d-101": {
+			"id": "465ace65c78cca9d-101",
+			"source": "465ace65c78cca9d-94",
+			"target": "465ace65c78cca9d-100"
+		},
+		"465ace65c78cca9d-112": {
+			"id": "465ace65c78cca9d-112",
+			"source": "465ace65c78cca9d-103",
+			"target": "465ace65c78cca9d-107"
+		},
+		"465ace65c78cca9d-121": {
+			"id": "465ace65c78cca9d-121",
+			"source": "465ace65c78cca9d-117",
+			"target": "465ace65c78cca9d-116"
+		},
+		"465ace65c78cca9d-127": {
+			"id": "465ace65c78cca9d-127",
+			"source": "465ace65c78cca9d-116",
+			"target": "465ace65c78cca9d-122"
+		},
+		"465ace65c78cca9d-129": {
+			"id": "465ace65c78cca9d-129",
+			"source": "465ace65c78cca9d-122",
+			"target": "465ace65c78cca9d-128"
+		},
+		"465ace65c78cca9d-132": {
+			"id": "465ace65c78cca9d-132",
+			"source": "465ace65c78cca9d-92",
+			"target": "465ace65c78cca9d-94"
+		},
+		"465ace65c78cca9d-133": {
+			"id": "465ace65c78cca9d-133",
+			"source": "465ace65c78cca9d-100",
+			"target": "465ace65c78cca9d-103"
+		},
+		"465ace65c78cca9d-135": {
+			"id": "465ace65c78cca9d-135",
+			"source": "465ace65c78cca9d-102",
+			"target": "164d7fc198d4ed13-4"
+		},
+		"465ace65c78cca9d-137": {
+			"id": "465ace65c78cca9d-137",
+			"source": "465ace65c78cca9d-100",
+			"target": "465ace65c78cca9d-102"
+		},
+		"465ace65c78cca9d-138": {
+			"id": "465ace65c78cca9d-138",
+			"source": "465ace65c78cca9d-92",
+			"target": "465ace65c78cca9d-95"
+		},
+		"465ace65c78cca9d-139": {
+			"id": "465ace65c78cca9d-139",
+			"source": "465ace65c78cca9d-118",
+			"target": "465ace65c78cca9d-130"
+		},
+		"465ace65c78cca9d-140": {
+			"id": "465ace65c78cca9d-140",
+			"source": "465ace65c78cca9d-114",
+			"target": "465ace65c78cca9d-117"
+		},
+		"465ace65c78cca9d-141": {
+			"id": "465ace65c78cca9d-141",
+			"source": "465ace65c78cca9d-114",
+			"target": "465ace65c78cca9d-118"
+		},
+		"2ae71968b67de1c3-1": {
+			"id": "2ae71968b67de1c3-1",
+			"source": "465ace65c78cca9d-95",
+			"target": "465ace65c78cca9d-114"
+		},
+		"5f9104c0c1d67c71-7": {
+			"id": "5f9104c0c1d67c71-7",
+			"source": "465ace65c78cca9d-67",
+			"target": "465ace65c78cca9d-74"
+		},
+		"5f9104c0c1d67c71-8": {
+			"id": "5f9104c0c1d67c71-8",
+			"source": "465ace65c78cca9d-74",
+			"target": "465ace65c78cca9d-71"
+		},
+		"5f9104c0c1d67c71-9": {
+			"id": "5f9104c0c1d67c71-9",
+			"source": "465ace65c78cca9d-75",
+			"target": "465ace65c78cca9d-37"
+		},
+		"5f9104c0c1d67c71-12": {
+			"id": "5f9104c0c1d67c71-12",
+			"source": "465ace65c78cca9d-71",
+			"target": "465ace65c78cca9d-37"
+		},
+		"5f9104c0c1d67c71-13": {
+			"id": "5f9104c0c1d67c71-13",
+			"source": "465ace65c78cca9d-37",
+			"target": "465ace65c78cca9d-92"
+		},
+		"5f9104c0c1d67c71-15": {
+			"id": "5f9104c0c1d67c71-15",
+			"source": "465ace65c78cca9d-67",
+			"target": "465ace65c78cca9d-75"
+		},
+		"5f9104c0c1d67c71-16": {
+			"id": "5f9104c0c1d67c71-16",
+			"source": "465ace65c78cca9d-35",
+			"target": "465ace65c78cca9d-37"
+		}
+	},
+	"nodes": {
+		"0": {
+			"id": "0",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"1": {
+			"id": "1",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"164d7fc198d4ed13-2": {
+			"id": "164d7fc198d4ed13-2",
+			"value": "Mangled Extremity Protocol",
+			"valueAsHtml": "Mangled Extremity Protocol",
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"164d7fc198d4ed13-4": {
+			"id": "164d7fc198d4ed13-4",
+			"value": "Attempt limb salvage",
+			"valueAsHtml": "<div>Attempt limb salvage</div>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-135"
+				],
+				"out": []
+			}
+		},
+		"164d7fc198d4ed13-6": {
+			"id": "164d7fc198d4ed13-6",
+			"value": "Picture available?",
+			"valueAsHtml": "Picture available?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-23"
+				],
+				"out": [
+					"465ace65c78cca9d-52",
+					"465ace65c78cca9d-53"
+				]
+			}
+		},
+		"164d7fc198d4ed13-7": {
+			"id": "164d7fc198d4ed13-7",
+			"value": "ATLS protocol identifies mangled extremity",
+			"valueAsHtml": "ATLS protocol identifies mangled extremity",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-22"
+				],
+				"out": [
+					"465ace65c78cca9d-21"
+				]
+			}
+		},
+		"164d7fc198d4ed13-11": {
+			"id": "164d7fc198d4ed13-11",
+			"value": "Administer antibiotics < 60min, tetanus immunization, call Orthopedics",
+			"valueAsHtml": "Administer antibiotics &lt; 60min, tetanus immunization, call Orthopedics</div>",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-21"
+				],
+				"out": [
+					"465ace65c78cca9d-23"
+				]
+			}
+		},
+		"164d7fc198d4ed13-17": {
+			"id": "164d7fc198d4ed13-17",
+			"value": "Significant active bleeding?",
+			"valueAsHtml": "Significant active bleeding?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-61"
+				],
+				"out": [
+					"465ace65c78cca9d-83",
+					"465ace65c78cca9d-99"
+				]
+			}
+		},
+		"164d7fc198d4ed13-19": {
+			"id": "164d7fc198d4ed13-19",
+			"value": "Bad wound?",
+			"valueAsHtml": "Bad wound?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-54"
+				],
+				"out": [
+					"465ace65c78cca9d-55",
+					"465ace65c78cca9d-58"
+				]
+			}
+		},
+		"465ace65c78cca9d-3": {
+			"id": "465ace65c78cca9d-3",
+			"value": "Take down dressings",
+			"valueAsHtml": "Take down dressings",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-85"
+				],
+				"out": [
+					"465ace65c78cca9d-8"
+				]
+			}
+		},
+		"465ace65c78cca9d-7": {
+			"id": "465ace65c78cca9d-7",
+			"value": "Perform neurologic evaluation",
+			"valueAsHtml": "Perform neurologic evaluation",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-8"
+				],
+				"out": [
+					"465ace65c78cca9d-10"
+				]
+			}
+		},
+		"465ace65c78cca9d-9": {
+			"id": "465ace65c78cca9d-9",
+			"value": "Obtain plain AP XRay",
+			"valueAsHtml": "Obtain plain AP XRay",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-10"
+				],
+				"out": [
+					"465ace65c78cca9d-98"
+				]
+			}
+		},
+		"465ace65c78cca9d-13": {
+			"id": "465ace65c78cca9d-13",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-99"
+				],
+				"out": [
+					"465ace65c78cca9d-87"
+				]
+			}
+		},
+		"465ace65c78cca9d-15": {
+			"id": "465ace65c78cca9d-15",
+			"value": "Apply tourniquet",
+			"valueAsHtml": "Apply tourniquet",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-87"
+				],
+				"out": [
+					"465ace65c78cca9d-36"
+				]
+			}
+		},
+		"465ace65c78cca9d-24": {
+			"id": "465ace65c78cca9d-24",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-52"
+				],
+				"out": [
+					"465ace65c78cca9d-54"
+				]
+			}
+		},
+		"465ace65c78cca9d-25": {
+			"id": "465ace65c78cca9d-25",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-53"
+				],
+				"out": [
+					"465ace65c78cca9d-61"
+				]
+			}
+		},
+		"465ace65c78cca9d-35": {
+			"id": "465ace65c78cca9d-35",
+			"value": "Persistent hemorrhage or refractory hemodynamic instability",
+			"valueAsHtml": "Persistent hemorrhage or refractory hemodynamic instability",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-36"
+				],
+				"out": [
+					"5f9104c0c1d67c71-16"
+				]
+			}
+		},
+		"465ace65c78cca9d-37": {
+			"id": "465ace65c78cca9d-37",
+			"value": "To Hybrid Suite with Orthopedics +/- Trauma surgery as class AA",
+			"valueAsHtml": "To Hybrid Suite with Orthopedics +/- Trauma surgery as class AA",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5f9104c0c1d67c71-9",
+					"5f9104c0c1d67c71-12",
+					"5f9104c0c1d67c71-16"
+				],
+				"out": [
+					"5f9104c0c1d67c71-13"
+				]
+			}
+		},
+		"465ace65c78cca9d-39": {
+			"id": "465ace65c78cca9d-39",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-55"
+				],
+				"out": [
+					"465ace65c78cca9d-56"
+				]
+			}
+		},
+		"465ace65c78cca9d-40": {
+			"id": "465ace65c78cca9d-40",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-58"
+				],
+				"out": [
+					"465ace65c78cca9d-59"
+				]
+			}
+		},
+		"465ace65c78cca9d-43": {
+			"id": "465ace65c78cca9d-43",
+			"value": "Do not take down dressings",
+			"valueAsHtml": "Do not take down dressings",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-56"
+				],
+				"out": [
+					"465ace65c78cca9d-57"
+				]
+			}
+		},
+		"465ace65c78cca9d-45": {
+			"id": "465ace65c78cca9d-45",
+			"value": "Obtain plain AP XRay",
+			"valueAsHtml": "Obtain plain AP XRay",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-57"
+				],
+				"out": [
+					"465ace65c78cca9d-73"
+				]
+			}
+		},
+		"465ace65c78cca9d-47": {
+			"id": "465ace65c78cca9d-47",
+			"value": "Take down dressings",
+			"valueAsHtml": "Take down dressings",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-59"
+				],
+				"out": [
+					"465ace65c78cca9d-60"
+				]
+			}
+		},
+		"465ace65c78cca9d-49": {
+			"id": "465ace65c78cca9d-49",
+			"value": "Perform neurologic evaluation",
+			"valueAsHtml": "Perform neurologic evaluation",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-60"
+				],
+				"out": [
+					"465ace65c78cca9d-66"
+				]
+			}
+		},
+		"465ace65c78cca9d-65": {
+			"id": "465ace65c78cca9d-65",
+			"value": "Obtain plain AP XRay",
+			"valueAsHtml": "Obtain plain AP XRay",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-66"
+				],
+				"out": [
+					"465ace65c78cca9d-72"
+				]
+			}
+		},
+		"465ace65c78cca9d-67": {
+			"id": "465ace65c78cca9d-67",
+			"value": "Fractures aligned or no fractures  present?",
+			"valueAsHtml": "Fractures aligned or no fractures&nbsp;</div><div>present?</div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-73",
+					"465ace65c78cca9d-72",
+					"465ace65c78cca9d-98"
+				],
+				"out": [
+					"5f9104c0c1d67c71-7",
+					"5f9104c0c1d67c71-15"
+				]
+			}
+		},
+		"465ace65c78cca9d-71": {
+			"id": "465ace65c78cca9d-71",
+			"value": "Apply Long Traction",
+			"valueAsHtml": "Apply Long Traction",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5f9104c0c1d67c71-8"
+				],
+				"out": [
+					"5f9104c0c1d67c71-12"
+				]
+			}
+		},
+		"465ace65c78cca9d-74": {
+			"id": "465ace65c78cca9d-74",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5f9104c0c1d67c71-7"
+				],
+				"out": [
+					"5f9104c0c1d67c71-8"
+				]
+			}
+		},
+		"465ace65c78cca9d-75": {
+			"id": "465ace65c78cca9d-75",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5f9104c0c1d67c71-15"
+				],
+				"out": [
+					"5f9104c0c1d67c71-9"
+				]
+			}
+		},
+		"465ace65c78cca9d-1": {
+			"id": "465ace65c78cca9d-1",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-83"
+				],
+				"out": [
+					"465ace65c78cca9d-85"
+				]
+			}
+		},
+		"465ace65c78cca9d-92": {
+			"id": "465ace65c78cca9d-92",
+			"value": "Vascular injury?",
+			"valueAsHtml": "Vascular injury?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"5f9104c0c1d67c71-13"
+				],
+				"out": [
+					"465ace65c78cca9d-132",
+					"465ace65c78cca9d-138"
+				]
+			}
+		},
+		"465ace65c78cca9d-94": {
+			"id": "465ace65c78cca9d-94",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-132"
+				],
+				"out": [
+					"465ace65c78cca9d-101"
+				]
+			}
+		},
+		"465ace65c78cca9d-95": {
+			"id": "465ace65c78cca9d-95",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-138"
+				],
+				"out": [
+					"2ae71968b67de1c3-1"
+				]
+			}
+		},
+		"465ace65c78cca9d-100": {
+			"id": "465ace65c78cca9d-100",
+			"value": "Agreement by 2 surgeons for amputation?",
+			"valueAsHtml": "Agreement by 2 surgeons for amputation?</div></div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-101"
+				],
+				"out": [
+					"465ace65c78cca9d-133",
+					"465ace65c78cca9d-137"
+				]
+			}
+		},
+		"465ace65c78cca9d-102": {
+			"id": "465ace65c78cca9d-102",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-137"
+				],
+				"out": [
+					"465ace65c78cca9d-135"
+				]
+			}
+		},
+		"465ace65c78cca9d-103": {
+			"id": "465ace65c78cca9d-103",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-133"
+				],
+				"out": [
+					"465ace65c78cca9d-112"
+				]
+			}
+		},
+		"465ace65c78cca9d-107": {
+			"id": "465ace65c78cca9d-107",
+			"value": "Amputate",
+			"valueAsHtml": "<div>Amputate</div>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-112"
+				],
+				"out": []
+			}
+		},
+		"465ace65c78cca9d-114": {
+			"id": "465ace65c78cca9d-114",
+			"value": "Previous history of vascular disease?",
+			"valueAsHtml": "Previous history of vascular disease?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"2ae71968b67de1c3-1"
+				],
+				"out": [
+					"465ace65c78cca9d-140",
+					"465ace65c78cca9d-141"
+				]
+			}
+		},
+		"465ace65c78cca9d-116": {
+			"id": "465ace65c78cca9d-116",
+			"value": "Damage control surgery",
+			"valueAsHtml": "Damage control surgery</div>",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-121"
+				],
+				"out": [
+					"465ace65c78cca9d-127"
+				]
+			}
+		},
+		"465ace65c78cca9d-117": {
+			"id": "465ace65c78cca9d-117",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-140"
+				],
+				"out": [
+					"465ace65c78cca9d-121"
+				]
+			}
+		},
+		"465ace65c78cca9d-118": {
+			"id": "465ace65c78cca9d-118",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-141"
+				],
+				"out": [
+					"465ace65c78cca9d-139"
+				]
+			}
+		},
+		"465ace65c78cca9d-122": {
+			"id": "465ace65c78cca9d-122",
+			"value": "Insert temporary intraluminal shunt  across injury",
+			"valueAsHtml": "Insert temporary intraluminal shunt&nbsp;</div><div>across injury</div>",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-127"
+				],
+				"out": [
+					"465ace65c78cca9d-129"
+				]
+			}
+		},
+		"465ace65c78cca9d-128": {
+			"id": "465ace65c78cca9d-128",
+			"value": "Definitive repair +/- vascular surgery",
+			"valueAsHtml": "<div>Definitive repair +/- vascular surgery</div>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-129"
+				],
+				"out": []
+			}
+		},
+		"465ace65c78cca9d-130": {
+			"id": "465ace65c78cca9d-130",
+			"value": "Early vascular consult",
+			"valueAsHtml": "<div>Early vascular consult</div>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"465ace65c78cca9d-139"
+				],
+				"out": []
+			}
+		},
+		"164d7fc198d4ed13-3": {
+			"id": "164d7fc198d4ed13-3",
+			"value": null,
+			"shape": "startState",
+			"fillColor": "#424242",
+			"type": "decisionPoint",
+			"edges": {
+				"in": [],
+				"out": [
+					"465ace65c78cca9d-22"
+				]
+			}
+		}
+	}
+}

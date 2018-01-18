@@ -1,0 +1,290 @@
+{
+	"edges": {
+		"38225246e1834ce3-3": {
+			"id": "38225246e1834ce3-3",
+			"source": "38225246e1834ce3-5",
+			"target": "38225246e1834ce3-12"
+		},
+		"38225246e1834ce3-4": {
+			"id": "38225246e1834ce3-4",
+			"source": "38225246e1834ce3-5",
+			"target": "38225246e1834ce3-13"
+		},
+		"38225246e1834ce3-7": {
+			"id": "38225246e1834ce3-7",
+			"source": "38225246e1834ce3-2",
+			"target": "38225246e1834ce3-6"
+		},
+		"38225246e1834ce3-9": {
+			"id": "38225246e1834ce3-9",
+			"source": "38225246e1834ce3-6",
+			"target": "38225246e1834ce3-8"
+		},
+		"38225246e1834ce3-10": {
+			"id": "38225246e1834ce3-10",
+			"source": "38225246e1834ce3-8",
+			"target": "38225246e1834ce3-5"
+		},
+		"3f4aece94668bb8a-1": {
+			"id": "3f4aece94668bb8a-1",
+			"source": "38225246e1834ce3-13",
+			"target": "38225246e1834ce3-14"
+		},
+		"3f4aece94668bb8a-2": {
+			"id": "3f4aece94668bb8a-2",
+			"source": "38225246e1834ce3-14",
+			"target": "38225246e1834ce3-15"
+		},
+		"38225246e1834ce3-16": {
+			"id": "38225246e1834ce3-16",
+			"source": "38225246e1834ce3-12",
+			"target": "38225246e1834ce3-11"
+		}
+	},
+	"nodes": {
+		"0": {
+			"id": "0",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"1": {
+			"id": "1",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"38225246e1834ce3-1": {
+			"id": "38225246e1834ce3-1",
+			"value": "Stepwise Considerations for Rivaroxaban (Xarelto®) Reversal",
+			"valueAsHtml": "Stepwise Considerations for Rivaroxaban (Xarelto<span><sup>®</sup></span>) Reversal",
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"38225246e1834ce3-5": {
+			"id": "38225246e1834ce3-5",
+			"value": "What level?",
+			"valueAsHtml": "What level?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"38225246e1834ce3-10"
+				],
+				"out": [
+					"38225246e1834ce3-3",
+					"38225246e1834ce3-4"
+				]
+			}
+		},
+		"38225246e1834ce3-6": {
+			"id": "38225246e1834ce3-6",
+			"value": "Discontinue Rivaroxaban",
+			"valueAsHtml": "Discontinue Rivaroxaban",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"38225246e1834ce3-7"
+				],
+				"out": [
+					"38225246e1834ce3-9"
+				]
+			}
+		},
+		"38225246e1834ce3-8": {
+			"id": "38225246e1834ce3-8",
+			"value": "Type and Screen STAT Supportive Care",
+			"valueAsHtml": "Type and Screen STAT Supportive Care",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"38225246e1834ce3-9"
+				],
+				"out": [
+					"38225246e1834ce3-10"
+				]
+			}
+		},
+		"38225246e1834ce3-11": {
+			"id": "38225246e1834ce3-11",
+			"value": "- Ingested within 3 hrs: activated charcoal- Prothombin Complex Concentrate\n(PCC) is NOT indicated",
+			"valueAsHtml": "<span>- Ingested within 3 hrs: activated charcoal&nbsp;</span><div><span>- Prothombin Complex Concentrate (PCC) is NOT indicated</span><br></div>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"38225246e1834ce3-16"
+				],
+				"out": []
+			}
+		},
+		"38225246e1834ce3-12": {
+			"id": "38225246e1834ce3-12",
+			"value": "Mild-Moderate Bleeding",
+			"valueAsHtml": "Mild-Moderate Bleeding</div>",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"38225246e1834ce3-3"
+				],
+				"out": [
+					"38225246e1834ce3-16"
+				]
+			}
+		},
+		"38225246e1834ce3-13": {
+			"id": "38225246e1834ce3-13",
+			"value": "Severe-Life Threatening Bleeding or Emergent Reversal",
+			"valueAsHtml": "Severe-Life Threatening Bleeding or Emergent Reversal</div>",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"38225246e1834ce3-4"
+				],
+				"out": [
+					"3f4aece94668bb8a-1"
+				]
+			}
+		},
+		"38225246e1834ce3-14": {
+			"id": "38225246e1834ce3-14",
+			"value": "- Ingested within 8hrs: activated charcoal- Prothrombin Complex Concentrate\n(PCC) 50 units/kg IV Push x 1 dose (dose rounded per P&T protocol)",
+			"valueAsHtml": "<font style=\"font-size: 10px;\">- Ingested within 8hrs: activated charcoal</font><div><font style=\"font-size: 10px;\">- Prothrombin Complex Concentrate (PCC) 50 units/kg IV Push x 1 dose (dose rounded per P&amp;T protocol)</font></div>",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3f4aece94668bb8a-1"
+				],
+				"out": [
+					"3f4aece94668bb8a-2"
+				]
+			}
+		},
+		"38225246e1834ce3-15": {
+			"id": "38225246e1834ce3-15",
+			"value": "Obtain the following labs at baseline and Q6H x 36H for coagulopathy\nmonitoring:  -  aPTT, PT- R time on TEG (if available)",
+			"valueAsHtml": "<div><font style=\"font-size: 10px;\">Obtain the following labs at baseline and Q6H x 36H for coagulopathy monitoring:&nbsp;</font></div><div><font style=\"font-size: 10px;\">-<font style=\"font-size: 10px;\"> aPTT, PT</font></font></div><div><font style=\"font-size: 10px;\"><font style=\"font-size: 10px;\">- R time on TEG (if available)</font>&nbsp;</font></div>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"3f4aece94668bb8a-2"
+				],
+				"out": []
+			}
+		},
+		"5742c0db3681ae93-1": {
+			"id": "5742c0db3681ae93-1",
+			"value": null,
+			"valueAsHtml": "",
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"38225246e1834ce3-19": {
+			"id": "38225246e1834ce3-19",
+			"value": "Rivaroxaban (Xarelto®)",
+			"valueAsHtml": "<table><tbody><tr><td>Rivaroxaban (Xarelto<sup>®)</sup></td></tr></tbody></table><br>",
+			"shape": null,
+			"fillColor": "none",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"38225246e1834ce3-20": {
+			"id": "38225246e1834ce3-20",
+			"value": "Time to Peak2-4 hrsHalf Life5-9 hrs (11-13 hrs in elderly)MetabolismHepatic via\nCYP3A4/5 and CYP2J2EliminationUrine: 36% as unchanged drug, 30% as inactive\nmetabolite: \nfeces: 7% as unchanged drug, 21% as inactive metaboliteEffect on aPTT/PTPresence\nof drug can increase measurement in a concentration dependent manor",
+			"valueAsHtml": "<table border=\"1\" width=\"100%\" style=\"text-align: center ; width: 100% ; height: 100% ; border-collapse: collapse\"><tbody><tr><td align=\"center\"><b>Time to Peak</b></td><td align=\"center\">2-4 hrs</td></tr><tr><td align=\"center\"><b>Half Life</b></td><td align=\"center\">5-9 hrs (11-13 hrs in elderly)&nbsp;</td></tr><tr><td style=\"text-align: center\"><b>Metabolism</b></td><td style=\"text-align: center\">Hepatic via CYP3A4/5 and CYP2J2</td></tr><tr><td style=\"text-align: center\"><b>Elimination</b></td><td>Urine: 36% as unchanged drug, 30% as inactive metabolite: <br>feces: 7% as unchanged drug, 21% as inactive metabolite</td></tr><tr><td align=\"center\"><b>Effect on aPTT/PT</b></td><td align=\"center\">Presence of drug can increase measurement in a concentration dependent manor</td></tr></tbody></table>",
+			"shape": null,
+			"fillColor": "#fff2cc",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"3f4aece94668bb8a-3": {
+			"id": "3f4aece94668bb8a-3",
+			"value": "*",
+			"valueAsHtml": "<font style=\"font-size: 25px\"><sub>*</sub></font>",
+			"shape": null,
+			"fillColor": "none",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"3f4aece94668bb8a-4": {
+			"id": "3f4aece94668bb8a-4",
+			"value": "*",
+			"valueAsHtml": "<font style=\"font-size: 25px\"><sub>*</sub></font>",
+			"shape": null,
+			"fillColor": "none",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"3f4aece94668bb8a-5": {
+			"id": "3f4aece94668bb8a-5",
+			"value": "*Happens simulatneously",
+			"valueAsHtml": "<font style=\"font-size: 25px\">*</font>Happens simulatneously&nbsp;",
+			"shape": "note",
+			"fillColor": "#fff2cc",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"38225246e1834ce3-2": {
+			"id": "38225246e1834ce3-2",
+			"value": null,
+			"shape": "startState",
+			"fillColor": "#424242",
+			"type": "decisionPoint",
+			"edges": {
+				"in": [],
+				"out": [
+					"38225246e1834ce3-7"
+				]
+			}
+		}
+	}
+}

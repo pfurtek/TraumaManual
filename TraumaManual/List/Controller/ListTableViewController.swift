@@ -126,6 +126,12 @@ class ListTableViewController: UITableViewController {
             algorithmVC.title = choppedKey
             algorithmVC.numberedTitle = key
             self.navigationController?.pushViewController(algorithmVC, animated: true)
+        case is Trauma:
+            let traumaVC = TraumaViewController()
+            traumaVC.trauma = object as! Trauma
+            traumaVC.title = choppedKey
+            traumaVC.numberedTitle = key
+            self.navigationController?.pushViewController(traumaVC, animated: true)
         case is [String: Any]:
             let listTVC = ListTableViewController(nibName: "ListTableViewController", bundle: Bundle.main)
             let map = object as! [String: Any]

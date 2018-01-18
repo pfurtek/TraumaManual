@@ -1,0 +1,485 @@
+{
+	"edges": {
+		"2ef7dda00c88191c-5": {
+			"id": "2ef7dda00c88191c-5",
+			"source": "2ef7dda00c88191c-3",
+			"target": "2ef7dda00c88191c-4"
+		},
+		"298efebe9b6d2916-2": {
+			"id": "298efebe9b6d2916-2",
+			"source": "2ef7dda00c88191c-4",
+			"target": "298efebe9b6d2916-1"
+		},
+		"298efebe9b6d2916-12": {
+			"id": "298efebe9b6d2916-12",
+			"source": "298efebe9b6d2916-4",
+			"target": "298efebe9b6d2916-9"
+		},
+		"269774c96af666a4-1": {
+			"id": "269774c96af666a4-1",
+			"source": "298efebe9b6d2916-13",
+			"target": "1d388c8c443266e8-11"
+		},
+		"298efebe9b6d2916-16": {
+			"id": "298efebe9b6d2916-16",
+			"source": "298efebe9b6d2916-9",
+			"target": "298efebe9b6d2916-14"
+		},
+		"298efebe9b6d2916-17": {
+			"id": "298efebe9b6d2916-17",
+			"source": "298efebe9b6d2916-9",
+			"target": "298efebe9b6d2916-13"
+		},
+		"4af24222f47c3dea-1": {
+			"id": "4af24222f47c3dea-1",
+			"source": "298efebe9b6d2916-23",
+			"target": "298efebe9b6d2916-29"
+		},
+		"298efebe9b6d2916-34": {
+			"id": "298efebe9b6d2916-34",
+			"source": "298efebe9b6d2916-24",
+			"target": "298efebe9b6d2916-33"
+		},
+		"1d388c8c443266e8-2": {
+			"id": "1d388c8c443266e8-2",
+			"source": "298efebe9b6d2916-1",
+			"target": "298efebe9b6d2916-3"
+		},
+		"1d388c8c443266e8-3": {
+			"id": "1d388c8c443266e8-3",
+			"source": "298efebe9b6d2916-1",
+			"target": "298efebe9b6d2916-4"
+		},
+		"1d388c8c443266e8-4": {
+			"id": "1d388c8c443266e8-4",
+			"source": "298efebe9b6d2916-14",
+			"target": "298efebe9b6d2916-20"
+		},
+		"1d388c8c443266e8-5": {
+			"id": "1d388c8c443266e8-5",
+			"source": "298efebe9b6d2916-20",
+			"target": "298efebe9b6d2916-23"
+		},
+		"1d388c8c443266e8-6": {
+			"id": "1d388c8c443266e8-6",
+			"source": "298efebe9b6d2916-20",
+			"target": "298efebe9b6d2916-24"
+		},
+		"1d388c8c443266e8-10": {
+			"id": "1d388c8c443266e8-10",
+			"source": "298efebe9b6d2916-36",
+			"target": "298efebe9b6d2916-42"
+		},
+		"269774c96af666a4-3": {
+			"id": "269774c96af666a4-3",
+			"source": "1d388c8c443266e8-11",
+			"target": "24ca66e66fb33fa3-1"
+		},
+		"24ca66e66fb33fa3-4": {
+			"id": "24ca66e66fb33fa3-4",
+			"source": "298efebe9b6d2916-3",
+			"target": "24ca66e66fb33fa3-2"
+		},
+		"24ca66e66fb33fa3-6": {
+			"id": "24ca66e66fb33fa3-6",
+			"source": "298efebe9b6d2916-29",
+			"target": "24ca66e66fb33fa3-1"
+		},
+		"24ca66e66fb33fa3-7": {
+			"id": "24ca66e66fb33fa3-7",
+			"source": "298efebe9b6d2916-42",
+			"target": "24ca66e66fb33fa3-1"
+		},
+		"46a72ae086dfce78-2": {
+			"id": "46a72ae086dfce78-2",
+			"source": "298efebe9b6d2916-35",
+			"target": "298efebe9b6d2916-29"
+		},
+		"46a72ae086dfce78-4": {
+			"id": "46a72ae086dfce78-4",
+			"source": "298efebe9b6d2916-33",
+			"target": "298efebe9b6d2916-36"
+		},
+		"46a72ae086dfce78-5": {
+			"id": "46a72ae086dfce78-5",
+			"source": "298efebe9b6d2916-33",
+			"target": "298efebe9b6d2916-35"
+		}
+	},
+	"nodes": {
+		"0": {
+			"id": "0",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"1": {
+			"id": "1",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"2ef7dda00c88191c-1": {
+			"id": "2ef7dda00c88191c-1",
+			"value": "Adult Trauma DVT Prophylaxis Algorithm: Flow Sheet 3",
+			"valueAsHtml": "Adult Trauma DVT Prophylaxis Algorithm: Flow Sheet 3",
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"2ef7dda00c88191c-4": {
+			"id": "2ef7dda00c88191c-4",
+			"value": "Spinal Cord Injury",
+			"valueAsHtml": "Spinal Cord Injury",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"2ef7dda00c88191c-5"
+				],
+				"out": [
+					"298efebe9b6d2916-2"
+				]
+			}
+		},
+		"298efebe9b6d2916-1": {
+			"id": "298efebe9b6d2916-1",
+			"value": "Surgical management  planned?",
+			"valueAsHtml": "Surgical management&nbsp;</div><div>planned?</div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"298efebe9b6d2916-2"
+				],
+				"out": [
+					"1d388c8c443266e8-2",
+					"1d388c8c443266e8-3"
+				]
+			}
+		},
+		"298efebe9b6d2916-3": {
+			"id": "298efebe9b6d2916-3",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"1d388c8c443266e8-2"
+				],
+				"out": [
+					"24ca66e66fb33fa3-4"
+				]
+			}
+		},
+		"298efebe9b6d2916-4": {
+			"id": "298efebe9b6d2916-4",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"1d388c8c443266e8-3"
+				],
+				"out": [
+					"298efebe9b6d2916-12"
+				]
+			}
+		},
+		"298efebe9b6d2916-9": {
+			"id": "298efebe9b6d2916-9",
+			"value": "Hematoma present?",
+			"valueAsHtml": "<div>Hematoma present?</div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"298efebe9b6d2916-12"
+				],
+				"out": [
+					"298efebe9b6d2916-16",
+					"298efebe9b6d2916-17"
+				]
+			}
+		},
+		"298efebe9b6d2916-13": {
+			"id": "298efebe9b6d2916-13",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"298efebe9b6d2916-17"
+				],
+				"out": [
+					"269774c96af666a4-1"
+				]
+			}
+		},
+		"298efebe9b6d2916-14": {
+			"id": "298efebe9b6d2916-14",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"298efebe9b6d2916-16"
+				],
+				"out": [
+					"1d388c8c443266e8-4"
+				]
+			}
+		},
+		"298efebe9b6d2916-20": {
+			"id": "298efebe9b6d2916-20",
+			"value": "Patient able to  obtain MRI?",
+			"valueAsHtml": "<div>Patient able to&nbsp;</div><div>obtain MRI?</div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"1d388c8c443266e8-4"
+				],
+				"out": [
+					"1d388c8c443266e8-5",
+					"1d388c8c443266e8-6"
+				]
+			}
+		},
+		"298efebe9b6d2916-23": {
+			"id": "298efebe9b6d2916-23",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"1d388c8c443266e8-5"
+				],
+				"out": [
+					"4af24222f47c3dea-1"
+				]
+			}
+		},
+		"298efebe9b6d2916-24": {
+			"id": "298efebe9b6d2916-24",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"1d388c8c443266e8-6"
+				],
+				"out": [
+					"298efebe9b6d2916-34"
+				]
+			}
+		},
+		"298efebe9b6d2916-29": {
+			"id": "298efebe9b6d2916-29",
+			"value": "Place inferior vena cava (IVC) filter and begin pharmacologic VTE prophylaxis as\nsoon as able",
+			"valueAsHtml": "Place inferior vena cava (IVC) filter and begin pharmacologic VTE prophylaxis as soon as able",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"4af24222f47c3dea-1",
+					"46a72ae086dfce78-2"
+				],
+				"out": [
+					"24ca66e66fb33fa3-6"
+				]
+			}
+		},
+		"298efebe9b6d2916-33": {
+			"id": "298efebe9b6d2916-33",
+			"value": "MRI stable per  NUS?",
+			"valueAsHtml": "<div>MRI stable per&nbsp;</div><div>NUS?</div>",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"298efebe9b6d2916-34"
+				],
+				"out": [
+					"46a72ae086dfce78-4",
+					"46a72ae086dfce78-5"
+				]
+			}
+		},
+		"298efebe9b6d2916-35": {
+			"id": "298efebe9b6d2916-35",
+			"value": "No",
+			"valueAsHtml": "No",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"46a72ae086dfce78-5"
+				],
+				"out": [
+					"46a72ae086dfce78-2"
+				]
+			}
+		},
+		"298efebe9b6d2916-36": {
+			"id": "298efebe9b6d2916-36",
+			"value": "Yes",
+			"valueAsHtml": "Yes",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"46a72ae086dfce78-4"
+				],
+				"out": [
+					"1d388c8c443266e8-10"
+				]
+			}
+		},
+		"298efebe9b6d2916-42": {
+			"id": "298efebe9b6d2916-42",
+			"value": "Enoxaparin 30mg SubQ Q12H starting 72 hrs post-injury",
+			"valueAsHtml": "Enoxaparin 30mg SubQ Q12H starting <b>72 hrs post-injury</b>",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"1d388c8c443266e8-10"
+				],
+				"out": [
+					"24ca66e66fb33fa3-7"
+				]
+			}
+		},
+		"1d388c8c443266e8-11": {
+			"id": "1d388c8c443266e8-11",
+			"value": "Enoxaparin 30mg SubQ Q12H starting 24 hrs  post-injury",
+			"valueAsHtml": "Enoxaparin 30mg&nbsp;SubQ Q12H starting 24 hrs&nbsp;</b></div><div><b>post-injury</b></div></div>",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"269774c96af666a4-1"
+				],
+				"out": [
+					"269774c96af666a4-3"
+				]
+			}
+		},
+		"24ca66e66fb33fa3-1": {
+			"id": "24ca66e66fb33fa3-1",
+			"value": "Patient needs pharmacologic prophylaxis with enoxaparin for 3 months post-injury",
+			"valueAsHtml": "Patient needs pharmacologic prophylaxis with enoxaparin for 3 months post-injury",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"269774c96af666a4-3",
+					"24ca66e66fb33fa3-6",
+					"24ca66e66fb33fa3-7"
+				],
+				"out": []
+			}
+		},
+		"24ca66e66fb33fa3-8": {
+			"id": "24ca66e66fb33fa3-8",
+			"value": "*See chart on page 1 for recommendations in patients with renal  dysfunction,\nobesity, or heparin allergy",
+			"valueAsHtml": "<font style=\"font-size: 25px\">*</font>See chart on page 1 for recommendations in patients with renal&nbsp;</div><div>dysfunction, obesity, or heparin allergy</div>",
+			"shape": "note",
+			"fillColor": "#fff2cc",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"967da3e6e3fd8e6-1": {
+			"id": "967da3e6e3fd8e6-1",
+			"value": null,
+			"valueAsHtml": "",
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"24ca66e66fb33fa3-2": {
+			"id": "24ca66e66fb33fa3-2",
+			"value": "Enoxaparin 30mg SubQ Q12H starting 24 hrs after stabilization",
+			"valueAsHtml": "Enoxaparin 30mg SubQ Q12H starting 24 hrs after stabilization",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"24ca66e66fb33fa3-4"
+				],
+				"out": []
+			}
+		},
+		"382835f519638a5b-3": {
+			"id": "382835f519638a5b-3",
+			"value": "*",
+			"valueAsHtml": "<font style=\"font-size: 25px\"><sub>*</sub></font>",
+			"shape": null,
+			"fillColor": "none",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"2ef7dda00c88191c-3": {
+			"id": "2ef7dda00c88191c-3",
+			"value": null,
+			"shape": "startState",
+			"fillColor": "#424242",
+			"type": "decisionPoint",
+			"edges": {
+				"in": [],
+				"out": [
+					"2ef7dda00c88191c-5"
+				]
+			}
+		}
+	}
+}

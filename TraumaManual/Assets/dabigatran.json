@@ -1,0 +1,290 @@
+{
+	"edges": {
+		"201e936c0a814060-8": {
+			"id": "201e936c0a814060-8",
+			"source": "201e936c0a814060-2",
+			"target": "201e936c0a814060-7"
+		},
+		"201e936c0a814060-10": {
+			"id": "201e936c0a814060-10",
+			"source": "201e936c0a814060-7",
+			"target": "201e936c0a814060-9"
+		},
+		"201e936c0a814060-11": {
+			"id": "201e936c0a814060-11",
+			"source": "201e936c0a814060-9",
+			"target": "201e936c0a814060-6"
+		},
+		"18af2ed35b46b61e-1": {
+			"id": "18af2ed35b46b61e-1",
+			"source": "925fa7a0ad424be-3",
+			"target": "925fa7a0ad424be-4"
+		},
+		"18af2ed35b46b61e-2": {
+			"id": "18af2ed35b46b61e-2",
+			"source": "925fa7a0ad424be-4",
+			"target": "925fa7a0ad424be-5"
+		},
+		"925fa7a0ad424be-6": {
+			"id": "925fa7a0ad424be-6",
+			"source": "925fa7a0ad424be-2",
+			"target": "925fa7a0ad424be-1"
+		},
+		"925fa7a0ad424be-9": {
+			"id": "925fa7a0ad424be-9",
+			"source": "201e936c0a814060-6",
+			"target": "925fa7a0ad424be-2"
+		},
+		"925fa7a0ad424be-10": {
+			"id": "925fa7a0ad424be-10",
+			"source": "201e936c0a814060-6",
+			"target": "925fa7a0ad424be-3"
+		}
+	},
+	"nodes": {
+		"0": {
+			"id": "0",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"1": {
+			"id": "1",
+			"value": null,
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"201e936c0a814060-1": {
+			"id": "201e936c0a814060-1",
+			"value": "Stepwise Considerations for Dabigatran (Pradaxa®) Reversal",
+			"valueAsHtml": "Stepwise Considerations for Dabigatran (Pradaxa<span><sup>®</sup></span>) Reversal",
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"201e936c0a814060-6": {
+			"id": "201e936c0a814060-6",
+			"value": "What level?",
+			"valueAsHtml": "What level?",
+			"shape": "hexagon",
+			"fillColor": "#82B1FF",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"201e936c0a814060-11"
+				],
+				"out": [
+					"925fa7a0ad424be-9",
+					"925fa7a0ad424be-10"
+				]
+			}
+		},
+		"201e936c0a814060-7": {
+			"id": "201e936c0a814060-7",
+			"value": "Discontinue Dabigatran",
+			"valueAsHtml": "Discontinue Dabigatran",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"201e936c0a814060-8"
+				],
+				"out": [
+					"201e936c0a814060-10"
+				]
+			}
+		},
+		"201e936c0a814060-9": {
+			"id": "201e936c0a814060-9",
+			"value": "Type and Screen STAT Supportive Care",
+			"valueAsHtml": "Type and Screen STAT Supportive Care",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"201e936c0a814060-10"
+				],
+				"out": [
+					"201e936c0a814060-11"
+				]
+			}
+		},
+		"925fa7a0ad424be-1": {
+			"id": "925fa7a0ad424be-1",
+			"value": "- Ingested within 3 hrs: activated charcoal- Prothombin Complex Concentrate\n(PCC) is NOT indicated",
+			"valueAsHtml": "<span>- Ingested within 3 hrs: activated charcoal&nbsp;</span><div><span>- Prothombin Complex Concentrate (PCC) is NOT indicated</span><br></div>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"925fa7a0ad424be-6"
+				],
+				"out": []
+			}
+		},
+		"925fa7a0ad424be-2": {
+			"id": "925fa7a0ad424be-2",
+			"value": "Mild-Moderate Bleeding",
+			"valueAsHtml": "Mild-Moderate Bleeding</div>",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"925fa7a0ad424be-9"
+				],
+				"out": [
+					"925fa7a0ad424be-6"
+				]
+			}
+		},
+		"925fa7a0ad424be-3": {
+			"id": "925fa7a0ad424be-3",
+			"value": "Severe-Life Threatening Bleeding or Emergent Reversal",
+			"valueAsHtml": "Severe-Life Threatening Bleeding or Emergent Reversal</div>",
+			"shape": null,
+			"fillColor": "#E1BEE7",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"925fa7a0ad424be-10"
+				],
+				"out": [
+					"18af2ed35b46b61e-1"
+				]
+			}
+		},
+		"925fa7a0ad424be-4": {
+			"id": "925fa7a0ad424be-4",
+			"value": "- Ingested within 2 hrs: activated charcoal  - Hemodialysis removes ~60% over\n2-3 hrs-Idarucizumav (praxabind) 5gm IV (given as two 2.5 gm doses)- Use of\nProthrombin Complex Concentrate (PCC) is NOTE supported by current evidence",
+			"valueAsHtml": "<div>- Ingested within 2 hrs: activated charcoal&nbsp;</div><div>- Hemodialysis removes ~60% over 2-3 hrs</div><div>-Idarucizumav (praxabind) 5gm IV (given as two 2.5 gm doses)</div><div>- Use of Prothrombin Complex Concentrate (PCC) is NOTE supported by current evidence</div>",
+			"shape": null,
+			"fillColor": "#8BCCA5",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"18af2ed35b46b61e-1"
+				],
+				"out": [
+					"18af2ed35b46b61e-2"
+				]
+			}
+		},
+		"925fa7a0ad424be-5": {
+			"id": "925fa7a0ad424be-5",
+			"value": "Obtain the following labs at baseline and Q6H x 36H for coagulopathy\nmonitoring:  - aPTT, PT- R time on TEG (if available)",
+			"valueAsHtml": "<div>Obtain the following labs at baseline and Q6H x 36H for coagulopathy monitoring:&nbsp;</div><div>- aPTT, PT</div><div>- R time on TEG (if available)&nbsp;</div>",
+			"shape": null,
+			"fillColor": "#FF8A80",
+			"type": "normalNode",
+			"edges": {
+				"in": [
+					"18af2ed35b46b61e-2"
+				],
+				"out": []
+			}
+		},
+		"1d853ce1ac29f649-1": {
+			"id": "1d853ce1ac29f649-1",
+			"value": null,
+			"valueAsHtml": "",
+			"shape": null,
+			"fillColor": null,
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"925fa7a0ad424be-12": {
+			"id": "925fa7a0ad424be-12",
+			"value": "Dabigatran (Pradaxa®)",
+			"valueAsHtml": "<table><tbody><tr><td>Dabigatran (Pradaxa<sup>®)</sup></td></tr></tbody></table><br>",
+			"shape": null,
+			"fillColor": "none",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"925fa7a0ad424be-13": {
+			"id": "925fa7a0ad424be-13",
+			"value": "Time to Peak1 hr (delayed 2 hrs by food)Half Life12-17 hrs (14-17 hrs in\nelderly)\nRenal dysfunction:\n- Mild to moderate: 15-18 hrs\n-Severe: 28 hrsMetabolismParent drug: rapidly hydrolyzed to active form by\nplasma and hepatic esterasesElimination1.5-2 x normal for patients on\ntherapeutic dosesEffect on aPTT/PT5-30 x normal for patients on therapeutic\ndoses",
+			"valueAsHtml": "<table border=\"1\" width=\"100%\" style=\"text-align: center ; width: 100% ; height: 100% ; border-collapse: collapse\"><tbody><tr><td align=\"center\"><b>Time to Peak</b></td><td align=\"center\">1 hr (delayed 2 hrs by food)</td></tr><tr><td align=\"center\"><b>Half Life</b></td><td align=\"center\">12-17 hrs (14-17 hrs in elderly)&nbsp;<br>Renal dysfunction:<br>- Mild to moderate: 15-18 hrs<br>-Severe: 28 hrs</td></tr><tr><td style=\"text-align: center\"><b>Metabolism</b></td><td style=\"text-align: center\">Parent drug: rapidly hydrolyzed to active form by plasma and hepatic esterases</td></tr><tr><td style=\"text-align: center\"><b>Elimination</b></td><td>1.5-2 x normal for patients on therapeutic doses</td></tr><tr><td align=\"center\"><b>Effect on aPTT/PT</b></td><td align=\"center\">5-30 x normal for patients on therapeutic doses</td></tr></tbody></table>",
+			"shape": null,
+			"fillColor": "#fff2cc",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"18af2ed35b46b61e-3": {
+			"id": "18af2ed35b46b61e-3",
+			"value": "*",
+			"valueAsHtml": "<font style=\"font-size: 25px\"><sub>*</sub></font>",
+			"shape": null,
+			"fillColor": "none",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"18af2ed35b46b61e-4": {
+			"id": "18af2ed35b46b61e-4",
+			"value": "*",
+			"valueAsHtml": "<font style=\"font-size: 25px\"><sub>*</sub></font>",
+			"shape": null,
+			"fillColor": "none",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"18af2ed35b46b61e-5": {
+			"id": "18af2ed35b46b61e-5",
+			"value": "*Happens simulatneously",
+			"valueAsHtml": "<font style=\"font-size: 25px\">*</font>Happens simulatneously&nbsp;",
+			"shape": "note",
+			"fillColor": "#fff2cc",
+			"type": "normalNode",
+			"edges": {
+				"in": [],
+				"out": []
+			}
+		},
+		"201e936c0a814060-2": {
+			"id": "201e936c0a814060-2",
+			"value": null,
+			"shape": "startState",
+			"fillColor": "#424242",
+			"type": "decisionPoint",
+			"edges": {
+				"in": [],
+				"out": [
+					"201e936c0a814060-8"
+				]
+			}
+		}
+	}
+}

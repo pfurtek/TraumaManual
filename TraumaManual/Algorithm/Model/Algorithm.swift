@@ -36,7 +36,7 @@ class Algorithm {
         self.edges[id] = AlgorithmEdge(id: id, from: from, to: to)
     }
     
-    func addNode(id: String, text: String, color: String, edges: [String]) {
+    func addNode(id: String, text: String?, color: String?, edges: [String]) {
         let node = AlgorithmNode(text: text, color: color, id: id, algorithm: self)
         for edge in edges {
             if let to = self.edges[edge]?.to {
@@ -58,14 +58,18 @@ class Algorithm {
 
 class AlgorithmNode {
     var color: UIColor
-    var text: String
+    var text: String?
     var id: String
     var next: [String] = [] //ids
     var algorithm: Algorithm
     
-    init(text: String, color: String, id: String, algorithm: Algorithm) {
+    init(text: String?, color: String?, id: String, algorithm: Algorithm) {
         self.text = text
-        self.color = UIColor(hex: color)
+        if let theColor = color {
+            self.color = UIColor(hex: theColor)
+        } else {
+            self.color = .white
+        }
         self.id = id
         self.algorithm = algorithm
     }
@@ -83,8 +87,8 @@ class AlgorithmNode {
             } else {
                 var array = [String: String]()
                 for id in next {
-                    if let node = algorithm.getNode(id: id) {
-                        array[node.text] = id
+                    if let node = algorithm.getNode(id: id), let theText = node.text {
+                        array[theText] = id
                     }
                 }
                 return array
@@ -105,66 +109,19 @@ class AlgorithmEdge {
     }
 }
 
-//protocol AlgorithmNode {
-//    var color: UIColor {get}
-//    var text: String {get}
-//}
-//
-//class QuestionAlgorithmNode: AlgorithmNode {
-//    var color: UIColor = .blue
-//    var text: String
-//    var answers: [String: AlgorithmNode] = [:]
-//
-//    init(question: String) {
-//        self.text = question
-//    }
-//
-//    func addNext(answer: String, next: AlgorithmNode) {
-//        answers[answer] = next
-//    }
-//
-//    func getAnswers() -> [String] {
-//        return [String](self.answers.keys)
-//    }
-//
-//    func next(for answer: String) -> AlgorithmNode? {
-//        return answers[answer]
-//    }
-//}
-//
-//class AnswerAlgorithmNode: AlgorithmNode {
-//    var color: UIColor = .green
-//    var text: String
-//    var next: AlgorithmNode?
-//
-//    init(answer: String) {
-//        self.text = answer
-//    }
-//}
-//
-//class InfoAlgorithmNode: AlgorithmNode {
-//    var color: UIColor = .purple
-//    var text: String
-//    var next: AlgorithmNode?
-//
-//    init(info: String) {
-//        self.text = info
-//    }
-//}
-
 class AlgorithmNodeWrapper : ListDiffable {
-    var text: String
+    var text: String?
     var color: UIColor
     var answers: [String: String]
     
-    init(text: String, color: UIColor, answers: [String: String]) {
+    init(text: String?, color: UIColor, answers: [String: String]) {
         self.text = text
         self.color = color
         self.answers = answers
     }
     
     func diffIdentifier() -> NSObjectProtocol {
-        var id = "\(text) "
+        var id = "\(text ?? "") "
         for ans in answers.keys {
             id += "\(ans) "
         }
