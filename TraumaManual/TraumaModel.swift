@@ -110,7 +110,7 @@ class TraumaModel {
             }
             for nodeID in nodes.keys {
                 guard let node = nodes[nodeID] as? [String: Any?] else {continue}
-                if let nodeEdges = node["edges"] as? [String: [String]], let outEdges = nodeEdges["out"] {
+                if let nodeEdges = node["edges"] as? [String: [String]], let outEdges = nodeEdges["out"], let inEdges = nodeEdges["in"], outEdges.count + inEdges.count > 0 {
                     let text = node["value"] as? String
                     let color = node["fillColor"] as? String 
                     algorithm.addNode(id: nodeID, text: text, color: color, edges: outEdges)
@@ -173,6 +173,12 @@ class TraumaModel {
             if let theKey = key as? String {
                 self.bookmarks[theKey] = self.objects[theKey]
             }
+        }
+    }
+    
+    func filterObjects(string: String) -> [(key: String, value: Any)] {
+        return self.objects.filter { (obj) -> Bool in
+            return obj.key.contains(string)
         }
     }
 }

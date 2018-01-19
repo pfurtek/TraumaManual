@@ -14,7 +14,8 @@ class AlgorithmNodeCollectionViewCell: UICollectionViewCell {
     
     func setupCell(with node: AlgorithmNodeWrapper) {
         containerView.backgroundColor = node.color
-        textLabel.text = node.text
+        textLabel.text = node.text?.removeNewline()
+        self.containerView.addBorder(edges: .all, color: .lightGray, thickness: 1)
     }
 
     override func awakeFromNib() {

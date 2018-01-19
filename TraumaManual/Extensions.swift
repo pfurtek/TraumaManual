@@ -200,6 +200,10 @@ extension String {
     func chopPrefix(_ count: Int = 1) -> String {
         return count>self.count ? "" : String(self[index(self.startIndex, offsetBy: count)...])
     }
+    
+    func removeNewline() -> String {
+        return self.replacingOccurrences(of: "\n", with: " ")
+    }
 }
 
 extension Bundle {

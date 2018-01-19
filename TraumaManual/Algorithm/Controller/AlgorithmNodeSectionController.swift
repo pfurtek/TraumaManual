@@ -23,13 +23,13 @@ class AlgorithmNodeSectionController : ListSectionController {
             if index == 0 {
                 if theItem.text != nil {
                     return CGSize(width: collectionContext!.containerSize.width,
-                                  height: 70 + theItem.text!.height(withConstrainedWidth: collectionContext!.containerSize.width-60, font: UIFont.systemFont(ofSize: 30, weight: UIFont.Weight.semibold)))
+                                  height: 70 + theItem.text!.height(withConstrainedWidth: collectionContext!.containerSize.width-60, font: UIFont.systemFont(ofSize: 30, weight: .semibold)))
                 }
                 return CGSize(width: collectionContext!.containerSize.width,
                               height: 0)
             }
             return CGSize(width: collectionContext!.containerSize.width,
-                          height: 40)
+                          height: 20 + keys[index-1].height(withConstrainedWidth: collectionContext!.containerSize.width-60, font: UIFont.systemFont(ofSize: 18, weight: .medium)))
         }
         return CGSize(width: collectionContext!.containerSize.width,
                       height: 0)

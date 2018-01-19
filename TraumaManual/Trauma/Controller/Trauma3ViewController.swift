@@ -17,10 +17,6 @@ class Trauma3ViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        guard let downView = try? DownView(frame: self.view.frame, markdownString: mdText, didLoadSuccessfully: nil) else { return }
-        view.addSubview(downView)
-        
-        downView.backgroundColor = UIColor(displayP3Red: 0, green: 1.0, blue: 0, alpha: 0.5)
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,6 +24,11 @@ class Trauma3ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        guard let downView = try? DownView(frame: self.view.frame, markdownString: mdText, didLoadSuccessfully: nil) else { return }
+        view.addSubview(downView)
+    }
 
     /*
     // MARK: - Navigation

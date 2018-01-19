@@ -24,12 +24,36 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         navigationBarAppearance.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
-        let rootVC = ListTableViewController(nibName: "ListTableViewController", bundle: Bundle.main)
-        rootVC.root = true
-        rootVC.list = TraumaModel.shared.root.sorted(by: {$0.key < $1.key})
-        rootVC.title = "IU Trauma Manual"
-        let navigationController = UINavigationController(rootViewController: rootVC)
-        self.window?.rootViewController = navigationController
+        
+        let homeVC = ListTableViewController(nibName: "ListTableViewController", bundle: Bundle.main)
+        homeVC.root = true
+        homeVC.list = TraumaModel.shared.root.sorted(by: {$0.key < $1.key})
+        homeVC.title = "IU Trauma Manual"
+        let navigationControllerHome = UINavigationController(rootViewController: homeVC)
+        navigationControllerHome.title = "Home"
+        
+        let bookVC = ListTableViewController(nibName: "ListTableViewController", bundle: Bundle.main)
+        bookVC.bookmarks = true
+        bookVC.list = TraumaModel.shared.bookmarks.sorted(by: {$0.key < $1.key})
+        bookVC.title = "Bookmarks"
+        let navigationControllerBook = UINavigationController(rootViewController: bookVC)
+        navigationControllerBook.title = "Bookmarks"
+        
+        let recentVC = ListTableViewController(nibName: "ListTableViewController", bundle: Bundle.main)
+        recentVC.recently = true
+        recentVC.list = TraumaModel.shared.recentlyViewed
+        recentVC.title = "Recently Viewed"
+        let navigationControllerRecent = UINavigationController(rootViewController: recentVC)
+        navigationControllerRecent.title = "Recently Viewed"
+        
+        let tabBarController = UITabBarController()
+        tabBarController.setViewControllers([navigationControllerHome, navigationControllerBook, navigationControllerRecent], animated: false)
+        navigationControllerHome.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
+        navigationControllerBook.tabBarItem = UITabBarItem(tabBarSystemItem: .bookmarks, tag: 0)
+        navigationControllerRecent.tabBarItem = UITabBarItem(tabBarSystemItem: .mostRecent, tag: 0)
+        tabBarController.tabBar.isTranslucent = false
+        
+        self.window?.rootViewController = tabBarController
         self.window?.makeKeyAndVisible()
         
         

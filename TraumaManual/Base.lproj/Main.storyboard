@@ -20,12 +20,12 @@
                         <viewLayoutGuide key="safeArea" id="5Cu-hf-OKa"/>
                     </view>
                     <navigationItem key="navigationItem" id="cEF-g4-gAO">
-                        <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="ZZT-cR-b8E"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="undo" id="5ix-zy-xnu"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DBj-2n-amY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="673" y="20"/>
+            <point key="canvasLocation" x="1796" y="14.842578710644679"/>
         </scene>
     </scenes>
 </document>

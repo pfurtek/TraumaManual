@@ -12,7 +12,8 @@ class AnswerCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var answerLabel: UILabel!
     
     func setupCell(with answer: String) {
-        self.answerLabel.text = answer
+        self.answerLabel.text = answer.removeNewline()
+        self.answerLabel.superview?.addBorder(edges: [.right, .left, .bottom], color: .lightGray, thickness: 1)
     }
 
     override func awakeFromNib() {

@@ -22,6 +22,7 @@ class ScheduleCollectionViewCell: UICollectionViewCell {
         timeLabel.text = event.time
         titleLabel.text = event.name
         placeLabel.text = event.place
+        containerView.addBorder(edges: .all, color: .lightGray, thickness: 1)
     }
     
     override func awakeFromNib() {

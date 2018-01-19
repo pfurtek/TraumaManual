@@ -88,7 +88,7 @@ class AlgorithmNode {
                 var array = [String: String]()
                 for id in next {
                     if let node = algorithm.getNode(id: id), let theText = node.text {
-                        array[theText] = id
+                        array[theText.removeNewline()] = id
                     }
                 }
                 return array
@@ -115,7 +115,7 @@ class AlgorithmNodeWrapper : ListDiffable {
     var answers: [String: String]
     
     init(text: String?, color: UIColor, answers: [String: String]) {
-        self.text = text
+        self.text = text?.removeNewline()
         self.color = color
         self.answers = answers
     }

@@ -17,15 +17,17 @@ class Trauma2ViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        guard let downView = try? DownView(frame: self.view.frame, markdownString: mdText, didLoadSuccessfully: nil) else { return }
-        view.addSubview(downView)
-        
-        downView.backgroundColor = UIColor(displayP3Red: 1.0, green: 1.0, blue: 0, alpha: 0.5)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        guard let downView = try? DownView(frame: self.view.frame, markdownString: mdText, didLoadSuccessfully: nil) else { return }
+        view.addSubview(downView)
     }
     
 

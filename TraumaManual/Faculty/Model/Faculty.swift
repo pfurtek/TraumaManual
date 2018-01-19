@@ -25,10 +25,10 @@ class FacultyMember {
     var abreviation: String
     
     init(name: String, number: String, desc: String, abr: String) {
-        self.name = name
-        self.number = number
-        self.description = desc
-        self.abreviation = abr
+        self.name = name.removeNewline()
+        self.number = number.removeNewline()
+        self.description = desc.removeNewline()
+        self.abreviation = abr.removeNewline()
     }
 }
 

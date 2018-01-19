@@ -22,6 +22,16 @@ class AlgorithmOverviewViewController: UIViewController {
             self.imageScrollView.display(image: image)
         }
     }
+    
+//    override func viewWillAppear(_ animated: Bool) {
+//        super.viewWillAppear(animated)
+//        self.imageScrollView.refresh()
+//    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.imageScrollView.refresh()
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

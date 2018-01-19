@@ -1,3 +1,5 @@
+<body style="background-color:#ff8080;">
+
 ## Trauma 1 Activation Criteria
 
 * Arrives with tracheal intubation (includes hangings)

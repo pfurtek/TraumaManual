@@ -19,6 +19,7 @@ class FacultyCollectionViewCell: UICollectionViewCell {
         numberLabel.text = faculty.number
         descriptionLabel.text = faculty.description
         abreviationLabel.text = faculty.abreviation
+        nameLabel.superview?.addBorder(edges: .all, color: .lightGray, thickness: 1)
     }
     
     override func awakeFromNib() {

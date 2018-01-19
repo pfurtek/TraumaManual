@@ -40,7 +40,7 @@ class ScheduleViewController: UIViewController {
         if TraumaModel.shared.isBookmark(title: self.numberedTitle) {
             self.bookmarkItem = UIBarButtonItem(title: "BM", style: .plain, target: self, action: #selector(bookmarkAction(_:)))
         } else {
-            self.bookmarkItem = UIBarButtonItem(title: "bm", style: .plain, target: self, action: #selector(bookmarkAction(_:)))
+            self.bookmarkItem = UIBarButtonItem(barButtonSystemItem: .bookmarks, target: self, action: #selector(bookmarkAction(_:)))
         }
         self.navigationItem.rightBarButtonItem = self.bookmarkItem
     }
@@ -60,7 +60,7 @@ class ScheduleViewController: UIViewController {
         if let title = self.numberedTitle {
             if TraumaModel.shared.isBookmark(title: title) {
                 TraumaModel.shared.removeBookmark(title: title)
-                self.bookmarkItem = UIBarButtonItem(title: "bm", style: .plain, target: self, action: #selector(bookmarkAction(_:)))
+                self.bookmarkItem = UIBarButtonItem(barButtonSystemItem: .bookmarks, target: self, action: #selector(bookmarkAction(_:)))
             } else {
                 TraumaModel.shared.addBookmark(title: title, object: self.schedule)
                 self.bookmarkItem = UIBarButtonItem(title: "BM", style: .plain, target: self, action: #selector(bookmarkAction(_:)))

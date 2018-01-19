@@ -1,3 +1,5 @@
+<body style="background-color:#ffff80;">
+
 ## Trauma 2 Activation Criteria:
 
 * Adult sustaining a fall from > 20 feet (1 story = 10 feet)

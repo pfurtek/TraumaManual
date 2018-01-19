@@ -16,7 +16,10 @@ class ListTableViewController: UITableViewController {
     var root = false
     var bookmarks = false
     var recently = false
-        
+    
+    var oldTitle: String?
+    var oldList: [(key: String, value: Any)] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -34,8 +37,11 @@ class ListTableViewController: UITableViewController {
         self.navigationController?.navigationBar.topItem?.backBarButtonItem = backItem
         
         if root {
-            setupSideMenu()
+//            setupSideMenu()
+            setupSearchBar()
         }
+        
+        self.oldList = self.list
     }
 
     override func didReceiveMemoryWarning() {
@@ -55,6 +61,11 @@ class ListTableViewController: UITableViewController {
         }
     }
     
+    func setupSearchBar() {
+        let searchItem = UIBarButtonItem(barButtonSystemItem: .search, target: self, action: #selector(searchAction(_:)))
+        self.navigationItem.rightBarButtonItems = [searchItem]
+    }
+    
     func setupSideMenu() {
         let sidemenuVC = SideMenuViewController(nibName: "SideMenuViewController", bundle: Bundle.main)
         let menuLeftNavigationController = UISideMenuNavigationController(rootViewController: sidemenuVC)
@@ -67,6 +78,27 @@ class ListTableViewController: UITableViewController {
     
     @objc func menuAction(_ sender: Any) {
         present(SideMenuManager.default.menuLeftNavigationController!, animated: true, completion: nil)
+    }
+    
+    @objc func searchAction(_: Any) {
+        self.oldTitle = self.title
+        self.title = ""
+        self.oldList = self.list
+        let searchBar = UISearchBar(frame: CGRect(x: 0, y: 0, width: self.view.frame.width-70, height: 20))
+        searchBar.barTintColor = UIColor(hex: "#7D110C")
+        searchBar.tintColor = UIColor(hex: "#7D110C")
+        let searchBarItem = UIBarButtonItem(customView: searchBar)
+        let doneItem = UIBarButtonItem(title: "Done", style: .done, target: self, action: #selector(doneAction(_:)))
+        self.navigationItem.rightBarButtonItems = [doneItem, searchBarItem]
+        searchBar.delegate = self
+        searchBar.becomeFirstResponder()
+    }
+    
+    @objc func doneAction(_: Any) {
+        setupSearchBar()
+        self.title = self.oldTitle
+        self.list = self.oldList
+        self.tableView.reloadData()
     }
 
     // MARK: - Table view data source
@@ -197,4 +229,15 @@ class ListTableViewController: UITableViewController {
         
     }
     */
+}
+
+extension ListTableViewController: UISearchBarDelegate {
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        if searchText.isEmpty {
+            self.list = self.oldList
+        } else {
+            self.list = TraumaModel.shared.filterObjects(string: searchText)
+        }
+        self.tableView.reloadData()
+    }
 }

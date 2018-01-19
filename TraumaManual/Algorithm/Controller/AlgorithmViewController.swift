@@ -30,7 +30,7 @@ class AlgorithmViewController: UIViewController {
         if TraumaModel.shared.isBookmark(title: self.numberedTitle) {
             self.bookmarkItem = UIBarButtonItem(title: "BM", style: .plain, target: self, action: #selector(bookmarkAction(_:)))
         } else {
-            self.bookmarkItem = UIBarButtonItem(title: "bm", style: .plain, target: self, action: #selector(bookmarkAction(_:)))
+            self.bookmarkItem = UIBarButtonItem(barButtonSystemItem: .bookmarks, target: self, action: #selector(bookmarkAction(_:)))
         }
         self.navigationItem.rightBarButtonItem = self.bookmarkItem
     }
@@ -54,7 +54,7 @@ class AlgorithmViewController: UIViewController {
         pagingMenuController.view.frame.origin.y += self.navigationController?.navigationBar.bounds.height ?? 0
         pagingMenuController.view.frame.size.height -= self.navigationController?.navigationBar.bounds.height ?? 0
         //Tab bar
-        pagingMenuController.view.frame.size.height -= self.tabBarController?.tabBar.bounds.height ?? 0
+//        pagingMenuController.view.frame.size.height -= self.tabBarController?.tabBar.bounds.height ?? 0
         //Status bar
         pagingMenuController.view.frame.origin.y += self.prefersStatusBarHidden ? 0 : 20
         pagingMenuController.view.frame.size.height -= self.prefersStatusBarHidden ? 0 : 20
@@ -68,7 +68,7 @@ class AlgorithmViewController: UIViewController {
         if let title = self.numberedTitle {
             if TraumaModel.shared.isBookmark(title: title) {
                 TraumaModel.shared.removeBookmark(title: title)
-                self.bookmarkItem = UIBarButtonItem(title: "bm", style: .plain, target: self, action: #selector(bookmarkAction(_:)))
+                self.bookmarkItem = UIBarButtonItem(barButtonSystemItem: .bookmarks, target: self, action: #selector(bookmarkAction(_:)))
             } else {
                 TraumaModel.shared.addBookmark(title: title, object: self.algorithm)
                 self.bookmarkItem = UIBarButtonItem(title: "BM", style: .plain, target: self, action: #selector(bookmarkAction(_:)))

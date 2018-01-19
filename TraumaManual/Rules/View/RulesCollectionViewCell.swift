@@ -15,6 +15,7 @@ class RulesCollectionViewCell: UICollectionViewCell {
     func setupCell(with rule: RulesItem) {
         titleLabel.text = rule.title
         descriptionView.text = rule.description
+        titleLabel.superview?.addBorder(edges: .all, color: .lightGray, thickness: 1)
     }
 
     override func awakeFromNib() {

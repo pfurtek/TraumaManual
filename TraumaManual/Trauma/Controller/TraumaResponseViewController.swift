@@ -17,13 +17,17 @@ class TraumaResponseViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        guard let downView = try? DownView(frame: self.view.frame, markdownString: mdText, didLoadSuccessfully: nil) else { return }
-        view.addSubview(downView)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        guard let downView = try? DownView(frame: self.view.frame, markdownString: mdText, didLoadSuccessfully: nil) else { return }
+        view.addSubview(downView)
     }
     
 

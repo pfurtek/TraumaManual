@@ -40,8 +40,9 @@ class RulesViewController: UIViewController {
         if TraumaModel.shared.isBookmark(title: self.numberedTitle) {
             self.bookmarkItem = UIBarButtonItem(title: "BM", style: .plain, target: self, action: #selector(bookmarkAction(_:)))
         } else {
-            self.bookmarkItem = UIBarButtonItem(title: "bm", style: .plain, target: self, action: #selector(bookmarkAction(_:)))
+            self.bookmarkItem = UIBarButtonItem(barButtonSystemItem: .bookmarks, target: self, action: #selector(bookmarkAction(_:)))
         }
+        
         self.infoItem = UIBarButtonItem(title: "info", style: .plain, target: self, action: #selector(infoAction(_:)))
         
         self.navigationItem.rightBarButtonItems = [self.bookmarkItem, self.infoItem]
@@ -62,7 +63,7 @@ class RulesViewController: UIViewController {
         if let title = self.numberedTitle {
             if TraumaModel.shared.isBookmark(title: title) {
                 TraumaModel.shared.removeBookmark(title: title)
-                self.bookmarkItem = UIBarButtonItem(title: "bm", style: .plain, target: self, action: #selector(bookmarkAction(_:)))
+                self.bookmarkItem = UIBarButtonItem(barButtonSystemItem: .bookmarks, target: self, action: #selector(bookmarkAction(_:)))
             } else {
                 TraumaModel.shared.addBookmark(title: title, object: self.rules)
                 self.bookmarkItem = UIBarButtonItem(title: "BM", style: .plain, target: self, action: #selector(bookmarkAction(_:)))
