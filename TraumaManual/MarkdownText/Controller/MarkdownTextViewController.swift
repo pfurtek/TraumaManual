@@ -10,6 +10,7 @@ import UIKit
 import Down
 
 class MarkdownTextViewController: UIViewController {
+    var downView: DownView!
     
     var mditem: MarkdownText!
     
@@ -21,8 +22,6 @@ class MarkdownTextViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        guard let downView = try? DownView(frame: self.view.frame, markdownString: mditem.mdText, didLoadSuccessfully: nil) else { return }
-        view.addSubview(downView)
         
         let backItem = UIBarButtonItem()
         backItem.title = ""
@@ -45,6 +44,10 @@ class MarkdownTextViewController: UIViewController {
         super.viewDidAppear(animated)
         
         TraumaModel.shared.addRecentlyViewed(title: self.numberedTitle, object: mditem)
+        
+        downView = try? DownView(frame: self.view.bounds, markdownString: mditem.mdText, templateBundle: Bundle.main) {
+            self.view.addSubview(self.downView)
+        }
     }
     
     @objc func bookmarkAction(_: Any) {

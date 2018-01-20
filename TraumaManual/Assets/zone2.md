@@ -16,7 +16,7 @@ Hard Signs: Proceed directly to OR for exploration
 - Pulsatile/expanding hematoma
 - Active air leak from wound
 
-<img onclick="notifyEnlarge.imageClicked('file:///android_asset/documentation/head-neck/neck-injuries.md')" src="file:///android_asset/documentation/head-neck/neck-injuries.md" style="width: 100%;"/>
+![](neck-injuries.png)
 
 ### <u>Surgical Considerations</u>
 Position: Head extended and rotated to contralateral side. Use a shoulder roll. Prep in the chest and groin.

@@ -11,7 +11,7 @@
 - Cranial nerve deficits
 
 ## Zones of the neck and anatomic considerations, exposures
-<img src="file:///android_asset/documentation/head-neck/injuries-to-neck.png" style="width: 100%;"/>
+![](injuries-to-neck.png)
 
 ### Zone I - Thoracic inlet (clavicles to cricoid cartilage)
 - Considerations

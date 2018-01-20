@@ -66,6 +66,30 @@
 		9A96F38320129B1100148796 /* InteractiveDiagnosisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F38120129B1100148796 /* InteractiveDiagnosisViewController.swift */; };
 		9A96F38420129B1100148796 /* InteractiveDiagnosisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F38220129B1100148796 /* InteractiveDiagnosisViewController.xib */; };
 		9A96F38620129B1D00148796 /* InteractiveDiagnosis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F38520129B1D00148796 /* InteractiveDiagnosis.swift */; };
+		9A96F3912013BAD300148796 /* le-fort.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3902013BAD200148796 /* le-fort.png */; };
+		9A96F3A42013C05500148796 /* down.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3A32013C05500148796 /* down.min.css */; };
+		9A96F3A82013C06800148796 /* down.js in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3A62013C06800148796 /* down.js */; };
+		9A96F3A92013C06800148796 /* highlight.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3A72013C06800148796 /* highlight.min.js */; };
+		9A96F3AB2013C07700148796 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3AA2013C07700148796 /* index.html */; };
+		9A96F3AD2013C1F400148796 /* injuries-to-neck.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3AC2013C1F300148796 /* injuries-to-neck.png */; };
+		9A96F3B12013C2B400148796 /* damage-control-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3AE2013C2B300148796 /* damage-control-3.png */; };
+		9A96F3B22013C2B400148796 /* damage-control-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3AF2013C2B300148796 /* damage-control-1.png */; };
+		9A96F3B32013C2B400148796 /* damage-control-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3B02013C2B400148796 /* damage-control-2.png */; };
+		9A96F3B72013C30800148796 /* nutrition-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3B52013C30800148796 /* nutrition-2.png */; };
+		9A96F3BA2013C33C00148796 /* pelvic-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3B82013C33A00148796 /* pelvic-2.png */; };
+		9A96F3BB2013C33C00148796 /* pelvic-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3B92013C33B00148796 /* pelvic-1.png */; };
+		9A96F3BF2013C38800148796 /* teg-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3BC2013C38700148796 /* teg-3.png */; };
+		9A96F3C02013C38800148796 /* teg-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3BD2013C38800148796 /* teg-2.png */; };
+		9A96F3C12013C38800148796 /* teg-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3BE2013C38800148796 /* teg-1.png */; };
+		9A96F3C32013C3B200148796 /* pregnant-trauma.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3C22013C3B200148796 /* pregnant-trauma.png */; };
+		9A96F3C72013C3D800148796 /* open-abdomen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3C42013C3D700148796 /* open-abdomen1.png */; };
+		9A96F3C82013C3D800148796 /* open-abdomen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3C52013C3D700148796 /* open-abdomen2.png */; };
+		9A96F3C92013C3D800148796 /* open-abdomen3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3C62013C3D700148796 /* open-abdomen3.png */; };
+		9A96F3CB2013C40200148796 /* blunt-aortic.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3CA2013C40100148796 /* blunt-aortic.png */; };
+		9A96F3CD2013C41600148796 /* neck-injuries.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3CC2013C41600148796 /* neck-injuries.png */; };
+		9A96F3D02013C43500148796 /* blood-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3CE2013C43500148796 /* blood-1.png */; };
+		9A96F3D12013C43500148796 /* blood-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3CF2013C43500148796 /* blood-2.png */; };
+		9A96F3D52013F84A00148796 /* nutrition-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3D42013F84A00148796 /* nutrition-1.png */; };
 		D5989EED4DDC12D62544B470 /* Pods_TraumaManual.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7E5EBF849041AF6B95DC40 /* Pods_TraumaManual.framework */; };
 		E53B88D51FEB21E100DDE1C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53B88D41FEB21E100DDE1C1 /* AppDelegate.swift */; };
 		E53B88DC1FEB21E100DDE1C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53B88DA1FEB21E100DDE1C1 /* Main.storyboard */; };
@@ -203,6 +227,30 @@
 		9A96F38120129B1100148796 /* InteractiveDiagnosisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveDiagnosisViewController.swift; sourceTree = "<group>"; };
 		9A96F38220129B1100148796 /* InteractiveDiagnosisViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InteractiveDiagnosisViewController.xib; sourceTree = "<group>"; };
 		9A96F38520129B1D00148796 /* InteractiveDiagnosis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveDiagnosis.swift; sourceTree = "<group>"; };
+		9A96F3902013BAD200148796 /* le-fort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "le-fort.png"; sourceTree = "<group>"; };
+		9A96F3A32013C05500148796 /* down.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = down.min.css; sourceTree = "<group>"; };
+		9A96F3A62013C06800148796 /* down.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = down.js; sourceTree = "<group>"; };
+		9A96F3A72013C06800148796 /* highlight.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = highlight.min.js; sourceTree = "<group>"; };
+		9A96F3AA2013C07700148796 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		9A96F3AC2013C1F300148796 /* injuries-to-neck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "injuries-to-neck.png"; sourceTree = "<group>"; };
+		9A96F3AE2013C2B300148796 /* damage-control-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "damage-control-3.png"; sourceTree = "<group>"; };
+		9A96F3AF2013C2B300148796 /* damage-control-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "damage-control-1.png"; sourceTree = "<group>"; };
+		9A96F3B02013C2B400148796 /* damage-control-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "damage-control-2.png"; sourceTree = "<group>"; };
+		9A96F3B52013C30800148796 /* nutrition-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nutrition-2.png"; sourceTree = "<group>"; };
+		9A96F3B82013C33A00148796 /* pelvic-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pelvic-2.png"; sourceTree = "<group>"; };
+		9A96F3B92013C33B00148796 /* pelvic-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pelvic-1.png"; sourceTree = "<group>"; };
+		9A96F3BC2013C38700148796 /* teg-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teg-3.png"; sourceTree = "<group>"; };
+		9A96F3BD2013C38800148796 /* teg-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teg-2.png"; sourceTree = "<group>"; };
+		9A96F3BE2013C38800148796 /* teg-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teg-1.png"; sourceTree = "<group>"; };
+		9A96F3C22013C3B200148796 /* pregnant-trauma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pregnant-trauma.png"; sourceTree = "<group>"; };
+		9A96F3C42013C3D700148796 /* open-abdomen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "open-abdomen1.png"; sourceTree = "<group>"; };
+		9A96F3C52013C3D700148796 /* open-abdomen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "open-abdomen2.png"; sourceTree = "<group>"; };
+		9A96F3C62013C3D700148796 /* open-abdomen3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "open-abdomen3.png"; sourceTree = "<group>"; };
+		9A96F3CA2013C40100148796 /* blunt-aortic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blunt-aortic.png"; sourceTree = "<group>"; };
+		9A96F3CC2013C41600148796 /* neck-injuries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "neck-injuries.png"; sourceTree = "<group>"; };
+		9A96F3CE2013C43500148796 /* blood-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blood-1.png"; sourceTree = "<group>"; };
+		9A96F3CF2013C43500148796 /* blood-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blood-2.png"; sourceTree = "<group>"; };
+		9A96F3D42013F84A00148796 /* nutrition-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nutrition-1.png"; sourceTree = "<group>"; };
 		AD91312847021AF44F7C3CFB /* Pods-TraumaManual.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraumaManual.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TraumaManual/Pods-TraumaManual.debug.xcconfig"; sourceTree = "<group>"; };
 		BA3D9863474A3496A0EECA28 /* Pods-TraumaManualTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraumaManualTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TraumaManualTests/Pods-TraumaManualTests.release.xcconfig"; sourceTree = "<group>"; };
 		E53B88D11FEB21E100DDE1C1 /* TraumaManual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraumaManual.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -384,6 +432,25 @@
 			);
 			path = View;
 			sourceTree = "<group>";
+		};
+		9A96F3A22013C05500148796 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				9A96F3A32013C05500148796 /* down.min.css */,
+			);
+			name = css;
+			path = Pods/Down/Resources/DownView.bundle/css;
+			sourceTree = SOURCE_ROOT;
+		};
+		9A96F3A52013C06800148796 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				9A96F3A62013C06800148796 /* down.js */,
+				9A96F3A72013C06800148796 /* highlight.min.js */,
+			);
+			name = js;
+			path = Pods/Down/Resources/DownView.bundle/js;
+			sourceTree = SOURCE_ROOT;
 		};
 		E53B88C81FEB21E100DDE1C1 = {
 			isa = PBXGroup;
@@ -627,17 +694,32 @@
 				E5A96F2D200D9DFF00ABF765 /* manual.plist */,
 				9A96F35920105E6400148796 /* antibiotic.md */,
 				9A96F35B20105E6400148796 /* damage-control.md */,
+				9A96F3AF2013C2B300148796 /* damage-control-1.png */,
+				9A96F3B02013C2B400148796 /* damage-control-2.png */,
+				9A96F3AE2013C2B300148796 /* damage-control-3.png */,
 				9A96F35A20105E6400148796 /* nutrition.md */,
+				9A96F3D42013F84A00148796 /* nutrition-1.png */,
+				9A96F3B52013C30800148796 /* nutrition-2.png */,
 				9A96F35E20105E6500148796 /* organ-donation.md */,
 				9A96F35C20105E6400148796 /* pelvic.md */,
+				9A96F3B92013C33B00148796 /* pelvic-1.png */,
+				9A96F3B82013C33A00148796 /* pelvic-2.png */,
 				9A96F35D20105E6500148796 /* phys-ther.md */,
 				9A96F35720105E6300148796 /* teg_guide.md */,
+				9A96F3BE2013C38800148796 /* teg-1.png */,
+				9A96F3BD2013C38800148796 /* teg-2.png */,
+				9A96F3BC2013C38700148796 /* teg-3.png */,
 				9A96F35820105E6300148796 /* teg.md */,
 				9A96F35320105B5600148796 /* pediatric-patients.md */,
 				9A96F35120105B5500148796 /* pregnant-trauma.md */,
+				9A96F3C22013C3B200148796 /* pregnant-trauma.png */,
 				9A96F35220105B5500148796 /* urogenital.md */,
 				9A96F34F2010563E00148796 /* open-abdomen.md */,
+				9A96F3C42013C3D700148796 /* open-abdomen1.png */,
+				9A96F3C52013C3D700148796 /* open-abdomen2.png */,
+				9A96F3C62013C3D700148796 /* open-abdomen3.png */,
 				9A96F34C201055BA00148796 /* blunt-aortic.md */,
+				9A96F3CA2013C40100148796 /* blunt-aortic.png */,
 				9A96F34B201055BA00148796 /* rib-fractures.md */,
 				9A96F325201053ED00148796 /* apixaban.json */,
 				9A96F326201053ED00148796 /* dabigatran.json */,
@@ -656,10 +738,13 @@
 				9A96F337201053F300148796 /* spleen.json */,
 				9A96F32C201053F000148796 /* teg.json */,
 				9A96F3212010533200148796 /* zone2.md */,
+				9A96F3CC2013C41600148796 /* neck-injuries.png */,
 				9A96F3222010533200148796 /* zone3.md */,
 				9A96F31F2010532400148796 /* injuries-to-neck.md */,
+				9A96F3AC2013C1F300148796 /* injuries-to-neck.png */,
 				9A96F31D201052C300148796 /* c-spine.json */,
 				9A96F31B2010527900148796 /* Blunt-Cerebrovascular-Injuries.md */,
+				9A96F3902013BAD200148796 /* le-fort.png */,
 				9A96F3192010525C00148796 /* le-fort.md */,
 				9A96F3172010524100148796 /* suspected-spinal-injury.md */,
 				9A96F3152010522C00148796 /* brain-dead.md */,
@@ -667,6 +752,8 @@
 				9A96F311201050F200148796 /* seizure-prophylaxis-in-neurocritical-care.md */,
 				9A96F30F20104F6A00148796 /* acute-surgery.md */,
 				9A96F30D20104E7000148796 /* blood-transfusion.md */,
+				9A96F3CE2013C43500148796 /* blood-1.png */,
+				9A96F3CF2013C43500148796 /* blood-2.png */,
 				9A96F30B20104E2800148796 /* post-mortem-ct.json */,
 				9A96F3782010676C00148796 /* trauma-1.md */,
 				9A96F3762010676B00148796 /* trauma-2.md */,
@@ -678,8 +765,11 @@
 				E5A96F31200DA15F00ABF765 /* morning-report.md */,
 				E5A96F32200DA15F00ABF765 /* nurses-and-contact.md */,
 				E5A96F2F200DA0E000ABF765 /* surgeons.json */,
-				E53B88DD1FEB21E100DDE1C1 /* Assets.xcassets */,
 				E5A96F3A200E7C9900ABF765 /* roles.plist */,
+				9A96F3A22013C05500148796 /* css */,
+				9A96F3AA2013C07700148796 /* index.html */,
+				9A96F3A52013C06800148796 /* js */,
+				E53B88DD1FEB21E100DDE1C1 /* Assets.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -857,18 +947,31 @@
 				9A96F31C2010527900148796 /* Blunt-Cerebrovascular-Injuries.md in Resources */,
 				9A96F37A2010676D00148796 /* trauma-2.md in Resources */,
 				E5A96F0F200700EF00ABF765 /* RulesCollectionViewCell.xib in Resources */,
+				9A96F3AB2013C07700148796 /* index.html in Resources */,
 				9A96F35420105B5600148796 /* pregnant-trauma.md in Resources */,
 				E5A96F1D200C539800ABF765 /* AnswerCollectionViewCell.xib in Resources */,
+				9A96F3C12013C38800148796 /* teg-1.png in Resources */,
+				9A96F3D02013C43500148796 /* blood-1.png in Resources */,
 				9A96F31A2010525D00148796 /* le-fort.md in Resources */,
+				9A96F3C32013C3B200148796 /* pregnant-trauma.png in Resources */,
 				E5A96F0B2007009800ABF765 /* RulesViewController.xib in Resources */,
+				9A96F3D12013C43500148796 /* blood-2.png in Resources */,
 				9A96F3232010533300148796 /* zone2.md in Resources */,
+				9A96F3B32013C2B400148796 /* damage-control-2.png in Resources */,
+				9A96F3C02013C38800148796 /* teg-2.png in Resources */,
+				9A96F3BF2013C38800148796 /* teg-3.png in Resources */,
 				9A96F3182010524200148796 /* suspected-spinal-injury.md in Resources */,
 				9A96F3502010563E00148796 /* open-abdomen.md in Resources */,
+				9A96F3CB2013C40200148796 /* blunt-aortic.png in Resources */,
 				9A96F36520105E6600148796 /* phys-ther.md in Resources */,
+				9A96F3BA2013C33C00148796 /* pelvic-2.png in Resources */,
 				9A96F30E20104E7000148796 /* blood-transfusion.md in Resources */,
+				9A96F3B72013C30800148796 /* nutrition-2.png in Resources */,
 				E5A96F44200EE32A00ABF765 /* ListTableViewCell.xib in Resources */,
 				E5A96F2C200C5B3900ABF765 /* ListTableViewController.xib in Resources */,
+				9A96F3A92013C06800148796 /* highlight.min.js in Resources */,
 				9A96F34A201053F400148796 /* spleen.json in Resources */,
+				9A96F3C82013C3D800148796 /* open-abdomen2.png in Resources */,
 				9A96F3242010533300148796 /* zone3.md in Resources */,
 				E5A96F34200DA16000ABF765 /* nurses-and-contact.md in Resources */,
 				E5A96F38200DA44700ABF765 /* hybrid-suite.json in Resources */,
@@ -877,6 +980,7 @@
 				9A96F339201053F400148796 /* dabigatran.json in Resources */,
 				E5A96EF32006F77000ABF765 /* FacultyViewController.xib in Resources */,
 				9A96F343201053F400148796 /* dvt-3.json in Resources */,
+				9A96F3C92013C3D800148796 /* open-abdomen3.png in Resources */,
 				E5A96F27200C578F00ABF765 /* MarkdownTextViewController.xib in Resources */,
 				9A96F36220105E6600148796 /* nutrition.md in Resources */,
 				9A96F338201053F400148796 /* apixaban.json in Resources */,
@@ -891,6 +995,7 @@
 				E5A96F032007004F00ABF765 /* ScheduleCollectionViewCell.xib in Resources */,
 				E53B88DC1FEB21E100DDE1C1 /* Main.storyboard in Resources */,
 				9A96F346201053F400148796 /* penetrating-neck.json in Resources */,
+				9A96F3912013BAD300148796 /* le-fort.png in Resources */,
 				9A96F3162010522D00148796 /* brain-dead.md in Resources */,
 				9A96F37B2010676D00148796 /* trauma-3.md in Resources */,
 				E5A96EED2006F62500ABF765 /* FacultyCollectionViewCell.xib in Resources */,
@@ -898,19 +1003,26 @@
 				9A96F37C2010676D00148796 /* trauma-1.md in Resources */,
 				E5A96F072007006C00ABF765 /* ScheduleViewController.xib in Resources */,
 				9A96F312201050F300148796 /* seizure-prophylaxis-in-neurocritical-care.md in Resources */,
+				9A96F3A82013C06800148796 /* down.js in Resources */,
 				E5A96F2E200D9DFF00ABF765 /* manual.plist in Resources */,
+				9A96F3BB2013C33C00148796 /* pelvic-1.png in Resources */,
 				9A96F31E201052C400148796 /* c-spine.json in Resources */,
 				9A96F36320105E6600148796 /* damage-control.md in Resources */,
 				9A96F341201053F400148796 /* rivaroxaban.json in Resources */,
 				9A96F34D201055BA00148796 /* rib-fractures.md in Resources */,
+				9A96F3B12013C2B400148796 /* damage-control-3.png in Resources */,
 				9A96F345201053F400148796 /* pediatric-trauma.json in Resources */,
 				E5A96F33200DA16000ABF765 /* morning-report.md in Resources */,
 				9A96F33F201053F400148796 /* teg.json in Resources */,
 				E5A96F40200E877300ABF765 /* SideMenuViewController.xib in Resources */,
+				9A96F3B22013C2B400148796 /* damage-control-1.png in Resources */,
+				9A96F3C72013C3D800148796 /* open-abdomen1.png in Resources */,
 				9A96F36020105E6600148796 /* teg.md in Resources */,
 				9A96F3202010532400148796 /* injuries-to-neck.md in Resources */,
+				9A96F3A42013C05500148796 /* down.min.css in Resources */,
 				9A96F36120105E6600148796 /* antibiotic.md in Resources */,
 				9A96F34E201055BA00148796 /* blunt-aortic.md in Resources */,
+				9A96F3D52013F84A00148796 /* nutrition-1.png in Resources */,
 				9A96F30C20104E2800148796 /* post-mortem-ct.json in Resources */,
 				E5A96EE42006F3D500ABF765 /* AlgorithmNodeCollectionViewCell.xib in Resources */,
 				9A96F35F20105E6600148796 /* teg_guide.md in Resources */,
@@ -923,8 +1035,10 @@
 				9A96F30A20104DE200148796 /* tertiary-survey.md in Resources */,
 				9A96F3142010520F00148796 /* acute-spinal-injury.md in Resources */,
 				9A96F36420105E6600148796 /* pelvic.md in Resources */,
+				9A96F3CD2013C41600148796 /* neck-injuries.png in Resources */,
 				9A96F348201053F400148796 /* mangled-extremity.json in Resources */,
 				E53B89191FF2AA7900DDE1C1 /* AlgorithmOverviewViewController.xib in Resources */,
+				9A96F3AD2013C1F400148796 /* injuries-to-neck.png in Resources */,
 				9A96F38420129B1100148796 /* InteractiveDiagnosisViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

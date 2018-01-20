@@ -54,9 +54,11 @@ Complete discussion of these techniques is beyond the scope of this manual, but 
 - In cases of hemodynamic instability or if IR is unable to control hemorrhage, pelvic packing is pursued.
     - Burlew CC etal.  “Preperitoneal Pelvic Packing/External Fixation with Secondary Angioembolization: Optimal Care for Life-Threatening Hemorrhage from Unstable Pelvic Fractures.” *J Am Coll Surg* 2011; 212(4):628-37.
 
-<img onclick="notifyEnlarge.imageClicked('file:///android_asset/documentation/other/damage-control-1.png')" src="file:///android_asset/documentation/other/damage-control-1.png" style="width: 100%;"/>
-<img onclick="notifyEnlarge.imageClicked('file:///android_asset/documentation/other/damage-control-2.png')" src="file:///android_asset/documentation/other/damage-control-2.png" style="width: 100%;"/>
-<img onclick="notifyEnlarge.imageClicked('file:///android_asset/documentation/other/damage-control-3.png')" src="file:///android_asset/documentation/other/damage-control-3.png" style="width: 100%;"/>
+![](damage-control-1.png)
+</br>
+![](damage-control-2.png)
+</br>
+![](damage-control-3.png)
 
 - Much like with an open abdomen, patients must return to the OR within 2-3 days for unpacking.  The pelvis may be repacked if necessary but this significantly increases the risk of subsequent pelvic sepsis.
 

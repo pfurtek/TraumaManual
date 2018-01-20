@@ -155,10 +155,10 @@ Updated:            January, 2015 </br>
 
 ### Form 1: Example of Completed Form BBCP-19
 
-<img onclick="notifyEnlarge.imageClicked('file:///android_asset/documentation/general/blood-1.png')" src="file:///android_asset/documentation/general/blood-1.png" style="width: 100%;"/>
+![](blood-1.png)
 
 ### Table 1: Quick Reference to TEG Results
-<img onclick="notifyEnlarge.imageClicked('file:///android_asset/documentation/general/blood-2.png')" src="file:///android_asset/documentation/general/blood-2.png" style="width: 100%;"/>
+![](blood-2.png)
 
 From: Tapia NM, Chang A, Norman M, Welsh F, Scott B, Wall MJ, Jr., et al. TEG-guided
 resuscitation is superior to standardized MTP resuscitation in massively transfused penetrating

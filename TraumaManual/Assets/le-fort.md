@@ -2,7 +2,7 @@
 
 - Le fort showed that the pattern of facial fractures cannot be predicted based on the overlying soft tissue injuries. There are three common sites for horizontal fractures of maxilla.
 
-<img src="file:///android_asset/documentation/head-neck/le-fort.png" style="width: 100%;"/>
+![](le-fort.png)
 
 ## Le Fort Fracture Definitions
 

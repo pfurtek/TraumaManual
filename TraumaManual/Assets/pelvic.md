@@ -8,7 +8,7 @@ Patients with unstable fractures (see below) and hypotension should have externa
 - Sheet binder
 - External fixator
 
-<img onclick="notifyEnlarge.imageClicked('file:///android_asset/documentation/other/pelvic-1.png')" src="file:///android_asset/documentation/other/pelvic-1.png" style="width: 100%;"/>
+![](pelvic-1.png)
 
 #### Examination Notes:
 - Gross blood at urethral meatus or foley resistance -> perform urethrogram
@@ -26,7 +26,7 @@ FAST exam and DPA do NOT rule out retroperitoneal pelvic hemorrhage
 
 ### Fracture Types
 
-<img onclick="notifyEnlarge.imageClicked('file:///android_asset/documentation/other/pelvic-2.png')" src="file:///android_asset/documentation/other/pelvic-2.png" style="width: 100%;"/>
+![](pelvic-2.png)
 
 #### Type A: Stable
 - Isolated rami fractures

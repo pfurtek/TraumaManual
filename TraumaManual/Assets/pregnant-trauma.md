@@ -71,6 +71,6 @@ The primary initial goal in treating a pregnant trauma victim is to stabilize th
 - For pregnant patients in extremis, if there is no response to advanced cardiac life support within a few minutes (2 to 3 minutes), maternal cardiopulmonary resuscitation must be continued, anterior thoracotomy with open-chest cardiac massage (OCM) but without aortic cross-clamping should be considered.
 - Emergency cesarean section for a viable fetus should be performed.
 
-<img src="file:///android_asset/documentation/special-populations/pregnant-trauma.png" style="width: 100%;"/>
+![](pregnant-trauma.png)
 
 

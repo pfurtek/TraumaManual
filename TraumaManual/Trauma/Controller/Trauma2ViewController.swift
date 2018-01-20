@@ -26,7 +26,7 @@ class Trauma2ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        guard let downView = try? DownView(frame: self.view.frame, markdownString: mdText, didLoadSuccessfully: nil) else { return }
+        guard let downView = try? DownView(frame: self.view.bounds, markdownString: mdText, templateBundle: Bundle.main) else { return }
         view.addSubview(downView)
     }
     

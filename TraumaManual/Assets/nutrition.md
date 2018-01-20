@@ -17,9 +17,9 @@
          - Be aware of the risk of refeeding syndrome, of which hypophosphatemia is the hallmark.
 - Consider use of a tool such as NUTRIC (for critically ill; calculators available online) or MNA (inpatient OR outpatient use; MNA available as an App); refer to dietitian as indicated by score
 
-<img onclick="notifyEnlarge.imageClicked('file:///android_asset/documentation/other/nutrition-1.png')" src="file:///android_asset/documentation/other/nutrition-1.png" style="width: 100%;"/>
-</br>
-<img onclick="notifyEnlarge.imageClicked('file:///android_asset/documentation/other/nutrition-2.png')" src="file:///android_asset/documentation/other/nutrition-2.png" style="width: 100%;"/>
+![](nutrition-1.png)
+
+![](nutrition-2.png)
 
 - Goal: start tube feeds within 24 hours of admission.
 - It is safe to allow patients on <i>stable, low dose</i> vasopressor agents to receive EN.

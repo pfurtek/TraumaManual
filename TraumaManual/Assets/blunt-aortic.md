@@ -17,7 +17,7 @@ In addition to history, initial physical exam and radiologic studies may raise s
 - Blunting of the aortic knob
 - Apical cap in the left chest
 
-<img onclick="notifyEnlarge.imageClicked('file:///android_asset/documentation/chest/blunt-aortic.png')" src="file:///android_asset/documentation/chest/blunt-aortic.png" style="width: 100%;"/>
+![](blunt-aortic.png)
 
 **Angiography** </br>
 The gold standard for diagnosis of blunt aortic injuries is CT-angiography.  With the current high quality of computed tomography, interventional angiography is no longer required for diagnosis, though may be utilized for treatment.

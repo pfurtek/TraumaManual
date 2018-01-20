@@ -51,12 +51,12 @@ J Trauma Acute Care Surg. 2013 Feb;74(2):426-30; discussion 431-2. doi: 10.1097
 Harvin JA 1 , Mims MM, Duchesne JC, Cox CS Jr, Wade CE, Holcomb JB, Cotton BA.
 
 The Open Abdomen managed with an AbThera
-<img onclick="notifyEnlarge.imageClicked('file:///android_asset/documentation/abdomen/open-abdomen1.png')" src="file:///android_asset/documentation/abdomen/open-abdomen1.png" style="width: 100%;"/>
+![](open-abdomen1.png)
 Placement of a Wittman Patch
 
-<img onclick="notifyEnlarge.imageClicked('file:///android_asset/documentation/abdomen/open-abdomen2.png')" src="file:///android_asset/documentation/abdomen/open-abdomen2.png" style="width: 100%;"/>
+![](open-abdomen2.png)
 Giant Ventral Hernia: Before and After Reconstruction
 
-<img onclick="notifyEnlarge.imageClicked('file:///android_asset/documentation/abdomen/open-abdomen3.png')" src="file:///android_asset/documentation/abdomen/open-abdomen3.png" style="width: 100%;"/>
+![](open-abdomen3.png)
 
 

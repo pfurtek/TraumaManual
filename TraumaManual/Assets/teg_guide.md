@@ -14,11 +14,11 @@
 
 ##### For Expert Interpretation Contact Dr. Tim Pohlman or <a href="tel:1-800-438-2834">1-800-GET-A-TEG</a>
 
-<img onclick="notifyEnlarge.imageClicked('file:///android_asset/documentation/other/teg-1.png')" src="file:///android_asset/documentation/other/teg-1.png" style="width: 100%;"/>
+![](teg-1.png)
 
-<img onclick="notifyEnlarge.imageClicked('file:///android_asset/documentation/other/teg-2.png')" src="file:///android_asset/documentation/other/teg-2.png" style="width: 100%;"/>
+![](teg-2.png)
 
-<img onclick="notifyEnlarge.imageClicked('file:///android_asset/documentation/other/teg-3.png')" src="file:///android_asset/documentation/other/teg-3.png" style="width: 100%;"/>
+![](teg-3.png)
 
 <a href='#' class='btn'>Click to view analysis tree interactivity</a>
 
