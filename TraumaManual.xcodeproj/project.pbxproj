@@ -63,6 +63,9 @@
 		9A96F37B2010676D00148796 /* trauma-3.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3772010676B00148796 /* trauma-3.md */; };
 		9A96F37C2010676D00148796 /* trauma-1.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3782010676C00148796 /* trauma-1.md */; };
 		9A96F37D2010676D00148796 /* trauma-4.html in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F3792010676C00148796 /* trauma-4.html */; };
+		9A96F38320129B1100148796 /* InteractiveDiagnosisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F38120129B1100148796 /* InteractiveDiagnosisViewController.swift */; };
+		9A96F38420129B1100148796 /* InteractiveDiagnosisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F38220129B1100148796 /* InteractiveDiagnosisViewController.xib */; };
+		9A96F38620129B1D00148796 /* InteractiveDiagnosis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F38520129B1D00148796 /* InteractiveDiagnosis.swift */; };
 		D5989EED4DDC12D62544B470 /* Pods_TraumaManual.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7E5EBF849041AF6B95DC40 /* Pods_TraumaManual.framework */; };
 		E53B88D51FEB21E100DDE1C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53B88D41FEB21E100DDE1C1 /* AppDelegate.swift */; };
 		E53B88DC1FEB21E100DDE1C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53B88DA1FEB21E100DDE1C1 /* Main.storyboard */; };
@@ -197,6 +200,9 @@
 		9A96F3772010676B00148796 /* trauma-3.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "trauma-3.md"; sourceTree = "<group>"; };
 		9A96F3782010676C00148796 /* trauma-1.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "trauma-1.md"; sourceTree = "<group>"; };
 		9A96F3792010676C00148796 /* trauma-4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "trauma-4.html"; sourceTree = "<group>"; };
+		9A96F38120129B1100148796 /* InteractiveDiagnosisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveDiagnosisViewController.swift; sourceTree = "<group>"; };
+		9A96F38220129B1100148796 /* InteractiveDiagnosisViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InteractiveDiagnosisViewController.xib; sourceTree = "<group>"; };
+		9A96F38520129B1D00148796 /* InteractiveDiagnosis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveDiagnosis.swift; sourceTree = "<group>"; };
 		AD91312847021AF44F7C3CFB /* Pods-TraumaManual.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraumaManual.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TraumaManual/Pods-TraumaManual.debug.xcconfig"; sourceTree = "<group>"; };
 		BA3D9863474A3496A0EECA28 /* Pods-TraumaManualTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraumaManualTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TraumaManualTests/Pods-TraumaManualTests.release.xcconfig"; sourceTree = "<group>"; };
 		E53B88D11FEB21E100DDE1C1 /* TraumaManual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraumaManual.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -345,6 +351,40 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		9A96F37E20129AA300148796 /* InteractiveDiagnosis */ = {
+			isa = PBXGroup;
+			children = (
+				9A96F38020129AD000148796 /* Model */,
+				9A96F3892012FBC000148796 /* View */,
+				9A96F37F20129AC100148796 /* Controller */,
+			);
+			path = InteractiveDiagnosis;
+			sourceTree = "<group>";
+		};
+		9A96F37F20129AC100148796 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A96F38120129B1100148796 /* InteractiveDiagnosisViewController.swift */,
+				9A96F38220129B1100148796 /* InteractiveDiagnosisViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A96F38020129AD000148796 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A96F38520129B1D00148796 /* InteractiveDiagnosis.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A96F3892012FBC000148796 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E53B88C81FEB21E100DDE1C1 = {
 			isa = PBXGroup;
 			children = (
@@ -371,6 +411,7 @@
 			isa = PBXGroup;
 			children = (
 				E53B891F1FF2B7AE00DDE1C1 /* TraumaModel.swift */,
+				9A96F37E20129AA300148796 /* InteractiveDiagnosis */,
 				9A96F367201061CD00148796 /* Trauma */,
 				E5A96F3C200E875F00ABF765 /* SideMenu */,
 				E5A96F28200C5B2000ABF765 /* List */,
@@ -884,6 +925,7 @@
 				9A96F36420105E6600148796 /* pelvic.md in Resources */,
 				9A96F348201053F400148796 /* mangled-extremity.json in Resources */,
 				E53B89191FF2AA7900DDE1C1 /* AlgorithmOverviewViewController.xib in Resources */,
+				9A96F38420129B1100148796 /* InteractiveDiagnosisViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -916,6 +958,7 @@
 				"${BUILT_PRODUCTS_DIR}/ImageScrollView/ImageScrollView.framework",
 				"${BUILT_PRODUCTS_DIR}/PagingMenuController/PagingMenuController.framework",
 				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -924,6 +967,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageScrollView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PagingMenuController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1080,6 +1124,7 @@
 				E5A96EF92006F95300ABF765 /* Rules.swift in Sources */,
 				9A96F36C2010626400148796 /* Trauma1ViewController.swift in Sources */,
 				E5A96EFF2006FD2D00ABF765 /* Schedule.swift in Sources */,
+				9A96F38620129B1D00148796 /* InteractiveDiagnosis.swift in Sources */,
 				9A96F3722010627E00148796 /* TraumaResponseViewController.swift in Sources */,
 				E53B89221FF2B86500DDE1C1 /* Algorithm.swift in Sources */,
 				E5A96F26200C578F00ABF765 /* MarkdownTextViewController.swift in Sources */,
@@ -1101,6 +1146,7 @@
 				E5A96EF22006F77000ABF765 /* FacultyViewController.swift in Sources */,
 				E5A96F0E200700EF00ABF765 /* RulesCollectionViewCell.swift in Sources */,
 				E5A96EE92006F4DF00ABF765 /* Faculty.swift in Sources */,
+				9A96F38320129B1100148796 /* InteractiveDiagnosisViewController.swift in Sources */,
 				E5A96F43200EE32A00ABF765 /* ListTableViewCell.swift in Sources */,
 				E5A96F132007011700ABF765 /* ScheduleSectionController.swift in Sources */,
 				E5A96F15200C4C2B00ABF765 /* Extensions.swift in Sources */,

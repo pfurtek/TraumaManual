@@ -17,8 +17,6 @@ class TraumaViewController: UIViewController {
     
     var numberedTitle: String!
     
-    var me = self
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -31,9 +29,9 @@ class TraumaViewController: UIViewController {
         self.navigationController?.navigationBar.topItem?.backBarButtonItem = backItem
         
         if TraumaModel.shared.isBookmark(title: self.numberedTitle) {
-            self.bookmarkItem = UIBarButtonItem(title: "BM", style: .plain, target: self, action: #selector(bookmarkAction(_:)))
+            self.bookmarkItem = UIBarButtonItem(image: UIImage(named: "bookmark_filled"), style: .plain, target: self, action: #selector(bookmarkAction(_:)))
         } else {
-            self.bookmarkItem = UIBarButtonItem(barButtonSystemItem: .bookmarks, target: self, action: #selector(bookmarkAction(_:)))
+            self.bookmarkItem = UIBarButtonItem(image: UIImage(named: "bookmark"), style: .plain, target: self, action: #selector(bookmarkAction(_:)))
         }
         self.navigationItem.rightBarButtonItem = self.bookmarkItem
     }
@@ -57,16 +55,7 @@ class TraumaViewController: UIViewController {
         addChildViewController(pagingMenuController)
         view.addSubview(pagingMenuController.view)
         
-        pagingMenuController.view.frame = view.bounds
-        //Nav bar
-        pagingMenuController.view.frame.origin.y += self.navigationController?.navigationBar.bounds.height ?? 0
-        pagingMenuController.view.frame.size.height -= self.navigationController?.navigationBar.bounds.height ?? 0
-        //Tab bar
-//        pagingMenuController.view.frame.size.height -= self.tabBarController?.tabBar.bounds.height ?? 0
-        //Status bar
-        pagingMenuController.view.frame.origin.y += self.prefersStatusBarHidden ? 0 : 20
-        pagingMenuController.view.frame.size.height -= self.prefersStatusBarHidden ? 0 : 20
-        
+        pagingMenuController.view.frame = view.bounds        
         pagingMenuController.didMove(toParentViewController: self)
         
         pagingMenuController.menuView?.addBorder(edges: .bottom, color: .lightGray, thickness: 0.5)
@@ -76,10 +65,10 @@ class TraumaViewController: UIViewController {
         if let title = self.numberedTitle {
             if TraumaModel.shared.isBookmark(title: title) {
                 TraumaModel.shared.removeBookmark(title: title)
-                self.bookmarkItem = UIBarButtonItem(barButtonSystemItem: .bookmarks, target: self, action: #selector(bookmarkAction(_:)))
+                self.bookmarkItem = UIBarButtonItem(image: UIImage(named: "bookmark"), style: .plain, target: self, action: #selector(bookmarkAction(_:)))
             } else {
                 TraumaModel.shared.addBookmark(title: title, object: self.trauma)
-                self.bookmarkItem = UIBarButtonItem(title: "BM", style: .plain, target: self, action: #selector(bookmarkAction(_:)))
+                self.bookmarkItem = UIBarButtonItem(image: UIImage(named: "bookmark_filled"), style: .plain, target: self, action: #selector(bookmarkAction(_:)))
             }
             self.navigationItem.rightBarButtonItem = self.bookmarkItem
         }

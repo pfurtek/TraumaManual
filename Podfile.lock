@@ -8,6 +8,7 @@ PODS:
   - ImageScrollView (1.4)
   - PagingMenuController (2.2.0)
   - SideMenu (3.1.5)
+  - TextFieldEffects (1.4.0)
 
 DEPENDENCIES:
   - Down
@@ -15,6 +16,7 @@ DEPENDENCIES:
   - ImageScrollView
   - PagingMenuController
   - SideMenu
+  - TextFieldEffects
 
 SPEC CHECKSUMS:
   Down: 92efba7c95a8efdb84b7114e365db4a37f3df76e
@@ -22,7 +24,8 @@ SPEC CHECKSUMS:
   ImageScrollView: 887523542097173da75172774e9800ee473bdccd
   PagingMenuController: 6176618987bb170096664f2da097313e45ed9c31
   SideMenu: 47dbf9e4d878062d8994aed43f6e4bf6c1fea30b
+  TextFieldEffects: 4ee41b5216e674d55fb6ac25107bf1af7629176f
 
-PODFILE CHECKSUM: be434230b67eb7b330b3a387c709a3f0ff9ece1e
+PODFILE CHECKSUM: 5608065d975df35c0cf71ff044983b9d9f71b55a
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.4.0

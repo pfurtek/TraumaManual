@@ -451,7 +451,10 @@
 				<string>algorithm</string>
 			</dict>
 			<key>04. Interactive Diagnosis</key>
-			<dict/>
+			<dict>
+				<key>type</key>
+				<string>interactiveDiagnosis</string>
+			</dict>
 			<key>05. Interactive Treatment</key>
 			<dict/>
 			<key>type</key>

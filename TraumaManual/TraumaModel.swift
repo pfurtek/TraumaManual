@@ -25,6 +25,7 @@ class TraumaModel {
         // Schedule
         // MarkdownText
         // Trauma
+        // InteractiveDiagnosis
         // NullObject
     
     var bookmarks: [String: Any] = [:]
@@ -124,6 +125,8 @@ class TraumaModel {
             let t3 = Factory.readMD(filename: t3fn)
             let tR = Factory.readHTML(filename: tRfn)
             return Trauma(t1: t1, t2: t2, t3: t3, tR: tR)
+        case "interactiveDiagnosis":
+            return InteractiveDiagnosis()
         default: break
         }
         return NullObject()

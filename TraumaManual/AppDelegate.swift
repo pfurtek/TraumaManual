@@ -31,6 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         homeVC.title = "IU Trauma Manual"
         let navigationControllerHome = UINavigationController(rootViewController: homeVC)
         navigationControllerHome.title = "Home"
+        navigationControllerHome.navigationBar.isTranslucent = false
         
         let bookVC = ListTableViewController(nibName: "ListTableViewController", bundle: Bundle.main)
         bookVC.bookmarks = true
@@ -38,6 +39,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         bookVC.title = "Bookmarks"
         let navigationControllerBook = UINavigationController(rootViewController: bookVC)
         navigationControllerBook.title = "Bookmarks"
+        navigationControllerBook.navigationBar.isTranslucent = false
         
         let recentVC = ListTableViewController(nibName: "ListTableViewController", bundle: Bundle.main)
         recentVC.recently = true
@@ -45,6 +47,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         recentVC.title = "Recently Viewed"
         let navigationControllerRecent = UINavigationController(rootViewController: recentVC)
         navigationControllerRecent.title = "Recently Viewed"
+        navigationControllerRecent.navigationBar.isTranslucent = false
         
         let tabBarController = UITabBarController()
         tabBarController.setViewControllers([navigationControllerHome, navigationControllerBook, navigationControllerRecent], animated: false)

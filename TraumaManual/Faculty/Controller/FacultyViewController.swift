@@ -36,9 +36,9 @@ class FacultyViewController: UIViewController {
         self.navigationController?.navigationBar.topItem?.backBarButtonItem = backItem
         
         if TraumaModel.shared.isBookmark(title: self.numberedTitle) {
-            self.bookmarkItem = UIBarButtonItem(title: "BM", style: .plain, target: self, action: #selector(bookmarkAction(_:)))
+            self.bookmarkItem = UIBarButtonItem(image: UIImage(named: "bookmark_filled"), style: .plain, target: self, action: #selector(bookmarkAction(_:)))
         } else {
-            self.bookmarkItem = UIBarButtonItem(barButtonSystemItem: .bookmarks, target: self, action: #selector(bookmarkAction(_:)))
+            self.bookmarkItem = UIBarButtonItem(image: UIImage(named: "bookmark"), style: .plain, target: self, action: #selector(bookmarkAction(_:)))
         }
         self.navigationItem.rightBarButtonItem = self.bookmarkItem
     }
@@ -58,10 +58,10 @@ class FacultyViewController: UIViewController {
         if let title = self.numberedTitle {
             if TraumaModel.shared.isBookmark(title: title) {
                 TraumaModel.shared.removeBookmark(title: title)
-                self.bookmarkItem = UIBarButtonItem(barButtonSystemItem: .bookmarks, target: self, action: #selector(bookmarkAction(_:)))
+                self.bookmarkItem = UIBarButtonItem(image: UIImage(named: "bookmark"), style: .plain, target: self, action: #selector(bookmarkAction(_:)))
             } else {
                 TraumaModel.shared.addBookmark(title: title, object: self.faculty)
-                self.bookmarkItem = UIBarButtonItem(title: "BM", style: .plain, target: self, action: #selector(bookmarkAction(_:)))
+                self.bookmarkItem = UIBarButtonItem(image: UIImage(named: "bookmark_filled"), style: .plain, target: self, action: #selector(bookmarkAction(_:)))
             }
             self.navigationItem.rightBarButtonItem = self.bookmarkItem
         }
